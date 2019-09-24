@@ -693,10 +693,10 @@ kg
 <% } %>
 <div class="area-btn-common _base-width">
 <% if(!trade_prohibition.is_trade_limit) { %>
-<a href='<%- url_trade.replace("__hash_card_id__", data.hash_card_id) %>' class="btn_normal_line_2 <% if(!is_exist_archive) { %>m-Cnt<% } %>" style="font-size:12px">フリートレード検索</a>
+<a href='<%- url_trade.replace("__hash_card_id__", data.hash_card_id) %>' class="btn_normal_line_2 <% if(!is_exist_archive) { %>m-Cnt<% } %>" style="font-size:12px">프리 트레이드 검색</a>
 <% } %>
 <% if(is_exist_archive) { %>
-<a href='<%- url_album.replace("__hash_card_id__", data.hash_card_id) %>' class="btn_normal_line_2 <% if(trade_prohibition.is_trade_limit) { %>m-Cnt<% } %>">アルバム</a>
+<a href='<%- url_album.replace("__hash_card_id__", data.hash_card_id) %>' class="btn_normal_line_2 <% if(trade_prohibition.is_trade_limit) { %>m-Cnt<% } %>">앨범</a>
 <% } %>
 </div>
 <% if (event) { %>
@@ -715,8 +715,8 @@ kg
 <% } %>
 </div>
 <div class="area-btn-common _base-width m-Btm8">
-<a href='<%- url_event_memory.replace("__event_id__", event[key].event_id).replace("__category_id__", event[key].category_id) %>' class="btn_normal_line_2 _line_2">イベントメモリー<br>を見る</a>
-<a href='<%- url_other_event.replace("__category_id__", event[key].category_id).replace("__event_id__", event[key].event_id) %>' class="btn_normal_line_2 _line_2">他のイベント登場<br>アイドルを検索する</a>
+<a href='<%- url_event_memory.replace("__event_id__", event[key].event_id).replace("__category_id__", event[key].category_id) %>' class="btn_normal_line_2 _line_2">이벤트 메모리<br>보기</a>
+<a href='<%- url_other_event.replace("__category_id__", event[key].category_id).replace("__event_id__", event[key].event_id) %>' class="btn_normal_line_2 _line_2">다른 이벤트 등장<br>아이돌을 검색</a>
 </div>
 <% }); %>
 <% } %>
@@ -3568,9 +3568,9 @@ kg
         <div class="m-Top8 m-Btm8">
             <img src="12008305/image_sp/ui/line_hoshi.jpg" width="100%">
         </div>
-        <a id="search_cartoon" href='#' class="btn_normal_line_2 m-Cnt m-Btm12">劇場で検索</a>
+        <a id="search_cartoon" href='#' class="btn_normal_line_2 m-Cnt m-Btm12">극장에서 검색</a>
         <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fidol_gallery%3Fl_frm%3DIdol_gallery_idol_detail_1%26rnd%3D257312983'>
-            <div class="backLink">アイドルギャラリーTOP</div>
+            <div class="backLink">아이돌 갤러리 TOP</div>
         </a>
         <footer>
             <div class="line_idolmaster"></div><a href="#top" id="toPageTop" class="mypage_under">
