@@ -6559,7 +6559,7 @@ h3.title_img.event_assault:before {
 }
 
 .assault_ballon_1 {
-    background: url(12008305/image_sp/event/assault/event_story_balloon_1.png) no-repeat;
+    background: url(../../../12008305/image_sp/event/assault/event_story_balloon_1.png) no-repeat;
     background-size: 220px;
     width: 220px;
     height: 100px;
@@ -6582,7 +6582,7 @@ h3.title_img.event_assault:before {
 }
 
 .assault_ballon_2 {
-    background: url(12008305/image_sp/event/assault/event_story_balloon_2.png) no-repeat;
+    background: url(../../../12008305/image_sp/event/assault/event_story_balloon_2.png) no-repeat;
     background-size: 220px;
     width: 220px;
     height: 100px;
@@ -6605,7 +6605,7 @@ h3.title_img.event_assault:before {
 }
 
 .assault_ballon_3 {
-    background: url(12008305/image_sp/event/assault/event_story_balloon_3.png) no-repeat;
+    background: url(../../../12008305/image_sp/event/assault/event_story_balloon_3.png) no-repeat;
     background-size: 220px;
     width: 220px;
     height: 100px;
@@ -6643,19 +6643,19 @@ h3.title_img.event_assault:before {
 }
 
 .assault_ballon.normal.ballon_attr_1 {
-    background-image: url(12008305/image_sp/event/assault/event_story_balloon2_left_1.png)
+    background-image: url(../../../12008305/image_sp/event/assault/event_story_balloon2_left_1.png)
 }
 
 .assault_ballon.normal.ballon_attr_2 {
-    background-image: url(12008305/image_sp/event/assault/event_story_balloon2_left_2.png)
+    background-image: url(../../../12008305/image_sp/event/assault/event_story_balloon2_left_2.png)
 }
 
 .assault_ballon.normal.ballon_attr_3 {
-    background-image: url(12008305/image_sp/event/assault/event_story_balloon2_left_3.png)
+    background-image: url(../../../12008305/image_sp/event/assault/event_story_balloon2_left_3.png)
 }
 
 .assault_ballon.normal.ballon_attr_no {
-    background-image: url(12008305/image_sp/event/assault/event_story_balloon2_left_4.png)
+    background-image: url(../../../12008305/image_sp/event/assault/event_story_balloon2_left_4.png)
 }
 
 .assault_ballon.normal .idol_name {
@@ -6678,15 +6678,15 @@ h3.title_img.event_assault:before {
 }
 
 .assault_ballon.reverse.ballon_attr_1 {
-    background-image: url(12008305/image_sp/event/assault/event_story_balloon2_right_1.png)
+    background-image: url(../../../12008305/image_sp/event/assault/event_story_balloon2_right_1.png)
 }
 
 .assault_ballon.reverse.ballon_attr_2 {
-    background-image: url(12008305/image_sp/event/assault/event_story_balloon2_right_2.png)
+    background-image: url(../../../12008305/image_sp/event/assault/event_story_balloon2_right_2.png)
 }
 
 .assault_ballon.reverse.ballon_attr_3 {
-    background-image: url(12008305/image_sp/event/assault/event_story_balloon2_right_3.png)
+    background-image: url(../../../12008305/image_sp/event/assault/event_story_balloon2_right_3.png)
 }
 
 .assault_ballon.reverse .idol_name {
@@ -6721,13 +6721,13 @@ h3.title_img.event_assault:before {
 }
 
 .assault_ballon_all.normal {
-    background: url(12008305/image_sp/event/assault/event_story_balloon_1.png) no-repeat;
+    background: url(../../../12008305/image_sp/event/assault/event_story_balloon_1.png) no-repeat;
     background-size: 220px;
     margin-left: -10px
 }
 
 .assault_ballon_all.reverse {
-    background: url(12008305/image_sp/event/assault/event_story_balloon_1.png) no-repeat;
+    background: url(../../../12008305/image_sp/event/assault/event_story_balloon_1.png) no-repeat;
     background-size: 220px;
     margin-right: 10px
 }
