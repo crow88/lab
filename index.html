@@ -927,6 +927,41 @@
             <div id="parameter-content" class="jsOnBtn-wrap">
             </div>
         </div>
+    
+    
+        <style type="text/css">
+        <!--
+        .checkForm { width:260px;height:32px;position:relative;margin: 5px 10px;text-align:center;line-height:34px;float:left; padding-left:28px;}
+        .ep_on { background:url('http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Ficon%2Ficon_checkbox_on.png%3Fv%3D20170222083846') no-repeat 35px 5px; background-size:21px;}
+        .ep_off{ background:url('http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Ficon%2Ficon_checkbox_off.png%3Fv%3D20170222083846') no-repeat 35px 5px; background-size:21px;}
+        -->
+        </style>
+        <!--탭 테스트-->
+        <script type="text/javascript">
+            $(function() {
+                $('#jsAreaSwitchBtn').on('click', function() {
+                    $("[id^='area_tab_']").hide();
+                    $("[id^='area_title_']").hide();
+                    $('#area_tab_' + $('#js_area_switch').val()).show();
+                    $('#area_title_' + $('#js_area_switch').val()).show();
+                    return false;
+                }).trigger("click");
+            });
+        </script>
+        <script src="../../../12008305/js/ilibrary.js" type="text/javascript"></script>
+
+        <script type="text/javascript">
+            $('#story_collection_tab_sub').tab_switch({
+                contents: ".area_tab",
+                start: 1 + 0
+            });
+            $('#story_collection_tab').tab_switch({
+                tabs: "[class^='tab_line_']",
+                contents: ".area_story_collection_tab",
+                start: 0
+            });
+        </script>
+
 
               
               
