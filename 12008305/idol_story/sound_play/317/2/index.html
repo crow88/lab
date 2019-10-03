@@ -207,21 +207,21 @@
             </div>
             <div class="m-Btm5" style="display:-webkit-box; width:100%;">
                 <div style="width:100px; text-align:right;">
-                    <img src="../../../../../12008305/image_sp/ui/episode/epi_button_voicetext_prev.jpg" width="57" id="moveLeft"><br>
+                    <img src="../../../../../12008305/image_sp/ui/episode/epi_button_voicetext_prev_kr.jpg" width="57" id="moveLeft"><br>
                 </div>
                 <div style="width:120px; text-align:center; line-height:31px; font-size:16px;">
                     <span id="nowNum"></span> / 7
                 </div>
                 <div style="width:100px; text-align:left;">
-                    <img src="../../../../../12008305/image_sp/ui/episode/epi_button_voicetext_next.jpg" width="57" id="moveRight"><br>
+                    <img src="../../../../../12008305/image_sp/ui/episode/epi_button_voicetext_next_kr.jpg" width="57" id="moveRight"><br>
                 </div>
             </div>
             <img src="../../../../../12008305/image_sp/ui/line_hanyo_ten.jpg" width="100%" class="m-Btm10"><br>
             <div style="text-align:center;">
-                <a href="#" class="voicePlay" style="visibility:hidden;"><img src='../../../../../12008305/image_sp/ui/episode/epi_button_voice_open.jpg' width="300" height="50"></a>
-                <img src='../../../../../12008305/image_sp/ui/episode/epi_button_voice_open.jpg' width="300" height="50" style="display:none;">
-                <img src='../../../../../12008305/image_sp/ui/episode/epi_button_voice_loading.jpg' width="300" height="50" style="display:none;">
-                <img src='../../../../../12008305/image_sp/ui/episode/epi_button_voice_playing.jpg' width="300" height="50" style="display:none;">
+                <a href="#" class="voicePlay" style="visibility:hidden;"><img src='../../../../../12008305/image_sp/ui/episode/epi_button_voice_open_kr.jpg' width="300" height="50"></a>
+                <img src='../../../../../12008305/image_sp/ui/episode/epi_button_voice_open_kr.jpg' width="300" height="50" style="display:none;">
+                <img src='../../../../../12008305/image_sp/ui/episode/epi_button_voice_loading_kr.jpg' width="300" height="50" style="display:none;">
+                <img src='../../../../../12008305/image_sp/ui/episode/epi_button_voice_playing_kr.jpg' width="300" height="50" style="display:none;">
             </div>
             <div class="t-Cnt m-Btm12">
                 <p><span class="blue">재생시간:</span>1분34초</p>
@@ -295,7 +295,7 @@
                         var voiceData = "../../../../../sound/1450701/f02d87464cb7040cc4a4ebba45ff4eed.mp4";
                         voiceDataAry = voiceData.split(',');
                         if (ios) {
-                            $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_loading.jpg');
+                            $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_loading_kr.jpg');
                             voiceReady(playIndex, voiceDataAry[playIndex].replace(/\"/g, ''));
                         }
                         $('a.voicePlay').css('visibility', 'visible');
@@ -303,11 +303,11 @@
                             if (!window.ready) return false;
                             var cached = boombox.get('story_' + playIndex);
                             if (cached == void 0) {
-                                $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_loading.jpg');
+                                $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_loading_kr.jpg');
                                 voiceReady(playIndex, voiceDataAry[playIndex].replace(/\"/g, ''));
                             } else {
                                 if (cached.state.time.pause == void 0 && cached.state.time.playback == void 0 && cached.state.time.progress == 0 || !ios && !playing) {
-                                    $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_playing.jpg');
+                                    $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_playing_kr.jpg');
                                     cached.play();
                                     playing = true;
                                 } else if (cached.state.time.pause == void 0) {
@@ -361,10 +361,10 @@
                             }
                             var cached = boombox.get('story_' + key);
                             if (ios) {
-                                $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_open.jpg');
+                                $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_open_kr.jpg');
                                 window.ready = true;
                             } else {
-                                $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_playing.jpg');
+                                $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_playing_kr.jpg');
                                 cached.play();
                             }
                             if (!ios && cached.buffer != void 0) {
@@ -380,7 +380,7 @@
                     }
 
                     function playEnded() {
-                        $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_open.jpg');
+                        $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_open_kr.jpg');
                         if (voiceDataAry.length > playIndex + 1) {
                             playIndex++;
                         }
@@ -389,13 +389,13 @@
 
                     function pause(cach) {
                         if (!ios && cach.buffer != void 0) clearTimeout(timer);
-                        $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_open.jpg');
+                        $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_open_kr.jpg');
                         cach.pause();
                     }
 
                     function resume(cach) {
                         var delay = Math.ceil(cach.buffer.duration * 1000) - cach.state.time.pause;
-                        $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_playing.jpg');
+                        $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_playing_kr.jpg');
                         cach.resume();
                         if (ios || cach.buffer == void 0) return;
                         clearTimeout(timer);
