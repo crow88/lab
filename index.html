@@ -116,6 +116,34 @@
 </head>
 
 <body id="idol_gallery" class="idol_detail">
+  <script type="text/javascript"> // 파라미터 가져오기 , 프로듀서 이름 설정
+      function getParameterByName(name) {
+          name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+          var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+              results = regex.exec(location.search);
+              return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+      }
+      var producer = getParameterByName('pro') + " ";
+      var firstIndex = getParameterByName('index') + "";
+      var firstSlide = getParameterByName('slide') + "";
+
+      if(producer == " ")
+      {
+        producer = "○○○"
+      }
+
+      if(firstIndex == "")
+      {
+        firstIndex = "0"
+      }
+
+      if(firstIndex == "")
+      {
+        firstIndex = "0"
+      }
+
+
+  </script>
     <div id="top" class="page_container jsOnBtn">
         <nav class="area_menu_header">
             <div class="area_menu_header_6btn">
