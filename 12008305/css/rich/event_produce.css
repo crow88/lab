@@ -2201,7 +2201,7 @@ h3.title_img.event_purplepink:before {
 }
 
 .idol_comment_new.comment_attr_cute:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fimg_fukidashi_top_cute.png%3F1487720052)
+    background-image: url(../../../12008305/image_sp/event/common/img_fukidashi_top_cute.png)
 }
 
 .idol_comment_new.comment_attr_cool:before {
@@ -6767,7 +6767,7 @@ h3.title_img.event_produce:before {
 }
 
 .raidArea.produce .result_normal {
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fevent%2Fproduce%2Fcommunication_normal.png%3F1487720327) center top no-repeat;
+    background: url(../../../12008305/image_sp/ui/rich/quest/event/produce/communication_normal_kr.png) center top no-repeat;
     background-size: 258px;
     width: 258px;
     height: 38px;
@@ -6777,7 +6777,7 @@ h3.title_img.event_produce:before {
 }
 
 .raidArea.produce .result_good {
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fevent%2Fproduce%2Fcommunication_good.png%3F1487720327) center top no-repeat;
+    background: url(../../../12008305/image_sp/ui/rich/quest/event/produce/communication_good_kr.png) center top no-repeat;
     background-size: 258px;
     width: 258px;
     height: 38px;
@@ -6787,7 +6787,7 @@ h3.title_img.event_produce:before {
 }
 
 .raidArea.produce .result_perfet {
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fevent%2Fproduce%2Fcommunication_perfet.png%3F1487720327) center top no-repeat;
+    background: url(../../../12008305/image_sp/ui/rich/quest/event/produce/communication_perfet_kr.png) center top no-repeat;
     background-size: 258px;
     width: 258px;
     height: 38px;
@@ -6797,7 +6797,7 @@ h3.title_img.event_produce:before {
 }
 
 .raidArea.produce .result_bad {
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fevent%2Fproduce%2Fcommunication_bad.png%3F1558677471) center top no-repeat;
+    background: url(../../../12008305/image_sp/ui/rich/quest/event/produce/communication_bad.png%3F1558677471) center top no-repeat;
     background-size: 258px;
     width: 258px;
     height: 38px;
