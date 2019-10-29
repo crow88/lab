@@ -615,12 +615,12 @@ kg
 
 
 <!--test-->
-<div class="area-btn-common _base-width">
+<div class="area-btn-common _base-width" style="margin:10px 0 0 0;">
 <% if(!trade_prohibition.is_trade_limit) { %>
 <a href='<%- url_loveup.replace("__hash_card_id__", data.hash_card_id) %>' class="btn_normal_line_2" style="font-size:12px">친애도 UP 연출</a>
 <% } %>
 <% if(is_exist_archive) { %>
-<a href='<%- url_lovemax.replace("__hash_card_id__", data.hash_card_id) %>' class="btn_normal_line_2>친애도 MAX 연출</a>
+<a href='<%- url_lovemax.replace("__hash_card_id__", data.hash_card_id) %>' class="btn_normal_line_2" style="font-size:12px">친애도 MAX 연출</a>
 <% } %>
 </div>
 <!--test-->
