@@ -606,12 +606,26 @@ kg
 <% } %>
 <div class="area-btn-common _base-width">
 <% if(!trade_prohibition.is_trade_limit) { %>
-<a href='<%- url_trade.replace("__hash_card_id__", data.hash_card_id) %>' class="btn_normal_line_2 <% if(!is_exist_archive) { %>m-Cnt<% } %>" style="font-size:12px">フリートレード検索</a>
+<a href='<%- url_trade.replace("__hash_card_id__", data.hash_card_id) %>' class="btn_normal_line_2 <% if(!is_exist_archive) { %>m-Cnt<% } %>" style="font-size:12px">프리 트레이드 검색</a>
 <% } %>
 <% if(is_exist_archive) { %>
-<a href='<%- url_album.replace("__hash_card_id__", data.hash_card_id) %>' class="btn_normal_line_2 <% if(trade_prohibition.is_trade_limit) { %>m-Cnt<% } %>">アルバム</a>
+<a href='<%- url_album.replace("__hash_card_id__", data.hash_card_id) %>' class="btn_normal_line_2 <% if(trade_prohibition.is_trade_limit) { %>m-Cnt<% } %>">앨범</a>
 <% } %>
 </div>
+
+
+<!--test-->
+<div class="area-btn-common _base-width">
+<% if(!trade_prohibition.is_trade_limit) { %>
+<a href='<%- url_loveup.replace("__hash_card_id__", data.hash_card_id) %>' class="btn_normal_line_2" style="font-size:12px">친애도 UP 연출</a>
+<% } %>
+<% if(is_exist_archive) { %>
+<a href='<%- url_lovemax.replace("__hash_card_id__", data.hash_card_id) %>' class="btn_normal_line_2>친애도 MAX 연출</a>
+<% } %>
+</div>
+<!--test-->
+
+
 <% if (event) { %>
 <h3 class="title_hanyo m-Top8 m-Btm8">
 <div>登場イベント</div>
@@ -3384,6 +3398,8 @@ kg
             var selected_num = null;
             var url_trade = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fauction%2Fsearch_top%2F0%2F__hash_card_id__%3Fl_frm%3DIdol_gallery_idol_detail_1%26rnd%3D630223008';
             var url_album = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Farchive%2Fview%2F__hash_card_id__%2F0%2F0%2F0%3Fl_frm%3DIdol_gallery_idol_detail_1%26rnd%3D484623814';
+            var url_loveup = 'https://crow88.github.io/lab/12008305/memory/loveup/__hash_card_id__';
+            var url_lovemax = 'https://crow88.github.io/lab/12008305/memory/lovemax/__hash_card_id__';
             var url_event_memory = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmemory%2Fdetail%2F__event_id__%2F__category_id__%3Fl_frm%3DIdol_gallery_idol_detail_1%26rnd%3D381817313';
             var url_other_event = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fidol_gallery%2Findex%2F0%2F0%2F2%2F0%3Fis_search%3D1%26event_category%3D__category_id__%26event_id%3D__event_id__%26l_frm%3DIdol_gallery_idol_detail_1%26rnd%3D231030028';
             var url_cartoon = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcartoon%2Fsearch%3F__idol_search_param__%26l_frm%3DIdol_gallery_idol_detail_1%26rnd%3D945039515';
