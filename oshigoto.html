@@ -181,7 +181,7 @@
                         var end = "mouseup";
                     }
                     var index = 1;
-                    var maxCount = parseInt("7");
+                    var maxCount = parseInt("8");
                     $('p.comment_' + index).show();
                     $('#nowNum').html(index);
                     $('#moveLeft').css('opacity', '0.5');
@@ -223,126 +223,6 @@
                             use: false
                         }
                     };
-                    boombox.setup(And ? weba : null);
-                    window.htc = ua.indexOf('ISW13HT') > -1;
-                    if (!boombox.isWebAudio() && !boombox.isHTMLAudio() && boombox.isHTMLVideo()) window.htc = true;
-                    var VoiceSwitch = null;
-                    window.playIndex = 0;
-                    if (window.localStorage) {
-                        VoiceSwitch = localStorage.getItem('IdolVoiceAdmitSwitch');
-                    }
-                    if (VoiceSwitch != 'OFF') {
-                        var voiceData = "../../../../../sound/1450701/bdd7061e268902e8f36ecf3cc3704cf7.mp4";
-                        voiceDataAry = voiceData.split(',');
-                        if (ios) {
-                            $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_loading_kr.jpg');
-                            voiceReady(playIndex, voiceDataAry[playIndex].replace(/\"/g, ''));
-                        }
-                        $('a.voicePlay').css('visibility', 'visible');
-                        $('a.voicePlay').click(function() {
-                            if (!window.ready) return false;
-                            var cached = boombox.get('story_' + playIndex);
-                            if (cached == void 0) {
-                                $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_loading_kr.jpg');
-                                voiceReady(playIndex, voiceDataAry[playIndex].replace(/\"/g, ''));
-                            } else {
-                                if (cached.state.time.pause == void 0 && cached.state.time.playback == void 0 && cached.state.time.progress == 0 || !ios && !playing) {
-                                    $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_playing_kr.jpg');
-                                    cached.play();
-                                    playing = true;
-                                } else if (cached.state.time.pause == void 0) {
-                                    pause(cached);
-                                } else {
-                                    resume(cached);
-                                }
-                            }
-                            return false;
-                        });
-                        boombox.onVisibilityChange = function() {}
-                        if (ua.indexOf('ChromeApp') > -1 || !('ontouchstart' in window)) {
-                            boombox.onFocus = function() {}
-                            boombox.onBlur = function() {}
-                        } else {
-                            boombox.onBlur = function() {
-                                var cached = boombox.get('story_' + playIndex);
-                                if (cached == void 0) return;
-                                pause(cached);
-                            }
-                            boombox.onFocus = function() {
-                                var cached = boombox.get('story_' + playIndex);
-                                if (cached == void 0) return;
-                                resume(cached);
-                            }
-                        }
-                    } else {
-                        $('a.voicePlay').css('visibility', 'visible');
-                        $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_off.jpg');
-                        $('a.voicePlay').click(function() {
-                            return false;
-                        });
-                    }
-
-                    function voiceReady(key, url) {
-                        playing = true;
-                        var option = {
-                            "src": [{
-                                "media": "audio/mp4",
-                                "path": url
-                            }]
-                        };
-                        boombox.load('story_' + key, option, htc, function(err, htmlvideo) {
-                            if (htc) {
-                                $(htmlvideo.$el).css({
-                                    top: '-1000px',
-                                    left: '0px',
-                                    position: 'absolute'
-                                });
-                                $('body').append(htmlvideo.$el);
-                            }
-                            var cached = boombox.get('story_' + key);
-                            if (ios) {
-                                $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_open_kr.jpg');
-                                window.ready = true;
-                            } else {
-                                $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_playing_kr.jpg');
-                                cached.play();
-                            }
-                            if (!ios && cached.buffer != void 0) {
-                                timer = setTimeout(function() {
-                                    playEnded();
-                                }, Math.ceil(cached.buffer.duration * 1000));
-                            } else {
-                                cached.onEnded = function() {
-                                    playEnded();
-                                }
-                            }
-                        });
-                    }
-
-                    function playEnded() {
-                        $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_open_kr.jpg');
-                        if (voiceDataAry.length > playIndex + 1) {
-                            playIndex++;
-                        }
-                        playing = false;
-                    }
-
-                    function pause(cach) {
-                        if (!ios && cach.buffer != void 0) clearTimeout(timer);
-                        $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_open_kr.jpg');
-                        cach.pause();
-                    }
-
-                    function resume(cach) {
-                        var delay = Math.ceil(cach.buffer.duration * 1000) - cach.state.time.pause;
-                        $('a.voicePlay img').attr('src', '../../../../../12008305/image_sp/ui/episode/epi_button_voice_playing_kr.jpg');
-                        cach.resume();
-                        if (ios || cach.buffer == void 0) return;
-                        clearTimeout(timer);
-                        timer = setTimeout(function() {
-                            playEnded();
-                        }, delay);
-                    }
                 });
             </script>
     
