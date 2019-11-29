@@ -140,9 +140,6 @@
                     <p class="comment_6" style="display:none; line-height:120%;">음, 혈행이 좋아져서 사고도 풀회전! 온천 최고~♪ 그렇지만 시키쨩 입장에선, 토론 상대가 없으면 어딘가 불만족스러워-!</p>
                     <p class="comment_7" style="display:none; line-height:120%;">이 다음은 온천순회에 산에서 촬영......이였지? 잔뜩 놀고 토론해서, 하스하스 하게해줘! 냐하하, 각오해둬-♪</p>
                     </div>
-                    <!--
-                    <div class="comments">광대한 대지를 보고 있으면 조그마한 존재라는걸 깨닫게 되네~</div><!--영업대사-->
-                    -->
                 </div>
             </div>
         </section>
@@ -213,7 +210,7 @@
                         var index = $('#nowNum').html();
                         $('#moveLeft').css('opacity', '1');
                         if (index < maxCount) {
-                            $('div.comment_' + index).hide();
+                            $('p.comment_' + index).hide();
                             index++;
                             $('div.comment_' + index).show();
                             $('#nowNum').html(index);
