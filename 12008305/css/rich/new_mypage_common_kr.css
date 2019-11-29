@@ -17184,13 +17184,13 @@ td.status .icon {
 #deckIdolArea .fukidashiWrap .fukidashi.att_1,
 #mapIdolArea .fukidashiWrap .fukidashi.att_1 {
     border-color: #ff0073;
-    background: url(../../../12008305/image_sp/ui/rich/icon/comment_cute.png%3F1285858800) no-repeat 20% 95% #fff;
+    background: url(../../../12008305/image_sp/ui/rich/icon/comment_cute.png) no-repeat 20% 95% #fff;
     background-size: 260px
 }
 
 #deckIdolArea .fukidashiWrap .fukidashi.att_1.voice,
 #mapIdolArea .fukidashiWrap .fukidashi.att_1.voice {
-    background: url(../../../12008305/image_sp/ui/rich/icon/commentvoice_cute.png%3F1285858800) no-repeat 20% 95% #fff;
+    background: url(../../../12008305/image_sp/ui/rich/icon/commentvoice_cute.png) no-repeat 20% 95% #fff;
     background-size: 260px
 }
 
@@ -17203,13 +17203,13 @@ td.status .icon {
 #deckIdolArea .fukidashiWrap .fukidashi.att_2,
 #mapIdolArea .fukidashiWrap .fukidashi.att_2 {
     border-color: #006aff;
-    background: url(../../../12008305/image_sp/ui/rich/icon/comment_cool.png%3F1285858800) no-repeat 20% 95% #fff;
+    background: url(../../../12008305/image_sp/ui/rich/icon/comment_cool.png) no-repeat 20% 95% #fff;
     background-size: 260px
 }
 
 #deckIdolArea .fukidashiWrap .fukidashi.att_2.voice,
 #mapIdolArea .fukidashiWrap .fukidashi.att_2.voice {
-    background: url(../../../12008305/image_sp/ui/rich/icon/commentvoice_cool.png%3F1285858800) no-repeat 20% 95% #fff;
+    background: url(../../../12008305/image_sp/ui/rich/icon/commentvoice_cool.png) no-repeat 20% 95% #fff;
     background-size: 260px
 }
 
@@ -17222,13 +17222,13 @@ td.status .icon {
 #deckIdolArea .fukidashiWrap .fukidashi.att_3,
 #mapIdolArea .fukidashiWrap .fukidashi.att_3 {
     border-color: #fa0;
-    background: url(../../../12008305/image_sp/ui/rich/icon/comment_passin.png%3F1285858800) no-repeat 20% 95% #fff;
+    background: url(../../../12008305/image_sp/ui/rich/icon/comment_passin.png) no-repeat 20% 95% #fff;
     background-size: 260px
 }
 
 #deckIdolArea .fukidashiWrap .fukidashi.att_3.voice,
 #mapIdolArea .fukidashiWrap .fukidashi.att_3.voice {
-    background: url(../../../12008305/image_sp/ui/rich/icon/commentvoice_passion.png%3F1285858800) no-repeat 20% 95% #fff;
+    background: url(../../../12008305/image_sp/ui/rich/icon/commentvoice_passion.png) no-repeat 20% 95% #fff;
     background-size: 260px
 }
 
