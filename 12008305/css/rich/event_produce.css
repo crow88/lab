@@ -939,17 +939,17 @@ h3.title_img.event_bluegreen:before {
 
 h2.title_img.event_blue,
 div.title_img.event_blue {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_head_bg.jpg)
+    background-image: url(12008305/image_sp/event/common/line/blue/line_head_bg.jpg)
 }
 
 h2.title_img.event_blue div,
 div.title_img.event_blue div {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_head_bottom.jpg)
+    background-image: url(12008305/image_sp/event/common/line/blue/line_head_bottom.jpg)
 }
 
 h2.title_img.event_blue:before,
 div.title_img.event_blue:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_head_top.jpg)
+    background-image: url(12008305/image_sp/event/common/line/blue/line_head_top.jpg)
 }
 
 h3.title_img.event_blue {
