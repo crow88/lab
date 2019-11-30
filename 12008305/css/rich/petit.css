@@ -472,7 +472,7 @@ footer {
 
 footer .line_idolmaster {
     display: block;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Ffooter-sc1006cddc0.png%3F1487720322) no-repeat 0 -51px;
+    background: url(../../../12008305/image_sp/ui/footer-sc1006cddc0_kr.png) no-repeat 0 -51px;
     -webkit-background-size: 320px 75px;
     background-size: 320px 75px;
     width: 320px;
@@ -481,7 +481,7 @@ footer .line_idolmaster {
 
 footer .mypage_under {
     display: block;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Ffooter-sc1006cddc0.png%3F1487720322) no-repeat 0 0;
+    background: url(../../../12008305/image_sp/ui/footer-sc1006cddc0_kr.png) no-repeat 0 0;
     -webkit-background-size: 320px 75px;
     background-size: 320px 75px;
     width: 320px;
@@ -669,7 +669,7 @@ footer .mypage_under {
     left: 4px;
     width: 23px;
     height: 23px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Ficon%2Ficon_arrow_left.png%3F1487720323) no-repeat;
+    background: url(../../../12008305/image_sp/ui/icon/icon_arrow_left.png) no-repeat;
     background-size: 23px 23px
 }
 
@@ -4292,7 +4292,7 @@ span.LeftbgArrow {
     display: block;
     padding-left: 1.5rem;
     text-align: left;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Ficon%2Ficon_arrow_left.png%3F1487720323) no-repeat 0% 50%;
+    background: url(../../../12008305/image_sp/ui/icon/icon_arrow_left.png) no-repeat 0% 50%;
     background-size: 23px 23px
 }
 
