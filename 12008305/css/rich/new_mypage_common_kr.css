@@ -30421,3 +30421,29 @@ a.check_close_btn.petit {
     width: 10px;
     background: -webkit-linear-gradient(left, #fff 0%, rgba(255, 255, 255, 0) 100%)
 }
+
+#refresh_link_list .refresh_link {
+    position: relative;
+    margin-bottom: 8px;
+    text-decoration: none;
+    display: block;
+    background: url(../../../12008305/image_sp/ui/refresh_room/sprite-s1d4fa3c422.png) no-repeat 0 0;
+    -webkit-background-size: 280px 89px;
+    background-size: 280px 89px;
+    width: 280px;
+    height: 44px
+}
+
+#refresh_link_list .refresh_link:before {
+    display: block;
+    background: url(../../../12008305/image_sp/ui/refresh_room/sprite-s1d4fa3c422.png) no-repeat 0 -45px;
+    -webkit-background-size: 280px 89px;
+    background-size: 280px 89px;
+    width: 280px;
+    height: 44px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2
+}
