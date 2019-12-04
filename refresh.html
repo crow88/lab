@@ -72,7 +72,7 @@
             refreshRoom.is_pc = in_chrome || (window.chrome ? true : false) && (window.chrome.webstore) || ua.indexOf('ChromeApp') > -1 || ua.indexOf('AAWebview') > -1;
             refreshRoom.old_os = ua.match(/(OS [3-7]|Android [2-4])/);
             refreshRoom.is_multiply = false;
-            refreshRoom.returnUrl = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Frefresh_room%2Findex%2F0%3Fname%3D%25E4%25B8%2580%25E3%2583%258E%25E7%2580%25AC%25E5%25BF%2597%25E5%25B8%258C%26l_frm%3DRefresh_room_detail_1%26rnd%3D231380321';
+            refreshRoom.returnUrl = 'https://crow88.github.io/lab/';
             refreshRoom.dialogueSwf = '12008305/refresh_room/petit_refresh_room_balloon_swf';
             refreshRoom.data = {
                 "id": "49",
@@ -329,7 +329,7 @@
                 "motion4": "",
                 "motion5": "",
                 "bg_image": "",
-                "message": "그럼 시키쨩에게, 후레그런스를 듬뿍 프레젠트! \n자아 자-♪",
+                "message": "그럼 시키쨩에게, \n후레그런스를 듬뿍 프레젠트! \n자아 자-♪",
                 "message_window_type": "",
                 "message_arrow_1": "1",
                 "message_arrow_2": "",
@@ -1181,7 +1181,7 @@
             petitManager.setWidth(refreshRoom.dialogue.scaleSizeCheck(refreshRoom.is_pc));
             refreshRoom.bg_list = {
                 "1": "12008305/image_sp/ui/refresh_room/bg/bg1.jpg",
-                "": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Fbg%2Fbg.jpg%3Fv%3D19700101090000"
+                "": "12008305/image_sp/ui/refresh_room/bg/bg.jpg"
             };
             var image = new Image;
             var multiply = refreshRoom.is_pc || window.devicePixelRatio >= 1.5 && !refreshRoom.old_os ? 0.5 : 1;
