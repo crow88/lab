@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta name="format-detection" content="telephone=no">
+    <title>아이돌마스터 신데렐라 걸즈</title>
+    <link rel="stylesheet" type="text/css" href="12008305/css/rich/new_mypage_common_kr.css" media="all">
+    <link rel="stylesheet" type="text/css" href='12008305/css/rich/event_dream.css' media="all">
+    <link rel="apple-touch-icon-precomposed" href="12008305/image_sp/ui/icon_bookmark.png">
+    <script type="text/javascript">
+        if (window.localStorage) {
+            var displaySet = localStorage.getItem('DisplayPositionSet');
+            if (displaySet == 1) {
+                if (navigator.userAgent.indexOf('Android') > 0) {
+                    document.write('<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">');
+                    document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                } else {
+                    document.write('<meta name="viewport" content="width=320, user-scalable=no">');
+                }
+                window.addEventListener('resize', function() {
+                    if (navigator.userAgent.indexOf('Android') > 0) document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                });
+            } else {
+                document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+        }
+    </script>
+    <script src="12008305/js/jquery-2.2.2.min.js"></script>
+    <script src="12008305/js/underscore-min.js"></script>
+    <script src="12008305/js/common.js"></script>
+    <script src="12008305/js/common_new.js"></script>
+    <script>
+        $(function() {
+            window.$ibox = $('.ibox').ibox();
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
+                newrelic.setPageViewName('/idolmaster/index.php/event_dream/raid_win');
+            }
+        });
+    </script>
+    <script type='text/javascript'>
+        var se_flg = 0,
+            bgm_flg = 0,
+            chrome_app_flg = 0,
+            chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+    </script>
+    <script type='text/javascript' src='12008305/js/app_sound.js'></script>
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+</head>
+
+<body id="event_dream">
+    <div id="top" class="page_container jsOnBtn">
+        <nav class="area_menu_header">
+            <style>
+                .event_logo-area {
+                    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2F749%2Fbg_area_l_7080.jpg%3Fv%3D20191031144628);
+                }
+            </style>
+            <div class="area_menu_header_6btn _event">
+                <h1 style="font-size:11px">드림 LIVE 페스티벌</h1>
+                <ul>
+                    <li><a class="head_menu_01" href=''>
+                            <div></div>
+                        </a></li>
+                    <li><a class="head_menu_02 jsGameMenu" href=''>
+                            <div></div>
+                        </a></li>
+                    <li><a class="head_menu_03 jsGameMenu" href=''>
+                            <div></div>
+                        </a></li>
+                    <li><a class="head_menu_04 jsGameMenu" href=''>
+                            <div></div>
+                        </a></li>
+                    <li><a class="head_menu_05 jsGameMenu" href=''>
+                            <div></div>
+                        </a></li>
+                    <li class="btn-popupmenu"><a class="head_menu_06 se_000" href='#' id="headerAcd">
+                            <div></div>
+                        </a></li>
+                </ul><a href="" class="event_logo-area jsBtnEventLogo jsOnBtn">
+                    <div class="logo-area"><img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent_flash%2F749%2Fevent_logo.png%3Fv%3D20191031144628" width="64"></div>
+                    <div class="round_info-area">第4ラウンド<br>11/3 22:00～11/4 20:59</div>
+                </a>
+            </div>
+            <div id="headerPopupMenu" class="headerPopupMenu">
+            </div>
+        </nav>
+        <script>
+            var $btnEventLogo = $('.jsBtnEventLogo');
+            var $btnGameMenu = $('.jsGameMenu');
+            var $menuElem = $('#headerPopupMenu');
+            // ゲームメニューは消しておく
+            $btnGameMenu.hide();
+            // メニュー開閉で表示制御
+            $('#headerAcd').on('click', function() {
+                if ($menuElem.css('display') == 'none') {
+                    $btnEventLogo.hide();
+                    $btnGameMenu.show();
+                } else {
+                    $btnEventLogo.show();
+                    $btnGameMenu.hide();
+                }
+            });
+        </script><input id="delay" type="hidden" value="0">
+        <style type="text/css">
+            <!--
+            #animation object {
+                width: 320px;
+                height: 240px;
+            }
+
+            .love_max_idol .strength_card_effe_wrap,
+            .battle_user .strength_card_effe_wrap {
+                width: 50px;
+            }
+            -->
+        </style>
+        <section class="t-Cnt m-Btm0">
+        </section>
+        <section class="t-Cnt m-Btm5" id="mapIdolArea">
+            <div class="m-Btm5">
+                <div class="battleGaugeArea">
+                    <div class="battleGauge">
+                        <div class="myArea" style="width:59.237424356504%;"></div>
+                    </div>
+                    <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fgauge%2Fbar_team_gauge.png%3Fv%3D20170222083413' width="280" height="60" class="backImg">
+                    <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fgauge%2Ficon_team_advantage.png%3Fv%3D20170222083413' width="20" height="16" class="win1p" style="top:2px;left:13px">
+                    <div class="battleValue displayBox" style="margin-top:44px;">
+                        <div class="t-Rgt" style="width:45%"><span class="blue">26,920,595</span></div>
+                        <div class="yellow t-Cnt" style="width:9%">vs</div>
+                        <div class="t-Lft" style="width:46%"><span class="red">18,524,654</span></div>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript" src="12008305/js/pex-1.2.0.js"></script>
+            <script type="text/javascript">
+                document.write('<style type="text/css"> @media only screen and (-webkit-min-device-pixel-ratio: 1.5) { #animation > canvas { zoom: 50%; } } </style>');
+                window.onunload = function() {
+                    if (typeof pex != "undefined") {
+                        pex.getAPI().destroy();
+                    }
+                };
+                window.onload = function() {
+                    var flashPlayerVersion = getFlashPlayerVersion();
+                    var native_app_flg = "";
+                    var chrome_app_flg = "";
+                    var andapp_flg = "";
+                    var capture = "";
+                    var use_pex = "0";
+                    if (flashPlayerVersion == "" || native_app_flg === "1" || chrome_app_flg === "1" || andapp_flg === "1" || use_pex === "1" || capture) {
+                        var ratio = window.devicePixelRatio >= 1.5 || chrome_app_flg === "1" || andapp_flg === "1" || capture ? 2 : 1;
+                        var option = {
+                            'width': 320 * ratio,
+                            'transparent': true,
+                            'operation': {
+                                lighter_tgt: "lighter"
+                            },
+                            'disableTouch': true
+                        };
+                        option['frameCallback'] = {
+                            '/sound_mc': {
+                                '8': function() {
+                                    se_play('se_102');
+                                },
+                                '10': function() {
+                                    se_play('se_130');
+                                },
+                                '9': function() {
+                                    se_play('se_105');
+                                },
+                                '11': function() {
+                                    se_play('se_114');
+                                },
+                                '5': function() {
+                                    se_play('se_108');
+                                },
+                                '6': function() {
+                                    se_play('se_109');
+                                },
+                                '7': function() {
+                                    se_play('se_103');
+                                },
+                                '4': function() {
+                                    se_play('se_101');
+                                },
+                            },
+                        };
+                        var container = document.getElementById("animation");
+                        var pex = new Pex("http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_dream%2Fshow_inline_flash%2F2%2F772410%2F1%2F1%2F300112%3Fl_frm%3DEvent_dream_raid_win_1%26rnd%3D763431675", "animation", option);
+                    } else {
+                        console.log("flashPlayer_on");
+                        var objEle = document.createElement("object");
+                        objEle.setAttribute("data", "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_dream%2Fshow_inline_flash%2F2%2F772410%2F1%2F1%2F300112%3Fl_frm%3DEvent_dream_raid_win_2%26rnd%3D744998789");
+                        objEle.setAttribute("type", "application/x-shockwave-flash");
+                        objEle.setAttribute("width", "320");
+                        objEle.setAttribute("height", "240");
+                        objEle.setAttribute("loop", "on");
+                        objEle.setAttribute("quality", "high");
+                        objEle.setAttribute("src", "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_dream%2Fshow_inline_flash%2F2%2F772410%2F1%2F1%2F300112%3Fl_frm%3DEvent_dream_raid_win_3%26rnd%3D499757773");
+                        var container = document.getElementById("animation");
+                        container.appendChild(objEle);
+                    }
+                };
+
+                function getFlashPlayerVersion() {
+                    var vsn = '';
+                    if (navigator.plugins["Shockwave Flash"] && navigator.mimeTypes.length) { // not IE
+                        var tmp = navigator.plugins["Shockwave Flash"].description.match(/([0-9]+)/);
+                        vsn = tmp[0];
+                    } else { // IE
+                        try {
+                            var tmp = new ActiveXObject("ShockwaveFlash.ShockwaveFlash").GetVariable("$version").match(/([0-9]+)/);
+                            vsn = tmp[0];
+                        } catch (e) {}
+                    }
+                    return vsn;
+                }
+            </script>
+            <div id="animation" style="width:320px;height:240px;overflow:hidden;"></div>
+        </section>
+        <section class="t-Cnt m-Btm5">
+            <div class="dream_inline" style="background-image:url(http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fevent_info_announce.jpg%3Fv%3D20170222083413); background-repeat:no-repeat; background-size:235px;">
+                <a class='btn_off jsOnDesignBtn' href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_dream%2Ftoggle_inline_flash%2F772410%3Fl_frm%3DEvent_dream_raid_win_1%26rnd%3D513616172'></a>
+            </div>
+            <div class="m-Top5 l-Hgt140">
+                <div class="dreamArea type_01 m-LR0 t-Cnt">
+                    <p style="font-size:11px"><span class="blue">ライバルユニット: </span>ピーチ・フレーバー <span class="blue">Lv: </span>30</p>
+                    <div style="line-height:110%">気力: <span class="yellow">0</span> / 150,000,000</div>
+                    <div class="bossLifeGaugeWrap" style="margin-bottom:3px">
+                        <div class="bossLifeGauge">
+                            <div class="inner" style="width:0%;"></div>
+                            <div class="rivalDm" style="width:100%;"></div>
+                        </div>
+                        <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fbar_kiryoku_gauge.png%3Fv%3D20170222083413' width="180" height="15" class="gaugeImg">
+                    </div>
+                    <div class="small l-Hgt120" style="margin-bottom:2px">
+                        参戦人数<span class="blue">2</span>人&nbsp;&nbsp;自分: <span class="blue">100%</span>&nbsp;&nbsp;相手: <span class="red">0%</span>&nbsp;&nbsp;参戦人数<span class="red">0</span>人<br>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div style='margin-top:17px;'>
+            <div class="t-Cnt m-Top10 m-Btm10">
+                <form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_dream%2Fwork%3Fl_frm%3DEvent_dream_raid_win_1%26rnd%3D674563828' method="post">
+                    <label class="btn_decision_line_2 m-Cnt" onClick=""><input type="submit" value="お仕事を続ける" /></label>
+                </form>
+            </div>
+            <a class="btn_battle_active m-Cnt m-Btm8 jsOnDesignBtn" href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_dream%2Fget_raid_boss%2F772713%3Fl_frm%3DEvent_dream_raid_win_1%26rnd%3D622137148'></a>
+        </div>
+        <section>
+            <img src="http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_hoshi.jpg" width="100%">
+            <section class="naviArea" style="margin-bottom:0;">
+                <img src="http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fnavi%2Fegao_m2.png" width="90">
+                <div class="Wrap">
+                    <div class="fukiRight">
+                        ドリームLIVEに勝利しました!<br>
+                        みなさんのLIVEに会場もすごく盛り上がっていましたよ!
+                    </div>
+                </div>
+            </section>
+            <img src="http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_hoshi.jpg" width="100%">
+        </section>
+        <section class="t-Cnt">
+            <div class="dreamArea type_03 t-Cnt m-Btm10">
+                <p>11/04 08:46にドリームLIVE終了!</p>
+                <p>失わせた気力 : 合計<span class="yellow">20,338,255</span></p>
+            </div>
+            <div class="dreamArea_win_lose m-Btm10">
+                <h3 class="title inner_blue">報酬内容</h3>
+                <div class="m-Btm10 l-Hgt140">
+                    <span class="yellow">15,879</span> ドリームpt<br>
+                    <span style="color:#0bbf86;">エメラルドメダル</span> × 732枚<br>
+                </div>
+                <form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_dream%2Fget_reward%2F772410%3Fl_frm%3DEvent_dream_raid_win_1%26rnd%3D340963832' method="post">
+                    <label class="btn_normal_line_2 m-Cnt m-Btm8" onClick=""><input type="submit" value="勝利報酬を受け取る" style="font-size:13px;" /></label>
+                </form>
+            </div>
+        </section>
+        <section class="t-Cnt">
+        </section>
+        <section class="t-Cnt m-Btm0">
+            <h3 class="title_img event_blue m-Btm5">
+                <div class="frame">ライバルユニット発見者</div>
+            </h3>
+            <div class="dreamArea type_02 m-Btm10">
+                <div class="titleH2 eventH2Color_blue" style="width:280px;"><a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fprofile%2Fshow%2F41916082%3Fl_frm%3DEvent_dream_raid_win_1%26rnd%3D858475913'>
+                        <div>まさゆき</div>
+                    </a></div>
+                <table style="width:100%; margin:0 auto;" class="l-Hgt140 m-Btm1 battle_user">
+                    <tr>
+                        <td align="center" valign="middle" width="100">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F1beebf9b3233b846d12097702e41778a.jpg%3Fv%3D20190524145643' width="60" height="60">
+                        </td>
+                        <td align="left" valign="top">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fgauge%2Ficon_team_mark_my.png%3Fv%3D20170222083413' width="22" height="22" class="v-Mdl">
+                            <br>
+                            <span class="blue">失わせた気力:</span>131,657,021<br>
+                            <span class="blue">LIVE回数:</span>9<br>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <h3 class="title_img event_blue m-Btm5">
+                <div class="frame">アピール上位者</div>
+            </h3>
+            <div class="dreamArea type_02 m-Btm10">
+                <div class="m-Btm10">
+                    <div class="title inner_blue">1位</div>
+                    <div class="titleH2 eventH2Color_blue" style="width:280px;"><a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fprofile%2Fshow%2F41916082%3Fl_frm%3DEvent_dream_raid_win_2%26rnd%3D177081563'>
+                            <div>まさゆき</div>
+                        </a></div>
+                    <table style="width:100%; margin:0 auto;" class="l-Hgt140 m-Btm1 battle_user">
+                        <tr>
+                            <td align="center" valign="middle" width="100">
+                                <img src='http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F1beebf9b3233b846d12097702e41778a.jpg%3Fv%3D20190524145643' width="60" height="60">
+                            </td>
+                            <td align="left" valign="top">
+                                <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fgauge%2Ficon_team_mark_my.png%3Fv%3D20170222083413' width="22" height="22" class="v-Mdl">
+                                <br>
+                                <span class="blue">失わせた気力:</span>131,657,021<br>
+                                <span class="blue">LIVE回数:</span>9<br>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="title inner_blue">2位</div>
+                <div class="titleH2 eventH2Color_blue" style="width:280px;"><a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fprofile%2Fshow%2F139087231%3Fl_frm%3DEvent_dream_raid_win_1%26rnd%3D170023400'>
+                        <div>ティード</div>
+                    </a></div>
+                <table style="width:100%; margin:0 auto;" class="l-Hgt140 m-Btm1 battle_user">
+                    <tr>
+                        <td align="center" valign="middle" width="100">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F403297028737ce2c944bfc812dba6c94.jpg%3Fv%3D20170222083226' width="60" height="60">
+                        </td>
+                        <td align="left" valign="top">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fgauge%2Ficon_team_mark_my.png%3Fv%3D20170222083413' width="22" height="22" class="v-Mdl">
+                            <br>
+                            <span class="blue">失わせた気力:</span>20,338,255<br>
+                            <span class="blue">LIVE回数:</span>1<br>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <h3 class="title_img event_blue m-Btm5">
+                <div class="frame">ラストアピールユニット</div>
+            </h3>
+            <div class="dreamArea type_02 m-Btm10">
+                <div class="titleH2 eventH2Color_blue" style="width:280px;"><a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fprofile%2Fshow%2F139087231%3Fl_frm%3DEvent_dream_raid_win_2%26rnd%3D767121996'>
+                        <div>ティード</div>
+                    </a></div>
+                <table style="width:100%; margin:0 auto;" class="l-Hgt140 m-Btm1 battle_user">
+                    <tr>
+                        <td align="center" valign="middle" width="100">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F403297028737ce2c944bfc812dba6c94.jpg%3Fv%3D20170222083226' width="60" height="60">
+                        </td>
+                        <td align="left" valign="top">
+                            <img src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fdream%2Fsprite%2Fgauge%2Ficon_team_mark_my.png%3Fv%3D20170222083413' width="22" height="22" class="v-Mdl">
+                            <br>
+                            <span class="blue">失わせた気力:</span>20,338,255<br>
+                            <span class="blue">LIVE回数:</span>1<br>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_dream%2Fhelp%2F1%3Fl_frm%3DEvent_dream_raid_win_1%26rnd%3D471668821' class="btn_sup_line_2 m-Cnt m-Btm8">注意事項(必読)</a>
+        <a href='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_dream%2Findex%3Fl_frm%3DEvent_dream_raid_win_1%26rnd%3D281259285'>
+            <div class="backLink">ドリームLIVEフェスティバルTOP</div>
+        </a>
+        <script type="text/javascript">
+            <!--
+            $(function() {
+                Commonjs.setSearchMore({
+                    $trigger: $("#js_btn_more"),
+                    $contents: $("#js_more_contents"),
+                });
+                $('#js_btn_more').on('click', function() {
+                    $(this).toggleClass('_alone');
+                });
+            });
+            // 
+            -->
+        </script>
+        <footer>
+            <div class="line_idolmaster"></div><a href="#top" id="toPageTop" class="mypage_under">
+                <div></div>
+            </a>
+            <div class="t-Cnt">(C)窪岡俊之 (C)2011 BNEI</div>
+        </footer>
+    </div>
+    <script>
+        window._tarminal = {
+            'native_app_flg': false,
+            'android_app_flg': false,
+            'ios_app_flg': false,
+            'shell_app_flg': false
+        };
+    </script>
+    <script>
+        window._tarminal = {
+            'native_app_flg': false,
+            'android_app_flg': false,
+            'ios_app_flg': false,
+            'shell_app_flg': false
+        };
+    </script>
+    <div id="mbga-pf-footer">
+        <div class="mbga-pf-footer-container odd-lines mbga-pf-footer-white">
+            <ul>
+                <li class="mbga-pf-footer-list">
+                    <div class="mbga-pf-fotter-content">
+                        <a class="mbga-pf-footer-arrow" href="http://sp.mbga.jp/_grp_view?g=32095227">
+                            <span class="mbga-pf-footer-caption">公式サークル</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="mbga-pf-footer-navbar">
+            <ul class="mbga-pf-box-h">
+                <li id="mbga-pf-footer-navbar-icon-grid" class="mbga-pf-footer-li">
+                    <a class="mbga-pf-footer-a mbga-pf-footer-home-w" href="http://sp.mbga.jp/?_from=globalfooter">
+                        <span class="mbga-pf-footer-txt">ホーム</span>
+                    </a>
+                </li>
+                <li id="mbga-pf-footer-navbar-icon-mypage" class="mbga-pf-footer-li">
+                    <a class="mbga-pf-footer-a mbga-pf-footer-mypage-w" href="http://sp.mbga.jp/_my0?_from=globalfooter">
+                        <span class="mbga-pf-footer-txt">マイページ</span>
+                    </a>
+                </li>
+                <li id="mbga-pf-footer-navbar-icon-mygame" class="mbga-pf-footer-li">
+                    <a class="mbga-pf-footer-a mbga-pf-footer-mygame-w" href="http://sp.mbga.jp/_game_my_top?_from=globalfooter">
+                        <span class="mbga-pf-footer-txt">マイゲーム</span>
+                    </a>
+                </li>
+                <li id="mbga-pf-footer-navbar-icon-notification" class="mbga-pf-footer-li">
+                    <a class="mbga-pf-footer-a mbga-pf-footer-game-w" href="http://sp.mbga.jp/_game_top?_from=globalfooter">
+                        <span class="mbga-pf-footer-txt">ゲーム</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <script type="text/javascript" charset="UTF-8">
+            (function() {
+                document.addEventListener('DOMContentLoaded', function() {
+                    var list = document.getElementsByClassName('mbga-pf-footer-li');
+                    var i = 0,
+                        l = list.length;
+                    for (; i < l; i++) {
+                        var elem = list[i];
+                        elem.addEventListener('touchstart', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/$/, ' mbga-pf-tapped');
+                        });
+                        elem.addEventListener('touchend', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/ mbga-pf-tapped/, '');
+                        });
+                        elem.addEventListener('touchmove', function(e) {});
+                    }
+                });
+            })();
+        </script>
+    </div>
+</body>
+
+</html>
