@@ -6842,6 +6842,284 @@ h3.title_img.event_produce:before {
     margin-right: auto
 }
 
+.raidArea.produce .animation_container {
+    position: relative;
+    top: -24px;
+    width: 100%;
+    height: 276px;
+    margin-bottom: 60px;
+    overflow: hidden
+}
+
+.raidArea.produce .animation_container .anime_main_screen {
+    position: relative;
+    width: 100%;
+    height: 230px;
+    overflow: hidden
+}
+
+.raidArea.produce .animation_container .anime_curtain,
+.raidArea.produce .animation_container .anime_chara,
+.raidArea.produce .animation_container .anime_bg,
+.raidArea.produce .animation_container .mask {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-size: 100%;
+    background-repeat: none
+}
+
+.raidArea.produce .animation_container .mask {
+    background-color: #000
+}
+
+.raidArea.produce .animation_container .mask .loading {
+    position: relative;
+    margin: 50px auto 0;
+    width: 98px;
+    height: 90px
+}
+
+.raidArea.produce .animation_container .mask .loading::before {
+    position: absolute;
+    top: 0;
+    content: "";
+    display: block;
+    width: 98px;
+    height: 75px;
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fproduce%2Fcommu%2Floading2.gif%3F1574920046);
+    background-size: 100%
+}
+
+.raidArea.produce .animation_container .mask .loading::after {
+    position: absolute;
+    top: 21px;
+    left: 7px;
+    content: "";
+    display: block;
+    width: 90px;
+    height: 90px;
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fproduce%2Fcommu%2Floading.gif%3F1574920046);
+    background-size: 100%
+}
+
+.raidArea.produce .animation_container .anime_curtain {
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fproduce%2Fcommu%2Fwipe.png%3F1574920046);
+    left: -200px;
+    width: 200%
+}
+
+.raidArea.produce .animation_container .anime_plate {
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 142px;
+    top: 16px;
+    left: 10px;
+    background-size: 100%;
+    line-height: 30px
+}
+
+.raidArea.produce .animation_container .anime_plate._1 {
+    background-image: url(../../../12008305/image_sp/event/produce/commu/name_cute.png)
+}
+
+.raidArea.produce .animation_container .anime_plate._1 span {
+    text-shadow: 0 0 3px #ff318e, 0 0 3px #ff318e, 0 0 3px #ff318e, 0 0 3px #ff318e, 0 0 3px #ff318e, 0 0 3px #ff318e, 0 0 3px #ff318e, 0 0 3px #ff318e
+}
+
+.raidArea.produce .animation_container .anime_plate._2 {
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fproduce%2Fcommu%2Fname_cool.png%3F1574920046)
+}
+
+.raidArea.produce .animation_container .anime_plate._2 span {
+    text-shadow: 0 0 3px #006aff, 0 0 3px #006aff, 0 0 3px #006aff, 0 0 3px #006aff, 0 0 3px #006aff, 0 0 3px #006aff, 0 0 3px #006aff, 0 0 3px #006aff
+}
+
+.raidArea.produce .animation_container .anime_plate._3 {
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fproduce%2Fcommu%2Fname_passion.png%3F1574920046)
+}
+
+.raidArea.produce .animation_container .anime_plate._3 span {
+    text-shadow: 0 0 3px #ffa811, 0 0 3px #ffa811, 0 0 3px #ffa811, 0 0 3px #ffa811, 0 0 3px #ffa811, 0 0 3px #ffa811, 0 0 3px #ffa811, 0 0 3px #ffa811
+}
+
+.raidArea.produce .animation_container .anime_plate._4 {
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fproduce%2Fcommu%2Fname_trainer.png%3F1574920046)
+}
+
+.raidArea.produce .animation_container .anime_plate._4 span {
+    text-shadow: 0 0 3px #137d11, 0 0 3px #137d11, 0 0 3px #137d11, 0 0 3px #137d11, 0 0 3px #137d11, 0 0 3px #137d11, 0 0 3px #137d11, 0 0 3px #137d11
+}
+
+.raidArea.produce .animation_container .anime_chara {
+    opacity: 0;
+    top: 20px
+}
+
+.raidArea.produce .animation_container .anime_comment {
+    position: absolute;
+    left: 2.5%;
+    bottom: 7px;
+    width: 95%;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    color: #000000;
+    text-align: left;
+    box-sizing: border-box;
+    opacity: 0
+}
+
+.raidArea.produce .animation_container .anime_comment._1 {
+    border: 2px solid #ff318e
+}
+
+.raidArea.produce .animation_container .anime_comment._1::before {
+    border-color: transparent transparent #ff318e transparent
+}
+
+.raidArea.produce .animation_container .anime_comment._2 {
+    border: 2px solid #006aff
+}
+
+.raidArea.produce .animation_container .anime_comment._2::before {
+    border-color: transparent transparent #006aff transparent
+}
+
+.raidArea.produce .animation_container .anime_comment._3 {
+    border: 2px solid #ffa811
+}
+
+.raidArea.produce .animation_container .anime_comment._3::before {
+    border-color: transparent transparent #ffa811 transparent
+}
+
+.raidArea.produce .animation_container .anime_comment._4 {
+    border: 2px solid #137d11
+}
+
+.raidArea.produce .animation_container .anime_comment._4::before {
+    border-color: transparent transparent #137d11 transparent
+}
+
+.raidArea.produce .animation_container .anime_comment::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: -14px;
+    left: 147px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 7px 14px 7px;
+    border-color: transparent transparent rgba(255, 255, 255, 0.8) transparent
+}
+
+.raidArea.produce .animation_container .anime_comment::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: -9px;
+    left: 150px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 4px 9px 4px;
+    border-color: transparent transparent rgba(255, 255, 255, 0.8) transparent
+}
+
+.raidArea.produce .animation_container.anime .anime_chara {
+    -webkit-animation: chara 0.5s ease 0.2s 1 normal;
+    animation: chara 0.5s ease 0.2s 1 normal;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards
+}
+
+.raidArea.produce .animation_container.anime .anime_comment {
+    -webkit-animation: comment 0.4s ease 0.6s 1 normal;
+    animation: comment 0.4s ease 0.6s 1 normal;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards
+}
+
+.raidArea.produce .animation_container.anime .anime_curtain {
+    -webkit-animation: curtain 0.3s linear 0s 1 normal;
+    animation: curtain 0.3s linear 0s 1 normal;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards
+}
+
+@-webkit-keyframes chara {
+    0% {
+        left: 50px;
+        opacity: 0
+    }
+
+    100% {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@keyframes chara {
+    0% {
+        left: 50px;
+        opacity: 0
+    }
+
+    100% {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes curtain {
+    0% {
+        left: -200px
+    }
+
+    100% {
+        left: -650px
+    }
+}
+
+@keyframes curtain {
+    0% {
+        left: -200px
+    }
+
+    100% {
+        left: -650px
+    }
+}
+
+@-webkit-keyframes comment {
+    0% {
+        bottom: -40px;
+        opacity: 1
+    }
+
+    100% {
+        bottom: 12px;
+        opacity: 1
+    }
+}
+
+@keyframes comment {
+    0% {
+        bottom: -40px;
+        opacity: 1
+    }
+
+    100% {
+        bottom: 10px;
+        opacity: 1
+    }
+}
+
 #itemSelect .eventItem_produce {
     height: 45px
 }
