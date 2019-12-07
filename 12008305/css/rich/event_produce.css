@@ -6889,7 +6889,7 @@ h3.title_img.event_produce:before {
     display: block;
     width: 98px;
     height: 75px;
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fproduce%2Fcommu%2Floading2.gif%3F1574920046);
+    background-image: url(../../../12008305/image_sp/event/produce/commu/loading2.gif);
     background-size: 100%
 }
 
@@ -6901,12 +6901,12 @@ h3.title_img.event_produce:before {
     display: block;
     width: 90px;
     height: 90px;
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fproduce%2Fcommu%2Floading.gif%3F1574920046);
+    background-image: url(../../../12008305/image_sp/event/produce/commu/loading.gif);
     background-size: 100%
 }
 
 .raidArea.produce .animation_container .anime_curtain {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fproduce%2Fcommu%2Fwipe.png%3F1574920046);
+    background-image: url(../../../12008305/image_sp/event/produce/commu/wipe.png);
     left: -200px;
     width: 200%
 }
