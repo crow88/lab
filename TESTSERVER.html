@@ -10,7 +10,7 @@
     <title>테스트서버</title>
     <link rel="stylesheet" type="text/css" href="12008305/css/rich/new_mypage_common_kr.css" media="all">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="12008305/image_sp/ui/icon_bookmark.png"/>
+    <link rel="apple-touch-icon-precomposed" href="12008305/image_sp/ui/icon_bookmark.png" />
     <script type="text/javascript">
         if (window.localStorage) {
             var displaySet = localStorage.getItem('DisplayPositionSet');
@@ -116,34 +116,30 @@
 </head>
 
 <body id="idol_gallery" class="idol_detail">
-  <script type="text/javascript"> // 파라미터 가져오기 , 프로듀서 이름 설정
-      function getParameterByName(name) {
-          name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-          var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-              results = regex.exec(location.search);
-              return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-      }
-      var producer = getParameterByName('pro') + " ";
-      var firstIndex = getParameterByName('index') + "";
-      var firstSlide = getParameterByName('slide') + "";
+    <script type="text/javascript">
+        // 파라미터 가져오기 , 프로듀서 이름 설정
+        function getParameterByName(name) {
+            name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                results = regex.exec(location.search);
+            return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+        var producer = getParameterByName('pro') + " ";
+        var firstIndex = getParameterByName('index') + "";
+        var firstSlide = getParameterByName('slide') + "";
 
-      if(producer == " ")
-      {
-        producer = "○○○"
-      }
+        if (producer == " ") {
+            producer = "○○○"
+        }
 
-      if(firstIndex == "")
-      {
-        firstIndex = "0"
-      }
+        if (firstIndex == "") {
+            firstIndex = "0"
+        }
 
-      if(firstIndex == "")
-      {
-        firstIndex = "0"
-      }
-
-
-  </script>
+        if (firstIndex == "") {
+            firstIndex = "0"
+        }
+    </script>
     <div id="top" class="page_container jsOnBtn">
         <nav class="area_menu_header">
             <div class="area_menu_header_6btn">
@@ -300,18 +296,18 @@
             </div>
             <!--7th 엑스트라 커뮤-->
             <script>
-              function rndURL() {
-              rnd = new Array()
-              rnd[0] = "https://crow88.github.io/lab/12008305/memory/memorial/1716/normal/";
-              rnd[1] = "https://crow88.github.io/lab/12008305/memory/memorial/1716/good/";
-              rnd[2] = "https://crow88.github.io/lab/12008305/memory/memorial/1716/perfect/";
-              window.open(rnd[Math.round(Math.random() * 2)], "_self");
-              } 
+                function rndURL() {
+                    rnd = new Array()
+                    rnd[0] = "https://crow88.github.io/lab/12008305/memory/memorial/1716/normal/";
+                    rnd[1] = "https://crow88.github.io/lab/12008305/memory/memorial/1716/good/";
+                    rnd[2] = "https://crow88.github.io/lab/12008305/memory/memorial/1716/perfect/";
+                    window.open(rnd[Math.round(Math.random() * 2)], "_self");
+                }
             </script>
             <div class="t-Cnt m-Top12 m-Btm12">
-              <a href='javascript:rndURL()' class="jsOnDesignBtn">
-                <img src='12008305/image_sp/event/1716/extramemory/extra_banner_kr.png' width="280" height="44">
-              </a>
+                <a href='javascript:rndURL()' class="jsOnDesignBtn">
+                    <img src='12008305/image_sp/event/1716/extramemory/extra_banner_kr.png' width="280" height="44">
+                </a>
             </div>
             <!--7th 엑스트라 커뮤-->
         </div>
@@ -320,592 +316,591 @@
             </div>
         </div>
         <div class="area_tab_3">
-          <!--test-->
-          <section class="area_story_collection_tab  m-Btm8">
-              <div class="selectArea type_02  m-Btm8">
-                  <form action="#" name="area_select_form" method="post" style="margin-bottom: 0px;">
-                      <div class="area-btn-common _base-width">
-                          <select name="js_area_switch" id="js_area_switch" class="search_pulldown_1_5" style="font-size:12px;">
-                              <option value="1">카드 에피소드</option>
-                              <option value="2">푸치 에피소드</option>
-                              <option value="3">TEST</option>
-                          </select>
-                          <a id="jsAreaSwitchBtn" class="btn_decision_sub_line_3">
-                              선택
-                          </a>
-                      </div>
-                  </form>
-              </div>
-
-              <div id="area_tab_1" class="t-Cnt">
-
-                <div id="story-content" class="jsOnDesignBtn-wrap">
+            <!--test-->
+            <section class="area_story_collection_tab  m-Btm8">
+                <div class="selectArea type_02  m-Btm8">
+                    <form action="#" name="area_select_form" method="post" style="margin-bottom: 0px;">
+                        <div class="area-btn-common _base-width">
+                            <select name="js_area_switch" id="js_area_switch" class="search_pulldown_1_5" style="font-size:12px;">
+                                <option value="1">카드 에피소드</option>
+                                <option value="2">푸치 에피소드</option>
+                                <option value="3">TEST</option>
+                            </select>
+                            <a id="jsAreaSwitchBtn" class="btn_decision_sub_line_3">
+                                선택
+                            </a>
+                        </div>
+                    </form>
                 </div>
 
-              </div>
-              
-              <div id="area_tab_2" class="t-Cnt">
+                <div id="area_tab_1" class="t-Cnt">
 
-                <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_top.jpg) center top no-repeat;background-size:326px;width:304px;height:44px; line-height:47px; margin:0 auto;">
-                Vi 레슨 에피소드<br>
-                </div>
-                  <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_line.jpg) center top repeat-y;background-size:326px;width:304px;text-align:center;margin:0 auto; padding:10px 0 0;">
-                    <ul class="displayBox t-Cnt">
-                     <li style="width:50%;">
-                      <form method="get" action="https://crow88.github.io/lab/12008305/petit_cg/petit_show_episode/1043/1/" style="height:90px;">
-                        <input type="image" src="12008305/image_sp/ui/episode/epi_button_movie_043_3.jpg" height="75" style="height:75px;margin:0 0 0 10px;">
-                        <input class="movie_name jsOnDesignBtn" type="image" src="12008305/image_sp/ui/episode/epi_button_moviename_cute_petit1_kr_voice.png" width="77" style="width:77px;position:relative;top:-15px;margin:0 0 0 10px;">
-                      </form>
-                     </li>
-                     <li style="width:50%;">
-                      <form method="get" action="https://crow88.github.io/lab/12008305/petit_cg/petit_show_episode/1043/5/" style="height:90px;">
-                        <input type="image" src="12008305/image_sp/ui/episode/epi_button_movie_043_3.jpg" height="75" style="height:75px;margin:0 10px 0 0;">
-                        <input class="movie_name jsOnDesignBtn" type="image" src="12008305/image_sp/ui/episode/epi_button_moviename_cute_petit2_kr_voice.png" width="77" style="width:77px;position:relative;top:-15px;margin:0 10px 0 0;">
-                      </form>
-                     </li>
-                    </ul>
-                  </div>
-                <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_bottom.jpg) center top no-repeat;background-size:326px; width:304px; height:19px; margin:0 auto 10px;">
-                </div>
-                  
-                <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_top.jpg) center top no-repeat;background-size:326px;width:304px;height:44px; line-height:47px; margin:0 auto;">
-                Vo 레슨 에피소드<br>
-                </div>
-                  <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_line.jpg) center top repeat-y;background-size:326px;width:304px;text-align:center;margin:0 auto; padding:10px 0 0;">
-                    <ul class="displayBox t-Cnt">
-                     <li style="width:50%;">
-                      <form method="get" action="https://crow88.github.io/lab/12008305/petit_cg/petit_show_episode/1043/2/" style="height:90px;">
-                        <input type="image" src="12008305/image_sp/ui/episode/epi_button_movie_043_3.jpg" height="75" style="height:75px;margin:0 0 0 10px;">
-                        <input class="movie_name jsOnDesignBtn" type="image" src="12008305/image_sp/ui/episode/epi_button_moviename_cute_petit1_kr_voice.png" width="77" style="width:77px;position:relative;top:-15px;margin:0 0 0 10px;">
-                      </form>
-                     </li>
-                     <li style="width:50%;">
-                      <form method="get" action="https://crow88.github.io/lab/12008305/petit_cg/petit_show_episode/1043/6/" style="height:90px;">
-                        <input type="image" src="12008305/image_sp/ui/episode/epi_button_movie_043_3.jpg" height="75" style="height:75px;margin:0 10px 0 0;">
-                        <input class="movie_name jsOnDesignBtn" type="image" src="12008305/image_sp/ui/episode/epi_button_moviename_cute_petit2_kr_voice.png" width="77" style="width:77px;position:relative;top:-15px;margin:0 10px 0 0;">
-                      </form>
-                     </li>
-                    </ul>
-                  </div>  
-                <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_bottom.jpg) center top no-repeat;background-size:326px; width:304px; height:19px; margin:0 auto 10px;">
-                </div>
-                  
-                <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_top.jpg) center top no-repeat;background-size:326px;width:304px;height:44px; line-height:47px; margin:0 auto;">
-                Da 레슨 에피소드<br>
-                </div>
-                  <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_line.jpg) center top repeat-y;background-size:326px;width:304px;text-align:center;margin:0 auto; padding:10px 0 0;">
-                    <ul class="displayBox t-Cnt">
-                     <li style="width:50%;">
-                      <form method="get" action="https://crow88.github.io/lab/12008305/petit_cg/petit_show_episode/1043/3/" style="height:90px;">
-                        <input type="image" src="12008305/image_sp/ui/episode/epi_button_movie_043_3.jpg" height="75" style="height:75px;margin:0 0 0 10px;">
-                        <input class="movie_name jsOnDesignBtn" type="image" src="12008305/image_sp/ui/episode/epi_button_moviename_cute_petit1_kr_voice.png" width="77" style="width:77px;position:relative;top:-15px;margin:0 0 0 10px;">
-                      </form>
-                     </li>
-                     <li style="width:50%;">
-                      <form method="get" action="https://crow88.github.io/lab/12008305/petit_cg/petit_show_episode/1043/7/" style="height:90px;">
-                        <input type="image" src="12008305/image_sp/ui/episode/epi_button_movie_043_3.jpg" height="75" style="height:75px;margin:0 10px 0 0;">
-                        <input class="movie_name jsOnDesignBtn" type="image" src="12008305/image_sp/ui/episode/epi_button_moviename_cute_petit2_kr_voice.png" width="77" style="width:77px;position:relative;top:-15px;margin:0 10px 0 0;">
-                      </form>
-                     </li>
-                    </ul>
-                  </div>  
-                <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_bottom.jpg) center top no-repeat;background-size:326px; width:304px; height:19px; margin:0 auto 10px;">
-                </div>
-                  
-                <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_top.jpg) center top no-repeat;background-size:326px;width:304px;height:44px; line-height:47px; margin:0 auto;">
-                스텝업 레슨 에피소드<br>
-                </div>
-                  <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_line.jpg) center top repeat-y;background-size:326px;width:304px;text-align:center;margin:0 auto; padding:10px 0 0;">
-                    <ul class="displayBox t-Cnt">
-                     <li style="width:50%;">
-                      <form method="get" action="https://crow88.github.io/lab/12008305/petit_cg/petit_show_episode/1043/4/" style="height:90px;">
-                        <input type="image" src="12008305/image_sp/ui/episode/epi_button_movie_043_3.jpg" height="75" style="height:75px;margin:0 0 0 10px;">
-                        <input class="movie_name jsOnDesignBtn" type="image" src="12008305/image_sp/ui/episode/epi_button_moviename_cute_petit1_kr_voice.png" width="77" style="width:77px;position:relative;top:-15px;margin:0 0 0 10px;">
-                      </form>
-                     </li>
-                     <li style="width:50%;">
-                      <form method="get" action="https://crow88.github.io/lab/12008305/petit_cg/petit_show_episode/1043/8/" style="height:90px;">
-                        <input type="image" src="12008305/image_sp/ui/episode/epi_button_movie_043_3.jpg" height="75" style="height:75px;margin:0 10px 0 0;">
-                        <input class="movie_name jsOnDesignBtn" type="image" src="12008305/image_sp/ui/episode/epi_button_moviename_cute_petit2_kr_voice.png" width="77" style="width:77px;position:relative;top:-15px;margin:0 10px 0 0;">
-                      </form>
-                     </li>
-                    </ul>
-                  </div>  
-                <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_bottom.jpg) center top no-repeat;background-size:326px; width:304px; height:19px; margin:0 auto 10px;">
-                </div>
-                      
-              </div>
+                    <div id="story-content" class="jsOnDesignBtn-wrap">
+                    </div>
 
-              <div id="area_tab_3" class="t-Cnt" style="display:none">
-
-                <h3 class="title_hanyo m-Top8 m-Btm8">
-                      <div style="font-size:14px;">
-                          TEST
-                      </div>
-                </h3>
-                  
-                  
-                  
-                  
-                  
-                  
-                  <!--푸치대사 테스트-->
-                  <div class="selectArea type_02 m-Btm8">
-    <div class="selectArea_accordion">
-        <div class="selectArea_accordion_title">
-            <div>푸치TOP</div>
-        </div>
-        <div class="selectArea_accordion_body t-Lft" style="display: none;">
-            <div class="selectArea_accordion_body_inner">
-
-                <div class="comment_title_cute">Lv.1~10한정</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>음~오디션은 할 맘 없어~ 심사원의 말 재미없는걸~ 실종해버릴래. 바~이</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>글자밖에 없는 책은~ 대본은~ 재미있으면 바로 기억할 수 있는데 말이지~ 지~지지지~</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>빤~히… 바라보고 있으면 너는 어떤 반응을 할까 관찰중. 흠흠 그렇군. 후후후~♪</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>생각하고 말하는 것은 잘 못해~ 생각하면 언제까지나 생각해버리고, 말없이 계속 생각해버려~</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>나는 욕망에 충실해서, 다른 일은 흥미 없~어요. 그치만그치만, 어쩌면~?</div>
-                    </div>
                 </div>
 
-                <div class="comment_title_cute">Lv.11~20한정</div>
+                <div id="area_tab_2" class="t-Cnt">
 
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>아우, 잡혔다! 아니~ 좋은 냄새가 나는 애를 찾아서 이리저리~하고… 좋은 냄새가 나는 애, 좋아하잖아?</div>
+                    <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_top.jpg) center top no-repeat;background-size:326px;width:304px;height:44px; line-height:47px; margin:0 auto;">
+                        Vi 레슨 에피소드<br>
                     </div>
-                    <div class="comment_frame">
-                        <div>언제나 나 전용의 차고에서… 어이쿠 이 다음은 안돼~♪ 시키쨩의 프라이버시는 비밀~♪</div>
+                    <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_line.jpg) center top repeat-y;background-size:326px;width:304px;text-align:center;margin:0 auto; padding:10px 0 0;">
+                        <ul class="displayBox t-Cnt">
+                            <li style="width:50%;">
+                                <form method="get" action="https://crow88.github.io/lab/12008305/petit_cg/petit_show_episode/1043/1/" style="height:90px;">
+                                    <input type="image" src="12008305/image_sp/ui/episode/epi_button_movie_043_3.jpg" height="75" style="height:75px;margin:0 0 0 10px;">
+                                    <input class="movie_name jsOnDesignBtn" type="image" src="12008305/image_sp/ui/episode/epi_button_moviename_cute_petit1_kr_voice.png" width="77" style="width:77px;position:relative;top:-15px;margin:0 0 0 10px;">
+                                </form>
+                            </li>
+                            <li style="width:50%;">
+                                <form method="get" action="https://crow88.github.io/lab/12008305/petit_cg/petit_show_episode/1043/5/" style="height:90px;">
+                                    <input type="image" src="12008305/image_sp/ui/episode/epi_button_movie_043_3.jpg" height="75" style="height:75px;margin:0 10px 0 0;">
+                                    <input class="movie_name jsOnDesignBtn" type="image" src="12008305/image_sp/ui/episode/epi_button_moviename_cute_petit2_kr_voice.png" width="77" style="width:77px;position:relative;top:-15px;margin:0 10px 0 0;">
+                                </form>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="comment_frame">
-                        <div>시키쨩류 오디션을 즐기는 법! 같이 오디션받는 아이돌 여자애를 킁카킁카한다~♪</div>
+                    <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_bottom.jpg) center top no-repeat;background-size:326px; width:304px; height:19px; margin:0 auto 10px;">
                     </div>
-                    <div class="comment_frame">
-                        <div>후아, 레슨 질렸어~ 졸려졸려… 일어나면 다시 할게~ 아니면 눈이 번쩍 뜨일 만한 냄새를!</div>
+
+                    <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_top.jpg) center top no-repeat;background-size:326px;width:304px;height:44px; line-height:47px; margin:0 auto;">
+                        Vo 레슨 에피소드<br>
                     </div>
+                    <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_line.jpg) center top repeat-y;background-size:326px;width:304px;text-align:center;margin:0 auto; padding:10px 0 0;">
+                        <ul class="displayBox t-Cnt">
+                            <li style="width:50%;">
+                                <form method="get" action="https://crow88.github.io/lab/12008305/petit_cg/petit_show_episode/1043/2/" style="height:90px;">
+                                    <input type="image" src="12008305/image_sp/ui/episode/epi_button_movie_043_3.jpg" height="75" style="height:75px;margin:0 0 0 10px;">
+                                    <input class="movie_name jsOnDesignBtn" type="image" src="12008305/image_sp/ui/episode/epi_button_moviename_cute_petit1_kr_voice.png" width="77" style="width:77px;position:relative;top:-15px;margin:0 0 0 10px;">
+                                </form>
+                            </li>
+                            <li style="width:50%;">
+                                <form method="get" action="https://crow88.github.io/lab/12008305/petit_cg/petit_show_episode/1043/6/" style="height:90px;">
+                                    <input type="image" src="12008305/image_sp/ui/episode/epi_button_movie_043_3.jpg" height="75" style="height:75px;margin:0 10px 0 0;">
+                                    <input class="movie_name jsOnDesignBtn" type="image" src="12008305/image_sp/ui/episode/epi_button_moviename_cute_petit2_kr_voice.png" width="77" style="width:77px;position:relative;top:-15px;margin:0 10px 0 0;">
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_bottom.jpg) center top no-repeat;background-size:326px; width:304px; height:19px; margin:0 auto 10px;">
+                    </div>
+
+                    <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_top.jpg) center top no-repeat;background-size:326px;width:304px;height:44px; line-height:47px; margin:0 auto;">
+                        Da 레슨 에피소드<br>
+                    </div>
+                    <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_line.jpg) center top repeat-y;background-size:326px;width:304px;text-align:center;margin:0 auto; padding:10px 0 0;">
+                        <ul class="displayBox t-Cnt">
+                            <li style="width:50%;">
+                                <form method="get" action="https://crow88.github.io/lab/12008305/petit_cg/petit_show_episode/1043/3/" style="height:90px;">
+                                    <input type="image" src="12008305/image_sp/ui/episode/epi_button_movie_043_3.jpg" height="75" style="height:75px;margin:0 0 0 10px;">
+                                    <input class="movie_name jsOnDesignBtn" type="image" src="12008305/image_sp/ui/episode/epi_button_moviename_cute_petit1_kr_voice.png" width="77" style="width:77px;position:relative;top:-15px;margin:0 0 0 10px;">
+                                </form>
+                            </li>
+                            <li style="width:50%;">
+                                <form method="get" action="https://crow88.github.io/lab/12008305/petit_cg/petit_show_episode/1043/7/" style="height:90px;">
+                                    <input type="image" src="12008305/image_sp/ui/episode/epi_button_movie_043_3.jpg" height="75" style="height:75px;margin:0 10px 0 0;">
+                                    <input class="movie_name jsOnDesignBtn" type="image" src="12008305/image_sp/ui/episode/epi_button_moviename_cute_petit2_kr_voice.png" width="77" style="width:77px;position:relative;top:-15px;margin:0 10px 0 0;">
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_bottom.jpg) center top no-repeat;background-size:326px; width:304px; height:19px; margin:0 auto 10px;">
+                    </div>
+
+                    <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_top.jpg) center top no-repeat;background-size:326px;width:304px;height:44px; line-height:47px; margin:0 auto;">
+                        스텝업 레슨 에피소드<br>
+                    </div>
+                    <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_line.jpg) center top repeat-y;background-size:326px;width:304px;text-align:center;margin:0 auto; padding:10px 0 0;">
+                        <ul class="displayBox t-Cnt">
+                            <li style="width:50%;">
+                                <form method="get" action="https://crow88.github.io/lab/12008305/petit_cg/petit_show_episode/1043/4/" style="height:90px;">
+                                    <input type="image" src="12008305/image_sp/ui/episode/epi_button_movie_043_3.jpg" height="75" style="height:75px;margin:0 0 0 10px;">
+                                    <input class="movie_name jsOnDesignBtn" type="image" src="12008305/image_sp/ui/episode/epi_button_moviename_cute_petit1_kr_voice.png" width="77" style="width:77px;position:relative;top:-15px;margin:0 0 0 10px;">
+                                </form>
+                            </li>
+                            <li style="width:50%;">
+                                <form method="get" action="https://crow88.github.io/lab/12008305/petit_cg/petit_show_episode/1043/8/" style="height:90px;">
+                                    <input type="image" src="12008305/image_sp/ui/episode/epi_button_movie_043_3.jpg" height="75" style="height:75px;margin:0 10px 0 0;">
+                                    <input class="movie_name jsOnDesignBtn" type="image" src="12008305/image_sp/ui/episode/epi_button_moviename_cute_petit2_kr_voice.png" width="77" style="width:77px;position:relative;top:-15px;margin:0 10px 0 0;">
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="background:url(12008305/image_sp/ui/episode/epi_frame_prof_bottom.jpg) center top no-repeat;background-size:326px; width:304px; height:19px; margin:0 auto 10px;">
+                    </div>
+
                 </div>
 
-                <div class="comment_title_cute">Lv.21~30한정</div>
+                <div id="area_tab_3" class="t-Cnt" style="display:none">
 
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>있지, 지금 한가해~? 나랑 놀자! 입히거나 벗기거나! 변태놀이! 냐하하~!</div>
+                    <h3 class="title_hanyo m-Top8 m-Btm8">
+                        <div style="font-size:14px;">
+                            TEST
+                        </div>
+                    </h3>
+
+
+
+
+
+                    <!--푸치대사 테스트-->
+                    <div class="selectArea type_02 m-Btm8">
+                        <div class="selectArea_accordion">
+                            <div class="selectArea_accordion_title">
+                                <div>푸치TOP</div>
+                            </div>
+                            <div class="selectArea_accordion_body t-Lft" style="display: none;">
+                                <div class="selectArea_accordion_body_inner">
+
+                                    <div class="comment_title_cute">Lv.1~10한정</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>음~오디션은 할 맘 없어~ 심사원의 말 재미없는걸~ 실종해버릴래. 바~이</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>글자밖에 없는 책은~ 대본은~ 재미있으면 바로 기억할 수 있는데 말이지~ 지~지지지~</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>빤~히… 바라보고 있으면 너는 어떤 반응을 할까 관찰중. 흠흠 그렇군. 후후후~♪</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>생각하고 말하는 것은 잘 못해~ 생각하면 언제까지나 생각해버리고, 말없이 계속 생각해버려~</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>나는 욕망에 충실해서, 다른 일은 흥미 없~어요. 그치만그치만, 어쩌면~?</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">Lv.11~20한정</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>아우, 잡혔다! 아니~ 좋은 냄새가 나는 애를 찾아서 이리저리~하고… 좋은 냄새가 나는 애, 좋아하잖아?</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>언제나 나 전용의 차고에서… 어이쿠 이 다음은 안돼~♪ 시키쨩의 프라이버시는 비밀~♪</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>시키쨩류 오디션을 즐기는 법! 같이 오디션받는 아이돌 여자애를 킁카킁카한다~♪</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>후아, 레슨 질렸어~ 졸려졸려… 일어나면 다시 할게~ 아니면 눈이 번쩍 뜨일 만한 냄새를!</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">Lv.21~30한정</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>있지, 지금 한가해~? 나랑 놀자! 입히거나 벗기거나! 변태놀이! 냐하하~!</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>학교는 다녀! 안갈 때도 있지만! 도서관에 틀어박히거나 보건실에서 놀거나!</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>시키쨩 오리지널 향수, 새 배합 생각했어! 이걸로 좀 더 트립할 수 있게 될거라구라구~</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>얼레, 피곤해? 나의 특제영양드링크 마실래~? 무엇이 들어있을 지는… 비밀~ 훗훙~♪</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>오디션 합격했어? 뭐, 시키쨩이 진심으로 해버리면 붙어버리는거지~ 왜냐면, 눈을 뗄 수 없게 되어버리잖아?</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>오늘은 말이지, 실종하고나니 좋은 느낌의 틈새가 가 있길래 숨어있었어! 그리고 일어나보니 이런 시간!</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>흥미가 있는 일에는 열중해버린다니까~ 눈치채고 보면 2일정도 지나가버렸다던가 하는 일, 가~끔 있어!</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>바다 건너에서 있었던 이야기 듣고싶어? 음… 아, 피자가 커다랬어~!</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>뭐든지 삐릿삐릿한 녀석이 좋아! 양념은 엄청 달거나 매운거, 스피드는 쾌속, 자극적인 인생~♪</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>아이돌이 되는 것은 목적인걸까~? 수단인걸까~? 있지, 어느쪽이라고 생각해~?</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>시키쨩 배합의 최음제를 줄게~ 합법적인 성분만 썼으니까 아마 괜찮아!</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>나는 학교에서도 백의입고다녀~ 잘 때도 입고있고~ 입은 채로 욕조에서 세탁하고~</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>요즘 혼자서 실종하는 것도 지루해~ 너랑 나 같이 실종해버리자! 가자구~!</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">각 Lv 공통</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>흥미가 없는 일은 안해~ 하지만 흥미가 있는 일은 초-열중하게 된다구~ 그런 성격~♪</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>나는 냄새페치야. 냄새는 모두가 다르다구~ 에크린선과 아포크린선이라는게 있어서~</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>바다 건너에서 월반했지만, 대부분 배워보니 지루하다고 생각해버려서~♪</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>하아~ 시키쨩은 피곤한 것이다~ 피곤해졌을 때는 이거지~ 음~ 킁카킁카~♪</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>있지있지, 오늘 밤은 피자 먹자~! 타바스코 잔뜩 뿌려서~ 찡~하기도 하고, 신맛도 적절해서 맛있어~♪</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>냄새를 섞으면 말이지~ 즐거워~♪ 새로운 발견이 있어! 그치만 위험하니까 차고에서 하고있어~</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>네~엡! 시키쨩은 여자아이의 냄새가 정말 좋아요~옷! 냐하핫!</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">각 Lv 공통(Lv.11~30)</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>아이돌은 합법적으로 킁카킁카 할 수 있어서 즐거울지도~♪ 이건 나만의 특권이네♪</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>대본은 한번 읽으면 외워버릴 수 있어. 그래도 읽지 않는 경우가 많지만… 냐하하! 미안미안~</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>타바스코의 냄새를 킁카킁카하면 자극적~♪ 와사비랑 겨자랑은 다를까나~ 할라페뇨보단 하바네로?</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>즐거운 일을 발견하고싶어~ 흥미 빵빵 나지 않으면 나 움직이지 못하게 되어버려~ 자자, 움직이게 해줘봐~♪</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="selectArea_accordion">
+                            <div class="selectArea_accordion_title">
+                                <div>푸치레슨</div>
+                            </div>
+                            <div class="selectArea_accordion_body t-Lft">
+
+                                <div class="selectArea_accordion_body_inner">
+                                    <div class="comment_title_cute">Lv.1~10한정</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>자자, 빨리 하지 않으면 시키쨩은 실종해버릴거야-. 흥미는 3분밖에 지속되지 않아-</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">Lv.11~20한정</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>이번엔 어떤걸 경험하게 해 줄 거야-? 너와 있으면 흥미가 지속되는구나-♪</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">Lv.21~30한정</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>대기 시간은 괴롭지만, 너를 관찰하고 있으면 질리질 않으니까 괜찮아-♪ 빤-히… 흠흠…?</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="selectArea_accordion">
+                            <div class="selectArea_accordion_title">
+                                <div>테크니컬레슨 Vo</div>
+                            </div>
+                            <div class="selectArea_accordion_body t-Lft">
+
+                                <div class="selectArea_accordion_body_inner">
+                                    <div class="comment_title_cute">Lv.1~10한정</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>난 노래해 본 적도 없고, 어떻게 될 지 모른다구? 그래도- 그렇기에 더 신경쓰일지도- </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">Lv.11~20한정</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>킁카킁카… 으응-, 뭔가 내가 좋아하는 냄새를 맡으면 목이 뻥 뚫리는 느낌-. 플라시보인거 같지만!</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">Lv.21~30한정</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>모두 내 노래를 듣고 트립하는거야? 디지털송메디슨, 시키에요~!</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>큰 소리로 노래하면 기분좋아~ 트립하고있을 때만큼이나 기분좋다구~♪</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">각 Lv 공통</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>이 내가 보컬 레슨이라니! 냐하하! 그거 재밌네! 좋아, 해볼까-♪</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="selectArea_accordion">
+                            <div class="selectArea_accordion_title">
+                                <div>테크니컬레슨 Da</div>
+                            </div>
+                            <div class="selectArea_accordion_body t-Lft">
+
+                                <div class="selectArea_accordion_body_inner">
+                                    <div class="comment_title_cute">Lv.1~10한정</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>나는 춤추지 않아! 에, 네가 춤추게 만들고있다구? 냐하하, 진짜다~♪</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">Lv.11~20한정</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>나 제법 열심히 하고있지? 상 좀 줘♪ 버켓아이스를 희망합니다~!</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">Lv.21~30한정</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>시키쨩 대발견~! 리듬을 타며 댄스를 추면 점점 트립하게 되어버리네~♪</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>너의 뜻에 따라 춤추는 것도 재밌을 지도~! 댄스레슨뿐만이 아니라~ 아이돌 자체도~♪</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">각 Lv 공통</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>실종으로 단련한 하반신으로 댄스도 춤춰볼게~ 어떻게 될지 안될~지, 해볼게~</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="selectArea_accordion">
+                            <div class="selectArea_accordion_title">
+                                <div>테크니컬레슨 Vi</div>
+                            </div>
+                            <div class="selectArea_accordion_body t-Lft">
+
+                                <div class="selectArea_accordion_body_inner">
+                                    <div class="comment_title_cute">Lv.1~10한정</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>나 언제나 백의만 입고있었으니까, 비쥬얼이라던가 잘 모르겠어~!</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">Lv.11~20한정</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>내가 여러가지 표정을 지으면, 너는 흥분해? 수상해~ 냄새로 알 수 있는데 말이지~?</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">Lv.21~30한정</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>좋아하는 냄새를 마음껏 킁카킁카했을 때는 최고의 미소가 나와! 그래서 뇌내마약에 팔로우 츄~</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>너와 함께 있으면 여러가지 비주얼레슨이 잘되네~ 혼자보다 둘인 것이 화학변화가 일어나기 쉬운 걸지도 모르겠어~</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">각 Lv 공통</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>웃는 얼굴은 특기라고나 할까~! 웃고있으면 일단 즐거우니까! 냐하하♪</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="selectArea_accordion">
+                            <div class="selectArea_accordion_title">
+                                <div>베이스레슨</div>
+                            </div>
+                            <div class="selectArea_accordion_body t-Lft">
+
+                                <div class="selectArea_accordion_body_inner">
+                                    <div class="comment_title_cute">Lv.1~10한정</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>하아… 귀찮아-. 모처럼 달리고 있으니, 이대로 실종해버릴까- ♪</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">Lv.11~20한정</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>너도 같이 달리자! 분명 좋은 느낌의 냄새로 변할 거라고 생각해-. 자, 빠-알-리-♪</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>킁카킁카… 뭔가 좋은 냄새가 나! 저기로 가 보자- 대-쉬!!</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">Lv.21~30한정</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>아무리 달려도 지치지 않는 스페셜한 약을, 합… 할 수 있다면 좋을텐데-, 그런건 없지-</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>아아…… 산소 결핍이 일어나서 헤븐이 보이기 시작했어-…… 이제 골에 도착해서 엔드리스 트립으로~ </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">각 Lv 공통</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>나 의외로 달리는 건 특기야-. 자주 실종하고 있으니까 말야-. 랄까나-♪</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>달리고 땀흘리면 말야, 내 자신의 냄새도 좋은 느낌으로 변해서 트립할 수 있을거 같아-. 그래도 이제 무리-</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="selectArea_accordion">
+                            <div class="selectArea_accordion_title">
+                                <div>테크니컬보드</div>
+                            </div>
+                            <div class="selectArea_accordion_body t-Lft">
+
+                                <div class="selectArea_accordion_body_inner">
+                                    <div class="comment_title_cute">테크니컬보드</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>샥 하고 해버리면 재미없을지도~ 후냣하고 해버릴까~♪</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>흥미가 있는 것은 계속 몰두해버리는 성격이니까~ 슉슉 앞으로 가버릴게~♪</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>트립하고 있으면 어느샌가 톱 아이돌… 같은 건 안되지~! 별 수 없네~ 진짜~!</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">개방코멘트</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>네가 노래를 들어주면, 조금 더 보컬레슨 해볼게~! 그런 기분이야~!</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>목 관리는 중요하지~! 네가 따뜻하게 목을 쓰담쓰담해주면 상태가 좋아질지도-?</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>하아, 뭔가 혼자서 춤추는 것도 질렸어~ 아, 마침 잘됐네! 너도 춤추자~! 자자~♪</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>이젠 무리. 시키쨩 지쳤어~ 전원 꺼집니다~ 푸슈…</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>천변만화의 시키쨩을 보여줄게~! 레어한 시키쨩의 표정 찾아봐~♪</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>일단 웃고있으면 그 와중에 즐겁게 되어버리지~! 즐거운 건 정~말 좋아하니까~♪</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="selectArea_accordion">
+                            <div class="selectArea_accordion_title">
+                                <div>기타</div>
+                            </div>
+                            <div class="selectArea_accordion_body t-Lft">
+
+                                <div class="selectArea_accordion_body_inner">
+                                    <div class="comment_title_cute">푸치샵</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>내 흥미를 끄는 물건은 있을까나~? 너와 함께 찾아보는 것도 괜찮을지도! 지도!</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment_title_cute">코디네이트</div>
+
+                                    <div class="comment_frame_wrapper_cute m-Btm8">
+                                        <div class="comment_frame">
+                                            <div>나는 러프한 모습으로 괜찮지만~ 그것만으론 재미없나~ 그럼 마음대로 선택해도 좋아~</div>
+                                        </div>
+                                        <div class="comment_frame">
+                                            <div>백의 이외의 시키쨩이 보고싶어? 할 수 없네~ 다른 옷 시키쨩이야~</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="comment_frame">
-                        <div>학교는 다녀! 안갈 때도 있지만! 도서관에 틀어박히거나 보건실에서 놀거나!</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>시키쨩 오리지널 향수, 새 배합 생각했어! 이걸로 좀 더 트립할 수 있게 될거라구라구~</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>얼레, 피곤해? 나의 특제영양드링크 마실래~? 무엇이 들어있을 지는… 비밀~ 훗훙~♪</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>오디션 합격했어? 뭐, 시키쨩이 진심으로 해버리면 붙어버리는거지~ 왜냐면, 눈을 뗄 수 없게 되어버리잖아?</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>오늘은 말이지, 실종하고나니 좋은 느낌의 틈새가 가 있길래 숨어있었어! 그리고 일어나보니 이런 시간!</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>흥미가 있는 일에는 열중해버린다니까~ 눈치채고 보면 2일정도 지나가버렸다던가 하는 일, 가~끔 있어!</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>바다 건너에서 있었던 이야기 듣고싶어? 음… 아, 피자가 커다랬어~!</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>뭐든지 삐릿삐릿한 녀석이 좋아! 양념은 엄청 달거나 매운거, 스피드는 쾌속, 자극적인 인생~♪</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>아이돌이 되는 것은 목적인걸까~? 수단인걸까~? 있지, 어느쪽이라고 생각해~?</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>시키쨩 배합의 최음제를 줄게~ 합법적인 성분만 썼으니까 아마 괜찮아!</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>나는 학교에서도 백의입고다녀~ 잘 때도 입고있고~ 입은 채로 욕조에서 세탁하고~</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>요즘 혼자서 실종하는 것도 지루해~ 너랑 나 같이 실종해버리자! 가자구~!</div>
-                    </div>
+
+
+                    <!--푸치대사 테스트-->
+
+
                 </div>
 
-                <div class="comment_title_cute">각 Lv 공통</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>흥미가 없는 일은 안해~ 하지만 흥미가 있는 일은 초-열중하게 된다구~ 그런 성격~♪</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>나는 냄새페치야. 냄새는 모두가 다르다구~ 에크린선과 아포크린선이라는게 있어서~</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>바다 건너에서 월반했지만, 대부분 배워보니 지루하다고 생각해버려서~♪</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>하아~ 시키쨩은 피곤한 것이다~ 피곤해졌을 때는 이거지~ 음~ 킁카킁카~♪</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>있지있지, 오늘 밤은 피자 먹자~! 타바스코 잔뜩 뿌려서~ 찡~하기도 하고, 신맛도 적절해서 맛있어~♪</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>냄새를 섞으면 말이지~ 즐거워~♪ 새로운 발견이 있어! 그치만 위험하니까 차고에서 하고있어~</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>네~엡! 시키쨩은 여자아이의 냄새가 정말 좋아요~옷! 냐하핫!</div>
-                    </div>
-                </div>
-
-                <div class="comment_title_cute">각 Lv 공통(Lv.11~30)</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>아이돌은 합법적으로 킁카킁카 할 수 있어서 즐거울지도~♪ 이건 나만의 특권이네♪</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>대본은 한번 읽으면 외워버릴 수 있어. 그래도 읽지 않는 경우가 많지만… 냐하하! 미안미안~</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>타바스코의 냄새를 킁카킁카하면 자극적~♪ 와사비랑 겨자랑은 다를까나~ 할라페뇨보단 하바네로?</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>즐거운 일을 발견하고싶어~ 흥미 빵빵 나지 않으면 나 움직이지 못하게 되어버려~ 자자, 움직이게 해줘봐~♪</div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="selectArea_accordion">
-        <div class="selectArea_accordion_title">
-            <div>푸치레슨</div>
-        </div>
-        <div class="selectArea_accordion_body t-Lft">
-
-            <div class="selectArea_accordion_body_inner">
-                <div class="comment_title_cute">Lv.1~10한정</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>자자, 빨리 하지 않으면 시키쨩은 실종해버릴거야-. 흥미는 3분밖에 지속되지 않아-</div>
-                    </div>
-                </div>
-
-                <div class="comment_title_cute">Lv.11~20한정</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>이번엔 어떤걸 경험하게 해 줄 거야-? 너와 있으면 흥미가 지속되는구나-♪</div>
-                    </div>
-                </div>
-
-                <div class="comment_title_cute">Lv.21~30한정</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>대기 시간은 괴롭지만, 너를 관찰하고 있으면 질리질 않으니까 괜찮아-♪ 빤-히… 흠흠…?</div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-    <div class="selectArea_accordion">
-        <div class="selectArea_accordion_title">
-            <div>테크니컬레슨 Vo</div>
-        </div>
-        <div class="selectArea_accordion_body t-Lft">
-
-            <div class="selectArea_accordion_body_inner">
-                <div class="comment_title_cute">Lv.1~10한정</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>난 노래해 본 적도 없고, 어떻게 될 지 모른다구? 그래도- 그렇기에 더 신경쓰일지도- </div>
-                    </div>
-                </div>
-
-                <div class="comment_title_cute">Lv.11~20한정</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>킁카킁카… 으응-, 뭔가 내가 좋아하는 냄새를 맡으면 목이 뻥 뚫리는 느낌-. 플라시보인거 같지만!</div>
-                    </div>
-                </div>
-
-                <div class="comment_title_cute">Lv.21~30한정</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>모두 내 노래를 듣고 트립하는거야? 디지털송메디슨, 시키에요~!</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>큰 소리로 노래하면 기분좋아~ 트립하고있을 때만큼이나 기분좋다구~♪</div>
-                    </div>
-                </div>
-
-                <div class="comment_title_cute">각 Lv 공통</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>이 내가 보컬 레슨이라니! 냐하하! 그거 재밌네! 좋아, 해볼까-♪</div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-    <div class="selectArea_accordion">
-        <div class="selectArea_accordion_title">
-            <div>테크니컬레슨 Da</div>
-        </div>
-        <div class="selectArea_accordion_body t-Lft">
-
-            <div class="selectArea_accordion_body_inner">
-                <div class="comment_title_cute">Lv.1~10한정</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>나는 춤추지 않아! 에, 네가 춤추게 만들고있다구? 냐하하, 진짜다~♪</div>
-                    </div>
-                </div>
-
-                <div class="comment_title_cute">Lv.11~20한정</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>나 제법 열심히 하고있지? 상 좀 줘♪ 버켓아이스를 희망합니다~!</div>
-                    </div>
-                </div>
-
-                <div class="comment_title_cute">Lv.21~30한정</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>시키쨩 대발견~! 리듬을 타며 댄스를 추면 점점 트립하게 되어버리네~♪</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>너의 뜻에 따라 춤추는 것도 재밌을 지도~! 댄스레슨뿐만이 아니라~ 아이돌 자체도~♪</div>
-                    </div>
-                </div>
-
-                <div class="comment_title_cute">각 Lv 공통</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>실종으로 단련한 하반신으로 댄스도 춤춰볼게~ 어떻게 될지 안될~지, 해볼게~</div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-    <div class="selectArea_accordion">
-        <div class="selectArea_accordion_title">
-            <div>테크니컬레슨 Vi</div>
-        </div>
-        <div class="selectArea_accordion_body t-Lft">
-
-            <div class="selectArea_accordion_body_inner">
-                <div class="comment_title_cute">Lv.1~10한정</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>나 언제나 백의만 입고있었으니까, 비쥬얼이라던가 잘 모르겠어~!</div>
-                    </div>
-                </div>
-
-                <div class="comment_title_cute">Lv.11~20한정</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>내가 여러가지 표정을 지으면, 너는 흥분해? 수상해~ 냄새로 알 수 있는데 말이지~?</div>
-                    </div>
-                </div>
-
-                <div class="comment_title_cute">Lv.21~30한정</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>좋아하는 냄새를 마음껏 킁카킁카했을 때는 최고의 미소가 나와! 그래서 뇌내마약에 팔로우 츄~</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>너와 함께 있으면 여러가지 비주얼레슨이 잘되네~ 혼자보다 둘인 것이 화학변화가 일어나기 쉬운 걸지도 모르겠어~</div>
-                    </div>
-                </div>
-
-                <div class="comment_title_cute">각 Lv 공통</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>웃는 얼굴은 특기라고나 할까~! 웃고있으면 일단 즐거우니까! 냐하하♪</div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-    <div class="selectArea_accordion">
-        <div class="selectArea_accordion_title">
-            <div>베이스레슨</div>
-        </div>
-        <div class="selectArea_accordion_body t-Lft">
-
-            <div class="selectArea_accordion_body_inner">
-                <div class="comment_title_cute">Lv.1~10한정</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>하아… 귀찮아-. 모처럼 달리고 있으니, 이대로 실종해버릴까- ♪</div>
-                    </div>
-                </div>
-
-                <div class="comment_title_cute">Lv.11~20한정</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>너도 같이 달리자! 분명 좋은 느낌의 냄새로 변할 거라고 생각해-. 자, 빠-알-리-♪</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>킁카킁카… 뭔가 좋은 냄새가 나! 저기로 가 보자- 대-쉬!!</div>
-                    </div>
-                </div>
-
-                <div class="comment_title_cute">Lv.21~30한정</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>아무리 달려도 지치지 않는 스페셜한 약을, 합… 할 수 있다면 좋을텐데-, 그런건 없지-</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>아아…… 산소 결핍이 일어나서 헤븐이 보이기 시작했어-…… 이제 골에 도착해서 엔드리스 트립으로~ </div>
-                    </div>
-                </div>
-
-                <div class="comment_title_cute">각 Lv 공통</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>나 의외로 달리는 건 특기야-. 자주 실종하고 있으니까 말야-. 랄까나-♪</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>달리고 땀흘리면 말야, 내 자신의 냄새도 좋은 느낌으로 변해서 트립할 수 있을거 같아-. 그래도 이제 무리-</div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-    <div class="selectArea_accordion">
-        <div class="selectArea_accordion_title">
-            <div>테크니컬보드</div>
-        </div>
-        <div class="selectArea_accordion_body t-Lft">
-
-            <div class="selectArea_accordion_body_inner">
-                <div class="comment_title_cute">테크니컬보드</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>샥 하고 해버리면 재미없을지도~ 후냣하고 해버릴까~♪</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>흥미가 있는 것은 계속 몰두해버리는 성격이니까~ 슉슉 앞으로 가버릴게~♪</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>트립하고 있으면 어느샌가 톱 아이돌… 같은 건 안되지~! 별 수 없네~ 진짜~!</div>
-                    </div>
-                </div>
-
-                <div class="comment_title_cute">개방코멘트</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>네가 노래를 들어주면, 조금 더 보컬레슨 해볼게~! 그런 기분이야~!</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>목 관리는 중요하지~! 네가 따뜻하게 목을 쓰담쓰담해주면 상태가 좋아질지도-?</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>하아, 뭔가 혼자서 춤추는 것도 질렸어~ 아, 마침 잘됐네! 너도 춤추자~! 자자~♪</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>이젠 무리. 시키쨩 지쳤어~ 전원 꺼집니다~ 푸슈…</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>천변만화의 시키쨩을 보여줄게~! 레어한 시키쨩의 표정 찾아봐~♪</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>일단 웃고있으면 그 와중에 즐겁게 되어버리지~! 즐거운 건 정~말 좋아하니까~♪</div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="selectArea_accordion">
-        <div class="selectArea_accordion_title">
-            <div>기타</div>
-        </div>
-        <div class="selectArea_accordion_body t-Lft">
-
-            <div class="selectArea_accordion_body_inner">
-                <div class="comment_title_cute">푸치샵</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>내 흥미를 끄는 물건은 있을까나~? 너와 함께 찾아보는 것도 괜찮을지도! 지도!</div>
-                    </div>
-                </div>
-
-                <div class="comment_title_cute">코디네이트</div>
-
-                <div class="comment_frame_wrapper_cute m-Btm8">
-                    <div class="comment_frame">
-                        <div>나는 러프한 모습으로 괜찮지만~ 그것만으론 재미없나~ 그럼 마음대로 선택해도 좋아~</div>
-                    </div>
-                    <div class="comment_frame">
-                        <div>백의 이외의 시키쨩이 보고싶어? 할 수 없네~ 다른 옷 시키쨩이야~</div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-</div>
-               
-                 
-                  <!--푸치대사 테스트-->
-                  
-                  
-              </div>
-
-          </section>
-          <!--test-->
+            </section>
+            <!--test-->
         </div>
         <div class="area_tab_4">
             <div id="parameter-content" class="jsOnBtn-wrap">
@@ -923,17 +918,19 @@
                 float: left;
                 padding-left: 28px;
             }
+
             .ep_on {
                 background: url('12008305/image_sp/ui/rich/icon/icon_checkbox_on.png') no-repeat 35px 5px;
                 background-size: 21px;
             }
+
             .ep_off {
                 background: url('12008305/image_sp/ui/rich/icon/icon_checkbox_off.png') no-repeat 35px 5px;
                 background-size: 21px;
             }
             -->
         </style>
-        
+
         <!--탭 테스트-->
         <script type="text/javascript">
             $(function() {
@@ -960,7 +957,7 @@
             });
         </script>
         <!--탭 테스트-->
-        
+
         <script type="text/template" id="tab-4-template">
             <div id="contents_tab" class="tab_common-large m-Top4 m-Btm8" style="font-size:11px">
 <a name="tab_1" href="#" class="tab_line_4 tab_text selected" style="font-size:11px;">프로필</a>
@@ -1312,44 +1309,53 @@ kg
                 -webkit-animation-timing-function: ease-out;
                 -webkit-animation-fill-mode: forwards;
             }
+
             .rotate_disappear {
                 -webkit-animation-name: anime1;
                 -webkit-animation-duration: 200ms;
                 -webkit-animation-timing-function: ease-out;
                 -webkit-animation-fill-mode: forwards;
             }
+
             @-webkit-keyframes anime1 {
                 from {
                     -webkit-transform: scale(1, 1);
                     transform: scale(1, 1);
                 }
+
                 50% {
                     -webkit-transform: scale(0.5, 1);
                     transform: scale(0.5, 1);
                 }
+
                 to {
                     -webkit-transform: scale(0, 1);
                     transform: scale(0, 1);
                 }
             }
+
             @-webkit-keyframes anime1b {
                 from {
                     -webkit-transform: scale(0, 1);
                     transform: scale(0, 1);
                 }
+
                 50% {
                     -webkit-transform: scale(0.5, 1);
                     transform: scale(0.5, 1);
                 }
+
                 to {
                     -webkit-transform: scale(1, 1);
                     transform: scale(1, 1);
                 }
             }
+
             .card_rotate {
                 -webkit-user-select: none;
                 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
             }
+
             .card_img {
                 position: absolute;
             }
@@ -1359,16 +1365,20 @@ kg
                 width: 320px;
                 height: 400px;
             }
+
             .cardSize_l .card_img {
                 position: absolute;
             }
+
             .mask01 {
                 -webkit-mask-size: 304px 380px;
             }
+
             .mask02 {
                 -webkit-mask-size: 304px 380px;
                 -webkit-transition: background-position 0.1s linear;
             }
+
             .cardFrame01 {
                 width: 304px;
                 height: 380px;
@@ -1377,6 +1387,7 @@ kg
                 top: 0;
                 background-size: 304px 380px;
             }
+
             .cardFrame02 {
                 width: 304px;
                 height: 380px;
@@ -3775,15 +3786,19 @@ kg
                     "story_id": "351",
                     "story_title": "꽃잎 흩날리는 토폴로지",
                     "voice_enable": ["1", "1"],
-                    "flash_path": ["https://crow88.github.io/lab/12008305/idol_story/movie_play/351/1/", 
-                                   "https://crow88.github.io/lab/12008305/idol_story/movie_play/351/2/"],
-                    "voice_url": ["https://crow88.github.io/lab/12008305/idol_story/sound_play/351/1/", 
-                                  "https://crow88.github.io/lab/12008305/idol_story/sound_play/351/2/"],
+                    "flash_path": ["https://crow88.github.io/lab/12008305/idol_story/movie_play/351/1/",
+                        "https://crow88.github.io/lab/12008305/idol_story/movie_play/351/2/"
+                    ],
+                    "voice_url": ["https://crow88.github.io/lab/12008305/idol_story/sound_play/351/1/",
+                        "https://crow88.github.io/lab/12008305/idol_story/sound_play/351/2/"
+                    ],
                     "open_flag": ["1", "1"],
-                    "icon": ["12008305/image_sp/ui/episode/base/026.jpg", 
-                             "12008305/image_sp/ui/episode/epi_button_movie_351_2.jpg"],
-                    "movie_name_voice": ["12008305/image_sp/ui/episode/epi_button_moviename_cute_early_kr.png", 
-                                         "12008305/image_sp/ui/episode/epi_button_moviename_cute_late_kr.png"]
+                    "icon": ["12008305/image_sp/ui/episode/base/026.jpg",
+                        "12008305/image_sp/ui/episode/epi_button_movie_351_2.jpg"
+                    ],
+                    "movie_name_voice": ["12008305/image_sp/ui/episode/epi_button_moviename_cute_early_kr.png",
+                        "12008305/image_sp/ui/episode/epi_button_moviename_cute_late_kr.png"
+                    ]
                 }, {
                     "story_id": "317",
                     "story_title": "마음이 따끈따끈♪ 단풍이 물드는 온천",
@@ -3842,19 +3857,23 @@ kg
                     "story_id": "204",
                     "story_title": "둘이서 아이돌 챌린지 노려라 쿨한 뮤직비디오 레이지·레이지",
                     "voice_enable": ["0", "0", "0"],
-                    "flash_path": ["https://crow88.github.io/lab/12008305/idol_story/movie_play/204/1/", 
-                                   "https://crow88.github.io/lab/12008305/idol_story/movie_play/204/2/", 
-                                   "https://crow88.github.io/lab/12008305/idol_story/movie_play/204/3/"],
-                    "voice_url": ["https://crow88.github.io/lab/12008305/idol_story/sound_play/204/1/", 
-                                  "https://crow88.github.io/lab/12008305/idol_story/sound_play/204/2/", 
-                                  "https://crow88.github.io/lab/12008305/idol_story/sound_play/204/3/"],
+                    "flash_path": ["https://crow88.github.io/lab/12008305/idol_story/movie_play/204/1/",
+                        "https://crow88.github.io/lab/12008305/idol_story/movie_play/204/2/",
+                        "https://crow88.github.io/lab/12008305/idol_story/movie_play/204/3/"
+                    ],
+                    "voice_url": ["https://crow88.github.io/lab/12008305/idol_story/sound_play/204/1/",
+                        "https://crow88.github.io/lab/12008305/idol_story/sound_play/204/2/",
+                        "https://crow88.github.io/lab/12008305/idol_story/sound_play/204/3/"
+                    ],
                     "open_flag": ["1", "1", "1"],
-                    "icon": ["12008305/image_sp/ui/episode/epi_button_movie_204_1.jpg", 
-                             "12008305/image_sp/ui/episode/epi_button_movie_204_2.jpg", 
-                             "12008305/image_sp/ui/episode/epi_button_movie_204_3.jpg"],
-                    "movie_name": ["12008305/image_sp/ui/episode/epi_button_moviename_cute_early_kr.png", 
-                                   "12008305/image_sp/ui/episode/epi_button_moviename_cute_novelette_kr.png", 
-                                   "12008305/image_sp/ui/episode/epi_button_moviename_cute_late_kr.png"]
+                    "icon": ["12008305/image_sp/ui/episode/epi_button_movie_204_1.jpg",
+                        "12008305/image_sp/ui/episode/epi_button_movie_204_2.jpg",
+                        "12008305/image_sp/ui/episode/epi_button_movie_204_3.jpg"
+                    ],
+                    "movie_name": ["12008305/image_sp/ui/episode/epi_button_moviename_cute_early_kr.png",
+                        "12008305/image_sp/ui/episode/epi_button_moviename_cute_novelette_kr.png",
+                        "12008305/image_sp/ui/episode/epi_button_moviename_cute_late_kr.png"
+                    ]
                 }, {
                     "story_id": "189",
                     "story_title": "신춘☆개운초복",
@@ -3973,36 +3992,37 @@ kg
                             "pa": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fgallery%2Fbg_sr_passion.jpg%3Fv%3D20170222083842"
                         }
                     },
-                    "l": ["12008305/image_sp/card/l/dad249d2193e48fede1efb6b86ce152f.jpg", 
-                          "12008305/image_sp/card/l/b9e2f6db7e3b84a0319b31c875323c03.jpg", 
-                          "12008305/image_sp/card/l/749918764164a20ffd9548b6e3329cb7.jpg", 
-                          "12008305/image_sp/card/l/06e634647cb9db3a1ae3cd4f0f8c1fdc.jpg", 
-                          "12008305/image_sp/card/l/87b9ce294ee324ef107117cd775e3e41.jpg", 
-                          "12008305/image_sp/card/l/8bd62d14e7ae5a19612cb4f63e7bc910.jpg", 
-                          "12008305/image_sp/card/l/46b8c7e64644fefca3f9c7836f2c8f40.jpg", 
-                          "12008305/image_sp/card/l/ae2a65d68ad26995c036e4a212c15f18.jpg", 
-                          "12008305/image_sp/card/l/df09853dd69726803c595f8a99e084fb.jpg", 
-                          "12008305/image_sp/card/l/27fa9a5d9820c3587dfed43d52d01d93.jpg", 
-                          "12008305/image_sp/card_sign_b/l/3055dffe2520e6a28427482ae61582e9.jpg", 
-                          "12008305/image_sp/card_sign_b/l/5f3a262bdcb15fd59261d1d67eed56e3.jpg", 
-                          "12008305/image_sp/card_sign_b/l/403297028737ce2c944bfc812dba6c94.jpg", 
-                          "12008305/image_sp/card_sign_b/l/be20e1ce2d5b116f0b9fecbecf298a48.jpg", 
-                          "12008305/image_sp/card_sign_b/l/af0f233de4c2dfbac1e5a8bf1768dcf6.jpg", 
-                          "12008305/image_sp/card_sign_b/l/c827cb0a7ab82a4395250ab254d6fbcf.jpg", 
-                          "12008305/image_sp/card_sign_b/l/fdf5b5e967d72bb2b7acf1b43953dbd2.jpg", 
-                          "12008305/image_sp/card_sign_b/l/aa3d9312403ed3e40e7f92b771676ea9.jpg", 
-                          "12008305/image_sp/card_sign_b/l/f4add4b54fc6ff462caf154441e049cf.jpg", 
-                          "12008305/image_sp/card_sign_b/l/abe06fbcf68900a285b0f2244403214e.jpg", 
-                          "12008305/image_sp/card_sign_b/l/44b0359478c5fbc5a8dcb0d7d91a3776.jpg", 
-                          "12008305/image_sp/card_sign_b/l/bb156a253fc247462a87b20eee8770f5.jpg", 
-                          "12008305/image_sp/card_sign_b/l/0c124be126082f0e4dce8d404eb538dd.jpg", 
-                          "12008305/image_sp/card_sign_b/l/3f7c71119ba2d2a52eea91026bf64741.jpg", 
-                          "12008305/image_sp/card_sign_b/l/dee9c4ef7a73af8209eb2f5e4024e0f2.jpg", 
-                          "12008305/image_sp/card_sign_b/l/2002e5edd75e141a883e9d93c4c5de5f.jpg", 
-                          "12008305/image_sp/card_sign_b/l/1622bfbb2378494857c6fca81bac6d63.jpg", 
-                          "12008305/image_sp/card_sign_b/l/924ba34f567420135c3dce1cec0bee40.jpg", 
-                          "12008305/image_sp/card_sign_b/l/b693bd0e54ba93faec0ea887d456197f.jpg", 
-                          "12008305/image_sp/card_sign_b/l/f1def983dbaa47b2c3017643a48ca207.jpg"],
+                    "l": ["12008305/image_sp/card/l/dad249d2193e48fede1efb6b86ce152f.jpg",
+                        "12008305/image_sp/card/l/b9e2f6db7e3b84a0319b31c875323c03.jpg",
+                        "12008305/image_sp/card/l/749918764164a20ffd9548b6e3329cb7.jpg",
+                        "12008305/image_sp/card/l/06e634647cb9db3a1ae3cd4f0f8c1fdc.jpg",
+                        "12008305/image_sp/card/l/87b9ce294ee324ef107117cd775e3e41.jpg",
+                        "12008305/image_sp/card/l/8bd62d14e7ae5a19612cb4f63e7bc910.jpg",
+                        "12008305/image_sp/card/l/46b8c7e64644fefca3f9c7836f2c8f40.jpg",
+                        "12008305/image_sp/card/l/ae2a65d68ad26995c036e4a212c15f18.jpg",
+                        "12008305/image_sp/card/l/df09853dd69726803c595f8a99e084fb.jpg",
+                        "12008305/image_sp/card/l/27fa9a5d9820c3587dfed43d52d01d93.jpg",
+                        "12008305/image_sp/card_sign_b/l/3055dffe2520e6a28427482ae61582e9.jpg",
+                        "12008305/image_sp/card_sign_b/l/5f3a262bdcb15fd59261d1d67eed56e3.jpg",
+                        "12008305/image_sp/card_sign_b/l/403297028737ce2c944bfc812dba6c94.jpg",
+                        "12008305/image_sp/card_sign_b/l/be20e1ce2d5b116f0b9fecbecf298a48.jpg",
+                        "12008305/image_sp/card_sign_b/l/af0f233de4c2dfbac1e5a8bf1768dcf6.jpg",
+                        "12008305/image_sp/card_sign_b/l/c827cb0a7ab82a4395250ab254d6fbcf.jpg",
+                        "12008305/image_sp/card_sign_b/l/fdf5b5e967d72bb2b7acf1b43953dbd2.jpg",
+                        "12008305/image_sp/card_sign_b/l/aa3d9312403ed3e40e7f92b771676ea9.jpg",
+                        "12008305/image_sp/card_sign_b/l/f4add4b54fc6ff462caf154441e049cf.jpg",
+                        "12008305/image_sp/card_sign_b/l/abe06fbcf68900a285b0f2244403214e.jpg",
+                        "12008305/image_sp/card_sign_b/l/44b0359478c5fbc5a8dcb0d7d91a3776.jpg",
+                        "12008305/image_sp/card_sign_b/l/bb156a253fc247462a87b20eee8770f5.jpg",
+                        "12008305/image_sp/card_sign_b/l/0c124be126082f0e4dce8d404eb538dd.jpg",
+                        "12008305/image_sp/card_sign_b/l/3f7c71119ba2d2a52eea91026bf64741.jpg",
+                        "12008305/image_sp/card_sign_b/l/dee9c4ef7a73af8209eb2f5e4024e0f2.jpg",
+                        "12008305/image_sp/card_sign_b/l/2002e5edd75e141a883e9d93c4c5de5f.jpg",
+                        "12008305/image_sp/card_sign_b/l/1622bfbb2378494857c6fca81bac6d63.jpg",
+                        "12008305/image_sp/card_sign_b/l/924ba34f567420135c3dce1cec0bee40.jpg",
+                        "12008305/image_sp/card_sign_b/l/b693bd0e54ba93faec0ea887d456197f.jpg",
+                        "12008305/image_sp/card_sign_b/l/f1def983dbaa47b2c3017643a48ca207.jpg"
+                    ],
                     "l_premium": {
                         "10": "12008305/image_sp/card_sign_p/l/3055dffe2520e6a28427482ae61582e9.jpg",
                         "11": "12008305/image_sp/card_sign_p/l/5f3a262bdcb15fd59261d1d67eed56e3.jpg",
@@ -4025,36 +4045,37 @@ kg
                         "28": "12008305/image_sp/card_sign_p/l/b693bd0e54ba93faec0ea887d456197f.jpg",
                         "29": "12008305/image_sp/card_sign_p/l/f1def983dbaa47b2c3017643a48ca207.jpg"
                     },
-                    "l_nosign": ["", 
-                                 "", 
-                                 "", 
-                                 "", 
-                                 "", 
-                                 "", 
-                                 "", 
-                                 "", 
-                                 "", 
-                                 "", 
-                                 "12008305/image_sp/card/l/3055dffe2520e6a28427482ae61582e9.jpg", 
-                                 "12008305/image_sp/card/l/5f3a262bdcb15fd59261d1d67eed56e3.jpg", 
-                                 "12008305/image_sp/card/l/403297028737ce2c944bfc812dba6c94.jpg", 
-                                 "12008305/image_sp/card/l/be20e1ce2d5b116f0b9fecbecf298a48.jpg", 
-                                 "12008305/image_sp/card/l/af0f233de4c2dfbac1e5a8bf1768dcf6.jpg", 
-                                 "12008305/image_sp/card/l/c827cb0a7ab82a4395250ab254d6fbcf.jpg", 
-                                 "12008305/image_sp/card/l/fdf5b5e967d72bb2b7acf1b43953dbd2.jpg", 
-                                 "12008305/image_sp/card/l/aa3d9312403ed3e40e7f92b771676ea9.jpg", 
-                                 "12008305/image_sp/card/l/f4add4b54fc6ff462caf154441e049cf.jpg", 
-                                 "12008305/image_sp/card/l/abe06fbcf68900a285b0f2244403214e.jpg", 
-                                 "12008305/image_sp/card/l/44b0359478c5fbc5a8dcb0d7d91a3776.jpg", 
-                                 "12008305/image_sp/card/l/bb156a253fc247462a87b20eee8770f5.jpg", 
-                                 "12008305/image_sp/card/l/0c124be126082f0e4dce8d404eb538dd.jpg", 
-                                 "12008305/image_sp/card/l/3f7c71119ba2d2a52eea91026bf64741.jpg", 
-                                 "12008305/image_sp/card/l/dee9c4ef7a73af8209eb2f5e4024e0f2.jpg", 
-                                 "12008305/image_sp/card/l/2002e5edd75e141a883e9d93c4c5de5f.jpg", 
-                                 "12008305/image_sp/card/l/1622bfbb2378494857c6fca81bac6d63.jpg", 
-                                 "12008305/image_sp/card/l/924ba34f567420135c3dce1cec0bee40.jpg", 
-                                 "12008305/image_sp/card/l/b693bd0e54ba93faec0ea887d456197f.jpg", 
-                                 "12008305/image_sp/card/l/f1def983dbaa47b2c3017643a48ca207.jpg"],
+                    "l_nosign": ["",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "12008305/image_sp/card/l/3055dffe2520e6a28427482ae61582e9.jpg",
+                        "12008305/image_sp/card/l/5f3a262bdcb15fd59261d1d67eed56e3.jpg",
+                        "12008305/image_sp/card/l/403297028737ce2c944bfc812dba6c94.jpg",
+                        "12008305/image_sp/card/l/be20e1ce2d5b116f0b9fecbecf298a48.jpg",
+                        "12008305/image_sp/card/l/af0f233de4c2dfbac1e5a8bf1768dcf6.jpg",
+                        "12008305/image_sp/card/l/c827cb0a7ab82a4395250ab254d6fbcf.jpg",
+                        "12008305/image_sp/card/l/fdf5b5e967d72bb2b7acf1b43953dbd2.jpg",
+                        "12008305/image_sp/card/l/aa3d9312403ed3e40e7f92b771676ea9.jpg",
+                        "12008305/image_sp/card/l/f4add4b54fc6ff462caf154441e049cf.jpg",
+                        "12008305/image_sp/card/l/abe06fbcf68900a285b0f2244403214e.jpg",
+                        "12008305/image_sp/card/l/44b0359478c5fbc5a8dcb0d7d91a3776.jpg",
+                        "12008305/image_sp/card/l/bb156a253fc247462a87b20eee8770f5.jpg",
+                        "12008305/image_sp/card/l/0c124be126082f0e4dce8d404eb538dd.jpg",
+                        "12008305/image_sp/card/l/3f7c71119ba2d2a52eea91026bf64741.jpg",
+                        "12008305/image_sp/card/l/dee9c4ef7a73af8209eb2f5e4024e0f2.jpg",
+                        "12008305/image_sp/card/l/2002e5edd75e141a883e9d93c4c5de5f.jpg",
+                        "12008305/image_sp/card/l/1622bfbb2378494857c6fca81bac6d63.jpg",
+                        "12008305/image_sp/card/l/924ba34f567420135c3dce1cec0bee40.jpg",
+                        "12008305/image_sp/card/l/b693bd0e54ba93faec0ea887d456197f.jpg",
+                        "12008305/image_sp/card/l/f1def983dbaa47b2c3017643a48ca207.jpg"
+                    ],
                     "l_nosign_p": {
                         "10": "12008305/image_sp/card_sign_no_p/l/3055dffe2520e6a28427482ae61582e9.jpg",
                         "11": "12008305/image_sp/card_sign_no_p/l/5f3a262bdcb15fd59261d1d67eed56e3.jpg",
@@ -4077,132 +4098,134 @@ kg
                         "28": "12008305/image_sp/card_sign_no_p/l/b693bd0e54ba93faec0ea887d456197f.jpg",
                         "29": "12008305/image_sp/card_sign_no_p/l/f1def983dbaa47b2c3017643a48ca207.jpg"
                     },
-                    "l_noframe": [null, 
-                                  null, 
-                                  null, 
-                                  null, 
-                                  null, 
-                                  null, 
-                                  null, 
-                                  null, 
-                                  null, 
-                                  null, 
-                                  "12008305/image_sp/card/l_noframe/3055dffe2520e6a28427482ae61582e9.jpg", 
-                                  "12008305/image_sp/card/l_noframe/5f3a262bdcb15fd59261d1d67eed56e3.jpg", 
-                                  "12008305/image_sp/card/l_noframe/403297028737ce2c944bfc812dba6c94.jpg", 
-                                  "12008305/image_sp/card/l_noframe/be20e1ce2d5b116f0b9fecbecf298a48.jpg", 
-                                  "12008305/image_sp/card/l_noframe/af0f233de4c2dfbac1e5a8bf1768dcf6.jpg", 
-                                  "12008305/image_sp/card/l_noframe/c827cb0a7ab82a4395250ab254d6fbcf.jpg", 
-                                  "12008305/image_sp/card/l_noframe/fdf5b5e967d72bb2b7acf1b43953dbd2.jpg", 
-                                  "12008305/image_sp/card/l_noframe/aa3d9312403ed3e40e7f92b771676ea9.jpg", 
-                                  "12008305/image_sp/card/l_noframe/f4add4b54fc6ff462caf154441e049cf.jpg", 
-                                  "12008305/image_sp/card/l_noframe/abe06fbcf68900a285b0f2244403214e.jpg", 
-                                  "12008305/image_sp/card/l_noframe/44b0359478c5fbc5a8dcb0d7d91a3776.jpg", 
-                                  "12008305/image_sp/card/l_noframe/bb156a253fc247462a87b20eee8770f5.jpg", 
-                                  "12008305/image_sp/card/l_noframe/0c124be126082f0e4dce8d404eb538dd.jpg", 
-                                  "12008305/image_sp/card/l_noframe/3f7c71119ba2d2a52eea91026bf64741.jpg", 
-                                  "12008305/image_sp/card/l_noframe/dee9c4ef7a73af8209eb2f5e4024e0f2.jpg", 
-                                  "12008305/image_sp/card/l_noframe/2002e5edd75e141a883e9d93c4c5de5f.jpg", 
-                                  "12008305/image_sp/card/l_noframe/1622bfbb2378494857c6fca81bac6d63.jpg", 
-                                  "12008305/image_sp/card/l_noframe/924ba34f567420135c3dce1cec0bee40.jpg", 
-                                  "12008305/image_sp/card/l_noframe/b693bd0e54ba93faec0ea887d456197f.jpg", 
-                                  "12008305/image_sp/card/l_noframe/f1def983dbaa47b2c3017643a48ca207.jpg"],
+                    "l_noframe": [null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        "12008305/image_sp/card/l_noframe/3055dffe2520e6a28427482ae61582e9.jpg",
+                        "12008305/image_sp/card/l_noframe/5f3a262bdcb15fd59261d1d67eed56e3.jpg",
+                        "12008305/image_sp/card/l_noframe/403297028737ce2c944bfc812dba6c94.jpg",
+                        "12008305/image_sp/card/l_noframe/be20e1ce2d5b116f0b9fecbecf298a48.jpg",
+                        "12008305/image_sp/card/l_noframe/af0f233de4c2dfbac1e5a8bf1768dcf6.jpg",
+                        "12008305/image_sp/card/l_noframe/c827cb0a7ab82a4395250ab254d6fbcf.jpg",
+                        "12008305/image_sp/card/l_noframe/fdf5b5e967d72bb2b7acf1b43953dbd2.jpg",
+                        "12008305/image_sp/card/l_noframe/aa3d9312403ed3e40e7f92b771676ea9.jpg",
+                        "12008305/image_sp/card/l_noframe/f4add4b54fc6ff462caf154441e049cf.jpg",
+                        "12008305/image_sp/card/l_noframe/abe06fbcf68900a285b0f2244403214e.jpg",
+                        "12008305/image_sp/card/l_noframe/44b0359478c5fbc5a8dcb0d7d91a3776.jpg",
+                        "12008305/image_sp/card/l_noframe/bb156a253fc247462a87b20eee8770f5.jpg",
+                        "12008305/image_sp/card/l_noframe/0c124be126082f0e4dce8d404eb538dd.jpg",
+                        "12008305/image_sp/card/l_noframe/3f7c71119ba2d2a52eea91026bf64741.jpg",
+                        "12008305/image_sp/card/l_noframe/dee9c4ef7a73af8209eb2f5e4024e0f2.jpg",
+                        "12008305/image_sp/card/l_noframe/2002e5edd75e141a883e9d93c4c5de5f.jpg",
+                        "12008305/image_sp/card/l_noframe/1622bfbb2378494857c6fca81bac6d63.jpg",
+                        "12008305/image_sp/card/l_noframe/924ba34f567420135c3dce1cec0bee40.jpg",
+                        "12008305/image_sp/card/l_noframe/b693bd0e54ba93faec0ea887d456197f.jpg",
+                        "12008305/image_sp/card/l_noframe/f1def983dbaa47b2c3017643a48ca207.jpg"
+                    ],
                     "mask_l": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
                     "mask_l2": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
                     "mask_l_p": [],
                     "mask_l2_p": [],
-                    "xs": ["12008305/image_sp/card/xs/dad249d2193e48fede1efb6b86ce152f.jpg", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fb9e2f6db7e3b84a0319b31c875323c03.jpg%3Fv%3D20170222083223", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F749918764164a20ffd9548b6e3329cb7.jpg%3Fv%3D20170222083224", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F06e634647cb9db3a1ae3cd4f0f8c1fdc.jpg%3Fv%3D20170222083225", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F87b9ce294ee324ef107117cd775e3e41.jpg%3Fv%3D20170222083224", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F8bd62d14e7ae5a19612cb4f63e7bc910.jpg%3Fv%3D20170222083225", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F46b8c7e64644fefca3f9c7836f2c8f40.jpg%3Fv%3D20170222083224", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fae2a65d68ad26995c036e4a212c15f18.jpg%3Fv%3D20170222083225", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fdf09853dd69726803c595f8a99e084fb.jpg%3Fv%3D20190524185624", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F27fa9a5d9820c3587dfed43d52d01d93.jpg%3Fv%3D20190524185624", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F3055dffe2520e6a28427482ae61582e9.jpg%3Fv%3D20170222083226", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F5f3a262bdcb15fd59261d1d67eed56e3.jpg%3Fv%3D20170222083228", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F403297028737ce2c944bfc812dba6c94.jpg%3Fv%3D20170222083226", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fbe20e1ce2d5b116f0b9fecbecf298a48.jpg%3Fv%3D20170222083228", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Faf0f233de4c2dfbac1e5a8bf1768dcf6.jpg%3Fv%3D20170222083226", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fc827cb0a7ab82a4395250ab254d6fbcf.jpg%3Fv%3D20170222083228", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Ffdf5b5e967d72bb2b7acf1b43953dbd2.jpg%3Fv%3D20170222083227", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Faa3d9312403ed3e40e7f92b771676ea9.jpg%3Fv%3D20170222083228", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Ff4add4b54fc6ff462caf154441e049cf.jpg%3Fv%3D20170222083227", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fabe06fbcf68900a285b0f2244403214e.jpg%3Fv%3D20170222083228", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F44b0359478c5fbc5a8dcb0d7d91a3776.jpg%3Fv%3D20170222083227", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fbb156a253fc247462a87b20eee8770f5.jpg%3Fv%3D20170222083228", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F0c124be126082f0e4dce8d404eb538dd.jpg%3Fv%3D20190524145641", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F3f7c71119ba2d2a52eea91026bf64741.jpg%3Fv%3D20190524145641", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fdee9c4ef7a73af8209eb2f5e4024e0f2.jpg%3Fv%3D20190524145641", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F2002e5edd75e141a883e9d93c4c5de5f.jpg%3Fv%3D20190524145641", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F1622bfbb2378494857c6fca81bac6d63.jpg%3Fv%3D20190524145641", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F924ba34f567420135c3dce1cec0bee40.jpg%3Fv%3D20190524145641", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fb693bd0e54ba93faec0ea887d456197f.jpg%3Fv%3D20190524145641", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Ff1def983dbaa47b2c3017643a48ca207.jpg%3Fv%3D20190524145641"
-                          ],
-                    "m2": ["http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fdad249d2193e48fede1efb6b86ce152f.jpg%3Fv%3D20170222082926", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fb9e2f6db7e3b84a0319b31c875323c03.jpg%3Fv%3D20170222082926", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F749918764164a20ffd9548b6e3329cb7.jpg%3Fv%3D20190524145601", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F06e634647cb9db3a1ae3cd4f0f8c1fdc.jpg%3Fv%3D20190524145602", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F87b9ce294ee324ef107117cd775e3e41.jpg%3Fv%3D20190524145601", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F8bd62d14e7ae5a19612cb4f63e7bc910.jpg%3Fv%3D20190524145602", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F46b8c7e64644fefca3f9c7836f2c8f40.jpg%3Fv%3D20190524145601", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fae2a65d68ad26995c036e4a212c15f18.jpg%3Fv%3D20190524145602", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fdf09853dd69726803c595f8a99e084fb.jpg%3Fv%3D20190524185624", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F27fa9a5d9820c3587dfed43d52d01d93.jpg%3Fv%3D20190524185624", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F3055dffe2520e6a28427482ae61582e9.jpg%3Fv%3D20170222082929", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F5f3a262bdcb15fd59261d1d67eed56e3.jpg%3Fv%3D20170222082931", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F403297028737ce2c944bfc812dba6c94.jpg%3Fv%3D20170222082929", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fbe20e1ce2d5b116f0b9fecbecf298a48.jpg%3Fv%3D20170222082931", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Faf0f233de4c2dfbac1e5a8bf1768dcf6.jpg%3Fv%3D20190524145602", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fc827cb0a7ab82a4395250ab254d6fbcf.jpg%3Fv%3D20190524145602", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Ffdf5b5e967d72bb2b7acf1b43953dbd2.jpg%3Fv%3D20170222082930", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Faa3d9312403ed3e40e7f92b771676ea9.jpg%3Fv%3D20170222082931", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Ff4add4b54fc6ff462caf154441e049cf.jpg%3Fv%3D20170222082930", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fabe06fbcf68900a285b0f2244403214e.jpg%3Fv%3D20170222082931", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F44b0359478c5fbc5a8dcb0d7d91a3776.jpg%3Fv%3D20170222082930", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fbb156a253fc247462a87b20eee8770f5.jpg%3Fv%3D20170222082932", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F0c124be126082f0e4dce8d404eb538dd.jpg%3Fv%3D20190524145602", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F3f7c71119ba2d2a52eea91026bf64741.jpg%3Fv%3D20190524145602", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fdee9c4ef7a73af8209eb2f5e4024e0f2.jpg%3Fv%3D20190524145602", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F2002e5edd75e141a883e9d93c4c5de5f.jpg%3Fv%3D20190524145602", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F1622bfbb2378494857c6fca81bac6d63.jpg%3Fv%3D20190524145602", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F924ba34f567420135c3dce1cec0bee40.jpg%3Fv%3D20190524145602", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fb693bd0e54ba93faec0ea887d456197f.jpg%3Fv%3D20190524145602", 
-                           "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Ff1def983dbaa47b2c3017643a48ca207.jpg%3Fv%3D20190524145602"
-                          ],
-                    "quest": ["http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fdad249d2193e48fede1efb6b86ce152f.png%3Fv%3D20190524145609", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fb9e2f6db7e3b84a0319b31c875323c03.png%3Fv%3D20170222083010", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F749918764164a20ffd9548b6e3329cb7.png%3Fv%3D20170222083010", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F06e634647cb9db3a1ae3cd4f0f8c1fdc.png%3Fv%3D20170222083012", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F87b9ce294ee324ef107117cd775e3e41.png%3Fv%3D20170222083011", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F8bd62d14e7ae5a19612cb4f63e7bc910.png%3Fv%3D20170222083012", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F46b8c7e64644fefca3f9c7836f2c8f40.png%3Fv%3D20170222083011", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fae2a65d68ad26995c036e4a212c15f18.png%3Fv%3D20170222083012", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fdf09853dd69726803c595f8a99e084fb.png%3Fv%3D20190524185624", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F27fa9a5d9820c3587dfed43d52d01d93.png%3Fv%3D20190524185624", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F3055dffe2520e6a28427482ae61582e9.jpg%3Fv%3D20170222083013", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F5f3a262bdcb15fd59261d1d67eed56e3.jpg%3Fv%3D20170222083014", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F403297028737ce2c944bfc812dba6c94.jpg%3Fv%3D20170222083013", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fbe20e1ce2d5b116f0b9fecbecf298a48.jpg%3Fv%3D20170222083014", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Faf0f233de4c2dfbac1e5a8bf1768dcf6.jpg%3Fv%3D20170222083013", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fc827cb0a7ab82a4395250ab254d6fbcf.jpg%3Fv%3D20170222083014", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Ffdf5b5e967d72bb2b7acf1b43953dbd2.jpg%3Fv%3D20170222083013", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Faa3d9312403ed3e40e7f92b771676ea9.jpg%3Fv%3D20170222083014", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Ff4add4b54fc6ff462caf154441e049cf.jpg%3Fv%3D20170222083013", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fabe06fbcf68900a285b0f2244403214e.jpg%3Fv%3D20170222083014", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F44b0359478c5fbc5a8dcb0d7d91a3776.jpg%3Fv%3D20170222083013", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fbb156a253fc247462a87b20eee8770f5.jpg%3Fv%3D20170222083015", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F0c124be126082f0e4dce8d404eb538dd.jpg%3Fv%3D20190524145610", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F3f7c71119ba2d2a52eea91026bf64741.jpg%3Fv%3D20190524145610", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fdee9c4ef7a73af8209eb2f5e4024e0f2.jpg%3Fv%3D20190524145610", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F2002e5edd75e141a883e9d93c4c5de5f.jpg%3Fv%3D20190524145610", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F1622bfbb2378494857c6fca81bac6d63.jpg%3Fv%3D20190524145610", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F924ba34f567420135c3dce1cec0bee40.jpg%3Fv%3D20190524145610", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fb693bd0e54ba93faec0ea887d456197f.jpg%3Fv%3D20190524145610", 
-                              "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Ff1def983dbaa47b2c3017643a48ca207.jpg%3Fv%3D20190524145610"]
+                    "xs": ["12008305/image_sp/card/xs/dad249d2193e48fede1efb6b86ce152f.jpg",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fb9e2f6db7e3b84a0319b31c875323c03.jpg%3Fv%3D20170222083223",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F749918764164a20ffd9548b6e3329cb7.jpg%3Fv%3D20170222083224",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F06e634647cb9db3a1ae3cd4f0f8c1fdc.jpg%3Fv%3D20170222083225",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F87b9ce294ee324ef107117cd775e3e41.jpg%3Fv%3D20170222083224",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F8bd62d14e7ae5a19612cb4f63e7bc910.jpg%3Fv%3D20170222083225",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F46b8c7e64644fefca3f9c7836f2c8f40.jpg%3Fv%3D20170222083224",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fae2a65d68ad26995c036e4a212c15f18.jpg%3Fv%3D20170222083225",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fdf09853dd69726803c595f8a99e084fb.jpg%3Fv%3D20190524185624",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F27fa9a5d9820c3587dfed43d52d01d93.jpg%3Fv%3D20190524185624",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F3055dffe2520e6a28427482ae61582e9.jpg%3Fv%3D20170222083226",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F5f3a262bdcb15fd59261d1d67eed56e3.jpg%3Fv%3D20170222083228",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F403297028737ce2c944bfc812dba6c94.jpg%3Fv%3D20170222083226",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fbe20e1ce2d5b116f0b9fecbecf298a48.jpg%3Fv%3D20170222083228",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Faf0f233de4c2dfbac1e5a8bf1768dcf6.jpg%3Fv%3D20170222083226",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fc827cb0a7ab82a4395250ab254d6fbcf.jpg%3Fv%3D20170222083228",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Ffdf5b5e967d72bb2b7acf1b43953dbd2.jpg%3Fv%3D20170222083227",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Faa3d9312403ed3e40e7f92b771676ea9.jpg%3Fv%3D20170222083228",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Ff4add4b54fc6ff462caf154441e049cf.jpg%3Fv%3D20170222083227",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fabe06fbcf68900a285b0f2244403214e.jpg%3Fv%3D20170222083228",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F44b0359478c5fbc5a8dcb0d7d91a3776.jpg%3Fv%3D20170222083227",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fbb156a253fc247462a87b20eee8770f5.jpg%3Fv%3D20170222083228",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F0c124be126082f0e4dce8d404eb538dd.jpg%3Fv%3D20190524145641",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F3f7c71119ba2d2a52eea91026bf64741.jpg%3Fv%3D20190524145641",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fdee9c4ef7a73af8209eb2f5e4024e0f2.jpg%3Fv%3D20190524145641",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F2002e5edd75e141a883e9d93c4c5de5f.jpg%3Fv%3D20190524145641",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F1622bfbb2378494857c6fca81bac6d63.jpg%3Fv%3D20190524145641",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2F924ba34f567420135c3dce1cec0bee40.jpg%3Fv%3D20190524145641",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Fb693bd0e54ba93faec0ea887d456197f.jpg%3Fv%3D20190524145641",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fxs%2Ff1def983dbaa47b2c3017643a48ca207.jpg%3Fv%3D20190524145641"
+                    ],
+                    "m2": ["http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fdad249d2193e48fede1efb6b86ce152f.jpg%3Fv%3D20170222082926",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fb9e2f6db7e3b84a0319b31c875323c03.jpg%3Fv%3D20170222082926",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F749918764164a20ffd9548b6e3329cb7.jpg%3Fv%3D20190524145601",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F06e634647cb9db3a1ae3cd4f0f8c1fdc.jpg%3Fv%3D20190524145602",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F87b9ce294ee324ef107117cd775e3e41.jpg%3Fv%3D20190524145601",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F8bd62d14e7ae5a19612cb4f63e7bc910.jpg%3Fv%3D20190524145602",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F46b8c7e64644fefca3f9c7836f2c8f40.jpg%3Fv%3D20190524145601",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fae2a65d68ad26995c036e4a212c15f18.jpg%3Fv%3D20190524145602",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fdf09853dd69726803c595f8a99e084fb.jpg%3Fv%3D20190524185624",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F27fa9a5d9820c3587dfed43d52d01d93.jpg%3Fv%3D20190524185624",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F3055dffe2520e6a28427482ae61582e9.jpg%3Fv%3D20170222082929",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F5f3a262bdcb15fd59261d1d67eed56e3.jpg%3Fv%3D20170222082931",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F403297028737ce2c944bfc812dba6c94.jpg%3Fv%3D20170222082929",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fbe20e1ce2d5b116f0b9fecbecf298a48.jpg%3Fv%3D20170222082931",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Faf0f233de4c2dfbac1e5a8bf1768dcf6.jpg%3Fv%3D20190524145602",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fc827cb0a7ab82a4395250ab254d6fbcf.jpg%3Fv%3D20190524145602",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Ffdf5b5e967d72bb2b7acf1b43953dbd2.jpg%3Fv%3D20170222082930",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Faa3d9312403ed3e40e7f92b771676ea9.jpg%3Fv%3D20170222082931",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Ff4add4b54fc6ff462caf154441e049cf.jpg%3Fv%3D20170222082930",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fabe06fbcf68900a285b0f2244403214e.jpg%3Fv%3D20170222082931",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F44b0359478c5fbc5a8dcb0d7d91a3776.jpg%3Fv%3D20170222082930",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fbb156a253fc247462a87b20eee8770f5.jpg%3Fv%3D20170222082932",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F0c124be126082f0e4dce8d404eb538dd.jpg%3Fv%3D20190524145602",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F3f7c71119ba2d2a52eea91026bf64741.jpg%3Fv%3D20190524145602",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fdee9c4ef7a73af8209eb2f5e4024e0f2.jpg%3Fv%3D20190524145602",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F2002e5edd75e141a883e9d93c4c5de5f.jpg%3Fv%3D20190524145602",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F1622bfbb2378494857c6fca81bac6d63.jpg%3Fv%3D20190524145602",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2F924ba34f567420135c3dce1cec0bee40.jpg%3Fv%3D20190524145602",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Fb693bd0e54ba93faec0ea887d456197f.jpg%3Fv%3D20190524145602",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fm2%2Ff1def983dbaa47b2c3017643a48ca207.jpg%3Fv%3D20190524145602"
+                    ],
+                    "quest": ["http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fdad249d2193e48fede1efb6b86ce152f.png%3Fv%3D20190524145609",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fb9e2f6db7e3b84a0319b31c875323c03.png%3Fv%3D20170222083010",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F749918764164a20ffd9548b6e3329cb7.png%3Fv%3D20170222083010",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F06e634647cb9db3a1ae3cd4f0f8c1fdc.png%3Fv%3D20170222083012",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F87b9ce294ee324ef107117cd775e3e41.png%3Fv%3D20170222083011",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F8bd62d14e7ae5a19612cb4f63e7bc910.png%3Fv%3D20170222083012",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F46b8c7e64644fefca3f9c7836f2c8f40.png%3Fv%3D20170222083011",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fae2a65d68ad26995c036e4a212c15f18.png%3Fv%3D20170222083012",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fdf09853dd69726803c595f8a99e084fb.png%3Fv%3D20190524185624",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F27fa9a5d9820c3587dfed43d52d01d93.png%3Fv%3D20190524185624",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F3055dffe2520e6a28427482ae61582e9.jpg%3Fv%3D20170222083013",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F5f3a262bdcb15fd59261d1d67eed56e3.jpg%3Fv%3D20170222083014",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F403297028737ce2c944bfc812dba6c94.jpg%3Fv%3D20170222083013",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fbe20e1ce2d5b116f0b9fecbecf298a48.jpg%3Fv%3D20170222083014",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Faf0f233de4c2dfbac1e5a8bf1768dcf6.jpg%3Fv%3D20170222083013",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fc827cb0a7ab82a4395250ab254d6fbcf.jpg%3Fv%3D20170222083014",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Ffdf5b5e967d72bb2b7acf1b43953dbd2.jpg%3Fv%3D20170222083013",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Faa3d9312403ed3e40e7f92b771676ea9.jpg%3Fv%3D20170222083014",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Ff4add4b54fc6ff462caf154441e049cf.jpg%3Fv%3D20170222083013",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fabe06fbcf68900a285b0f2244403214e.jpg%3Fv%3D20170222083014",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F44b0359478c5fbc5a8dcb0d7d91a3776.jpg%3Fv%3D20170222083013",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fbb156a253fc247462a87b20eee8770f5.jpg%3Fv%3D20170222083015",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F0c124be126082f0e4dce8d404eb538dd.jpg%3Fv%3D20190524145610",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F3f7c71119ba2d2a52eea91026bf64741.jpg%3Fv%3D20190524145610",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fdee9c4ef7a73af8209eb2f5e4024e0f2.jpg%3Fv%3D20190524145610",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F2002e5edd75e141a883e9d93c4c5de5f.jpg%3Fv%3D20190524145610",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F1622bfbb2378494857c6fca81bac6d63.jpg%3Fv%3D20190524145610",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2F924ba34f567420135c3dce1cec0bee40.jpg%3Fv%3D20190524145610",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Fb693bd0e54ba93faec0ea887d456197f.jpg%3Fv%3D20190524145610",
+                        "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcard%2Fquest%2Ff1def983dbaa47b2c3017643a48ca207.jpg%3Fv%3D20190524145610"
+                    ]
                 };
                 idol.ios_app_flg = false;
                 idol.apple_review = null;
