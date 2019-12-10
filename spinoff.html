@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta name="format-detection" content="telephone=no">
+    <title>아이돌마스터 신데렐라 걸즈</title>
+    <link rel="stylesheet" type="text/css" href="12008305/css/rich/new_mypage_common_kr.css" media="all">
+    <link rel="apple-touch-icon-precomposed" href="12008305/image_sp/ui/icon_bookmark.png">
+    <script type="text/javascript">
+        if (window.localStorage) {
+            var displaySet = localStorage.getItem('DisplayPositionSet');
+            if (displaySet == 1) {
+                if (navigator.userAgent.indexOf('Android') > 0) {
+                    document.write('<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">');
+                    document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                } else {
+                    document.write('<meta name="viewport" content="width=320, user-scalable=no">');
+                }
+                window.addEventListener('resize', function() {
+                    if (navigator.userAgent.indexOf('Android') > 0) document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                });
+            } else {
+                document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+        }
+    </script>
+    <script src="12008305/js/jquery-2.2.2.min.js"></script>
+    <script>
+        (function() {
+            window.viewer_id = 135283365;
+            var _url = "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fgame_error%2Freport_js_error%3Fl_frm%3DSpinoff_index_1%26rnd%3D26742864";
+            var _path = location.href;
+            var _spec_obj;
+            var _spec = 'none';
+            var version = 1;
+            // access方法検出
+            _spec_obj = {
+                'isNative': false,
+                'isAndApp': false,
+                'isShellApp': false,
+                'isIosApp': false,
+                'isChromeApp': false
+            };
+            window._spec = _spec_obj;
+            if (_spec.isAndApp) {
+                _spec = 'andapp'
+            } else if (_spec.isIosApp) {
+                _spec = 'iosApp';
+            } else if (_spec.isShellApp) {
+                _spec = 'shellapp';
+            } else {
+                _spec = 'browser?';
+            }
+            var _ua = window.navigator.userAgent.toLowerCase();
+            window.onerror = function(msg, file, line, col, error) {
+                $.ajax({
+                    url: _url,
+                    type: 'post',
+                    data: {
+                        'ua': _ua,
+                        'viewer_id': window.viewer_id,
+                        'path': _path,
+                        'line': line,
+                        'column': col,
+                        'error': error,
+                        'spec': _spec,
+                        'spec_obj': _spec_obj,
+                        'version': version
+                    }
+                })
+            };
+        })();
+    </script>
+    <script src="12008305/js/underscore-min.js"></script>
+    <script src="12008305/js/require.js"></script>
+    <script src="12008305/js/require.js"></script>
+    <script>
+        requirejs.config({
+            paths: {
+                easeljs: "12008305/js/easeljs-0.8.2.min",
+                easeljs_0_7_1: "12008305/js/easeljs-0.7.1.min", //スプライトを読むためのバージョン
+                tweenjs: "12008305/js/tweenjs-0.6.2.min",
+                movieclipjs: "12008305/js/movieclip-0.7.1.min",
+                createjs: "12008305/js/createjs-2015.11.26.min",
+            }
+        })
+    </script>
+    <script src="12008305/js/common.js"></script>
+    <script src="12008305/js/common_new.js"></script>
+    <script>
+        $(function() {
+            window.$ibox = $('.ibox').ibox();
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
+                newrelic.setPageViewName('/idolmaster/index.php/campaigns/spinoff');
+            }
+        });
+    </script>
+    <script type='text/javascript'>
+        var se_flg = 0,
+            bgm_flg = 0,
+            chrome_app_flg = 0,
+            chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+    </script>
+    <script type='text/javascript' src='12008305/js/app_sound.js'></script>
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+</head>
+
+<body id="spinoff" class="index">
+    <div id="top" class="page_container jsOnBtn">
+        <nav class="area_menu_header">
+            <div class="area_menu_header_6btn">
+                <h1 id="JtextLimit">8주년 특별기획 Spin-off!</h1>
+                <ul>
+                    <li><a class="head_menu_01" href="">
+                            <div></div>
+                        </a></li>
+                    <li><a class="head_menu_02" href="">
+                            <div></div>
+                        </a></li>
+                    <li><a class="head_menu_03" href="">
+                            <div></div>
+                        </a></li>
+                    <li><a class="head_menu_04" href="">
+                            <div></div>
+                        </a></li>
+                    <li><a class="head_menu_05" href="">
+                            <div></div>
+                        </a></li>
+                    <li><a class="head_menu_06 se_000" href="#" id="headerAcd">
+                            <div></div>
+                        </a></li>
+                </ul>
+            </div>
+        </nav>
+        <input id="delay" type="hidden" value="0">
+        <style>
+            body {
+                background-image: url('12008305/image_sp/ui/mypage_new/bg/bg_status_mypage_01.png');
+                background-size: 7px 7px;
+                position: relative;
+            }
+
+            .page_layout {
+                width: 320px;
+                height: 513px;
+                background: url('12008305/image_sp/campaign/spinoff/design.png')no-repeat;
+                background-size: 320px;
+                top: -14px;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .theater-movie {
+                width: 320px;
+                height: 180px;
+                border-top: 1px solid #1d1d1d;
+                border-bottom: 1px solid #1d1d1d;
+                margin-top: 87px;
+            }
+
+            .theater-hls-thumbnail {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+            }
+
+            .theater-hls-thumbnail::after {
+                content: "";
+                display: block;
+                position: absolute;
+                width: 61px;
+                height: 61px;
+                top: -19px;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                background-image: url('12008305/image_sp/ui/common/movie/btn_play.png');
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+
+            .btn_episode_play {
+                position: absolute;
+                top: 423px;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+        </style>
+        <div class="page_layout">
+            <div class="theater-movie">
+                <div id="js_play_movie" class="theater-hls-thumbnail" style='background-image:url(12008305/image_sp/campaign/movie/spinoff/thumbnail.jpg)'></div>
+                    <!--비디오링크-->
+                    <video id="movie" controls width="100%" preload="none" poster='12008305/image_sp/campaign/movie/spinoff/thumbnail.jpg' style="display:none"></video>
+            </div>
+            <a href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fcampaigns%2Fspinoff%2Fplay_episode%3Fl_frm%3DSpinoff_index_1%26rnd%3D378175156" class="">
+            <img src="12008305/image_sp/campaign/spinoff/button.png" width="136" height="38" class="btn_episode_play jsOnDesignBtn"></a>
+        </div>
+        <section class="m-Btm12">
+            <div class="selectArea type_02 _information">
+                <div class="selectArea_accordion_headline">주의사항</div>
+                <div class="selectArea_accordion">
+                    <div class="selectArea_accordion_title">
+                        <div>8주년 특별기획 Spin-off!에 대해서</div>
+                    </div>
+                    <div class="selectArea_accordion_body t-Lft">
+                        <div class="selectArea_accordion_body_inner">
+                            <p>・동영상의 재생은, 본 페이지에 접속 후 1분간 유효합니다. 1분이 경과한 경우, 재생이 되지 않을 수 있으므로 양해 바랍니다.</p>
+                            <p>・엑세스 집중에 의해, 영상을 일시적으로 비공개로 하는 경우가 있습니다. 미리 양해 부탁드립니다.</p>
+                            <p>・통신 환경이나 용량 부족 등, 이용 단말의 상황에 의해 정상적으로 동영상이 재생되지 않는 경우가 있습니다.</p>
+                            <p>・OS가 Android 4.0 미만의 단말에서는 동영상이 정상적으로 재생되지 않습니다.</p>
+                            <p>・iPhone3G 및 iPhone3GS에서는 동영상이 정상적으로 재생되지 않습니다.</p>
+                            <p>・어플에서는 동영상이 정상적으로 재생되지 않는 경우가 있습니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><a href='https://crow88.github.io/lab/'>
+            <div class="backLink">돌아가기</div>
+        </a>
+        <script src="12008305/js/hls-0.7.4.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            var is_chrome_app = '';
+            var is_and_app = '';
+            $(window).load(function() {
+                $("#js_play_movie").on("click", function(e) {
+                    $(e.currentTarget).hide();
+                    $("#movie").show();
+                    var movie = document.getElementById('movie');
+                    movie.type = "video/mpeg";
+                    var is_pc = false;
+                    try {
+                        is_pc = (chrome in window) || window.chrome;
+                    } catch (e) {
+                        is_pc = false;
+                    }
+                    if (Hls.isSupported() && (is_pc || is_chrome_app || is_and_app)) {
+                        var hls = new Hls();
+                        hls.loadSource("https://bch308682.akamaized.net/i/imas/satellite_pv/spinoffanime1_,550000,850000,1300000,1600000,.mp4.csmil/master.m3u8?hdnts=exp=1575951110~acl=/i/imas/satellite_pv/spinoffanime1_*~hmac=34cf7aad4e5cb8c835dd3c246a207a63180b0723c373d55ee3c378116a765211");
+                        hls.attachMedia(movie);
+                        hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                            movie.play();
+                        });
+                    } else {
+                        $(movie).parent().addClass('underline');
+                        movie.src = "https://bch308682.akamaized.net/i/imas/satellite_pv/spinoffanime1_,550000,850000,1300000,1600000,.mp4.csmil/master.m3u8?hdnts=exp=1575951110~acl=/i/imas/satellite_pv/spinoffanime1_*~hmac=34cf7aad4e5cb8c835dd3c246a207a63180b0723c373d55ee3c378116a765211";
+                        setTimeout(function() {
+                            movie.play();
+                        }, 300);
+                    }
+                    $(movie).on('play', function() {
+                        bgm_pause();
+                    });
+                    $(movie).on('pause', function() {
+                        bgm_resume();
+                    });
+                });
+                Commonjs.setAccordion();
+            });
+        </script>
+        <footer>
+            <div class="line_idolmaster"></div><a href="#top" id="toPageTop" class="mypage_under">
+                <div></div>
+            </a>
+            <div class="t-Cnt">(C)窪岡俊之 (C)2011 BNEI</div>
+        </footer>
+    </div>
+    <script>
+        window._tarminal = {
+            'native_app_flg': false,
+            'android_app_flg': false,
+            'ios_app_flg': false,
+            'shell_app_flg': false
+        };
+    </script>
+    <script>
+        window._tarminal = {
+            'native_app_flg': false,
+            'android_app_flg': false,
+            'ios_app_flg': false,
+            'shell_app_flg': false
+        };
+    </script>
+    <div id="mbga-pf-footer">
+        <script type="text/javascript" charset="UTF-8">
+            (function() {
+                document.addEventListener('DOMContentLoaded', function() {
+                    var list = document.getElementsByClassName('mbga-pf-footer-li');
+                    var i = 0,
+                        l = list.length;
+                    for (; i < l; i++) {
+                        var elem = list[i];
+                        elem.addEventListener('touchstart', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/$/, ' mbga-pf-tapped');
+                        });
+                        elem.addEventListener('touchend', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/ mbga-pf-tapped/, '');
+                        });
+                        elem.addEventListener('touchmove', function(e) {});
+                    }
+                });
+            })();
+        </script>
+    </div>
+</body>
+
+</html>
