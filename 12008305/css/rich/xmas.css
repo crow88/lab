@@ -1,0 +1,778 @@
+.large {
+    font-size: 22px
+}
+
+.small {
+    font-size: 10px
+}
+
+.red {
+    color: #ff0000
+}
+
+.red_mild {
+    color: #ff3333
+}
+
+.green {
+    color: #33ff33
+}
+
+.yellow {
+    color: #ff9900
+}
+
+.lemon_yellow {
+    color: #fff800
+}
+
+.blue {
+    color: #00ccff
+}
+
+.blue_st {
+    color: #0066ff
+}
+
+.gray {
+    color: #aaaaaa
+}
+
+.pink {
+    color: #f08080
+}
+
+.dark_gray {
+    color: #666666
+}
+
+.white {
+    color: #ffffff;
+    text-decoration: none
+}
+
+.defMargin {
+    width: 296px;
+    padding: 0 12px
+}
+
+.m-Btm0 {
+    margin-bottom: 0px
+}
+
+.m-Btm4 {
+    margin-bottom: 4px
+}
+
+.m-Btm5 {
+    margin-bottom: 5px
+}
+
+.m-Btm8 {
+    margin-bottom: 8px
+}
+
+.m-Btm10 {
+    margin-bottom: 10px
+}
+
+.m-Btm12 {
+    margin-bottom: 12px
+}
+
+.m-Btm15 {
+    margin-bottom: 15px
+}
+
+.m-Btm20 {
+    margin-bottom: 20px
+}
+
+.m-Top4 {
+    margin-top: 4px
+}
+
+.m-Top5 {
+    margin-top: 5px
+}
+
+.m-Top8 {
+    margin-top: 8px
+}
+
+.m-Top10 {
+    margin-top: 10px
+}
+
+.m-Top12 {
+    margin-top: 12px
+}
+
+.m-Head_img {
+    margin-top: -14px
+}
+
+.m-Cnt {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.t-Lft {
+    text-align: left !important
+}
+
+.t-Rgt {
+    text-align: right !important
+}
+
+.t-Cnt {
+    text-align: center !important
+}
+
+.left_float {
+    float: left
+}
+
+.right_float {
+    float: right
+}
+
+.displayBox {
+    display: -webkit-box;
+    display: -moz-box;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.v-Top {
+    vertical-align: top
+}
+
+.v-Mdl {
+    vertical-align: middle
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block
+}
+
+.l-Hgt120 {
+    line-height: 120%
+}
+
+.l-Hgt140 {
+    line-height: 140%
+}
+
+.button_authentication {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1518px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 136px;
+    height: 38px
+}
+
+.button_help {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1892px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 43px;
+    height: 43px
+}
+
+.button_interlock {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1557px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 136px;
+    height: 38px
+}
+
+.button_memorial {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1479px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 136px;
+    height: 38px
+}
+
+.button_memorial_other {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1409px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 136px;
+    height: 38px
+}
+
+.button_promise {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1370px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 136px;
+    height: 38px
+}
+
+.button_top {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1691px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 136px;
+    height: 38px
+}
+
+.button_tweet {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1652px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 136px;
+    height: 38px
+}
+
+.button_tweet_gray {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1831px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 136px;
+    height: 38px
+}
+
+.footer {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1627px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 320px;
+    height: 24px
+}
+
+.frame_bottom {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1954px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 304px;
+    height: 18px
+}
+
+.frame_deco_bottom {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1978px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 300px;
+    height: 90px
+}
+
+.frame_deco_top {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -864px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 304px;
+    height: 192px
+}
+
+.frame_top {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1936px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 304px;
+    height: 17px
+}
+
+.headline_01 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1448px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 320px;
+    height: 30px
+}
+
+.headline_02 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1339px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 320px;
+    height: 30px
+}
+
+.headline_03 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1596px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 320px;
+    height: 30px
+}
+
+.idol_bg {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -668px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 88px;
+    height: 100px
+}
+
+.idol_frame {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1730px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 88px;
+    height: 100px
+}
+
+.line {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1973px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 320px;
+    height: 4px
+}
+
+.logo_xmas {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -769px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 220px;
+    height: 94px
+}
+
+.text {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1870px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 268px;
+    height: 21px
+}
+
+.top {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -552px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 320px;
+    height: 115px
+}
+
+.top_bg01 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -276px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 320px;
+    height: 275px
+}
+
+.top_bg02 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 0;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 320px;
+    height: 275px
+}
+
+.top_name01 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1057px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 154px;
+    height: 140px
+}
+
+.top_name02 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1198px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 154px;
+    height: 140px
+}
+
+body {
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fmypage_new%2Fbg%2Fbg_status_mypage_01.png%3F1487720324);
+    background-size: 7px 7px
+}
+
+a {
+    text-decoration: none
+}
+
+.xmas_layout {
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fbg.png%3F1576820777);
+    background-size: 50px;
+    margin-top: -14px;
+    padding-bottom: 12px
+}
+
+.xmas_header {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -552px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 320px;
+    height: 115px;
+    position: relative;
+    z-index: 1
+}
+
+.xmas_header .tutorial_btn {
+    position: absolute;
+    top: 74px;
+    right: 8px;
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1892px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 43px;
+    height: 43px
+}
+
+.xmax_idol_area {
+    width: 304px;
+    border-radius: 8px;
+    position: relative;
+    margin: 8px auto 0;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fframe_center.png%3F1576820777) #fffadc;
+    background-size: 304px
+}
+
+.xmax_idol_area .twi_bg {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -864px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 304px;
+    height: 192px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0
+}
+
+.xmax_idol_area:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1936px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 304px;
+    height: 17px
+}
+
+.xmax_idol_area:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1954px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 304px;
+    height: 18px
+}
+
+.xmax_idol_area .idol_area_title {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1448px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 320px;
+    height: 30px;
+    position: absolute;
+    top: -18px;
+    left: -8px
+}
+
+.xmax_idol_area .idol_area_title._twitter_page {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1596px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 320px;
+    height: 30px
+}
+
+.xmax_idol_area .idol_area_title._after {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1339px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 320px;
+    height: 30px
+}
+
+.xmax_idol_area .idol_list {
+    width: 280px;
+    overflow: hidden;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.xmax_idol_area .idol_list ul {
+    width: 288px;
+    margin-top: 16px
+}
+
+.xmax_idol_area .idol_list li {
+    float: left;
+    margin: 0 8px 8px 0;
+    position: relative;
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -668px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 88px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 8px
+}
+
+.xmax_idol_area .idol_list li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1730px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 88px;
+    height: 100px;
+    pointer-events: none
+}
+
+.xmax_idol_area .idol_list li .idol_img {
+    position: absolute;
+    top: -4px;
+    left: -8px;
+    width: 100px
+}
+
+.xmax_idol_area .idol_list li .idol_name {
+    width: 88px;
+    height: 18px;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    position: absolute;
+    bottom: 4px;
+    z-index: 1;
+    color: #fff
+}
+
+.xmax_idol_area .idol_list li .idol_name._cute {
+    text-shadow: 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073
+}
+
+.xmax_idol_area .idol_list li .idol_name._cool {
+    text-shadow: 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff
+}
+
+.xmax_idol_area .idol_list li .idol_name._passion {
+    text-shadow: 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500
+}
+
+.xmax_idol_area .idol_list li .idol_name._trainer {
+    text-shadow: 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421
+}
+
+.xmax_idol_area .page_area {
+    margin-top: 8px;
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1978px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 300px;
+    height: 90px;
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0
+}
+
+.xmax_idol_area .page_area form {
+    padding-top: 12px;
+    color: #000
+}
+
+.idol_confirm_area {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -276px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 320px;
+    height: 275px;
+    position: relative;
+    margin-top: -36px;
+    overflow: hidden
+}
+
+.idol_confirm_area._after {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 0;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 320px;
+    height: 275px
+}
+
+.idol_confirm_area .idol_status {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1057px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 154px;
+    height: 140px;
+    position: absolute;
+    top: 62px;
+    left: 12px;
+    z-index: 1
+}
+
+.idol_confirm_area .idol_status._after {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fsprite%2Fcommon-sd288171299.png%3F1576820777) no-repeat 0 -1198px;
+    -webkit-background-size: 320px 2068px;
+    background-size: 320px 2068px;
+    width: 154px;
+    height: 140px
+}
+
+.idol_confirm_area .idol_status .idol_name {
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    top: 32px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    color: #fff
+}
+
+.idol_confirm_area .idol_status .idol_name._cute {
+    text-shadow: 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073
+}
+
+.idol_confirm_area .idol_status .idol_name._cool {
+    text-shadow: 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff
+}
+
+.idol_confirm_area .idol_status .idol_name._passion {
+    text-shadow: 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500
+}
+
+.idol_confirm_area .idol_status .idol_name._trainer {
+    text-shadow: 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421
+}
+
+.idol_confirm_area .idol_status .conf_btn {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+.idol_confirm_area .idol_img {
+    position: absolute;
+    width: 280px;
+    top: -16px;
+    left: 94px
+}
+
+.area-popup_contents {
+    position: relative;
+    width: inherit !important;
+    margin: 0 auto !important
+}
+
+.idol_image {
+    position: relative;
+    background-size: 100% !important;
+    width: 180px;
+    height: 300px;
+    margin: -24px auto 0;
+    z-index: 2
+}
+
+.idol_box::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #1d1d1d);
+    bottom: -2px;
+    width: 298px;
+    height: 32px;
+    left: 3px;
+    background-size: 100%;
+    z-index: 3
+}
+
+.idol_box::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fpopup_bg01.png%3F1576820777) no-repeat;
+    top: 0;
+    width: 304px;
+    height: 164px;
+    background-size: 100%
+}
+
+.idol_box._xmas::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fxmas%2F2019%2Fpopup_bg02.png%3F1576820777) no-repeat;
+    top: 0;
+    width: 304px;
+    height: 164px;
+    background-size: 100%
+}
+
+#popup-xmas .idol_box {
+    position: relative;
+    overflow: hidden;
+    height: 164px
+}
+
+.xmas-popup_text {
+    padding: 16px 14px;
+    text-align: left;
+    font-size: 11px
+}
+
+label {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
