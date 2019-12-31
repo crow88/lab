@@ -512,7 +512,7 @@ body#refresh_room {
     height: 100%;
     z-index: 10000;
     position: absolute;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fpetit_cg%2Fui%2Fsprite%2Floading%2Floading_bg.png%3F1487720307);
+    background: url(../../../12008305/image_sp/petit_cg/ui/sprite/loading/loading_bg.png);
     background-size: 50%;
     text-align: center;
     overflow: hidden;
