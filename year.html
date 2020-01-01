@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta name="format-detection" content="telephone=no">
+    <title>아이돌마스터 신데렐라 걸즈</title>
+    <link rel="stylesheet" type="text/css" href="12008305/css/rich/new_mypage_common_kr.css" media="all">
+    <link rel="apple-touch-icon-precomposed" href="12008305/image_sp/ui/icon_bookmark.png">
+    <script type="text/javascript">
+        if (window.localStorage) {
+            var displaySet = localStorage.getItem('DisplayPositionSet');
+            if (displaySet == 1) {
+                if (navigator.userAgent.indexOf('Android') > 0) {
+                    document.write('<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">');
+                    document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                } else {
+                    document.write('<meta name="viewport" content="width=320, user-scalable=no">');
+                }
+                window.addEventListener('resize', function() {
+                    if (navigator.userAgent.indexOf('Android') > 0) document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                });
+            } else {
+                document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+        }
+    </script>
+    <script src="12008305/js/jquery-2.2.2.min.js"></script>
+    <script>
+        (function() {
+            window.viewer_id = 139087231;
+            var _url = "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fgame_error%2Freport_js_error%3Fl_frm%3DNew_year_select_card_1%26rnd%3D292101351";
+            var _path = location.href;
+            var _spec_obj;
+            var _spec = 'none';
+            var version = 1;
+            // access方法検出
+            _spec_obj = {
+                'isNative': false,
+                'isAndApp': false,
+                'isShellApp': false,
+                'isIosApp': false,
+                'isChromeApp': false
+            };
+            window._spec = _spec_obj;
+            if (_spec.isAndApp) {
+                _spec = 'andapp'
+            } else if (_spec.isIosApp) {
+                _spec = 'iosApp';
+            } else if (_spec.isShellApp) {
+                _spec = 'shellapp';
+            } else {
+                _spec = 'browser?';
+            }
+            var _ua = window.navigator.userAgent.toLowerCase();
+            window.onerror = function(msg, file, line, col, error) {
+                $.ajax({
+                    url: _url,
+                    type: 'post',
+                    data: {
+                        'ua': _ua,
+                        'viewer_id': window.viewer_id,
+                        'path': _path,
+                        'line': line,
+                        'column': col,
+                        'error': error,
+                        'spec': _spec,
+                        'spec_obj': _spec_obj,
+                        'version': version
+                    }
+                })
+            };
+        })();
+    </script>
+    <script src="12008305/js/underscore-min.js"></script>
+    <script src="12008305/js/require.js"></script>
+    <script src="12008305/js/require.js"></script>
+    <script>
+        requirejs.config({
+            paths: {
+                easeljs: "12008305/js/easeljs-0.8.2.min",
+                easeljs_0_7_1: "12008305/js/easeljs-0.7.1.min", //スプライトを読むためのバージョン
+                tweenjs: "12008305/js/tweenjs-0.6.2.min",
+                movieclipjs: "12008305/js/movieclip-0.7.1.min",
+                createjs: "12008305/js/createjs-2015.11.26.min",
+            }
+        })
+    </script>
+    <script src="12008305/js/common.js"></script>
+    <script src="12008305/js/common_new.js"></script>
+    <script>
+        $(function() {
+            window.$ibox = $('.ibox').ibox();
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
+                newrelic.setPageViewName('/idolmaster/index.php/new_year/select_card/dad249d2193e48fede1efb6b86ce152f');
+            }
+        });
+    </script>
+    <script type='text/javascript'>
+        var se_flg = 0,
+            bgm_flg = 0,
+            chrome_app_flg = 0,
+            chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+    </script>
+    <script type='text/javascript' src='12008305/js/app_sound.js'></script>
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+</head>
+
+<body id="new_year" class="select_card">
+    <div id="top" class="page_container jsOnBtn">
+        <nav class="area_menu_header">
+            <div class="area_menu_header_6btn">
+                <h1 id="JtextLimit">신년 첫 참배 캠페인</h1>
+                <ul>
+                    <li><a class="head_menu_01" href="">
+                            <div></div>
+                        </a></li>
+                    <li><a class="head_menu_02" href="">
+                            <div></div>
+                        </a></li>
+                    <li><a class="head_menu_03" href="">
+                            <div></div>
+                        </a></li>
+                    <li><a class="head_menu_04" href="">
+                            <div></div>
+                        </a></li>
+                    <li><a class="head_menu_05" href="">
+                            <div></div>
+                        </a></li>
+                    <li><a class="head_menu_06 se_000" href="#" id="headerAcd">
+                            <div></div>
+                        </a></li>
+                </ul>
+            </div>
+        </nav>
+        <input id="delay" type="hidden" value="0">
+        <style>
+            body {
+                background-image: url(12008305/image_sp/ui/mypage_new/bg/bg_status_mypage_01.png);
+                background-size: 7px 7px;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            .bg_img {
+                background: url(12008305/image_sp/campaign/newyear/2020/bg.jpg);
+                background-size: 14px 14px;
+            }
+
+            .year_header {
+                width: 320px;
+                height: 140px;
+                background: url(12008305/image_sp/campaign/newyear/2020/top_1.jpg) no-repeat;
+                background-size: 320px 140px;
+                position: relative;
+                margin-top: -14px;
+            }
+
+            .year_header._result {
+                background-image: url(12008305/image_sp/campaign/newyear/2020/top_2.jpg);
+            }
+
+            .wrap_idol_img {
+                width: 320px;
+                height: 140px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                overflow: hidden;
+            }
+
+            .year_header .idol_img {
+                width: 200px;
+                position: absolute;
+                top: -24px;
+                left: -18px;
+            }
+
+            .year_header .top_link {
+                position: absolute;
+                top: 91px;
+                right: 8px;
+            }
+
+            .year_header .idol_name {
+                width: 140px;
+                height: 56px;
+                background: url(12008305/image_sp/campaign/newyear/2020/frame_name.png) no-repeat;
+                background-size: 140px 56px;
+                position: absolute;
+                top: 32px;
+                right: 20px;
+            }
+
+            .year_header .idol_name .idol_name_img {
+                position: absolute;
+                top: 18px;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+
+            .idol_area {
+                width: 304px;
+                border-image: url(12008305/image_sp/campaign/newyear/2020/frame.png) 20 fill stretch;
+                -webkit-border-image: url(12008305/image_sp/campaign/newyear/2020/frame.png) 20 stretch;
+                border-style: solid;
+                border-width: 10px;
+                box-sizing: border-box;
+                position: relative;
+            }
+
+            .in_wrap {
+                width: 288px;
+                margin: -2px 0 0 -2px;
+            }
+
+            .idol_list {
+                width: 280px;
+                overflow: hidden;
+                margin-bottom: 18px;
+            }
+
+            .idol_list_title {
+                position: absolute;
+                top: -18px;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+
+            .idol_list ul {
+                width: 288px;
+                margin-top: 10px;
+            }
+
+            .idol_list li {
+                float: left;
+                margin: 8px 8px 0 0;
+                width: 88px;
+                height: 100px;
+                background: url(12008305/image_sp/campaign/newyear/2020/idol_bg.png) no-repeat;
+                background-size: 88px 100px;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .idol_list li:after {
+                content: '';
+                display: block;
+                width: 88px;
+                height: 100px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                pointer-events: none;
+                background: url(12008305/image_sp/campaign/newyear/2020/idol_frame.png) no-repeat;
+                background-size: 88px 100px;
+            }
+
+            .idol_elem {
+                display: block;
+                width: 88px;
+                height: 100px;
+            }
+
+            .idol_elem img {
+                position: absolute;
+                top: -10px;
+                left: -11px;
+                width: 110px;
+            }
+
+            .idol_name {
+                position: absolute;
+                top: 68px;
+                width: 100%;
+                height: 18px;
+                line-height: 18px;
+                color: #fff;
+                text-align: center;
+                z-index: 1;
+                font-size: 11px;
+            }
+
+            .idol_name._cute {
+                text-shadow: 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073;
+            }
+
+            .idol_name._cool {
+                text-shadow: 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff;
+            }
+
+            .idol_name._passion {
+                text-shadow: 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500, 0px 0px 3px #ff6500;
+            }
+
+            .idol_name._trainer {
+                text-shadow: 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421;
+            }
+
+            .year_pager {
+                background-color: #ffeef4;
+                color: #451901;
+                width: 292px;
+                margin-left: -4px;
+                margin-bottom: -4px;
+                padding-bottom: 4px;
+                padding-top: 11px;
+                border-radius: 0px 0px 8px 8px;
+            }
+
+            .result_idol_select {
+                width: 282px;
+                overflow: hidden;
+                margin-bottom: 4px;
+            }
+
+            .result_idol_select ul {
+                width: 290px;
+                margin-top: 6px;
+            }
+
+            .result_idol_select li {
+                float: left;
+                margin: 0 6px 10px 0;
+                width: 66px;
+            }
+
+            .result_idol_select li img {
+                width: 64px;
+                border: 1px solid #1d1d1d;
+            }
+        </style>
+        <div class="bg_img">
+            <div class="year_header _result">
+                <div class="wrap_idol_img"><img src='12008305/image_sp/campaign/newyear/2020/idol/26.png' class="idol_img"></div>
+                <div class="idol_name"><img src='12008305/image_sp/idol_name/s/26.png' height="26" class="idol_name_img"></div>
+                <a href='https://crow88.github.io/lab/' class="top_link jsOnDesignBtn">
+                <img src='12008305/image_sp/campaign/newyear/2020/button.png' width="56" height="32">
+                </a>
+            </div>
+            <div class="idol_area m-Cnt t-Cnt"><img src='12008305/image_sp/campaign/newyear/2020/text.png' width="192" height="20" class="idol_list_title">
+                <div class="result_idol_select m-Cnt">
+                    <ul>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/dad249d2193e48fede1efb6b86ce152f/' class="jsOnDesignBtn"><img src='12008305/image_sp/card/s/dad249d2193e48fede1efb6b86ce152f.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/b9e2f6db7e3b84a0319b31c875323c03/' class="jsOnDesignBtn"><img src='12008305/image_sp/card/s/b9e2f6db7e3b84a0319b31c875323c03.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/749918764164a20ffd9548b6e3329cb7/' class="jsOnDesignBtn"><img src='12008305/image_sp/card/s/749918764164a20ffd9548b6e3329cb7.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/06e634647cb9db3a1ae3cd4f0f8c1fdc/' class="jsOnDesignBtn"><img src='12008305/image_sp/card/s/06e634647cb9db3a1ae3cd4f0f8c1fdc.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/87b9ce294ee324ef107117cd775e3e41/' class="jsOnDesignBtn"><img src='12008305/image_sp/card/s/87b9ce294ee324ef107117cd775e3e41.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/8bd62d14e7ae5a19612cb4f63e7bc910/' class="jsOnDesignBtn"><img src='12008305/image_sp/card/s/8bd62d14e7ae5a19612cb4f63e7bc910.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/46b8c7e64644fefca3f9c7836f2c8f40/' class="jsOnDesignBtn"><img src='12008305/image_sp/card/s/46b8c7e64644fefca3f9c7836f2c8f40.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/ae2a65d68ad26995c036e4a212c15f18/' class="jsOnDesignBtn"><img src='12008305/image_sp/card/s/ae2a65d68ad26995c036e4a212c15f18.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/df09853dd69726803c595f8a99e084fb/' class="jsOnDesignBtn"><img src='12008305/image_sp/card/s/df09853dd69726803c595f8a99e084fb.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/27fa9a5d9820c3587dfed43d52d01d93/' class="jsOnDesignBtn"><img src='12008305/image_sp/card/s/27fa9a5d9820c3587dfed43d52d01d93.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/3055dffe2520e6a28427482ae61582e9/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/3055dffe2520e6a28427482ae61582e9.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/5f3a262bdcb15fd59261d1d67eed56e3/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/5f3a262bdcb15fd59261d1d67eed56e3.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/403297028737ce2c944bfc812dba6c94/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/403297028737ce2c944bfc812dba6c94.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/be20e1ce2d5b116f0b9fecbecf298a48/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/be20e1ce2d5b116f0b9fecbecf298a48.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/af0f233de4c2dfbac1e5a8bf1768dcf6/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/af0f233de4c2dfbac1e5a8bf1768dcf6.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/c827cb0a7ab82a4395250ab254d6fbcf/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/c827cb0a7ab82a4395250ab254d6fbcf.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/fdf5b5e967d72bb2b7acf1b43953dbd2/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/fdf5b5e967d72bb2b7acf1b43953dbd2.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/aa3d9312403ed3e40e7f92b771676ea9/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/aa3d9312403ed3e40e7f92b771676ea9.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/f4add4b54fc6ff462caf154441e049cf/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/f4add4b54fc6ff462caf154441e049cf.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/abe06fbcf68900a285b0f2244403214e/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/abe06fbcf68900a285b0f2244403214e.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/44b0359478c5fbc5a8dcb0d7d91a3776/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/44b0359478c5fbc5a8dcb0d7d91a3776.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/bb156a253fc247462a87b20eee8770f5/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/bb156a253fc247462a87b20eee8770f5.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/0c124be126082f0e4dce8d404eb538dd/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/0c124be126082f0e4dce8d404eb538dd.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/3f7c71119ba2d2a52eea91026bf64741/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/3f7c71119ba2d2a52eea91026bf64741.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/dee9c4ef7a73af8209eb2f5e4024e0f2/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/dee9c4ef7a73af8209eb2f5e4024e0f2.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/2002e5edd75e141a883e9d93c4c5de5f/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/2002e5edd75e141a883e9d93c4c5de5f.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/1622bfbb2378494857c6fca81bac6d63/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/1622bfbb2378494857c6fca81bac6d63.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/924ba34f567420135c3dce1cec0bee40/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/924ba34f567420135c3dce1cec0bee40.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/b693bd0e54ba93faec0ea887d456197f/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/b693bd0e54ba93faec0ea887d456197f.jpg'></a></li>
+                        <li><a href='https://crow88.github.io/lab/12008305/campaigns/new_year/2020/f1def983dbaa47b2c3017643a48ca207/' class="jsOnDesignBtn"><img src='12008305/image_sp/card_sign_b/s/f1def983dbaa47b2c3017643a48ca207.jpg'></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="information_light infortext m-Top12 m-Btm10">
+                <p>・앨범에 등록된 아이돌만 선택이 가능합니다.</p>
+            </div>
+            <img src='12008305/image_sp/campaign/newyear/2020/footer.png' width="320" height="32">
+        </div><a href='https://crow88.github.io/lab/'>
+            <div class="backLink">돌아가기</div>
+        </a>
+        <footer>
+            <div class="line_idolmaster"></div><a href="#top" id="toPageTop" class="mypage_under">
+                <div></div>
+            </a>
+            <div class="t-Cnt">(C)窪岡俊之 (C)2011 BNEI</div>
+        </footer>
+    </div>
+    <script>
+        window._tarminal = {
+            'native_app_flg': false,
+            'android_app_flg': false,
+            'ios_app_flg': false,
+            'shell_app_flg': false
+        };
+    </script>
+    <script>
+        window._tarminal = {
+            'native_app_flg': false,
+            'android_app_flg': false,
+            'ios_app_flg': false,
+            'shell_app_flg': false
+        };
+    </script>
+    <div id="mbga-pf-footer">
+        <script type="text/javascript" charset="UTF-8">
+            (function() {
+                document.addEventListener('DOMContentLoaded', function() {
+                    var list = document.getElementsByClassName('mbga-pf-footer-li');
+                    var i = 0,
+                        l = list.length;
+                    for (; i < l; i++) {
+                        var elem = list[i];
+                        elem.addEventListener('touchstart', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/$/, ' mbga-pf-tapped');
+                        });
+                        elem.addEventListener('touchend', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/ mbga-pf-tapped/, '');
+                        });
+                        elem.addEventListener('touchmove', function(e) {});
+                    }
+                });
+            })();
+        </script>
+    </div>
+</body>
+
+</html>
