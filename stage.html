@@ -20,7 +20,6 @@
         addEventListener("DOMContentLoaded", function() {
             setTimeout(hideURLbar, 100);
         }, false);
-
         function hideURLbar() {
             if (window.pageYOffset === 0) {
                 window.scrollTo(0, 1);
@@ -48,20 +47,17 @@
         else isSp = true;
         window.onunload = function() {};
         window.onload = function() {
-            var petit_param = $.parseJSON('{"attribute": "1","body_type": "1","breast_size": "2","firstname": "ICHINOSE","lastname": "SHIKI","short_name": "\u5fd7\u5e0c", "image_url_list": {"expression_1043": "12008305/js/petit_cg/expression/1043.js","hair_13089": "12008305/js/petit_cg/hair/13089.js","costume_1_23089": "12008305/js/petit_cg/costume/1/23089.js","head_1_32066": "12008305/js/petit_cg/head/1/32066.js","hand_1_43181": "12008305/js/petit_cg/hand/1/43181.js"}, "sub_type_list": {"head": null,"hand": null,"leg": null}, "take_sub_type": {"head": 0,"hand": 0,"leg": 0}}');
+            var petit_param = $.parseJSON('{"attribute": "1","body_type": "1","breast_size": "2","firstname": "ICHINOSE","lastname": "SHIKI","short_name": "\u5fd7\u5e0c", "image_url_list": {"expression_1043": "12008305/js/petit_cg/expression/1043.js","hair_10043": "12008305/js/petit_cg/hair/10043.js","costume_1_23237": "12008305/js/petit_cg/costume/1/23237.js","head_1_33097": "12008305/js/petit_cg/head/1/33097.js","hand_1_41031": "12008305/js/petit_cg/hand/1/41031.js"}, "sub_type_list": {"head": null,"hand": null,"leg": null}, "take_sub_type": {"head": 0,"hand": 0,"leg": 0}}');
             window.stage = new StageEnd(petit_param);
             window.scrollTo(0, 1);
             timerId = setTimeout("isFlash()", 150000);
         };
-
         function touchHandler(event) {
             event.preventDefault();
         };
-
         function redirect() {
             location.href = "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Ferror%3Fl_frm%3DEvent_fashion_stage_end_swf_1";
         };
-
         function isFlash() {
             var container = document.getElementById("container");
             var children = container.childNodes;
@@ -71,7 +67,6 @@
                 clearTimeout(timerId);
             }
         };
-
         function scaleSizeCheck() {
             window.scrollTo(0, 1);
             myW = window.innerWidth;
@@ -85,7 +80,6 @@
             }
             return myS;
         };
-
         function widthMarginCheck(scale) {
             if (scale < 0) {
                 return 0;
@@ -100,7 +94,6 @@
             }
             return marginL * 2;
         };
-
         function topMarginCheck(scale) {
             if (scale < 0) {
                 return 0;
@@ -115,7 +108,6 @@
             }
             return marginT * 2;
         };
-
         function StageEnd(param) {
             this.pex = false;
             this.pexApi = false;
@@ -242,7 +234,7 @@
         };
         StageEnd.prototype.runPex = function(option) {
             var self = this;
-            this.pex = new Pex('stage_1.swf', "container", option);
+            this.pex = new Pex('stage_2.swf', "container", option);
             this.api = this.pex.getAPI();
             this.api.ready(function() {
                 $('#prefetch').empty();
@@ -257,7 +249,7 @@
     </script>
     <script type='text/javascript' src='12008305/js/app_sound.js'>
     </script>
-    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css?20171116" />
 </head>
 
 <body style="height:100%">
