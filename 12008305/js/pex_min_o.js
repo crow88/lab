@@ -57,7 +57,7 @@
     j.S = 4, j.X = 5, j.V = 6, j.fb = 7, j.ob = 8, j.gb = 9, j.W = 23, j.o = 10, j.mb = 11, j.R = 12, j.w = 13, j.A = 14, j.M = 15, j.q = 16, j.U = 17, j.T = 18, j.ib = 19, j.kb = 20, j.jb = 21, j.nb = 24, j.G = 28, j.db = 29, j.cb = 32, j.hb = 33, j.C = 34, j.ab = 35, j.v = 36, j._ = 37, j.pb = 38, j.eb = 39, j.z = 40, j.lb = 41, j.B = 45, j.$ = 48, j.Q = 49, j.u = 50, j.r = 51, j.D = 52, j.P = 53, j.O = 54, j.N = 55, j.Z = 76, j.I = 129, j.E = 131, j.qb = 138, j.bb = 139, j.H = 140, j.Y = 150, j.L = 153, j.K = 157, j.s = 158, j.J = 159, j.rb = 141, j.F = 154;
     var k = function e(t) {
             var r = t.charCodeAt(0);
-            return e.Ch = e.Ch || new RegExp("[｡｢｣､･ｦｧｨｩｪｫｬｭｮｯｰｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝﾞﾟ]"), r >= 32 && 126 >= r || e.Ch.test(t)
+            return e.Ch = e.Ch || new RegExp("[�｡�｢�｣�､�･�ｦ�ｧ�ｨ�ｩ�ｪ�ｫ�ｬ�ｭ�ｮ�ｯ�ｰ�ｱ�ｲ�ｳ�ｴ�ｵ�ｶ�ｷ�ｸ�ｹ�ｺ�ｻ�ｼ�ｽ�ｾ�ｿ���ｾゑｾ�ｾ�ｾ�ｾ�ｾ�ｾ茨ｾ会ｾ奇ｾ具ｾ鯉ｾ搾ｾ趣ｾ擾ｾ撰ｾ托ｾ抵ｾ難ｾ費ｾ包ｾ厄ｾ暦ｾ假ｾ呻ｾ夲ｾ幢ｾ懶ｾ晢ｾ橸ｾ歉"), r >= 32 && 126 >= r || e.Ch.test(t)
         },
         l = function(e, t, r) {
             return [e[0] * t + e[2] * r + 20 * e[4], e[1] * t + e[3] * r + 20 * e[5]]
@@ -271,8 +271,7 @@
                     var b = e.zd[o],
                         p = n.hf[t][o].Mg;
                     b && !b.ag && p && b.ai(p)
-                }
-            g && (e.og = this.df)
+                } g && (e.og = this.df)
         } else {
             for (var d = n.ff[r], v = d.length, $ = n.ff[t], y = $.length, o = 0, j = 0, f = [], m = []; y > o && v > j;) {
                 var w = $[o],
@@ -723,8 +722,7 @@
                 if (e == i[n]) {
                     i.splice(n, 1);
                     break
-                }
-            for (var h = r.Ad[e.yh.jc], a = h.length, n = 0; a > n; n++)
+                } for (var h = r.Ad[e.yh.jc], a = h.length, n = 0; a > n; n++)
                 if (e == h[n]) {
                     h.splice(n, 1), 0 == h.length && delete r.Ad[e.yh.jc];
                     break
@@ -842,8 +840,7 @@
                     var p = b.yh.dc;
                     e = b.Pg.hf[p][this.id].Mg
                 } else e = [1, 0, 0, 1, 0, 0]
-            }
-        return O(e, i)
+            } return O(e, i)
     }, t.prototype.$f = function(e, t) {
         for (var r = this; r;) {
             if (!r.Zf()) return !1;
@@ -1575,10 +1572,10 @@
                     o = k(s) ? 1 : 2;
                 a += o, i++
             }
-            for (a != t && (n.push("･"), h = 1); i < e.length && r > h; i++) {
+            for (a != t && (n.push("�･"), h = 1); i < e.length && r > h; i++) {
                 var s = e.charAt(i),
                     o = k(s) ? 1 : 2;
-                h + o > r ? (n[n.length] = "･", h += 1) : (n[n.length] = s, h += o)
+                h + o > r ? (n[n.length] = "�･", h += 1) : (n[n.length] = s, h += o)
             }
             return n.join("")
         },
@@ -2380,8 +2377,7 @@
                         if (h.Jd[$] == d) {
                             v = $;
                             break
-                        }
-                    if (-1 != v) {
+                        } if (-1 != v) {
                         var y = h.We[v];
                         if (u + y > t) {
                             if (f.length) b -= l.length;
@@ -4231,7 +4227,7 @@
                             for (h = 0, s = a, f = 0; i > f; ++f) h = h << 1 | 1 & s, s >>= 1;
                             for (f = h; t > f; f += n) r[f] = i << 16 | c;
                             ++a
-                        }++i, a <<= 1, n <<= 1
+                        }++ i, a <<= 1, n <<= 1
                 }
                 return [r, u, g]
             }
