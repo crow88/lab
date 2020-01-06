@@ -242,7 +242,7 @@
         };
         StageEnd.prototype.runPex = function(option) {
             var self = this;
-            this.pex = new Pex('stage.swf', "container", option);
+            this.pex = new Pex('stage_1.swf', "container", option);
             this.api = this.pex.getAPI();
             this.api.ready(function() {
                 $('#prefetch').empty();
