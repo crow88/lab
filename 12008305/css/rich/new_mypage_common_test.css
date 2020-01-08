@@ -30491,6 +30491,18 @@ a.check_close_btn.petit {
     margin-right: auto
 }
 
+#petit_coordi .coordinate_default_list ul {
+    margin-top: -6px
+}
+
+#petit_coordi .coordinate_default_list li {
+    overflow: hidden;
+    margin: 5px 6px 0;
+    border-bottom: 1px dashed #3fc2ff;
+    position: relative;
+    min-height: 65px
+}
+
 #petit_coordi .coordinate_default_list li .accessory_img {
     width: 60px;
     height: 60px;
