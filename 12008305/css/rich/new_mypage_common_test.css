@@ -30491,27 +30491,15 @@ a.check_close_btn.petit {
     margin-right: auto
 }
 
-#petit_coordi .coordinate_default_list ul {
-    margin-top: -6px
-}
-
-#petit_coordi .coordinate_default_list li {
-    overflow: hidden;
-    margin: 5px 6px 0;
-    border-bottom: 1px dashed #3fc2ff;
-    position: relative;
-    min-height: 65px
-}
-
-#petit_coordi .coordinate_default_list li .accessory_img {
+#petit_coordi .coordinate_default_list .accessory_img {
     width: 60px;
     height: 60px;
     position: absolute;
     left: 3px
 }
 
-#petit_coordi .coordinate_default_list li .accessory_title,
-#petit_coordi .coordinate_default_list li .accessory_detail {
+#petit_coordi .coordinate_default_list .accessory_title,
+#petit_coordi .coordinate_default_list .accessory_detail {
     float: right;
     width: 210px;
     background-color: #ccdee8;
@@ -30522,22 +30510,22 @@ a.check_close_btn.petit {
     text-align: left
 }
 
-#petit_coordi .coordinate_default_list li .accessory_title {
+#petit_coordi .coordinate_default_list .accessory_title {
     margin-bottom: 4px;
     position: relative
 }
 
-#petit_coordi .coordinate_default_list li .accessory_title .accessory_reality {
+#petit_coordi .coordinate_default_list .accessory_title .accessory_reality {
     position: absolute;
     top: 0px;
     right: 0px
 }
 
-#petit_coordi .coordinate_default_list li .accessory_detail {
+#petit_coordi .coordinate_default_list .accessory_detail {
     clear: both;
     margin-bottom: 5px
 }
 
-#petit_coordi .coordinate_default_list li:last-child {
+#petit_coordi .coordinate_default_list:last-child {
     border: none
 }
