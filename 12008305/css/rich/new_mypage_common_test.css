@@ -30485,6 +30485,12 @@ a.check_close_btn.petit {
     z-index: 3
 }
 
+#petit_coordi {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto
+}
+
 #petit_coordi .coordinate_default_list li .accessory_img {
     width: 60px;
     height: 60px;
