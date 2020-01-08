@@ -30422,6 +30422,17 @@ a.check_close_btn.petit {
     background: -webkit-linear-gradient(left, #fff 0%, rgba(255, 255, 255, 0) 100%)
 }
 
+.unit_collection .event_story_chara .robo_grad:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 10px;
+    background: -webkit-linear-gradient(right, #fff 0%, rgba(255, 255, 255, 0) 100%)
+}
+
 #refresh_link_list {
     width: 280px;
     margin-left: auto;
