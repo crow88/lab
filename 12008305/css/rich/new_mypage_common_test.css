@@ -30504,9 +30504,11 @@ a.check_close_btn.petit {
 }
 
 #petit_coordi .coordinate_default_list li .accessory_img {
+    float: left;
     width: 60px;
     height: 60px;
-    position: absolute
+    position: relative;
+    padding: auto 4px
 }
 
 #petit_coordi .coordinate_default_list li .accessory_title,
