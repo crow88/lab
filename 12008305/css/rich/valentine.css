@@ -169,13 +169,13 @@
 
 header.background {
     position: relative;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fbg%2Fbackground.png%3F1581313605);
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/bg/background.png);
     background-size: 320px 1px;
     z-index: 3
 }
 
 body {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fmypage_new%2Fbg%2Fbg_status_mypage_01.png%3F1285858800);
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fmypage_new%2Fbg/bg_status_mypage_01.png%3F1285858800);
     background-size: 7px 7px
 }
 
@@ -183,7 +183,7 @@ body {
     position: relative;
     top: -12px;
     width: 320px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fbg%2Fbackground.png%3F1581313605);
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/bg/background.png);
     background-size: 320px 1px;
     padding-bottom: 16px
 }
@@ -194,7 +194,7 @@ body {
     bottom: -8px;
     width: 320px;
     height: 24px;
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fbg%2Ffooter.png%3F1581313605);
+    background-image: url(../../../12008305/image_sp/campaign/valentine/2020/bg/footer.png);
     background-size: 320px 24px;
     content: ''
 }
@@ -263,9 +263,9 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     pointer-events: none;
-    -webkit-border-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fbg%2Fbg_2.png%3F1581313605) 29;
-    -webkit-border-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fbg%2Fbg_2.png%3F1581313605) 29;
-    border-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fbg%2Fbg_2.png%3F1581313605) 29 fill;
+    -webkit-border-image: url(../../../12008305/image_sp/campaign/valentine/2020/bg/bg_2.png%3F1581313605) 29;
+    -webkit-border-image: url(../../../12008305/image_sp/campaign/valentine/2020/bg/bg_2.png%3F1581313605) 29;
+    border-image: url(../../../12008305/image_sp/campaign/valentine/2020/bg/bg_2.png%3F1581313605) 29 fill;
     content: ''
 }
 
@@ -277,13 +277,13 @@ body {
     left: 0;
     width: 304px;
     height: 12px;
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fbg%2Fframe_deco_4.png%3F1581313605);
+    background-image: url(../../../12008305/image_sp/campaign/valentine/2020/bg/frame_deco_4.png%3F1581313605);
     background-size: 304px;
     content: ''
 }
 
 .valentine_main_2020 .valentine_wrapper._deco_1 {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fbg%2Fframe_deco_1.png%3F1581313605);
+    background-image: url(../../../12008305/image_sp/campaign/valentine/2020/bg/frame_deco_1.png%3F1581313605);
     background-size: 304px;
     background-repeat: no-repeat;
     height: inherit;
@@ -389,7 +389,7 @@ body {
     position: absolute;
     top: 0;
     display: block;
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fbg%2Fbg_top.png%3F1581313605);
+    background-image: url(../../../12008305/image_sp/campaign/valentine/2020/bg/bg_top.png);
     background-size: 320px;
     width: 320px;
     height: 404px;
@@ -410,7 +410,7 @@ body {
 
 .valentine_main_2020 .valentine_present_idol._num1:after {
     display: block;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fsprite-sb60f0c4a85.png%3F1581313605) no-repeat 0 -810px;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -810px;
     -webkit-background-size: 320px 2171px;
     background-size: 320px 2171px;
     width: 320px;
@@ -431,7 +431,7 @@ body {
 
 .valentine_main_2020 .valentine_present_idol._num2:after {
     display: block;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fsprite-sb60f0c4a85.png%3F1581313605) no-repeat 0 -405px;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -405px;
     -webkit-background-size: 320px 2171px;
     background-size: 320px 2171px;
     width: 320px;
@@ -452,7 +452,7 @@ body {
 
 .valentine_main_2020 .valentine_present_idol._num3:after {
     display: block;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fsprite-sb60f0c4a85.png%3F1581313605) no-repeat 0 0;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 0;
     -webkit-background-size: 320px 2171px;
     background-size: 320px 2171px;
     width: 320px;
@@ -481,7 +481,7 @@ body {
     content: "";
     width: 304px;
     height: 85px;
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fbg%2Fframe_deco_2.png%3F1581313605);
+    background-image: url(../../../12008305/image_sp/campaign/valentine/2020/bg/frame_deco_2.png%3F1581313605);
     background-size: 304px;
     width: inherit;
     left: -12px;
@@ -548,7 +548,7 @@ body {
 
 .valentine_main_2020 .valentine_select_base .v_btn_idol .v_btn_bg.attr_1 {
     display: block;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fsprite-sb60f0c4a85.png%3F1581313605) no-repeat 0 -1518px;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -1518px;
     -webkit-background-size: 320px 2171px;
     background-size: 320px 2171px;
     width: 88px;
@@ -557,7 +557,7 @@ body {
 
 .valentine_main_2020 .valentine_select_base .v_btn_idol .v_btn_bg.attr_2 {
     display: block;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fsprite-sb60f0c4a85.png%3F1581313605) no-repeat 0 -1417px;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -1417px;
     -webkit-background-size: 320px 2171px;
     background-size: 320px 2171px;
     width: 88px;
@@ -566,7 +566,7 @@ body {
 
 .valentine_main_2020 .valentine_select_base .v_btn_idol .v_btn_bg.attr_3 {
     display: block;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fsprite-sb60f0c4a85.png%3F1581313605) no-repeat 0 -1316px;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -1316px;
     -webkit-background-size: 320px 2171px;
     background-size: 320px 2171px;
     width: 88px;
@@ -575,7 +575,7 @@ body {
 
 .valentine_main_2020 .valentine_select_base .v_btn_idol .v_btn_bg.attr_99 {
     display: block;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fsprite-sb60f0c4a85.png%3F1581313605) no-repeat 0 -1215px;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -1215px;
     -webkit-background-size: 320px 2171px;
     background-size: 320px 2171px;
     width: 88px;
@@ -591,7 +591,7 @@ body {
 
 .valentine_main_2020 .valentine_select_base .v_btn_idol .v_btn_bg::after {
     display: block;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fsprite-sb60f0c4a85.png%3F1581313605) no-repeat 0 -1775px;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -1775px;
     -webkit-background-size: 320px 2171px;
     background-size: 320px 2171px;
     width: 88px;
@@ -636,7 +636,7 @@ body {
 }
 
 .idol_confirm-area {
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fbg%2Fpopup_bg.png%3F1581313605) no-repeat;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/bg/popup_bg.png%3F1581313605) no-repeat;
     background-size: 304px 164px;
     padding-bottom: 12px
 }
@@ -732,7 +732,7 @@ body {
 
 .valentine_btn._top {
     display: block;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fsprite-sb60f0c4a85.png%3F1581313605) no-repeat 0 -1658px;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -1658px;
     -webkit-background-size: 320px 2171px;
     background-size: 320px 2171px;
     width: 184px;
@@ -744,7 +744,7 @@ body {
     z-index: 2;
     margin-top: 24px;
     display: block;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fsprite-sb60f0c4a85.png%3F1581313605) no-repeat 0 -1619px;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -1619px;
     -webkit-background-size: 320px 2171px;
     background-size: 320px 2171px;
     width: 184px;
@@ -753,7 +753,7 @@ body {
 
 .valentine_btn._campaign_top {
     display: block;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fsprite-sb60f0c4a85.png%3F1581313605) no-repeat 0 -1876px;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -1876px;
     -webkit-background-size: 320px 2171px;
     background-size: 320px 2171px;
     width: 184px;
@@ -763,7 +763,7 @@ body {
 .valentine_btn._submit {
     z-index: 10;
     display: block;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fsprite-sb60f0c4a85.png%3F1581313605) no-repeat 0 -2016px;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -2016px;
     -webkit-background-size: 320px 2171px;
     background-size: 320px 2171px;
     width: 136px;
@@ -774,7 +774,7 @@ body {
     transform: scale(1, 1) !important;
     -webkit-transform: scale(1, 1) !important;
     display: block;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fsprite-sb60f0c4a85.png%3F1581313605) no-repeat 0 -2133px;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -2133px;
     -webkit-background-size: 320px 2171px;
     background-size: 320px 2171px;
     width: 136px;
@@ -788,7 +788,7 @@ body {
 
 .valentine_btn.remember {
     display: block;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fvalentine%2F2020%2Fsprite-sb60f0c4a85.png%3F1581313605) no-repeat 0 -2094px;
+    background: url(../../../12008305/image_sp/campaign/valentine/2020/sprite-sb60f0c4a85.png) no-repeat 0 -2094px;
     -webkit-background-size: 320px 2171px;
     background-size: 320px 2171px;
     width: 88px;
