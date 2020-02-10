@@ -62,34 +62,34 @@
         <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:240px; height:310px; position: absolute; left: 0px; top: 0px; display: block;"></div>
     </div>
     <script>
-        var image_server = "http://sp.pf-img-a.mbga.jp/12008305/";
-        var base_url = "http://125.6.169.35/idolmaster/";
+        var image_server = "";
+        var base_url = "https://crow88.github.io/lab/12008305/";
         window.file_name = "valentine_2020"; // createjs の本体ファイルを定義
         window.dir_name = "image_sp/cjs/campaign/valentine/2020/";
         window.replace_images = {
-            "replace_target_480x502_character": "campaign\/valentine\/2018\/idol\/26.png",
-            "replace_target_240x310_bg": "campaign\/valentine\/2018\/bg\/11.jpg"
+            "replace_target_480x502_character": "campaign/valentine/2018/idol/26.png",
+            "replace_target_240x310_bg": "campaign/valentine/2018/bg/11.jpg"
         }
         window.im_cjs = {
             "_url": "http:\/\/sp.pf.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fachieve_sns%2Ftweet%3Fidol_base_id%3D26%26item_get_flag%3D0%26swf_type%3D0%26item_ids%3D11220026%26l_frm%3DValentine_present_show_flash_present_chocolate_1%26rnd%3D767156135",
             "idol_root": "0",
             "place_name": "\u516c\u5712",
-            "txt1": "\u304a\u30fc\uff64\u3044\u305f\u3044\u305f\uff61\uff80\uff70\uff79\uff9e\uff6f\uff84\uff64\u306f\u3063\u3051\u30fc\u3093\u266a\uff77\uff90\u306f\u3042\u305f\u3057\u306e\u5927\u5207\u306a\u88ab\u9a13\u8005\u3060\u3082\u3093\u306d\uff5e? \u5473\u306e\u4fdd\u8a3c\u306f\u3059\u308b\u3088\u30fc\u266a\u305d\u308c\u4ee5\u5916\u306f\u2026\u304a\u697d\u3057\u307f\u266a",
-            "txt1_1": "\u304a\u30fc\uff64\u3044\u305f\u3044\u305f\uff61\uff80\uff70\uff79\uff9e\uff6f\uff84\uff64\u306f\u3063\u3051\u30fc",
-            "txt1_2": "\u3093\u266a\uff77\uff90\u306f\u3042\u305f\u3057\u306e\u5927\u5207\u306a\u88ab\u9a13\u8005\u3060",
-            "txt1_3": "\u3082\u3093\u306d\uff5e? \u5473\u306e\u4fdd\u8a3c\u306f\u3059\u308b\u3088\u30fc\u266a",
-            "txt1_4": "\u305d\u308c\u4ee5\u5916\u306f\u2026\u304a\u697d\u3057\u307f\u266a",
-            "txt2": "\u4e00\u30ce\u702c\u5fd7\u5e0c\u304b\u3089\uff8a\uff9e\uff9a\uff9d\uff80\uff72\uff9d\u306e\uff8c\uff9f\uff9a\uff7e\uff9e\uff9d\uff84\u3092\u3082\u3089\u3063\u305f\uff61",
-            "txt2_1": "\u4e00\u30ce\u702c\u5fd7\u5e0c\u304b\u3089\uff8a\uff9e\uff9a\uff9d\uff80\uff72\uff9d\u306e\uff8c\uff9f\uff9a\uff7e\uff9e\uff9d\uff84",
-            "txt2_2": "\u3092\u3082\u3089\u3063\u305f\uff61",
-            "txt3": "\u307e\u30fc\u307e\u30fc\uff64\u307e\u305a\u306f\u3072\u3068\u53e3\u98df\u3079\u3066\u307f\u3066\u266a\u304d\u3063\u3068\uff64\u5e78\u305b\u6c17\u5206\u306b\u306a\u308c\u3061\u3083\u3046\u304b\u3089\uff61\uff77\uff90\u306b\u5408\u308f\u305b\u305f\uff75\uff98\uff7c\uff9e\uff85\uff99\u3060\u3082\u3093\uff64\u52b9\u679c\u3042\u308b\u306f\u305a\u3060\u3088\u30fc\u266a",
-            "txt3_1": "\u307e\u30fc\u307e\u30fc\uff64\u307e\u305a\u306f\u3072\u3068\u53e3\u98df\u3079\u3066\u307f",
-            "txt3_2": "\u3066\u266a\u304d\u3063\u3068\uff64\u5e78\u305b\u6c17\u5206\u306b\u306a\u308c\u3061\u3083",
-            "txt3_3": "\u3046\u304b\u3089\uff61\uff77\uff90\u306b\u5408\u308f\u305b\u305f\uff75\uff98\uff7c\uff9e\uff85\uff99\u3060\u3082",
-            "txt3_4": "\u3093\uff64\u52b9\u679c\u3042\u308b\u306f\u305a\u3060\u3088\u30fc\u266a",
-            "txt4": "\u4e00\u30ce\u702c\u5fd7\u5e0c\u3068\u306e\u9593\u306b\u307e\u305f1\u3064\u601d\u3044\u51fa\u304c\u5897\u3048\u305f\uff61",
-            "txt4_1": "\u4e00\u30ce\u702c\u5fd7\u5e0c\u3068\u306e\u9593\u306b\u307e\u305f1\u3064\u601d\u3044",
-            "txt4_2": "\u51fa\u304c\u5897\u3048\u305f\uff61"
+            "txt1": "오- 있다있다. 타겟, 발견-♪ 너는 내 소중한 피험자니까 말야~? 맛의 보증은 할게- ♪ 그 외엔… 기대해♪",
+            "txt1_1": "오- 있다있다. 타겟, 발견-♪ ",
+            "txt1_2": "너는 내 소중한 피험자니까 말야~? ",
+            "txt1_3": "맛의 보증은 할게- ♪ ",
+            "txt1_4": "그 외엔… 기대해♪",
+            "txt2": "이치노세 시키에게서 발렌타인 프레젠트를 받았다.",
+            "txt2_1": "이치노세 시키에게서 발렌타인 프레젠트를 ",
+            "txt2_2": "받았다.",
+            "txt3": "뭐어 뭐-, 우선 한 입 먹어봐♪ 분명, 행복한 기분이 될테니까. 너에게 맞춘 오리지널인걸, 효과가 있을거야-♪",
+            "txt3_1": "뭐어 뭐-, 우선 한 입 먹어봐♪ ",
+            "txt3_2": "분명, 행복한 기분이 될테니까. ",
+            "txt3_3": "너에게 맞춘 오리지널인걸, ",
+            "txt3_4": "효과가 있을거야-♪",
+            "txt4": "이치노세 시키와의 사이에 추억이 또 하나 늘었다.",
+            "txt4_1": "이치노세 시키와의 사이에 추억이 ",
+            "txt4_2": "또 하나 늘었다."
         };
         window.im_cjs = window.im_cjs || {};
         window.im_cjs.jump_url = 'http://sp.pf.mbga.jp/12008305/?guid=ON'; // createjsの演出が全て終了した場合の飛び先urlの定義
@@ -126,7 +126,7 @@
                     }
                     new_manifest[i] = {
                         'type': 'image',
-                        'src': window.image_server + '?url=' + encodeURIComponent(window.base_url + _img_path),
+                        'src': window.image_server + '' + encodeURIComponent(window.base_url + _img_path),
                         'id': lib.properties.manifest[i].id
                     }
                 }
