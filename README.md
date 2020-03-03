@@ -16,17 +16,17 @@
 - 생일 연출 모음
 - 선물 모음
 - 로딩 캐릭터
- - 로딩구
- - ~~스탬프~~
+  - 로딩구
+  - ~~스탬프~~
 - 직함 목록
 - 캠페인
- - 리프레시 룸 ([49](https://crow88.github.io/lab/12008305/refresh_room/detail/49/)/[128](https://crow88.github.io/lab/12008305/refresh_room/detail/128/))
- - [spin-off!](https://crow88.github.io/lab/12008305/campaigns/spinoff/)
- - 신년 ([2020](https://crow88.github.io/lab/12008305/campaigns/new_year/2020/))
- - 발렌타인 (2015/2016/2017/[2018](https://crow88.github.io/lab/12008305/campaigns/valentine_present/2018/)/[2019](https://crow88.github.io/lab/12008305/campaigns/valentine_present/2019/)/[2020](https://crow88.github.io/lab/12008305/campaigns/valentine_present/2020/))
- - 화이트데이 (2014/2015/2016/2017/2018/[2019](https://crow88.github.io/lab/12008305/campaigns/white_present/2019/))
- - 칠석 (2015)
- - 크리스마스 (2014/2015/2016/2017/[2018](https://crow88.github.io/lab/12008305/campaigns/xmas/2018/1/)/[2019](https://crow88.github.io/lab/12008305/campaigns/xmas/2019/))
+  - 리프레시 룸 ([49](https://crow88.github.io/lab/12008305/refresh_room/detail/49/)/[128](https://crow88.github.io/lab/12008305/refresh_room/detail/128/))
+  - [spin-off!](https://crow88.github.io/lab/12008305/campaigns/spinoff/)
+  - 신년 ([2020](https://crow88.github.io/lab/12008305/campaigns/new_year/2020/))
+  - 발렌타인 (2015/2016/2017/[2018](https://crow88.github.io/lab/12008305/campaigns/valentine_present/2018/)/[2019](https://crow88.github.io/lab/12008305/campaigns/valentine_present/2019/)/[2020](https://crow88.github.io/lab/12008305/campaigns/valentine_present/2020/))
+  - 화이트데이 (2014/2015/2016/2017/2018/[2019](https://crow88.github.io/lab/12008305/campaigns/white_present/2019/))
+  - 칠석 (2015)
+  - 크리스마스 (2014/2015/2016/2017/[2018](https://crow88.github.io/lab/12008305/campaigns/xmas/2018/1/)/[2019](https://crow88.github.io/lab/12008305/campaigns/xmas/2019/))
 
 
 #### [데레스테 아이돌갤러리](https://crow88.github.io/sil/)
