@@ -9,8 +9,8 @@
 - 푸치대사
 - 푸치 에피소드
 - 이벤트 메모리
- - 이벤트 메모리 ([투어](https://crow88.github.io/lab/12008305/memory/detail/512/10030/)/[로얄](https://crow88.github.io/lab/12008305/memory/detail/815/10070/)/[아이프로](https://crow88.github.io/lab/12008305/memory/detail/1706/10020/)/[아이챠레](https://crow88.github.io/lab/12008305/memory/detail/1215/10090/)/[푸치코레](https://crow88.github.io/lab/12008305/memory/detail/1416/10100/))
- - 엑스트라 메모리 (2014/2015/2016/[2017](https://crow88.github.io/lab/12008305/memory/memorial/1712/normal/)/[2018](https://crow88.github.io/lab/12008305/memory/memorial/1716/normal/)/[2019](https://crow88.github.io/lab/12008305/memory/memorial/1723/))
+  - 이벤트 메모리 ([투어](https://crow88.github.io/lab/12008305/memory/detail/512/10030/)/[로얄](https://crow88.github.io/lab/12008305/memory/detail/815/10070/)/[아이프로](https://crow88.github.io/lab/12008305/memory/detail/1706/10020/)/[아이챠레](https://crow88.github.io/lab/12008305/memory/detail/1215/10090/)/[푸치코레](https://crow88.github.io/lab/12008305/memory/detail/1416/10100/))
+  - 엑스트라 메모리 (2014/2015/2016/[2017](https://crow88.github.io/lab/12008305/memory/memorial/1712/normal/)/[2018](https://crow88.github.io/lab/12008305/memory/memorial/1716/normal/)/[2019](https://crow88.github.io/lab/12008305/memory/memorial/1723/))
 - 유닛 컬렉션
 - 가챠 연출 모음
 - 생일 연출 모음
