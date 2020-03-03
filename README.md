@@ -1,6 +1,3 @@
-
-![](https://crow88.github.io/lab/12008305/image_sp/campaign/valentine/2018/idol/26.png)
-
 ### 마이페이지
 ------------
 #### [모바마스 아이돌갤러리](https://crow88.github.io/lab/)
@@ -35,3 +32,4 @@
 - ~~이벤트 에피소드~~
 - ~~데레포~~
 
+![](https://crow88.github.io/lab/12008305/image_sp/campaign/valentine/2018/idol/26.png)
