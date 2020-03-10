@@ -7038,7 +7038,7 @@
             skip_flag = 1; //0:再生中 1:一時停止
             idx = 0;
 
-            exportRoot.t1_1 = exportRoot.idol_name + "のもとへやってきた｡";
+            exportRoot.t1_1 = exportRoot.idol_name + "에게 다가갔다.";
             exportRoot.t1_2 = "";
 
             exportRoot.ts_1 = exportRoot.msg_sp_1;
@@ -7054,15 +7054,15 @@
 
             if (exportRoot.correct_flag == 1) {
                 //正解
-                exportRoot.t4_1 = "とても喜んでもらえた｡";
-                exportRoot.t4_2 = exportRoot.idol_name + "との距離が縮まった｡";
+                exportRoot.t4_1 = "매우 기뻐해 주었다. ";
+                exportRoot.t4_2 = exportRoot.idol_name + "와의 거리가 좁혀졌다.";
                 exportRoot.t4_3 = "";
 
             } else {
                 //はずれ
-                exportRoot.t4_1 = "喜んでもらえたけれど、";
-                exportRoot.t4_2 = "もっと好きな料理があるのかも";
-                exportRoot.t4_3 = "しれない。";
+                exportRoot.t4_1 = "기뻐해 주었지만, ";
+                exportRoot.t4_2 = "더 좋아하는 요리가 있을지도 ";
+                exportRoot.t4_3 = "모른다.";
             }
 
 
