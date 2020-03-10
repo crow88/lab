@@ -1,0 +1,2417 @@
+.large {
+    font-size: 22px
+}
+
+.small {
+    font-size: 10px
+}
+
+.red {
+    color: #ff0000
+}
+
+.red_mild {
+    color: #ff3333
+}
+
+.green {
+    color: #33ff33
+}
+
+.yellow {
+    color: #ff9900
+}
+
+.lemon_yellow {
+    color: #fff800
+}
+
+.blue {
+    color: #00ccff
+}
+
+.blue_st {
+    color: #0066ff
+}
+
+.gray {
+    color: #aaaaaa
+}
+
+.pink {
+    color: #f08080
+}
+
+.dark_gray {
+    color: #666666
+}
+
+.white {
+    color: #ffffff;
+    text-decoration: none
+}
+
+.defMargin {
+    width: 296px;
+    padding: 0 12px
+}
+
+.m-Btm0 {
+    margin-bottom: 0px
+}
+
+.m-Btm4 {
+    margin-bottom: 4px
+}
+
+.m-Btm5 {
+    margin-bottom: 5px
+}
+
+.m-Btm8 {
+    margin-bottom: 8px
+}
+
+.m-Btm10 {
+    margin-bottom: 10px
+}
+
+.m-Btm12 {
+    margin-bottom: 12px
+}
+
+.m-Btm15 {
+    margin-bottom: 15px
+}
+
+.m-Btm20 {
+    margin-bottom: 20px
+}
+
+.m-Top4 {
+    margin-top: 4px
+}
+
+.m-Top5 {
+    margin-top: 5px
+}
+
+.m-Top8 {
+    margin-top: 8px
+}
+
+.m-Top10 {
+    margin-top: 10px
+}
+
+.m-Top12 {
+    margin-top: 12px
+}
+
+.m-Head_img {
+    margin-top: -14px
+}
+
+.m-Cnt {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.t-Lft {
+    text-align: left !important
+}
+
+.t-Rgt {
+    text-align: right !important
+}
+
+.t-Cnt {
+    text-align: center !important
+}
+
+.left_float {
+    float: left
+}
+
+.right_float {
+    float: right
+}
+
+.displayBox {
+    display: -webkit-box;
+    display: -moz-box;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.v-Top {
+    vertical-align: top
+}
+
+.v-Mdl {
+    vertical-align: middle
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block
+}
+
+.l-Hgt120 {
+    line-height: 120%
+}
+
+.l-Hgt140 {
+    line-height: 140%
+}
+
+.position._relative {
+    position: relative !important
+}
+
+.position._absolute {
+    position: absolute !important
+}
+
+.display._block {
+    display: block !important
+}
+
+.display._inline {
+    display: inline !important
+}
+
+.display._inline_block {
+    display: inline-block !important
+}
+
+.display._inline_block+._clear_space {
+    margin-left: -4px
+}
+
+.display._none {
+    display: none !important
+}
+
+.vertical_align._top {
+    vertical-align: top !important
+}
+
+.vertical_align._middle {
+    vertical-align: middle !important
+}
+
+.vertical_align._bottom {
+    vertical-align: bottom !important
+}
+
+.box._border_box {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.box._bg_gray {
+    background: rgba(0, 0, 0, 0.8)
+}
+
+.box._bg_white {
+    background: rgba(255, 255, 255, 0.8)
+}
+
+.box._border_gray {
+    border: 1px solid #787878 !important
+}
+
+.box._border_white {
+    border: 1px solid #ffffff !important
+}
+
+.box._r_1 {
+    -webkit-border-radius: 1px;
+    -ms-border-radius: 1px;
+    border-radius: 1px
+}
+
+.box._r_2 {
+    -webkit-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px
+}
+
+.box._r_3 {
+    -webkit-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px
+}
+
+.box._r_4 {
+    -webkit-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px
+}
+
+.box._r_5 {
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px
+}
+
+.box._r_6 {
+    -webkit-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px
+}
+
+.box._r_7 {
+    -webkit-border-radius: 7px;
+    -ms-border-radius: 7px;
+    border-radius: 7px
+}
+
+.box._r_8 {
+    -webkit-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px
+}
+
+.box._r_9 {
+    -webkit-border-radius: 9px;
+    -ms-border-radius: 9px;
+    border-radius: 9px
+}
+
+.box._r_10 {
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px
+}
+
+.box._r_11 {
+    -webkit-border-radius: 11px;
+    -ms-border-radius: 11px;
+    border-radius: 11px
+}
+
+.box._r_12 {
+    -webkit-border-radius: 12px;
+    -ms-border-radius: 12px;
+    border-radius: 12px
+}
+
+.box._r_13 {
+    -webkit-border-radius: 13px;
+    -ms-border-radius: 13px;
+    border-radius: 13px
+}
+
+.box._r_14 {
+    -webkit-border-radius: 14px;
+    -ms-border-radius: 14px;
+    border-radius: 14px
+}
+
+.box._r_15 {
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    border-radius: 15px
+}
+
+.box._r_16 {
+    -webkit-border-radius: 16px;
+    -ms-border-radius: 16px;
+    border-radius: 16px
+}
+
+.box._r_17 {
+    -webkit-border-radius: 17px;
+    -ms-border-radius: 17px;
+    border-radius: 17px
+}
+
+.box._r_18 {
+    -webkit-border-radius: 18px;
+    -ms-border-radius: 18px;
+    border-radius: 18px
+}
+
+.box._r_19 {
+    -webkit-border-radius: 19px;
+    -ms-border-radius: 19px;
+    border-radius: 19px
+}
+
+.box._w_5 {
+    width: 5% !important
+}
+
+.box._w_10 {
+    width: 10% !important
+}
+
+.box._w_15 {
+    width: 15% !important
+}
+
+.box._w_20 {
+    width: 20% !important
+}
+
+.box._w_25 {
+    width: 25% !important
+}
+
+.box._w_30 {
+    width: 30% !important
+}
+
+.box._w_35 {
+    width: 35% !important
+}
+
+.box._w_40 {
+    width: 40% !important
+}
+
+.box._w_45 {
+    width: 45% !important
+}
+
+.box._w_50 {
+    width: 50% !important
+}
+
+.box._w_55 {
+    width: 55% !important
+}
+
+.box._w_60 {
+    width: 60% !important
+}
+
+.box._w_65 {
+    width: 65% !important
+}
+
+.box._w_70 {
+    width: 70% !important
+}
+
+.box._w_75 {
+    width: 75% !important
+}
+
+.box._w_80 {
+    width: 80% !important
+}
+
+.box._w_85 {
+    width: 85% !important
+}
+
+.box._w_90 {
+    width: 90% !important
+}
+
+.box._w_95 {
+    width: 95% !important
+}
+
+.box._w_304 {
+    width: 304px
+}
+
+.box._w_288 {
+    width: 288px
+}
+
+.box._w_280 {
+    width: 280px
+}
+
+.margin0 {
+    margin: 0px !important
+}
+
+.m-Top0 {
+    margin-top: 0px !important
+}
+
+.m-Btm0 {
+    margin-bottom: 0px !important
+}
+
+.m-Lft0 {
+    margin-left: 0px !important
+}
+
+.m-Rgt0 {
+    margin-right: 0px !important
+}
+
+.p0 {
+    padding: 0px !important
+}
+
+.p-Top0 {
+    padding-top: 0px !important
+}
+
+.p-Btm0 {
+    padding-bottom: 0px !important
+}
+
+.p-Lft0 {
+    padding-left: 0px !important
+}
+
+.p-Rgt0 {
+    padding-right: 0px !important
+}
+
+.margin2 {
+    margin: 2px !important
+}
+
+.m-Top2 {
+    margin-top: 2px !important
+}
+
+.m-Btm2 {
+    margin-bottom: 2px !important
+}
+
+.m-Lft2 {
+    margin-left: 2px !important
+}
+
+.m-Rgt2 {
+    margin-right: 2px !important
+}
+
+.p2 {
+    padding: 2px !important
+}
+
+.p-Top2 {
+    padding-top: 2px !important
+}
+
+.p-Btm2 {
+    padding-bottom: 2px !important
+}
+
+.p-Lft2 {
+    padding-left: 2px !important
+}
+
+.p-Rgt2 {
+    padding-right: 2px !important
+}
+
+.margin4 {
+    margin: 4px !important
+}
+
+.m-Top4 {
+    margin-top: 4px !important
+}
+
+.m-Btm4 {
+    margin-bottom: 4px !important
+}
+
+.m-Lft4 {
+    margin-left: 4px !important
+}
+
+.m-Rgt4 {
+    margin-right: 4px !important
+}
+
+.p4 {
+    padding: 4px !important
+}
+
+.p-Top4 {
+    padding-top: 4px !important
+}
+
+.p-Btm4 {
+    padding-bottom: 4px !important
+}
+
+.p-Lft4 {
+    padding-left: 4px !important
+}
+
+.p-Rgt4 {
+    padding-right: 4px !important
+}
+
+.margin6 {
+    margin: 6px !important
+}
+
+.m-Top6 {
+    margin-top: 6px !important
+}
+
+.m-Btm6 {
+    margin-bottom: 6px !important
+}
+
+.m-Lft6 {
+    margin-left: 6px !important
+}
+
+.m-Rgt6 {
+    margin-right: 6px !important
+}
+
+.p6 {
+    padding: 6px !important
+}
+
+.p-Top6 {
+    padding-top: 6px !important
+}
+
+.p-Btm6 {
+    padding-bottom: 6px !important
+}
+
+.p-Lft6 {
+    padding-left: 6px !important
+}
+
+.p-Rgt6 {
+    padding-right: 6px !important
+}
+
+.margin8 {
+    margin: 8px !important
+}
+
+.m-Top8 {
+    margin-top: 8px !important
+}
+
+.m-Btm8 {
+    margin-bottom: 8px !important
+}
+
+.m-Lft8 {
+    margin-left: 8px !important
+}
+
+.m-Rgt8 {
+    margin-right: 8px !important
+}
+
+.p8 {
+    padding: 8px !important
+}
+
+.p-Top8 {
+    padding-top: 8px !important
+}
+
+.p-Btm8 {
+    padding-bottom: 8px !important
+}
+
+.p-Lft8 {
+    padding-left: 8px !important
+}
+
+.p-Rgt8 {
+    padding-right: 8px !important
+}
+
+.margin10 {
+    margin: 10px !important
+}
+
+.m-Top10 {
+    margin-top: 10px !important
+}
+
+.m-Btm10 {
+    margin-bottom: 10px !important
+}
+
+.m-Lft10 {
+    margin-left: 10px !important
+}
+
+.m-Rgt10 {
+    margin-right: 10px !important
+}
+
+.p10 {
+    padding: 10px !important
+}
+
+.p-Top10 {
+    padding-top: 10px !important
+}
+
+.p-Btm10 {
+    padding-bottom: 10px !important
+}
+
+.p-Lft10 {
+    padding-left: 10px !important
+}
+
+.p-Rgt10 {
+    padding-right: 10px !important
+}
+
+.margin12 {
+    margin: 12px !important
+}
+
+.m-Top12 {
+    margin-top: 12px !important
+}
+
+.m-Btm12 {
+    margin-bottom: 12px !important
+}
+
+.m-Lft12 {
+    margin-left: 12px !important
+}
+
+.m-Rgt12 {
+    margin-right: 12px !important
+}
+
+.p12 {
+    padding: 12px !important
+}
+
+.p-Top12 {
+    padding-top: 12px !important
+}
+
+.p-Btm12 {
+    padding-bottom: 12px !important
+}
+
+.p-Lft12 {
+    padding-left: 12px !important
+}
+
+.p-Rgt12 {
+    padding-right: 12px !important
+}
+
+.margin14 {
+    margin: 14px !important
+}
+
+.m-Top14 {
+    margin-top: 14px !important
+}
+
+.m-Btm14 {
+    margin-bottom: 14px !important
+}
+
+.m-Lft14 {
+    margin-left: 14px !important
+}
+
+.m-Rgt14 {
+    margin-right: 14px !important
+}
+
+.p14 {
+    padding: 14px !important
+}
+
+.p-Top14 {
+    padding-top: 14px !important
+}
+
+.p-Btm14 {
+    padding-bottom: 14px !important
+}
+
+.p-Lft14 {
+    padding-left: 14px !important
+}
+
+.p-Rgt14 {
+    padding-right: 14px !important
+}
+
+.margin16 {
+    margin: 16px !important
+}
+
+.m-Top16 {
+    margin-top: 16px !important
+}
+
+.m-Btm16 {
+    margin-bottom: 16px !important
+}
+
+.m-Lft16 {
+    margin-left: 16px !important
+}
+
+.m-Rgt16 {
+    margin-right: 16px !important
+}
+
+.p16 {
+    padding: 16px !important
+}
+
+.p-Top16 {
+    padding-top: 16px !important
+}
+
+.p-Btm16 {
+    padding-bottom: 16px !important
+}
+
+.p-Lft16 {
+    padding-left: 16px !important
+}
+
+.p-Rgt16 {
+    padding-right: 16px !important
+}
+
+.margin18 {
+    margin: 18px !important
+}
+
+.m-Top18 {
+    margin-top: 18px !important
+}
+
+.m-Btm18 {
+    margin-bottom: 18px !important
+}
+
+.m-Lft18 {
+    margin-left: 18px !important
+}
+
+.m-Rgt18 {
+    margin-right: 18px !important
+}
+
+.p18 {
+    padding: 18px !important
+}
+
+.p-Top18 {
+    padding-top: 18px !important
+}
+
+.p-Btm18 {
+    padding-bottom: 18px !important
+}
+
+.p-Lft18 {
+    padding-left: 18px !important
+}
+
+.p-Rgt18 {
+    padding-right: 18px !important
+}
+
+.margin20 {
+    margin: 20px !important
+}
+
+.m-Top20 {
+    margin-top: 20px !important
+}
+
+.m-Btm20 {
+    margin-bottom: 20px !important
+}
+
+.m-Lft20 {
+    margin-left: 20px !important
+}
+
+.m-Rgt20 {
+    margin-right: 20px !important
+}
+
+.p20 {
+    padding: 20px !important
+}
+
+.p-Top20 {
+    padding-top: 20px !important
+}
+
+.p-Btm20 {
+    padding-bottom: 20px !important
+}
+
+.p-Lft20 {
+    padding-left: 20px !important
+}
+
+.p-Rgt20 {
+    padding-right: 20px !important
+}
+
+.m-Cnt {
+    margin-left: auto !important;
+    margin-right: auto !important
+}
+
+.__DUMMY__ {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2574px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 1px;
+    height: 1px
+}
+
+.bg_list_attr_1 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -473px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 100px
+}
+
+.bg_list_attr_2 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -271px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 100px
+}
+
+.bg_list_attr_3 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -372px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 100px
+}
+
+.bg_list_attr_99 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -170px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 100px
+}
+
+.bg_name {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -747px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 166px;
+    height: 53px
+}
+
+.bg_pulldown {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2537px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 36px
+}
+
+.btn_02 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1383px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 36px
+}
+
+.btn_02_disable {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1622px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 36px
+}
+
+.btn_02_selected {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1564px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 36px
+}
+
+.btn_authentication {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1061px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 136px;
+    height: 36px
+}
+
+.btn_base {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -801px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px
+}
+
+.btn_base_disable {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -648px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px
+}
+
+.btn_idol_change {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1766px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 40px;
+    height: 32px
+}
+
+.btn_idol_change_empty {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1733px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 40px;
+    height: 32px
+}
+
+.btn_interlock {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -987px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 136px;
+    height: 36px
+}
+
+.btn_no_1 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2463px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px
+}
+
+.btn_no_2 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2206px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px
+}
+
+.btn_no_3 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2058px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px
+}
+
+.btn_no_4 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2293px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px
+}
+
+.btn_no_5 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2132px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px
+}
+
+.btn_present {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -574px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px
+}
+
+.btn_present_to_chihiro {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1024px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 36px
+}
+
+.btn_text_01 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1457px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px
+}
+
+.btn_text_02 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1984px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px
+}
+
+.btn_to_campaigntop {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -950px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 136px;
+    height: 36px
+}
+
+.btn_tutorial {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1283px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 52px;
+    height: 52px
+}
+
+.btn_tweet {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1098px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 136px;
+    height: 36px
+}
+
+.btn_tweet_gray {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1420px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 136px;
+    height: 36px
+}
+
+.campaign_period {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1531px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 32px
+}
+
+.deco_bottom {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2441px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 320px;
+    height: 10px
+}
+
+.deco_top {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2452px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 320px;
+    height: 10px
+}
+
+.header_top {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 0;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 320px;
+    height: 96px
+}
+
+.headline_02 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -875px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 168px;
+    height: 24px
+}
+
+.headline_cooked {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -722px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 197px;
+    height: 24px
+}
+
+.headline_cooking {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -900px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 158px;
+    height: 24px
+}
+
+.headline_select_idol {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -925px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 145px;
+    height: 24px
+}
+
+.icon_chihiro {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1135px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 46px;
+    height: 46px
+}
+
+.icon_heart {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1947px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 26px;
+    height: 36px
+}
+
+.idol_frame_list {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1182px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 100px
+}
+
+.idol_name_empty {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1336px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 96px;
+    height: 31px
+}
+
+.line_01 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2280px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 320px;
+    height: 12px
+}
+
+.line_02 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1601px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 320px;
+    height: 20px
+}
+
+.select_idol_header {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -97px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 320px;
+    height: 72px
+}
+
+.tab_line_4_1 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1910px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 70px;
+    height: 36px
+}
+
+.tab_line_4_1_selected {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1696px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 70px;
+    height: 36px
+}
+
+.tab_line_4_2 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2367px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 70px;
+    height: 36px
+}
+
+.tab_line_4_2_selected {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1836px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 70px;
+    height: 36px
+}
+
+.tab_line_4_3 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2404px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 70px;
+    height: 36px
+}
+
+.tab_line_4_3_selected {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1873px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 70px;
+    height: 36px
+}
+
+.tab_line_4_4 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1799px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 70px;
+    height: 36px
+}
+
+.tab_line_4_4_selected {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1659px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 70px;
+    height: 36px
+}
+
+.text_received {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1368px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 166px;
+    height: 14px
+}
+
+.present_01 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/item-s3a050ae105.png) no-repeat 0 -198px;
+    -webkit-background-size: 65px 659px;
+    background-size: 65px 659px;
+    width: 65px;
+    height: 65px
+}
+
+.present_02 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/item-s3a050ae105.png) no-repeat 0 0;
+    -webkit-background-size: 65px 659px;
+    background-size: 65px 659px;
+    width: 65px;
+    height: 65px
+}
+
+.present_03 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/item-s3a050ae105.png) no-repeat 0 -132px;
+    -webkit-background-size: 65px 659px;
+    background-size: 65px 659px;
+    width: 65px;
+    height: 65px
+}
+
+.present_04 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/item-s3a050ae105.png) no-repeat 0 -66px;
+    -webkit-background-size: 65px 659px;
+    background-size: 65px 659px;
+    width: 65px;
+    height: 65px
+}
+
+.present_11 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/item-s3a050ae105.png) no-repeat 0 -462px;
+    -webkit-background-size: 65px 659px;
+    background-size: 65px 659px;
+    width: 65px;
+    height: 65px
+}
+
+.present_12 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/item-s3a050ae105.png) no-repeat 0 -264px;
+    -webkit-background-size: 65px 659px;
+    background-size: 65px 659px;
+    width: 65px;
+    height: 65px
+}
+
+.present_13 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/item-s3a050ae105.png) no-repeat 0 -396px;
+    -webkit-background-size: 65px 659px;
+    background-size: 65px 659px;
+    width: 65px;
+    height: 65px
+}
+
+.present_14 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/item-s3a050ae105.png) no-repeat 0 -330px;
+    -webkit-background-size: 65px 659px;
+    background-size: 65px 659px;
+    width: 65px;
+    height: 65px
+}
+
+.present_empty {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/item-s3a050ae105.png) no-repeat 0 -594px;
+    -webkit-background-size: 65px 659px;
+    background-size: 65px 659px;
+    width: 65px;
+    height: 65px
+}
+
+.present_failure {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/item-s3a050ae105.png) no-repeat 0 -528px;
+    -webkit-background-size: 65px 659px;
+    background-size: 65px 659px;
+    width: 65px;
+    height: 65px
+}
+
+body {
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fmypage_new%2Fbg%2Fbg_status_mypage_01.png%3F1487720324);
+    background-size: 7px 7px
+}
+
+.main_contents {
+    background-image: url(../../../12008305/image_sp/campaign/whiteday/2020/bg.png);
+    background-size: 25px 25px;
+    padding-bottom: 12px
+}
+
+.main_contents:after {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1601px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 320px;
+    height: 20px;
+    bottom: -10px
+}
+
+.main_contents._into_header {
+    margin-top: -14px;
+    padding-top: 14px
+}
+
+.area_cooking {
+    position: relative;
+    padding-bottom: 8px;
+    background-image: url(../../../12008305/image_sp/campaign/whiteday/2020/bg_idol_main_view.png);
+    background-size: 320px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    background-clip: padding-box
+}
+
+.area_cooking:before {
+    position: absolute;
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2452px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 320px;
+    height: 10px;
+    content: '';
+    top: -9px
+}
+
+.area_cooking:after {
+    position: absolute;
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2441px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 320px;
+    height: 10px;
+    content: '';
+    bottom: -10px
+}
+
+.area_cooking .area_idol_main_view {
+    width: 280px;
+    margin: 0 auto;
+    padding-top: 4px
+}
+
+.area_cooking .idol_image {
+    position: absolute;
+    width: 145px;
+    top: 8px;
+    right: 22px
+}
+
+.area_cooking .idol_image ._img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -96px;
+    margin-left: -128px;
+    overflow: hidden;
+    height: 400px
+}
+
+.area_cooking .idol_image ._img:after {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    content: ''
+}
+
+.area_cooking .idol_image ._img._empty:after {
+    height: 136px;
+    background-color: #ffffff
+}
+
+.area_cooking .idol_image ._img._selected:after {
+    height: 120px;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(30%, #ffffff));
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 30%);
+    background-image: linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 30%)
+}
+
+.area_cooking .idol_name {
+    position: relative;
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -747px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 166px;
+    height: 53px
+}
+
+.area_cooking .idol_name .text_received {
+    position: absolute;
+    top: -14px
+}
+
+.area_cooking .idol_name .text_value {
+    position: absolute;
+    top: 13px;
+    left: 22px;
+    width: 100px;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center
+}
+
+.area_cooking .idol_name .btn_idol_change {
+    position: absolute;
+    top: 13px;
+    right: 7px
+}
+
+.area_cooking .idol_name .btn_idol_change._empty {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1733px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 40px;
+    height: 32px
+}
+
+.area_cooking .idol_name .idol_name_empty {
+    position: absolute;
+    top: 15px;
+    left: 22px
+}
+
+.area_cooking .area_hint_comment {
+    position: relative;
+    margin-left: -8px
+}
+
+.area_cooking .area_hint_comment .icon_chihiro {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.area_cooking .area_hint_comment .area_idol_comment {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 4px;
+    font-size: 11px;
+    line-height: 120%;
+    background-color: #fff;
+    -webkit-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    border: 2px solid #54d129;
+    color: #1d1d1d
+}
+
+.area_cooking .area_hint_comment .area_idol_comment._normal {
+    width: 114px;
+    margin-left: 4px
+}
+
+.area_cooking .area_hint_comment .area_idol_comment._normal .idol_comment::before,
+.area_cooking .area_hint_comment .area_idol_comment._normal .idol_comment::after {
+    content: ' ';
+    width: 0px;
+    height: 0px;
+    display: block;
+    position: absolute;
+    border-style: solid
+}
+
+.area_cooking .area_hint_comment .area_idol_comment._normal .idol_comment::before {
+    border-width: 4px 8px 4px 0;
+    border-color: transparent #54d129 transparent transparent;
+    left: -8px;
+    margin-top: -4px;
+    top: 50%
+}
+
+.area_cooking .area_hint_comment .area_idol_comment._normal .idol_comment::after {
+    border-width: 2px 6px 2px 0;
+    border-color: transparent #fff transparent transparent;
+    left: -4px;
+    margin-top: -2px;
+    top: 50%
+}
+
+.area_cooking .area_hint_comment .area_idol_comment._normal .idol_comment:before {
+    top: 60%
+}
+
+.area_cooking .area_hint_comment .area_idol_comment._normal .idol_comment:after {
+    top: 60%
+}
+
+.area_cooking .area_hint_comment .area_idol_comment._chihiro_view {
+    width: 147px;
+    left: 8px
+}
+
+.area_cooking .area_hint_comment .area_idol_comment._chihiro_view .idol_comment::before,
+.area_cooking .area_hint_comment .area_idol_comment._chihiro_view .idol_comment::after {
+    content: ' ';
+    width: 0px;
+    height: 0px;
+    display: block;
+    position: absolute;
+    border-style: solid
+}
+
+.area_cooking .area_hint_comment .area_idol_comment._chihiro_view .idol_comment::before {
+    border-width: 6px 0 6px 12px;
+    border-color: transparent transparent transparent #54d129;
+    right: -12px;
+    margin-top: -6px;
+    top: 50%
+}
+
+.area_cooking .area_hint_comment .area_idol_comment._chihiro_view .idol_comment::after {
+    border-width: 4px 0 4px 10px;
+    border-color: transparent transparent transparent #fff;
+    right: -8px;
+    margin-top: -4px;
+    top: 50%
+}
+
+.area_cooking .area_hint_comment .area_idol_comment._chihiro_view .idol_comment:before {
+    top: 30%
+}
+
+.area_cooking .area_hint_comment .area_idol_comment._chihiro_view .idol_comment:after {
+    top: 30%
+}
+
+.area_cooking .whiteday_frame._cooking_form {
+    margin-top: 20px;
+    -webkit-box-shadow: inset 0 0 0 3px #fff;
+    box-shadow: inset 0 0 0 3px #fff;
+    background-image: url(../../../12008305/image_sp/campaign/whiteday/2020/bg_table.png);
+    background-size: 21px;
+    border-color: #5fcff9
+}
+
+.area_cooking .whiteday_frame._cooking_form .cooking_title {
+    color: #133cb9;
+    text-shadow: 0px 0px 3px #ffffff, 0px 0px 3px #ffffff, 0px 0px 3px #ffffff, 0px 0px 3px #ffffff, 0px 0px 3px #ffffff, 0px 0px 3px #ffffff, 0px 0px 3px #ffffff, 0px 0px 3px #ffffff
+}
+
+.area_cooking .whiteday_frame._cooking_form option {
+    font-size: 14px
+}
+
+.area_cooking .whiteday_frame._cooking_form .btn_pulldown {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2537px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 36px;
+    line-height: 36px;
+    color: #001144;
+    text-indent: 8px;
+    font-size: 11px;
+    text-align: left
+}
+
+.area_cooking .whiteday_frame._cooking_form .area_cooking_table {
+    color: #001144;
+    width: 264px;
+    padding: 8px;
+    min-height: 65px;
+    background-color: #9fe1f9;
+    -webkit-box-shadow: 0 2px 2px 0 inset;
+    -webkit-border-radius: 8px;
+    position: relative
+}
+
+.area_cooking .whiteday_frame._cooking_form .area_cooking_table #make_result_img {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 65px;
+    height: 65px
+}
+
+.area_cooking .whiteday_frame._cooking_form .area_cooking_table #make_result_text {
+    position: absolute;
+    top: 8px;
+    left: 76px;
+    width: 120px;
+    height: 65px;
+    display: table
+}
+
+.area_cooking .whiteday_frame._cooking_form .area_cooking_table #make_result_text .text_value {
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 120%;
+    font-size: 12px;
+    color: #ffffff;
+    text-shadow: 0px 0px 2px #133cb9, 0px 0px 2px #133cb9, 0px 0px 2px #133cb9, 0px 0px 2px #133cb9, 0px 0px 2px #133cb9, 0px 0px 2px #133cb9, 0px 0px 2px #133cb9, 0px 0px 2px #133cb9
+}
+
+.area_cooking .whiteday_frame._cooking_form .area_cooking_table #make_result_text .text_value._completed {
+    color: #f3e00d
+}
+
+.area_cooking .whiteday_frame._cooking_form #btn_submit {
+    position: absolute;
+    top: 5px;
+    right: 4px
+}
+
+.area_cooking .whiteday_frame._cooking_form #btn_submit.btn_start_cooking {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -801px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px
+}
+
+.area_cooking .whiteday_frame._cooking_form #btn_submit.btn_start_disable {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -648px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px
+}
+
+.area_cooking .whiteday_frame._cooking_form #btn_submit_inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1
+}
+
+.area_cooking .whiteday_frame._cooking_form #btn_submit_inner.btn_text_01 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1457px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px
+}
+
+.area_cooking .whiteday_frame._cooking_form #btn_submit_inner.btn_no_1 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2463px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px
+}
+
+.area_cooking .whiteday_frame._cooking_form #btn_submit_inner.btn_no_2 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2206px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px
+}
+
+.area_cooking .whiteday_frame._cooking_form #btn_submit_inner.btn_no_3 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2058px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px
+}
+
+.area_cooking .whiteday_frame._cooking_form #btn_submit_inner.btn_no_4 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2293px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px
+}
+
+.area_cooking .whiteday_frame._cooking_form #btn_submit_inner.btn_no_5 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2132px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px
+}
+
+.area_cooking .whiteday_frame._cooking_form #btn_submit_inner.btn_no_1:after,
+.area_cooking .whiteday_frame._cooking_form #btn_submit_inner.btn_no_2:after,
+.area_cooking .whiteday_frame._cooking_form #btn_submit_inner.btn_no_3:after,
+.area_cooking .whiteday_frame._cooking_form #btn_submit_inner.btn_no_4:after,
+.area_cooking .whiteday_frame._cooking_form #btn_submit_inner.btn_no_5:after {
+    content: '';
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1984px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1
+}
+
+.area_cooking .whiteday_frame._cooking_form .btn_present {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -574px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 73px;
+    height: 73px;
+    -webkit-transform: scale(1);
+    position: absolute;
+    top: 5px;
+    right: 4px
+}
+
+.whiteday_frame._cooked_recipe {
+    padding-bottom: 2px
+}
+
+.cooked_recipe_tab {
+    width: 280px
+}
+
+.cooked_recipe_tab .tab_recipe_menu {
+    display: inline-block
+}
+
+.cooked_recipe_tab .tab_recipe_menu:nth-of-type(1).selected {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1696px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 70px;
+    height: 36px;
+    display: inline-block
+}
+
+.cooked_recipe_tab .tab_recipe_menu:nth-of-type(2).selected {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1836px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 70px;
+    height: 36px;
+    display: inline-block
+}
+
+.cooked_recipe_tab .tab_recipe_menu:nth-of-type(3).selected {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1873px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 70px;
+    height: 36px;
+    display: inline-block
+}
+
+.cooked_recipe_tab .tab_recipe_menu:nth-of-type(4).selected {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1659px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 70px;
+    height: 36px;
+    display: inline-block
+}
+
+.recipe_list {
+    position: relative;
+    width: 280px
+}
+
+.recipe_list:before {
+    content: '';
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2280px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 320px;
+    height: 12px;
+    position: absolute;
+    top: 0;
+    left: -20px
+}
+
+.recipe_list li {
+    width: 280px;
+    position: relative;
+    display: -webkit-box;
+    color: #001144;
+    padding-top: 16px;
+    line-height: 120%
+}
+
+.recipe_list li:after {
+    content: '';
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -2280px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 320px;
+    height: 12px;
+    position: absolute;
+    bottom: -14px;
+    left: -20px
+}
+
+.recipe_list li:last-child {
+    padding-bottom: 4px
+}
+
+.recipe_list li:last-child:after {
+    display: none
+}
+
+.recipe_list li .recipe_text {
+    width: 192px
+}
+
+.recipe_list li .recipe_text .text_value {
+    margin-top: 3px;
+    width: 160px;
+    line-height: 140%;
+    font-size: 10px;
+    color: #001d6d
+}
+
+.recipe_list li .recipe_text .text_value ._recipe_name {
+    color: #f3e00d;
+    text-shadow: 0px 0px 2px #133cb9, 0px 0px 2px #133cb9, 0px 0px 2px #133cb9, 0px 0px 2px #133cb9, 0px 0px 2px #133cb9, 0px 0px 2px #133cb9, 0px 0px 2px #133cb9, 0px 0px 2px #133cb9;
+    font-size: 12px
+}
+
+.recipe_list li .icon_heart {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1947px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 26px;
+    height: 36px;
+    position: absolute;
+    left: 162px
+}
+
+.recipe_list li .btn_make {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1383px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 36px
+}
+
+.recipe_list li .btn_02_disable {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1622px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 36px
+}
+
+.recipe_list li .btn_02_selected {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1564px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 36px
+}
+
+._campaign_top .header_area {
+    position: relative
+}
+
+._campaign_top .header_area .btn_tutorial {
+    display: block;
+    position: absolute;
+    right: 4px;
+    bottom: 0
+}
+
+._select_idol .header_area {
+    position: relative
+}
+
+._select_idol .header_area .btn_present_to_chihiro {
+    position: absolute;
+    right: 8px;
+    bottom: 16px
+}
+
+._select_idol .whiteday_frame {
+    padding-bottom: 1px;
+    -webkit-box-shadow: inset 0 0 0 1px #fff;
+    box-shadow: inset 0 0 0 1px #fff
+}
+
+._select_idol .selectArea.type_02._in_area {
+    padding-bottom: 0
+}
+
+._select_idol .selectArea.type_02 .selectArea_more_link {
+    top: 0;
+    margin-top: 0
+}
+
+._select_idol .paging_area {
+    position: relative;
+    -webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top: 8px solid transparent;
+    background-color: #bdf5ff;
+    background-clip: padding-box
+}
+
+._select_idol .paging_area:before {
+    display: block;
+    position: absolute;
+    top: -9px;
+    width: 100%;
+    height: 10px;
+    background-image: url(../../../12008305/image_sp/campaign/whiteday/2020/bg_paging.png%3F1583819180);
+    background-repeat: repeat-x;
+    background-size: 26px 10px;
+    content: ''
+}
+
+._select_idol .paging_area .new_page_layout {
+    background-color: transparent;
+    padding-top: 8px
+}
+
+._select_idol .idol_list_empty {
+    color: #ff3300
+}
+
+._select_idol .idol_list {
+    overflow: hidden;
+    display: inline-block;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #ffffff
+}
+
+._select_idol .idol_list:not(:nth-of-type(3n-2)) {
+    margin-left: 8px
+}
+
+._select_idol .idol_list:nth-of-type(n+4) {
+    margin-top: 6px
+}
+
+._select_idol .idol_list._attr_1 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -473px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 100px;
+    display: inline-block;
+    background-color: #ffffff
+}
+
+._select_idol .idol_list._attr_2 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -271px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 100px;
+    display: inline-block;
+    background-color: #ffffff
+}
+
+._select_idol .idol_list._attr_3 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -372px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 100px;
+    display: inline-block;
+    background-color: #ffffff
+}
+
+._select_idol .idol_list._attr_99 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -170px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 100px;
+    display: inline-block;
+    background-color: #ffffff
+}
+
+._select_idol .idol_list a {
+    display: block;
+    width: 88px;
+    height: 100px;
+    position: relative;
+    color: #fff;
+    overflow: hidden
+}
+
+._select_idol .idol_list a img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -53px;
+    margin-top: -60px
+}
+
+._select_idol .idol_list a:after {
+    content: '';
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/whiteday/2020/sprite/ui-sd83cd46bb2.png) no-repeat 0 -1182px;
+    -webkit-background-size: 320px 2574px;
+    background-size: 320px 2574px;
+    width: 88px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1
+}
+
+._select_idol .idol_list .idol_name {
+    position: absolute;
+    width: 100%;
+    height: 18px;
+    line-height: 19px;
+    font-size: 10px;
+    color: #fff;
+    bottom: 13px;
+    left: 0;
+    z-index: 2;
+    text-align: center
+}
+
+._tweet {
+    color: #001d6d
+}
+
+._tweet .header_area {
+    position: relative
+}
+
+._tweet .header_area .campaign_period {
+    position: absolute;
+    right: 8px;
+    bottom: 20px
+}
+
+#tweet_canvas {
+    overflow: hidden;
+    width: 900px;
+    height: 506px;
+    position: relative;
+    position: absolute;
+    margin: -9999px
+}
+
+#tweet_canvas img {
+    position: absolute;
+    z-index: 1
+}
+
+#tweet_canvas .idol_name {
+    position: absolute;
+    color: #ffffff;
+    z-index: 2;
+    width: 240px;
+    height: 64px;
+    right: 120px;
+    top: 200px;
+    font-size: 42px;
+    text-align: center
+}
+
+#tweet_canvas .idol_name._attr_1 {
+    text-shadow: 0px 0px 4px #6d0031, 0px 0px 4px #6d0031, 0px 0px 4px #6d0031, 0px 0px 4px #6d0031, 0px 0px 4px #6d0031, 0px 0px 4px #6d0031, 0px 0px 4px #6d0031, 0px 0px 4px #6d0031
+}
+
+#tweet_canvas .idol_name._attr_2 {
+    text-shadow: 0px 0px 4px #001d6d, 0px 0px 4px #001d6d, 0px 0px 4px #001d6d, 0px 0px 4px #001d6d, 0px 0px 4px #001d6d, 0px 0px 4px #001d6d, 0px 0px 4px #001d6d, 0px 0px 4px #001d6d
+}
+
+#tweet_canvas .idol_name._attr_3 {
+    text-shadow: 0px 0px 4px #722300, 0px 0px 4px #722300, 0px 0px 4px #722300, 0px 0px 4px #722300, 0px 0px 4px #722300, 0px 0px 4px #722300, 0px 0px 4px #722300, 0px 0px 4px #722300
+}
+
+#tweet_canvas .idol_name._attr_99 {
+    text-shadow: 0px 0px 4px #30b901, 0px 0px 4px #30b901, 0px 0px 4px #30b901, 0px 0px 4px #30b901, 0px 0px 4px #30b901, 0px 0px 4px #30b901, 0px 0px 4px #30b901, 0px 0px 4px #30b901
+}
+
+#tweet_canvas .idol_msg {
+    position: absolute;
+    z-index: 2;
+    width: 320px;
+    height: 150px;
+    font-size: 22px;
+    line-height: 27px;
+    right: 44px;
+    bottom: 44px;
+    word-wrap: break-word
+}
+
+#tweet_canvas .idol_msg._attr_1 {
+    color: #6d0031
+}
+
+#tweet_canvas .idol_msg._attr_2 {
+    color: #001d6d
+}
+
+#tweet_canvas .idol_msg._attr_3 {
+    color: #722300
+}
+
+#tweet_canvas .idol_msg._attr_99 {
+    color: #013f00
+}
+
+#tweet_canvas .idol_img {
+    top: -176px;
+    left: -82px
+}
+
+#tweet_canvas .copyrights_img {
+    left: 10px;
+    bottom: 10px
+}
+
+.idol_name._attr_1 {
+    text-shadow: 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073
+}
+
+.idol_name._attr_2 {
+    text-shadow: 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff
+}
+
+.idol_name._attr_3 {
+    text-shadow: 0px 0px 3px #ff6600, 0px 0px 3px #ff6600, 0px 0px 3px #ff6600, 0px 0px 3px #ff6600, 0px 0px 3px #ff6600, 0px 0px 3px #ff6600, 0px 0px 3px #ff6600, 0px 0px 3px #ff6600
+}
+
+.idol_name._attr_99 {
+    text-shadow: 0px 0px 3px #137d11, 0px 0px 3px #137d11, 0px 0px 3px #137d11, 0px 0px 3px #137d11, 0px 0px 3px #137d11, 0px 0px 3px #137d11, 0px 0px 3px #137d11, 0px 0px 3px #137d11
+}
+
+.idol_name._attr_5 {
+    text-shadow: 0px 0px 3px #54d129, 0px 0px 3px #54d129, 0px 0px 3px #54d129, 0px 0px 3px #54d129, 0px 0px 3px #54d129, 0px 0px 3px #54d129, 0px 0px 3px #54d129, 0px 0px 3px #54d129
+}
+
+.whiteday_frame {
+    position: relative;
+    width: 304px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border: 3px solid;
+    border-color: #f3e00d;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #001144
+}
+
+.whiteday_frame .headline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: -16px
+}
+
+.whiteday_frame ._contents {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.slide-tutorial {
+    font-size: 11px
+}
+
+.slide-tutorial .tutorial_title {
+    font-size: 14px;
+    color: #fffb84
+}
+
+.slider_back {
+    display: block;
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 150px;
+    left: -4px;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Ficon%2Ficon_arrow_left.png%3F1487720323) no-repeat;
+    background-size: 23px 23px;
+    z-index: 1
+}
+
+.slider_next {
+    display: block;
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 150px;
+    right: -4px;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Ficon%2Ficon_arrow_right.png%3F1487720323) no-repeat;
+    background-size: 23px 23px;
+    z-index: 1
+}
+
+.information_box {
+    position: relative;
+    width: 304px;
+    padding: 8px;
+    border: 1px solid;
+    border-color: #f3e00d;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #001144;
+    font-size: 10px;
+    line-height: 1.2em
+}
+
+._pointer_events-none {
+    pointer-events: none
+}
