@@ -1041,28 +1041,7 @@
                     $('#jsRecipeCancel').css('pointer-events', 'none');
                     e.preventDefault();
                 });
-                $('.btn_make').on('click', function(e) {
-                    var taste_id = $(this).data('taste_id');
-                    var cooking_id = $(this).data('cooking_id');
-                    var form_id = $(this).data('form_id');
-                    var food_name = $(this).data('food_name');
-                    var food_image = $(this).data('food_image');
-                    var idol_base_id = $(this).data('idol_base_id');
-                    $('#cooking_id').val(cooking_id);
-                    $('#taste_id').val(taste_id);
-                    $('#form_id').val(form_id);
-                    $('#make_result_text').html("<div class='text_value _completed'>" + food_name + "</div>");
-                    $('#make_result_img').removeClass().addClass(food_image);
-                    $('.btn_02_selected').removeClass().addClass('btn_make jsOnDesignBtn').css('pointer-events', 'auto');
-                    $(this).removeClass().addClass('btn_02_selected').css('pointer-events', 'none');
-                    e.preventDefault();
-                });
-                $('.search_pulldown_3').change(function() {
-                    $('.btn_02_selected').removeClass().addClass('btn_make jsOnDesignBtn').css('pointer-events', 'auto');
-                    $('#make_result_img').removeClass().addClass('present_empty');
-                    $('#make_result_text').html("<div class='text_value'>???</div>");
-                });
-
+                
                 function cookingCheck(taste_id, cooking_id, form_id, idol_base_id) {
                     var check_flg = true;
                     $.each(failure_arr, function(index, val) {
