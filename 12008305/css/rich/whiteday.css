@@ -1443,7 +1443,7 @@
 }
 
 body {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fmypage_new%2Fbg%2Fbg_status_mypage_01.png%3F1487720324);
+    background-image: url(../../../12008305/image_sp/ui/mypage_new/bg/bg_status_mypage_01.png);
     background-size: 7px 7px
 }
 
@@ -2378,7 +2378,7 @@ body {
     position: absolute;
     top: 150px;
     left: -4px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Ficon%2Ficon_arrow_left.png%3F1487720323) no-repeat;
+    background: url(../../../12008305/image_sp/ui/icon/icon_arrow_left.png) no-repeat;
     background-size: 23px 23px;
     z-index: 1
 }
@@ -2390,7 +2390,7 @@ body {
     position: absolute;
     top: 150px;
     right: -4px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Ficon%2Ficon_arrow_right.png%3F1487720323) no-repeat;
+    background: url(../../../12008305/image_sp/ui/icon/icon_arrow_right.png) no-repeat;
     background-size: 23px 23px;
     z-index: 1
 }
