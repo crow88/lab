@@ -7,37 +7,37 @@ for (var i = 0, len = 10; i < len; i++) {
 //______________________"１２３４５６７８９０１２３４5"
 window.im_cjs.t[1][1] = "ﾋﾟﾝﾎﾟ～ﾝ";
 
-window.im_cjs.t[2][1] = "はいはい､開けるよー♪お待た";
-window.im_cjs.t[2][2] = "せ～……って､なんだｷﾐかー｡";
-window.im_cjs.t[2][3] = "ちょうど今､いいとこなんだよ";
-window.im_cjs.t[2][4] = "ね｡Shhh,be quiet.Okay?";
+window.im_cjs.t[2][1] = "네네, 열게요-♪ 기다리세요~";
+window.im_cjs.t[2][2] = "……아니, 뭐야 너였나-. ";
+window.im_cjs.t[2][3] = "마침 지금, 좋은 부분이야. ";
+window.im_cjs.t[2][4] = "Shhh, be quiet. Okay?";
 
-window.im_cjs.t[3][1] = "うん､よろしい♪で､ｷﾐは何をし";
-window.im_cjs.t[3][2] = "に来たのかなー? 女の子の園に､";
-window.im_cjs.t[3][3] = "まさか何も用意せずやってきた";
-window.im_cjs.t[3][4] = "ﾜｹじゃないよねぇ?";
+window.im_cjs.t[3][1] = "응, 좋아♪ 그래서, 너는 ";
+window.im_cjs.t[3][2] = "뭐하러 왔을까나-? 여자애의 ";
+window.im_cjs.t[3][3] = "장소에, 설마 아무런 준비도 ";
+window.im_cjs.t[3][4] = "하지 않고 찾아온건 아니겠지?";
 
-window.im_cjs.t[4][1] = "もったいぶらずに差し出してご";
-window.im_cjs.t[4][2] = "らんよ｡ｷﾐの後ろ､隠してるんで";
-window.im_cjs.t[4][3] = "しょ? 貪欲な女の子たちが望ん";
-window.im_cjs.t[4][4] = "でる､大好きなｱﾚがさ｡";
+window.im_cjs.t[4][1] = "점잔빼지말고 내밀어 보렴. ";
+window.im_cjs.t[4][2] = "너 뒤에 숨기고 있지? ";
+window.im_cjs.t[4][3] = "탐욕스런 여자애들이 바라고 ";
+window.im_cjs.t[4][4] = "있는, 아주 좋아하는 그걸 말야.";
 
-window.im_cjs.t[5][1] = "隠したってわかるよー｡その匂";
-window.im_cjs.t[5][2] = "いは､上映会をよりｽﾃｷな何かに";
-window.im_cjs.t[5][3] = "変えてくれるﾓﾉ……例えるなら､";
-window.im_cjs.t[5][4] = "ﾁｰｽﾞとﾄﾏﾄの匂い｡";
+window.im_cjs.t[5][1] = "숨겨봤자 알 수 있다구-. 그 냄새는, ";
+window.im_cjs.t[5][2] = "상영회를 보다 멋진 무언가로 ";
+window.im_cjs.t[5][3] = " 바꿔주는 것…… 예를 들면, ";
+window.im_cjs.t[5][4] = "치즈와 토마토의 냄새.";
 
-window.im_cjs.t[6][1] = "つまり､ｷﾐの背中に隠れてるの";
-window.im_cjs.t[6][2] = "は……注文した超特大･ﾃﾞﾗｯｸｽ";
-window.im_cjs.t[6][3] = "ｽﾍﾟｼｬﾘﾃｨｰﾋﾟｻﾞと見た! おっ､";
-window.im_cjs.t[6][4] = "正解! んはー､美味しそー♪";
+window.im_cjs.t[6][1] = "즉, 네 등 뒤에 숨어있는 것은…… ";
+window.im_cjs.t[6][2] = "주문한 초특대·디럭스 스페셜리티 ";
+window.im_cjs.t[6][3] = "피자라고 생각해! 옷, 정답! ";
+window.im_cjs.t[6][4] = "우와-, 맛있겠다-♪";
 
-window.im_cjs.t[7][1] = "買ってきてくれて､ありがと! ";
-window.im_cjs.t[7][2] = "……っとと､いけない｡大きな声";
-window.im_cjs.t[7][3] = "出しちゃった｡興奮しちゃって､";
-window.im_cjs.t[7][4] = "つい♪静かにね､静かに｡";
+window.im_cjs.t[7][1] = "사다줘서 고마워! ……아차차, ";
+window.im_cjs.t[7][2] = "이러면 안되지. 소리를 크게 ";
+window.im_cjs.t[7][3] = "질러버렸다. 흥분해서, 그만♪";
+window.im_cjs.t[7][4] = "조용히 해야지, 조용히.";
 
-window.im_cjs.t[8][1] = "でもさー､やっぱ映画にはｼﾞｬﾝｸ";
-window.im_cjs.t[8][2] = "なﾌｰﾄﾞだよ｡……うん､ｷﾐの参加";
-window.im_cjs.t[8][3] = "を許可しよう! さぁ､お入りよ｡";
-window.im_cjs.t[8][4] = "秘密のｼｱﾀｰへようこそ♪";
+window.im_cjs.t[8][1] = "그래도 말야-, 역시 영화에는 ";
+window.im_cjs.t[8][2] = "정크푸드라구. ……음, 너의 ";
+window.im_cjs.t[8][3] = "참가를 허락하지! 자, 들어와. ";
+window.im_cjs.t[8][4] = "비밀의 시어터에 온걸 환영해♪";
