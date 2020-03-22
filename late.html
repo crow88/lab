@@ -48,8 +48,8 @@
     <script type='text/javascript' src='12008305/js/cjs/episode/403_2/talk.js'></script>
     <script type='text/javascript' src='12008305/js/cjs/episode/403_2/403_2.js'></script>
     <script>
-        var image_server = "http://sp.pf-img-a.mbga.jp/12008305/";
-        var base_url = "http://125.6.169.35/idolmaster/";
+        var image_server = "";
+        var base_url = "";
         // 音声ファイルのmanifestを定義
         window.voice_manifest = {
             'scene1': 'sound/9900932/f6dae9800f481de8d3e16c7d1c8028d8.mp4',
@@ -62,9 +62,9 @@
             'scene8': 'sound/9900932/b5207d5afd190b1e30c294d1bf6c971f.mp4',
         };
         window.file_name = "_403_2"; // createjs の本体ファイルを定義
-        window.dir_name = "image_sp/cjs/episode/403_2/";
+        window.dir_name = "12008305/image_sp/cjs/episode/403_2/";
         window.im_cjs.voice_flag = true; // 音声再生フラグを定義
-        window.im_cjs.jump_url = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fidol_gallery%2Fidol_detail%2F4ba0d4b0bc5a9b119b12309ca4b87b55%2F2%3Fl_frm%3DIdol_story_cjs_1%26rnd%3D40265448'; // createjsの演出が全て終了した場合の飛び先urlの定義
+        window.im_cjs.jump_url = 'https://crow88.github.io/lab/'; // createjsの演出が全て終了した場合の飛び先urlの定義
     </script>
     <script>
         var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
@@ -82,7 +82,7 @@
                 for (var i = 0, len = lib.properties.manifest.length; i < len; i++) {
                     new_manifest[i] = {
                         'type': 'image',
-                        'src': window.image_server + '?url=' + encodeURIComponent(window.base_url + window.dir_name + lib.properties.manifest[i].src),
+                        'src': window.image_server + window.base_url + window.dir_name + lib.properties.manifest[i].src,
                         'id': lib.properties.manifest[i].id
                     }
                 }
