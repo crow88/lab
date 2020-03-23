@@ -9,7 +9,7 @@ window.im_cjs.t[1][1] = "딩~동~";
 
 window.im_cjs.t[2][1] = "네네, 열게요-♪ 기다리세요~";
 window.im_cjs.t[2][2] = "……아니, 뭐야 너였나-. ";
-window.im_cjs.t[2][3] = "마침 지금, 좋은 부분이야. ";
+window.im_cjs.t[2][3] = "마침 지금, 좋은 타이밍이야. ";
 window.im_cjs.t[2][4] = "Shhh, be quiet. Okay?";
 
 window.im_cjs.t[3][1] = "응, 좋아♪ 그래서, 너는 ";
