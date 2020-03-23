@@ -19,12 +19,12 @@ window.im_cjs.t[3][4] = "하지 않고 찾아온건 아니겠지?";
 
 window.im_cjs.t[4][1] = "점잔빼지말고 내밀어 보렴. ";
 window.im_cjs.t[4][2] = "너 뒤에 숨기고 있지? ";
-window.im_cjs.t[4][3] = "탐욕스런 여자애들이 바라고 ";
-window.im_cjs.t[4][4] = "있는, 아주 좋아하는 그걸 말야.";
+window.im_cjs.t[4][3] = "욕심 많은 여자애들이 바라고 ";
+window.im_cjs.t[4][4] = "있는, 정말 좋아하는 그걸 말야.";
 
 window.im_cjs.t[5][1] = "숨겨봤자 알 수 있다구-. 그 냄새는, ";
 window.im_cjs.t[5][2] = "상영회를 보다 멋진 무언가로 ";
-window.im_cjs.t[5][3] = "바꿔주는 것…… 예를 들면, ";
+window.im_cjs.t[5][3] = "바꿔주는 것…… 예를 들자면, ";
 window.im_cjs.t[5][4] = "치즈와 토마토의 냄새.";
 
 window.im_cjs.t[6][1] = "즉, 네 등 뒤에 숨어있는 것은…… ";
