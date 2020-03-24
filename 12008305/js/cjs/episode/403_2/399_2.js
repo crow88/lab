@@ -235,24 +235,24 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// _line
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("rgba(255,255,255,0.247)").s().p("AxLEHQhaAAAAhaIAAlZQAAhaBaAAMAiXAAAQBaAAAABaIAAFZQAABahaAAgAybisIAAFZQAABQBQAAMAiXAAAQBQAAAAhQIAAlZQAAhQhQAAMgiXAAAQhQAAAABQg");
-	this.shape.setTransform(0,-2.275);
+	this.shape.graphics.f("rgba(255,255,255,0.247)").s().p("AxLCvQhaAAAAhaIAAipQAAhaBaAAMAiXAAAQBaAAAABaIAACpQAABahaAAgAybhUIAACpQAABQBQAAMAiXAAAQBQAAAAhQIAAipQAAhQhQAAMgiXAAAQhQAAAABQg");
+	this.shape.setTransform(0,6);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("rgba(255,255,255,0.498)").s().p("AxLD9QhQAAAAhQIAAlZQAAhQBQAAMAiXAAAQBQAAAABQIAAFZQAABQhQAAgAyRisIAAFZQAABGBGAAMAiXAAAQBGAAAAhGIAAlZQAAhGhGAAMgiXAAAQhGAAAABGg");
-	this.shape_1.setTransform(0,-2.275);
+	this.shape_1.graphics.f("rgba(255,255,255,0.498)").s().p("AxLClQhQAAAAhQIAAipQAAhQBQAAMAiXAAAQBQAAAABQIAACpQAABQhQAAgAyRhUIAACpQAABGBGAAMAiXAAAQBGAAAAhGIAAipQAAhGhGAAMgiXAAAQhGAAAABGg");
+	this.shape_1.setTransform(0,6);
 
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#FFFFFF").s().p("AxLDpQg8AAAAg8IAAlZQAAg8A8AAMAiXAAAQA8AAAAA8IAAFZQAAA8g8AAg");
-	this.shape_2.setTransform(0,-2.275);
+	this.shape_2.graphics.f("#FFFFFF").s().p("AxLCRQg8AAAAg8IAAipQAAg8A8AAMAiXAAAQA8AAAAA8IAACpQAAA8g8AAg");
+	this.shape_2.setTransform(0,6);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("rgba(255,255,255,0.749)").s().p("AxLDzQhGAAAAhGIAAlZQAAhGBGAAMAiXAAAQBGAAAABGIAAFZQAABGhGAAgAyHisIAAFZQAAA8A8AAMAiXAAAQA8AAAAg8IAAlZQAAg8g8AAMgiXAAAQg8AAAAA8g");
-	this.shape_3.setTransform(0,-2.275);
+	this.shape_3.graphics.f("rgba(255,255,255,0.749)").s().p("AxLCbQhGAAAAhGIAAipQAAhGBGAAMAiXAAAQBGAAAABGIAACpQAABGhGAAgAyHhUIAACpQAAA8A8AAMAiXAAAQA8AAAAg8IAAipQAAg8g8AAMgiXAAAQg8AAAAA8g");
+	this.shape_3.setTransform(0,6);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.window_finish_2line, new cjs.Rectangle(-119,-28.5,238,52.5), null);
+}).prototype = getMCSymbolPrototype(lib.window_finish, new cjs.Rectangle(-119,-47,238,71), null);
 
 
 (lib.white_mask = function(mode,startPosition,loop) {
