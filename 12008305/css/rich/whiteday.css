@@ -1906,8 +1906,7 @@ body {
     background-size: 320px 2574px;
     width: 70px;
     height: 36px;
-    display: inline-block;
-    margin: 0 0 0 0
+    display: inline-block
 }
 
 .cooked_recipe_tab .tab_recipe_menu:nth-of-type(2).selected {
@@ -1917,8 +1916,7 @@ body {
     background-size: 320px 2574px;
     width: 70px;
     height: 36px;
-    display: inline-block;
-    margin: 0 0 0 0
+    display: inline-block
 }
 
 .cooked_recipe_tab .tab_recipe_menu:nth-of-type(3).selected {
@@ -1928,8 +1926,7 @@ body {
     background-size: 320px 2574px;
     width: 70px;
     height: 36px;
-    display: inline-block;
-    margin: 0 0 0 0
+    display: inline-block
 }
 
 .cooked_recipe_tab .tab_recipe_menu:nth-of-type(4).selected {
@@ -1939,8 +1936,7 @@ body {
     background-size: 320px 2574px;
     width: 70px;
     height: 36px;
-    display: inline-block;
-    margin: 0 0 0 0
+    display: inline-block
 }
 
 .recipe_list {
