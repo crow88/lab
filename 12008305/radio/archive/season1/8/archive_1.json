@@ -40,7 +40,7 @@
 "effect_name":"オープニング",
 "category_name":"wall2",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
 "state":1,
 "categoryid":5
 }
@@ -530,7 +530,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 },
@@ -539,7 +539,7 @@
 "effect_name":"オープニング",
 "category_name":"wall2",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
 "state":1,
 "categoryid":5
 }
@@ -7356,7 +7356,7 @@
 "effect_name":"アンケート1",
 "category_name":"enquete",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
@@ -7415,7 +7415,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -8793,7 +8793,7 @@
 "effect_name":"テロップ",
 "category_name":"info_comment",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":8
 },
@@ -8802,7 +8802,7 @@
 "effect_name":"アンケート1",
 "category_name":"enquete",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
@@ -8861,7 +8861,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -9126,7 +9126,7 @@
 "effect_name":"アンケート1",
 "category_name":"enquete",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
@@ -9185,7 +9185,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -9342,7 +9342,7 @@
 "effect_name":"アンケート1",
 "category_name":"enquete",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
@@ -9389,7 +9389,7 @@
 "effect_name":"お待ちください",
 "category_name":"wall2",
 "effectid":"5",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast%2Fbg%2F1_wait.jpg%3Fv%3D20190524145526",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast%2Fbg%2F1_wait.jpg%3Fv%3D20190524145526",
 "state":1,
 "categoryid":5
 }
@@ -9777,7 +9777,7 @@
 "effect_name":"テロップ",
 "category_name":"info_comment",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":8
 },
@@ -9786,7 +9786,7 @@
 "effect_name":"アンケート1",
 "category_name":"enquete",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
@@ -9833,7 +9833,7 @@
 "effect_name":"お待ちください",
 "category_name":"wall2",
 "effectid":"5",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast%2Fbg%2F1_wait.jpg%3Fv%3D20190524145526",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast%2Fbg%2F1_wait.jpg%3Fv%3D20190524145526",
 "state":1,
 "categoryid":5
 }
@@ -10080,7 +10080,7 @@
 "effect_name":"アンケート1",
 "category_name":"enquete",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
@@ -10127,7 +10127,7 @@
 "effect_name":"お待ちください",
 "category_name":"wall2",
 "effectid":"5",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast%2Fbg%2F1_wait.jpg%3Fv%3D20190524145526",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast%2Fbg%2F1_wait.jpg%3Fv%3D20190524145526",
 "state":1,
 "categoryid":5
 }
@@ -10284,7 +10284,7 @@
 "effect_name":"アンケート1",
 "category_name":"enquete",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
@@ -10343,7 +10343,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -10713,7 +10713,7 @@
 "effect_name":"テロップ",
 "category_name":"info_comment",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":8
 },
@@ -10722,7 +10722,7 @@
 "effect_name":"アンケート1",
 "category_name":"enquete",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
@@ -10781,7 +10781,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -10938,7 +10938,7 @@
 "effect_name":"アンケート1",
 "category_name":"enquete",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
@@ -10997,7 +10997,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -11532,7 +11532,7 @@
 "effect_name":"アンケート1結果",
 "category_name":"enquete_result",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":7,
 "enquete_enable":true,
@@ -11595,7 +11595,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -14047,7 +14047,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 },
@@ -14056,7 +14056,7 @@
 "effect_name":"オープニング",
 "category_name":"wall2",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
 "state":1,
 "categoryid":5
 }
@@ -14786,7 +14786,7 @@
 "effect_name":"テロップ",
 "category_name":"info_comment",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":8
 },
@@ -14822,7 +14822,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 },
@@ -14831,7 +14831,7 @@
 "effect_name":"オープニング",
 "category_name":"wall2",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
 "state":1,
 "categoryid":5
 }
@@ -15087,7 +15087,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 },
@@ -15096,7 +15096,7 @@
 "effect_name":"オープニング",
 "category_name":"wall2",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
 "state":1,
 "categoryid":5
 }
@@ -18529,7 +18529,7 @@
 "effect_name":"アンケート2",
 "category_name":"enquete",
 "effectid":"2",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
@@ -18584,7 +18584,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -19332,7 +19332,7 @@
 "effect_name":"テロップ",
 "category_name":"info_comment",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":8
 },
@@ -19341,7 +19341,7 @@
 "effect_name":"アンケート2",
 "category_name":"enquete",
 "effectid":"2",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
@@ -19396,7 +19396,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -19607,7 +19607,7 @@
 "effect_name":"アンケート2",
 "category_name":"enquete",
 "effectid":"2",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
@@ -19662,7 +19662,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -21781,7 +21781,7 @@
 "effect_name":"アンケート2結果",
 "category_name":"enquete_result",
 "effectid":"2",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":7,
 "enquete_enable":true,
@@ -21839,7 +21839,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -24435,7 +24435,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 },
@@ -24444,7 +24444,7 @@
 "effect_name":"オープニング",
 "category_name":"wall2",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
 "state":1,
 "categoryid":5
 }
@@ -30631,7 +30631,7 @@
 "effect_name":"エンディング",
 "category_name":"wall2",
 "effectid":"2",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
 "state":1,
 "categoryid":5
 }
@@ -30803,7 +30803,7 @@
 "effect_name":"テロップ",
 "category_name":"info_comment",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":8
 },
@@ -30830,7 +30830,7 @@
 "effect_name":"エンディング",
 "category_name":"wall2",
 "effectid":"2",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
 "state":1,
 "categoryid":5
 }
@@ -31236,7 +31236,7 @@
 "effect_name":"テロップ",
 "category_name":"info_comment",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":8
 },
@@ -31245,7 +31245,7 @@
 "effect_name":"アンケート3",
 "category_name":"enquete",
 "effectid":"3",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
@@ -31296,7 +31296,7 @@
 "effect_name":"エンディング",
 "category_name":"wall2",
 "effectid":"2",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
 "state":1,
 "categoryid":5
 }
@@ -31579,7 +31579,7 @@
 "effect_name":"アンケート3結果",
 "category_name":"enquete_result",
 "effectid":"3",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":7,
 "enquete_enable":true,
@@ -31635,7 +31635,7 @@
 "effect_name":"エンディング",
 "category_name":"wall2",
 "effectid":"2",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
 "state":1,
 "categoryid":5
 }
@@ -31681,7 +31681,7 @@
 "effect_name":"テロップ",
 "category_name":"info_comment",
 "effectid":"1",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":8
 },
@@ -31690,7 +31690,7 @@
 "effect_name":"アンケート3結果",
 "category_name":"enquete_result",
 "effectid":"3",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":7,
 "enquete_enable":true,
@@ -31746,7 +31746,7 @@
 "effect_name":"エンディング",
 "category_name":"wall2",
 "effectid":"2",
-"image_path":"12008305/image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
+"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
 "state":1,
 "categoryid":5
 }
