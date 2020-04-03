@@ -40,7 +40,7 @@
 "effect_name":"オープニング",
 "category_name":"wall2",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
 "state":1,
 "categoryid":5
 }
@@ -530,7 +530,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 },
@@ -539,7 +539,7 @@
 "effect_name":"オープニング",
 "category_name":"wall2",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
 "state":1,
 "categoryid":5
 }
@@ -552,7 +552,7 @@
 "archive_id":"27",
 "log_type":"2",
 "id_by_type":"12",
-"message":"お？始まった始まった～。",
+"message":"오? 시작했다 시작했다~.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -750,7 +750,7 @@
 "archive_id":"38",
 "log_type":"2",
 "id_by_type":"14",
-"message":"うんうん、みんな元気だねー。感心感心～♪",
+"message":"응응, 모두 건강해보이네-. 기특하다 기특해~♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -858,7 +858,7 @@
 "archive_id":"44",
 "log_type":"2",
 "id_by_type":"16",
-"message":"キミたちのメッセージを見る限り、あたしを見てるみんなは…",
+"message":"너희들의 메세지를 보는 한, 나를 보는 모두는…",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -966,7 +966,7 @@
 "archive_id":"50",
 "log_type":"2",
 "id_by_type":"18",
-"message":"セロトニンがぶわぁーって分泌されまくりって感じだ！当たり？",
+"message":"세로토닌이 부와-앗 분비되는 느낌이야! 맞아?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -1128,7 +1128,7 @@
 "archive_id":"59",
 "log_type":"2",
 "id_by_type":"21",
-"message":"ふっふー、志希ちゃんとおしゃべりできて嬉しいでしょー。そうでしょー♪",
+"message":"훗후-, 시키쨩과 이야기 할 수 있어서 기쁘지-. 그치-♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -1326,7 +1326,7 @@
 "archive_id":"70",
 "log_type":"2",
 "id_by_type":"8",
-"message":"キミたち、あたしのコト疑いすぎ～。ちゃーんとココでスタンバイしてたよー？ギリだったけど♪",
+"message":"너희들, 나를 의심하다니~. 제대로 여기서 스탠바이하고 있었다구-? 아슬아슬했지만♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -1524,7 +1524,7 @@
 "archive_id":"81",
 "log_type":"2",
 "id_by_type":"6",
-"message":"おやおや、あたしの興味が３０分も持つか心配かー。そ・れ・は、キミたち次第だよ？",
+"message":"오야오야, 내 흥미가 30분간 유지될지 걱정인가-. 그·것·은, 너희들에게 달렸다구?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -1704,7 +1704,7 @@
 "archive_id":"91",
 "log_type":"2",
 "id_by_type":"5",
-"message":"デレマスチャンネルのために、急いで帰った人もいるんだね。なかなかの情熱だ～。おつかれー。",
+"message":"데레마스채널때문에, 급하게 돌아온 사람도 있구나. 엄청난 열정이야~. 수고했어-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -1830,7 +1830,7 @@
 "archive_id":"98",
 "log_type":"2",
 "id_by_type":"27",
-"message":"いやぁー、話には聞いてたけど、すごいねー。コレ、どーゆー仕組みで動いてるんだろうね？",
+"message":"이야-, 이야기는 들었지만, 대단하네-. 이거, 어떤 구조로 움직이고 있는걸까?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -1938,7 +1938,7 @@
 "archive_id":"104",
 "log_type":"2",
 "id_by_type":"29",
-"message":"最新ＡＩ技術によって、志希ロボットが話してる？",
+"message":"최신 AI기술에 의해, 시키로봇이 말하고 있다?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -2028,7 +2028,7 @@
 "archive_id":"109",
 "log_type":"2",
 "id_by_type":"31",
-"message":"はたまた、ここにいるあたしは、ガレージにいるあたしが遠隔操作している人形なのか？",
+"message":"또는, 이곳의 나는, 차고에 있는 내가 원격조작하고있는 인형인가?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -2118,7 +2118,7 @@
 "archive_id":"114",
 "log_type":"2",
 "id_by_type":"33",
-"message":"まっ、あたしがキミたちと、ここでフツーに話してるだけなんだけどねー♪にゃははっ♪",
+"message":"뭐, 내가 너희들이랑, 여기서 평범하게 얘기하고 있는 것 뿐이지만-♪ 냐하하♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -2298,7 +2298,7 @@
 "archive_id":"124",
 "log_type":"2",
 "id_by_type":"35",
-"message":"そんな感じで、今日もデレマスチャンネルはゆる～くやっていくよー。お相手はこのあたし、一ノ瀬志希でお送りしまーす。",
+"message":"그런 느낌으로, 오늘도 데레마스채널은 느~긋하게 가자-. 진행은 이쪽의 나, 이치노세 시키가 전해드리겠습니다-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -2352,7 +2352,7 @@
 "archive_id":"127",
 "log_type":"2",
 "id_by_type":"38",
-"message":"はい、みんな拍手～♪",
+"message":"자, 모두 박수~♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -2694,7 +2694,7 @@
 "archive_id":"146",
 "log_type":"2",
 "id_by_type":"40",
-"message":"おやおやー？んー……そんなんじゃ志希ちゃんは満足できないなー。",
+"message":"어라라-? 음-…… 그런식이면 시키쨩은 만족 못하는데-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -2910,7 +2910,7 @@
 "archive_id":"158",
 "log_type":"2",
 "id_by_type":"42",
-"message":"キミたち、反応がフツーだよ、フツー。こういうのはもっと盛大にやらなきゃ！",
+"message":"너네들, 반응이 평범하다구, 평범. 이런건 좀 더 성대하게 해야지!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -3090,7 +3090,7 @@
 "archive_id":"168",
 "log_type":"2",
 "id_by_type":"44",
-"message":"じゃないと、あたし…退屈でどっか行っちゃうかも！",
+"message":"안그러면, 나… 심심해서 어디론가 가버릴지도!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -3342,7 +3342,7 @@
 "archive_id":"182",
 "log_type":"2",
 "id_by_type":"46",
-"message":"行かないでほしければ……んふふっ♪どーしよっかー？",
+"message":"떠나지 않기를 바란다면…… 우후훗♪ 어-떻게 해야할까-?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -3504,7 +3504,7 @@
 "archive_id":"191",
 "log_type":"2",
 "id_by_type":"48",
-"message":"ほーれ、なんでも言ってみ？やってほしいコト言うとか、謝辞を述べるとか、愛を叫ぶとか！",
+"message":"자아-, 아무거나 말해볼래? 해줬으면 하는걸 말한다든가, 감사의 말을 전한다든가, 사랑을 외친다든가!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -3576,7 +3576,7 @@
 "archive_id":"195",
 "log_type":"2",
 "id_by_type":"7",
-"message":"予想外のコトが起こると、ヒトは面白いって感じるんだよ。みんな～、志希ちゃんに楽しいシゲキをちょーだい♪",
+"message":"예상 밖의 일이 일어난다면, 사람은 재밌다고 느끼는거야. 모두들~, 시키쨩에게 즐거운 자극을 부탁해-♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -3846,7 +3846,7 @@
 "archive_id":"210",
 "log_type":"2",
 "id_by_type":"52",
-"message":"あたしが退屈しなそーなコトを、キミたちが提供してくれなきゃ♪ギブ・アンド・テイクは基本だよー、諸君。",
+"message":"내가 지루해하지 않을 그런 것들을, 너희들이 제공해줘야지♪ 기브·앤·테이크는 기본이야-, 제군.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -3972,7 +3972,7 @@
 "archive_id":"217",
 "log_type":"2",
 "id_by_type":"55",
-"message":"……ってことは、あたしもキミたちに何かあげないとね！",
+"message":"……라는건, 나도 너희들에게 뭔가 줘야겠지!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -4062,7 +4062,7 @@
 "archive_id":"222",
 "log_type":"2",
 "id_by_type":"58",
-"message":"何にしよっか？今までのパーソナリティは何してたんだっけ？みんな、覚えてる？",
+"message":"뭘 할까? 지금까지 퍼스널리티들은 뭘 했어? 다들, 기억나?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -4188,7 +4188,7 @@
 "archive_id":"229",
 "log_type":"2",
 "id_by_type":"62",
-"message":"そうだ！お便り紹介ね。いやぁー、すっかり忘れてた。",
+"message":"맞다! 사연을 소개해야지. 이야-, 까맣게 잊고 있었다.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -4278,7 +4278,7 @@
 "archive_id":"234",
 "log_type":"2",
 "id_by_type":"64",
-"message":"どうりでスタッフが、あたしのことをじぃーっと見てるワケだ。はっはっは～、問題解決～♪一件落着～♪",
+"message":"그래서 스태프가, 나를 빤-히 쳐다보고 있었던거구나. 핫핫하~, 문제해결~♪ 한 건 완료~♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -4386,7 +4386,7 @@
 "archive_id":"240",
 "log_type":"2",
 "id_by_type":"57",
-"message":"お、何人か英語でメッセージくれてる人もいるね～。Hi, thanks for listening♪",
+"message":"오, 영어로 메세지 보내는 사람도 몇명 있네~. Hi, thanks for listening♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -4512,7 +4512,7 @@
 "archive_id":"247",
 "log_type":"2",
 "id_by_type":"68",
-"message":"今日のテーマトークはねー、あたしもイロイロ考えたんだよねー。",
+"message":"오늘의 테마토크는 말야-, 나도 여러가지 생각해봤어-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -4602,7 +4602,7 @@
 "archive_id":"252",
 "log_type":"2",
 "id_by_type":"70",
-"message":"『みんなが好きな匂い』とか、『オススメの実験体』とか、『気になる観察対象』とか聞くのもいいかなーって思ったんだけど",
+"message":"『모두가 좋아하는 냄새』라던가, 『추천하는 실험체』라던가, 『신경쓰이는 관찰대상』같은걸 물어보는게 좋을까-하고 생각했지만",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -4638,7 +4638,7 @@
 "archive_id":"254",
 "log_type":"2",
 "id_by_type":"72",
-"message":"イマイチ、ぱっとしないかなーって思ったわけ。",
+"message":"조금 더, 팟 하고 떠오르는게 있지 않을까-해서.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -4710,7 +4710,7 @@
 "archive_id":"258",
 "log_type":"2",
 "id_by_type":"74",
-"message":"ってゆーか、そーいうのは自分で見つけるからいいんだよね。オススメされても、すぐ忘れちゃうし。",
+"message":"뭐랄까, 그런건 자신이 찾아내니까 좋은거지. 추천을 받아도, 금방 잊어버리구.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -4836,7 +4836,7 @@
 "archive_id":"265",
 "log_type":"2",
 "id_by_type":"76",
-"message":"んでね、フレちゃんに相談してみたの。あ、フレちゃんって宮本さんのことね。キミたち、知ってる？",
+"message":"그래서말야, 후레쨩에게 상담해봤어. 아, 후레쨩은 미야모토씨를 말하는거야. 너희들, 알고있어?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -5052,7 +5052,7 @@
 "archive_id":"277",
 "log_type":"2",
 "id_by_type":"80",
-"message":"そうそう、宮本さん。そしたら『みんなが始めた新しいコト聞いてみたら？志希ちゃんのキョーミ湧く何かが見つかるかも☆』だって。",
+"message":"그래그래, 미야모토씨. 그랬더니 『모두가 새롭게 시작한 일을 물어보는건 어때? 시키쨩의 흥미가 샘솟는 무언가를 발견할지도☆』래.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -5268,7 +5268,7 @@
 "archive_id":"289",
 "log_type":"2",
 "id_by_type":"83",
-"message":"さすが宮本さんだよねー。ってことで、あたしのテーマはこれ！『最近新しく始めたコト』！",
+"message":"역시 미야모토씨야-. 그런 이유로, 내 테마는 이것! 『최근에 새로 시작한 일』！",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -5412,7 +5412,7 @@
 "archive_id":"297",
 "log_type":"2",
 "id_by_type":"79",
-"message":"宮本さんは、レイジー・レイジーのレイジー担当。そしてあたしは…レイジー担当でーす。どうもー。",
+"message":"미야모토씨는, 레이지·레이지의 레이지 담당. 그리고 나는… 레이지 담당입니다-. 잘 부탁-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -5592,7 +5592,7 @@
 "archive_id":"307",
 "log_type":"2",
 "id_by_type":"77",
-"message":"そうそう！フンフンフフーンの宮本さんね。キミたち詳しいねー。",
+"message":"맞아맞아! 흥흥흐흐-응의 미야모토씨지. 너희들 잘 알고있네-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -5736,7 +5736,7 @@
 "archive_id":"315",
 "log_type":"2",
 "id_by_type":"87",
-"message":"お便りくれた人、ありがとねー。キミと、キミと、あとそこのキミのことだよー。ふふふ～♪",
+"message":"사연 보내준 사람, 고마워-. 너랑, 너, 그리고 그곳의 너를 말하는거야-. 후후후~♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -5790,7 +5790,7 @@
 "archive_id":"318",
 "log_type":"2",
 "id_by_type":"90",
-"message":"今日はその中から、おひとつご紹介。送ってくれたのは、ゆきマルさん。どーもねー♪",
+"message":"오늘은 그 중에서, 한가지를 소개. 보내준 사람은, 유키마루씨. 안녕-♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -5844,7 +5844,7 @@
 "archive_id":"321",
 "log_type":"2",
 "id_by_type":"92",
-"message":"『サンドイッチの美味しさに目覚めてほぼ毎日食べてるなぁ』",
+"message":"『샌드위치의 맛에 눈을 떠서 거의 매일 먹고 있어』",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -5952,7 +5952,7 @@
 "archive_id":"327",
 "log_type":"2",
 "id_by_type":"95",
-"message":"だって。",
+"message":"라네.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -6024,7 +6024,7 @@
 "archive_id":"331",
 "log_type":"2",
 "id_by_type":"97",
-"message":"サンドイッチねー。いいよね、サンドイッチ。",
+"message":"샌드위치라-. 좋지. 샌드위치.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -6132,7 +6132,7 @@
 "archive_id":"337",
 "log_type":"2",
 "id_by_type":"81",
-"message":"炭水化物はエネルギーになるし、糖質は脳に情報を伝達する物質の合成に必要なんだ。みんなもサンドウィッチ、食べた方がいいよ？",
+"message":"탄수화물은 에너지가 되고, 당질은 뇌로 정보를 전달하는 물질의 합성에 필요해. 다들 샌드위치, 먹는게 좋다구?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -6276,7 +6276,7 @@
 "archive_id":"345",
 "log_type":"2",
 "id_by_type":"100",
-"message":"実験中だと、パパ～ッて食べれる食糧って重宝するんだよねー。わかるわかる♪",
+"message":"실험중에는, 파밧~ 먹을 수 있는 식량은 편리하지-. 알아알아♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -6420,7 +6420,7 @@
 "archive_id":"353",
 "log_type":"2",
 "id_by_type":"102",
-"message":"パンとバターがあれば、あとは食材挟んで終わりっ！だもんね。挟むも乗せるも、お気に召すまま！",
+"message":"빵과 버터가 있다면, 나머지는 식재료를 넣고 끝! 이니까. 끼우거나 올리거나, 마음가는대로!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -6564,7 +6564,7 @@
 "archive_id":"361",
 "log_type":"2",
 "id_by_type":"104",
-"message":"あっちの学校では、よく食べてたなー。懐かしーかも。",
+"message":"저쪽의 학교에선, 자주 먹었었지-. 그립네- 그럴지도.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -6672,7 +6672,7 @@
 "archive_id":"367",
 "log_type":"2",
 "id_by_type":"107",
-"message":"みんなは、どんなサンドイッチが好き？ジャムに、葉っぱに、フルーツに。イロイロ乗せられるでしょ？",
+"message":"모두들, 어떤 샌드위치를 좋아해? 잼에, 채소에, 과일. 여러가지 올리고 있지?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -6906,7 +6906,7 @@
 "archive_id":"380",
 "log_type":"2",
 "id_by_type":"93",
-"message":"好きなものは２度美味しいって知ってた？口に入ったときにも、消化器系に入ったときも、ドーパミンが放出されるんだって。ヒトの体ってよくできてるよね～。",
+"message":"좋아하는건 2번 맛있다는거 알고있어? 입에 들어갔을때와, 소화기계에 들어갔을때, 도파민이 방출된대. 사람의 몸이란건 잘 만들어졌지~.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -7266,7 +7266,7 @@
 "archive_id":"400",
 "log_type":"2",
 "id_by_type":"111",
-"message":"そんじゃ、ここいらでアンケートやってみよっかー♪",
+"message":"그럼, 이쯤에서 앙케이트 해볼까-♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -7356,29 +7356,29 @@
 "effect_name":"アンケート1",
 "category_name":"enquete",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
 "enquete_info":{
 "enquete_type":"1",
-"enquete_title":"好きなサンドイッチは？",
+"enquete_title":"좋아하는 샌드위치는?",
 "answer_list":{
 "1":{
 "answer_id":1,
-"text":"定番ＢＬＴサンド"
+"text":"기본적인 BLT 샌드위치"
 },
 "2":{
 "answer_id":2,
-"text":"ふわふわ卵サンド"
+"text":"푹신푹신 계란 샌드위치"
 },
 "3":{
 "answer_id":3,
-"text":"ジューシーなカツサンド"
+"text":"쥬시한 돈까스 샌드위치"
 },
 "4":{
 "answer_id":4,
-"text":"ピーナッツバターサンド"
+"text":"땅콩버터 샌드위치"
 }
 }
 }
@@ -7415,7 +7415,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -7482,7 +7482,7 @@
 "archive_id":"408",
 "log_type":"2",
 "id_by_type":"113",
-"message":"はい、アンケートやってみてねー。",
+"message":"자, 앙케이트 해봐-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -7518,7 +7518,7 @@
 "archive_id":"410",
 "log_type":"2",
 "id_by_type":"116",
-"message":"他にも、種類はあると思うんだけど、今回は志希ちゃんセレクトの４つからポチッと選んでみておくれ。",
+"message":"이 외에도, 여러종류가 있다고 생각하지만, 이번엔 시키쨩 셀렉트의 4개에서 팟 뽑아줘.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -7626,7 +7626,7 @@
 "archive_id":"416",
 "log_type":"2",
 "id_by_type":"120",
-"message":"どれも違－うとか言うキミは、メッセージに書き込んでみたらいいよー。まっ、アンケート結果には入らないけどー♪",
+"message":"어느것도 아니야-라고 말하는 너는, 메세지에 쓰면 돼-. 뭐, 앙케이트 결과엔 들어가지 않지만-♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -7770,7 +7770,7 @@
 "archive_id":"424",
 "log_type":"2",
 "id_by_type":"123",
-"message":"ふむふむ、けっこー面白いサンドイッチが好きな人もいるみたいだね。あたしが知らない世界は、ここにあったのかー♪",
+"message":"흠흠, 꽤나 재미있는 샌드위치를 좋아하는 사람도 있나보네. 내가 모르는 세계는, 여기 있었던건가-♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -8022,7 +8022,7 @@
 "archive_id":"438",
 "log_type":"2",
 "id_by_type":"115",
-"message":"うんうん、美味しそうなメッセージがたくさんだねー。",
+"message":"응응, 맛있어보이는 메세지가 잔뜩있네-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -8112,7 +8112,7 @@
 "archive_id":"443",
 "log_type":"2",
 "id_by_type":"129",
-"message":"ま、食べるかどうかはあたし次第だけどー。",
+"message":"뭐, 먹을지 어떨지는 내 맘이지만-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -8184,7 +8184,7 @@
 "archive_id":"447",
 "log_type":"2",
 "id_by_type":"131",
-"message":"んー……アンケートの結果が出るまで退屈だなー。",
+"message":"음-…… 앙케이트 결과가 나올때까지 심심한걸-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -8256,7 +8256,7 @@
 "archive_id":"451",
 "log_type":"2",
 "id_by_type":"133",
-"message":"キミたちとのおしゃべり？まあ、それも悪くないけれど…………",
+"message":"너희들과 수다? 뭐어, 그것도 나쁘진 않지만…………",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -8364,7 +8364,7 @@
 "archive_id":"457",
 "log_type":"2",
 "id_by_type":"136",
-"message":"うん。飽きた。",
+"message":"응. 질렸다.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -8382,7 +8382,7 @@
 "archive_id":"458",
 "log_type":"2",
 "id_by_type":"138",
-"message":"逃げちゃえー♪",
+"message":"도망쳐버리자-♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -8760,7 +8760,7 @@
 "archive_id":"479",
 "log_type":"4",
 "id_by_type":"1",
-"message":"一ノ瀬さんが失踪しました…",
+"message":"이치노세씨가 실종됐습니다…",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -8793,7 +8793,7 @@
 "effect_name":"テロップ",
 "category_name":"info_comment",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":8
 },
@@ -8802,29 +8802,29 @@
 "effect_name":"アンケート1",
 "category_name":"enquete",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
 "enquete_info":{
 "enquete_type":"1",
-"enquete_title":"好きなサンドイッチは？",
+"enquete_title":"좋아하는 샌드위치는?",
 "answer_list":{
 "1":{
 "answer_id":1,
-"text":"定番ＢＬＴサンド"
+"text":"기본적인 BLT 샌드위치"
 },
 "2":{
 "answer_id":2,
-"text":"ふわふわ卵サンド"
+"text":"푹신푹신 계란 샌드위치"
 },
 "3":{
 "answer_id":3,
-"text":"ジューシーなカツサンド"
+"text":"쥬시한 돈까스 샌드위치"
 },
 "4":{
 "answer_id":4,
-"text":"ピーナッツバターサンド"
+"text":"땅콩버터 샌드위치"
 }
 }
 }
@@ -8861,7 +8861,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -9126,29 +9126,29 @@
 "effect_name":"アンケート1",
 "category_name":"enquete",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
 "enquete_info":{
 "enquete_type":"1",
-"enquete_title":"好きなサンドイッチは？",
+"enquete_title":"좋아하는 샌드위치는?",
 "answer_list":{
 "1":{
 "answer_id":1,
-"text":"定番ＢＬＴサンド"
+"text":"기본적인 BLT 샌드위치"
 },
 "2":{
 "answer_id":2,
-"text":"ふわふわ卵サンド"
+"text":"푹신푹신 계란 샌드위치"
 },
 "3":{
 "answer_id":3,
-"text":"ジューシーなカツサンド"
+"text":"쥬시한 돈까스 샌드위치"
 },
 "4":{
 "answer_id":4,
-"text":"ピーナッツバターサンド"
+"text":"땅콩버터 샌드위치"
 }
 }
 }
@@ -9185,7 +9185,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -9342,29 +9342,29 @@
 "effect_name":"アンケート1",
 "category_name":"enquete",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
 "enquete_info":{
 "enquete_type":"1",
-"enquete_title":"好きなサンドイッチは？",
+"enquete_title":"좋아하는 샌드위치는?",
 "answer_list":{
 "1":{
 "answer_id":1,
-"text":"定番ＢＬＴサンド"
+"text":"기본적인 BLT 샌드위치"
 },
 "2":{
 "answer_id":2,
-"text":"ふわふわ卵サンド"
+"text":"푹신푹신 계란 샌드위치"
 },
 "3":{
 "answer_id":3,
-"text":"ジューシーなカツサンド"
+"text":"쥬시한 돈까스 샌드위치"
 },
 "4":{
 "answer_id":4,
-"text":"ピーナッツバターサンド"
+"text":"땅콩버터 샌드위치"
 }
 }
 }
@@ -9389,7 +9389,7 @@
 "effect_name":"お待ちください",
 "category_name":"wall2",
 "effectid":"5",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast%2Fbg%2F1_wait.jpg%3Fv%3D20190524145526",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast%2Fbg%2F1_wait.jpg%3Fv%3D20190524145526",
 "state":1,
 "categoryid":5
 }
@@ -9744,7 +9744,7 @@
 "archive_id":"522",
 "log_type":"4",
 "id_by_type":"2",
-"message":"現在、一ノ瀬さんを捜索中です",
+"message":"현재, 이치노세씨를 수색중입니다",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -9777,7 +9777,7 @@
 "effect_name":"テロップ",
 "category_name":"info_comment",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":8
 },
@@ -9786,29 +9786,29 @@
 "effect_name":"アンケート1",
 "category_name":"enquete",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
 "enquete_info":{
 "enquete_type":"1",
-"enquete_title":"好きなサンドイッチは？",
+"enquete_title":"좋아하는 샌드위치는?",
 "answer_list":{
 "1":{
 "answer_id":1,
-"text":"定番ＢＬＴサンド"
+"text":"기본적인 BLT 샌드위치"
 },
 "2":{
 "answer_id":2,
-"text":"ふわふわ卵サンド"
+"text":"푹신푹신 계란 샌드위치"
 },
 "3":{
 "answer_id":3,
-"text":"ジューシーなカツサンド"
+"text":"쥬시한 돈까스 샌드위치"
 },
 "4":{
 "answer_id":4,
-"text":"ピーナッツバターサンド"
+"text":"땅콩버터 샌드위치"
 }
 }
 }
@@ -9833,7 +9833,7 @@
 "effect_name":"お待ちください",
 "category_name":"wall2",
 "effectid":"5",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast%2Fbg%2F1_wait.jpg%3Fv%3D20190524145526",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast%2Fbg%2F1_wait.jpg%3Fv%3D20190524145526",
 "state":1,
 "categoryid":5
 }
@@ -10080,29 +10080,29 @@
 "effect_name":"アンケート1",
 "category_name":"enquete",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
 "enquete_info":{
 "enquete_type":"1",
-"enquete_title":"好きなサンドイッチは？",
+"enquete_title":"좋아하는 샌드위치는?",
 "answer_list":{
 "1":{
 "answer_id":1,
-"text":"定番ＢＬＴサンド"
+"text":"기본적인 BLT 샌드위치"
 },
 "2":{
 "answer_id":2,
-"text":"ふわふわ卵サンド"
+"text":"푹신푹신 계란 샌드위치"
 },
 "3":{
 "answer_id":3,
-"text":"ジューシーなカツサンド"
+"text":"쥬시한 돈까스 샌드위치"
 },
 "4":{
 "answer_id":4,
-"text":"ピーナッツバターサンド"
+"text":"땅콩버터 샌드위치"
 }
 }
 }
@@ -10127,7 +10127,7 @@
 "effect_name":"お待ちください",
 "category_name":"wall2",
 "effectid":"5",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast%2Fbg%2F1_wait.jpg%3Fv%3D20190524145526",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast%2Fbg%2F1_wait.jpg%3Fv%3D20190524145526",
 "state":1,
 "categoryid":5
 }
@@ -10284,29 +10284,29 @@
 "effect_name":"アンケート1",
 "category_name":"enquete",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
 "enquete_info":{
 "enquete_type":"1",
-"enquete_title":"好きなサンドイッチは？",
+"enquete_title":"좋아하는 샌드위치는?",
 "answer_list":{
 "1":{
 "answer_id":1,
-"text":"定番ＢＬＴサンド"
+"text":"기본적인 BLT 샌드위치"
 },
 "2":{
 "answer_id":2,
-"text":"ふわふわ卵サンド"
+"text":"푹신푹신 계란 샌드위치"
 },
 "3":{
 "answer_id":3,
-"text":"ジューシーなカツサンド"
+"text":"쥬시한 돈까스 샌드위치"
 },
 "4":{
 "answer_id":4,
-"text":"ピーナッツバターサンド"
+"text":"땅콩버터 샌드위치"
 }
 }
 }
@@ -10343,7 +10343,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -10410,7 +10410,7 @@
 "archive_id":"548",
 "log_type":"2",
 "id_by_type":"142",
-"message":"えー、戻ってほしいー？",
+"message":"에-, 돌아왔으면 좋겠어-?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -10554,7 +10554,7 @@
 "archive_id":"556",
 "log_type":"2",
 "id_by_type":"143",
-"message":"でも、アンケート待ってるの飽きちゃったんだよねー。その間に、なんか実験でもって思って！",
+"message":"그치만, 앙케이트 기다리는거 질려버렸는걸-. 그 사이에, 뭔가 실험을 해볼까 해서!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -10680,7 +10680,7 @@
 "archive_id":"563",
 "log_type":"4",
 "id_by_type":"3",
-"message":"アンケートそろそろ終了するので…",
+"message":"앙케이트가 슬슬 끝날 것 같기때문에…",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -10713,7 +10713,7 @@
 "effect_name":"テロップ",
 "category_name":"info_comment",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":8
 },
@@ -10722,29 +10722,29 @@
 "effect_name":"アンケート1",
 "category_name":"enquete",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
 "enquete_info":{
 "enquete_type":"1",
-"enquete_title":"好きなサンドイッチは？",
+"enquete_title":"좋아하는 샌드위치는?",
 "answer_list":{
 "1":{
 "answer_id":1,
-"text":"定番ＢＬＴサンド"
+"text":"기본적인 BLT 샌드위치"
 },
 "2":{
 "answer_id":2,
-"text":"ふわふわ卵サンド"
+"text":"푹신푹신 계란 샌드위치"
 },
 "3":{
 "answer_id":3,
-"text":"ジューシーなカツサンド"
+"text":"쥬시한 돈까스 샌드위치"
 },
 "4":{
 "answer_id":4,
-"text":"ピーナッツバターサンド"
+"text":"땅콩버터 샌드위치"
 }
 }
 }
@@ -10781,7 +10781,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -10866,7 +10866,7 @@
 "archive_id":"569",
 "log_type":"2",
 "id_by_type":"144",
-"message":"ん？アンケートそろそろ終了？",
+"message":"응? 앙케이트 슬슬 종료?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -10938,29 +10938,29 @@
 "effect_name":"アンケート1",
 "category_name":"enquete",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
 "enquete_info":{
 "enquete_type":"1",
-"enquete_title":"好きなサンドイッチは？",
+"enquete_title":"좋아하는 샌드위치는?",
 "answer_list":{
 "1":{
 "answer_id":1,
-"text":"定番ＢＬＴサンド"
+"text":"기본적인 BLT 샌드위치"
 },
 "2":{
 "answer_id":2,
-"text":"ふわふわ卵サンド"
+"text":"푹신푹신 계란 샌드위치"
 },
 "3":{
 "answer_id":3,
-"text":"ジューシーなカツサンド"
+"text":"쥬시한 돈까스 샌드위치"
 },
 "4":{
 "answer_id":4,
-"text":"ピーナッツバターサンド"
+"text":"땅콩버터 샌드위치"
 }
 }
 }
@@ -10997,7 +10997,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -11028,7 +11028,7 @@
 "archive_id":"574",
 "log_type":"2",
 "id_by_type":"145",
-"message":"じゃあ、結果が出るんだ！それはちょっと気になるかも！",
+"message":"그럼, 결과가 나온다! 그건 조금 궁금할지도!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -11100,7 +11100,7 @@
 "archive_id":"578",
 "log_type":"2",
 "id_by_type":"146",
-"message":"にゃははー♪ごめんごめーん。つい失踪しちゃった！",
+"message":"냐하하-♪ 미안미아-안. 그만 실종해버렸다!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -11298,7 +11298,7 @@
 "archive_id":"589",
 "log_type":"2",
 "id_by_type":"148",
-"message":"ってことで、そろそろアンケート終了ねー。はい、３～２～１～……",
+"message":"그보다, 곧 앙케이트 종료구나-. 자, 3~ 2~ 1~……",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -11496,7 +11496,7 @@
 "archive_id":"600",
 "log_type":"2",
 "id_by_type":"149",
-"message":"終わり～♪結果はどうかな～？",
+"message":"끝~♪ 결과는 어떨까나~?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -11532,32 +11532,32 @@
 "effect_name":"アンケート1結果",
 "category_name":"enquete_result",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":7,
 "enquete_enable":true,
 "enquete_result_info":{
 "enquete_type":"1",
-"enquete_title":"好きなサンドイッチは？",
+"enquete_title":"좋아하는 샌드위치는?",
 "answer_list":{
 "1":{
 "answer_id":1,
-"text":"定番ＢＬＴサンド",
+"text":"기본적인 BLT 샌드위치",
 "percent":25.1
 },
 "2":{
 "answer_id":2,
-"text":"ふわふわ卵サンド",
+"text":"푹신푹신 계란 샌드위치",
 "percent":27.7
 },
 "3":{
 "answer_id":3,
-"text":"ジューシーなカツサンド",
+"text":"쥬시한 돈까스 샌드위치",
 "percent":39.6
 },
 "4":{
 "answer_id":4,
-"text":"ピーナッツバターサンド",
+"text":"땅콩버터 샌드위치",
 "percent":7.6
 }
 }
@@ -11595,7 +11595,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -11734,7 +11734,7 @@
 "archive_id":"609",
 "log_type":"2",
 "id_by_type":"119",
-"message":"お、カツサンド。みんな結構ガッツリいくね。あたしも時々すっごい食べたくなるんだー。",
+"message":"오, 돈까스 샌드위치. 모두 제법 많이 먹고있네. 나도 가끔 엄청 먹고 싶어져-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -11914,7 +11914,7 @@
 "archive_id":"619",
 "log_type":"2",
 "id_by_type":"122",
-"message":"たしかにジューシーなカツサンドは、味も食感も…はたまた匂いも楽しめる。うんうん、いいチョイスだね。",
+"message":"확실히 즙이 많은 돈까스 샌드위치는, 맛도 식감도… 또 냄새도 즐길 수 있지. 응응, 좋은 초이스네.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -12094,7 +12094,7 @@
 "archive_id":"629",
 "log_type":"2",
 "id_by_type":"147",
-"message":"あ。みんな、ただいまー♪",
+"message":"아. 모두들, 다녀왔어-♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -12508,7 +12508,7 @@
 "archive_id":"652",
 "log_type":"2",
 "id_by_type":"141",
-"message":"ヒトは退屈すると、生産性も幸福度もぐーんと下がるんだって。みんなも退屈だな～って思ったら、一回逃げちゃえば？",
+"message":"사람은 지루하면, 생산성도 행복도도 뚝 떨어진대. 너희들도 지루하네~라는 생각이 든다면, 한번 도망가보는건 어때?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -12724,7 +12724,7 @@
 "archive_id":"664",
 "log_type":"2",
 "id_by_type":"106",
-"message":"そういえば、匂いに関するメッセージ結構あるね～。キミたち、匂いフェチ？あたしの影響～？",
+"message":"그러고보니, 냄새에 관한 메세지가 꽤 있네~. 너희들, 냄새 페티시? 내 영향이야~?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -12940,7 +12940,7 @@
 "archive_id":"676",
 "log_type":"2",
 "id_by_type":"128",
-"message":"ピーナッツバターはマイナー？じゃあ、先行研究も少ないんじゃない？",
+"message":"땅콩버터는 마이너? 그럼, 선행연구도 적지 않아?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -13066,7 +13066,7 @@
 "archive_id":"683",
 "log_type":"2",
 "id_by_type":"117",
-"message":"どのサンドイッチもおいしそうだよねー。ケチャップ１杯と、タバスコいっぱいかけていただこー！",
+"message":"어떤 샌드위치도 맛있을 것 같네-. 케첩 약간과, 타바스코 잔뜩 뿌려줘-!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -13174,7 +13174,7 @@
 "archive_id":"689",
 "log_type":"2",
 "id_by_type":"135",
-"message":"はいみんなー、サンドイッチ伯爵に拍手～。",
+"message":"자 모두-, 샌드위치 백작에게 박수~.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -13606,7 +13606,7 @@
 "archive_id":"713",
 "log_type":"2",
 "id_by_type":"161",
-"message":"そいや、キミたちさっきのアレ見た？",
+"message":"그보다, 너희들 아까 그거 봤어?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -13840,7 +13840,7 @@
 "archive_id":"726",
 "log_type":"2",
 "id_by_type":"163",
-"message":"アレだよ、アレ～。緑色で、もふもふーっとした、ちょっぴりブサイクなア・イ・ツ♪",
+"message":"그거 말야, 그거~. 초록색에, 복슬복슬한, 조금 못생긴 그·녀·석♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -14047,7 +14047,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 },
@@ -14056,7 +14056,7 @@
 "effect_name":"オープニング",
 "category_name":"wall2",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
 "state":1,
 "categoryid":5
 }
@@ -14249,7 +14249,7 @@
 "archive_id":"746",
 "log_type":"2",
 "id_by_type":"166",
-"message":"ぴにゃこら太背景、悪くなかったよねー。キミたちもそう思うでしょー？",
+"message":"피냐코라타 배경, 나쁘지 않았지-. 너희도 그렇게 생각하지-?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -14663,7 +14663,7 @@
 "archive_id":"769",
 "log_type":"2",
 "id_by_type":"168",
-"message":"うんうん。じゃあ、志希ちゃんはもう一度失踪を……",
+"message":"응응. 그럼, 시키쨩은 다시 한번 실종을……",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -14753,7 +14753,7 @@
 "archive_id":"774",
 "log_type":"4",
 "id_by_type":"4",
-"message":"一ノ瀬さん、ダメです",
+"message":"이치노세씨, 안됩니다",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -14786,7 +14786,7 @@
 "effect_name":"テロップ",
 "category_name":"info_comment",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":8
 },
@@ -14822,7 +14822,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 },
@@ -14831,7 +14831,7 @@
 "effect_name":"オープニング",
 "category_name":"wall2",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
 "state":1,
 "categoryid":5
 }
@@ -14988,7 +14988,7 @@
 "archive_id":"784",
 "log_type":"2",
 "id_by_type":"170",
-"message":"にゃっはは～、怒られたー♪あたしってけっこー人気者！",
+"message":"냣하하~, 혼나버렸다-♪ 나 꽤나 인기쟁이네!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -15087,7 +15087,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 },
@@ -15096,7 +15096,7 @@
 "effect_name":"オープニング",
 "category_name":"wall2",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
 "state":1,
 "categoryid":5
 }
@@ -15199,7 +15199,7 @@
 "archive_id":"793",
 "log_type":"2",
 "id_by_type":"173",
-"message":"可愛いキミたちが、志希ちゃんをご所望してくれるなら、残りの時間は失踪ナシで濃ーい時間を過ごしたくなるねー。",
+"message":"귀여운 너희들이, 시키쨩을 바란다면, 남은 시간은 실종 없이 진-한 시간을 보내고 싶네-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -15343,7 +15343,7 @@
 "archive_id":"801",
 "log_type":"2",
 "id_by_type":"175",
-"message":"これってもしかして、キミたちの策略？",
+"message":"이거 혹시, 너희들의 책략?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -15541,7 +15541,7 @@
 "archive_id":"812",
 "log_type":"2",
 "id_by_type":"177",
-"message":"だとしたら、それ…正解♪あたし、まんまと引っ掛かっちゃったワケだ。",
+"message":"그렇다면, 그건… 정답♪ 나, 감쪽같이 걸려들었단 뜻이야.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -15703,7 +15703,7 @@
 "archive_id":"821",
 "log_type":"2",
 "id_by_type":"179",
-"message":"罠に引っ掛かった一ノ瀬ですが、みなさん、どうぞよろしくー。",
+"message":"덫에 걸린 이치노세입니다만, 여러분, 잘 부탁드립니다-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -15919,7 +15919,7 @@
 "archive_id":"833",
 "log_type":"2",
 "id_by_type":"182",
-"message":"さてさて、もう１つお便り紹介しよっか。ふつおたにも、たくさん貰ったんだよねー。みんな、ありがとね。",
+"message":"참, 또 하나 사연을 소개해줄까. 일반 사연도, 잔뜩 받았지-. 다들, 고마워.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -16099,7 +16099,7 @@
 "archive_id":"843",
 "log_type":"2",
 "id_by_type":"184",
-"message":"もぐみさんから、もらったお便りをご紹介。もぐみさん、見てる？志希ちゃんだよー♪",
+"message":"모구미씨로부터, 받은 사연을 소개. 모구미씨, 보고 있니? 시키쨩이야-♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -16225,7 +16225,7 @@
 "archive_id":"850",
 "log_type":"2",
 "id_by_type":"186",
-"message":"『志希ちゃんこんばんは！』はい、こんばんはー♪",
+"message":"『시키쨩 안녕하세요!』 응, 안녕-♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -16351,7 +16351,7 @@
 "archive_id":"857",
 "log_type":"2",
 "id_by_type":"188",
-"message":"『巷ではインフルエンザが大流行していますね。わたしも先日かかってしまいました。志希ちゃんも気をつけてください…！』",
+"message":"『세간에는 독감이 대유행하고 있지요. 저도 얼마전에 걸려버렸습니다. 시키쨩도 조심하세요…!』",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -16477,7 +16477,7 @@
 "archive_id":"864",
 "log_type":"2",
 "id_by_type":"190",
-"message":"ありゃ、そりゃ大変だー。インフルエンザウイルス、今年も猛威を奮ってるらしいもんねー。えーっと続きはー…",
+"message":"어라, 그거 큰일이다-. 인플루엔자 바이러스, 올해도 맹렬하게 위세를 떨치고 있는 모양이군-. 그리고 이어서-…",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -16603,7 +16603,7 @@
 "archive_id":"871",
 "log_type":"2",
 "id_by_type":"193",
-"message":"『また何か健康のために気をつけていることはありますか？よかったら教えてください♪』",
+"message":"『또 뭔가 건강을 위해 조심하고 있는게 있습니까? 괜찮다면 가르쳐주세요♪』",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -16693,7 +16693,7 @@
 "archive_id":"876",
 "log_type":"2",
 "id_by_type":"195",
-"message":"健康のために気をつけてることかー。まー、無くは無いかなぁ。",
+"message":"건강을 위해 조심하고 있는거라-. 뭐-, 없진 않지.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -16855,7 +16855,7 @@
 "archive_id":"885",
 "log_type":"2",
 "id_by_type":"198",
-"message":"ほら、あたし、これでもなんか一応アイドルらしーんだよね。だから、病気とかできないってゆーか、迷惑かけるでしょ？",
+"message":"봐봐, 나, 이래뵈도 뭔가 일단은 아이돌이란 거지. 그러니까, 병 같은건 걸리면 안된다고나 할까, 폐를 끼치게 되잖아?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -16945,7 +16945,7 @@
 "archive_id":"890",
 "log_type":"2",
 "id_by_type":"200",
-"message":"あたしが失踪してもどーってことはないけど、風邪とか、それこそインフルエンザって感染性が高いからね。",
+"message":"내가 실종해도 특별히 문제가 생긴 적은 없지만, 감기라든지, 정말 인플루엔자는 감염성이 높으니까.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -17089,7 +17089,7 @@
 "archive_id":"898",
 "log_type":"2",
 "id_by_type":"204",
-"message":"他人に感染させるってのは、志希ちゃん的にはイヤだし。",
+"message":"다른 사람에게 감염시킨다는 것은, 시키쨩도 싫고.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -17179,7 +17179,7 @@
 "archive_id":"903",
 "log_type":"2",
 "id_by_type":"156",
-"message":"ウイルスの生命力ってすごいんだよ。イロイロと実験したくなっちゃうけど…怒られちゃいそうだから、やめとくー♪",
+"message":"바이러스의 생명력이란 대단하다구. 여러가지 실험하고 싶어지지만… 혼날 것 같으니까, 그만둘래-♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -17341,7 +17341,7 @@
 "archive_id":"912",
 "log_type":"2",
 "id_by_type":"207",
-"message":"期待感と高揚感が感染して、キミたちのドーパミンがドバッと分泌されるのはイイんだけど♪",
+"message":"기대감과 고양감이 감염돼서, 너희들의 도파민이 파박 분비되는 것은 좋지만♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -17449,7 +17449,7 @@
 "archive_id":"918",
 "log_type":"2",
 "id_by_type":"209",
-"message":"つまるところ、無難だけど手洗い・うがいはやるべきだよね。あ、いまフツーの回答すぎって思った？",
+"message":"요컨대, 무난하지만 손씻기·양치질은 당연히 해야겠지. 아, 지금 평범한 대답이라고 생각했어?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -17665,7 +17665,7 @@
 "archive_id":"930",
 "log_type":"2",
 "id_by_type":"211",
-"message":"衛生管理は、基本だよー諸君。あたしはガレージにイロイロ薬品も置いてあるから、そーゆーのちゃんとしてるんだから。",
+"message":"위생관리는, 기본이야- 제군. 나는 차고에 여러가지 약품들도 두고 있으니까, 그런건 제대로 하고 있다니까.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -17809,7 +17809,7 @@
 "archive_id":"938",
 "log_type":"2",
 "id_by_type":"213",
-"message":"変な薬品がついた手でサンドイッチ食べたり、思いがけない化学反応しちゃったら、そりゃもう…ボカン！だよー？",
+"message":"이상한 약품이 묻은 손으로 샌드위치를 먹다가, 뜻밖의 화학반응을 해버리면, 그건 이제… 콰광! 이라구-?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -18061,7 +18061,7 @@
 "archive_id":"952",
 "log_type":"2",
 "id_by_type":"202",
-"message":"えらい？ありがとー♪キミたち、あたしのコト褒めてくれまくりだねー。",
+"message":"훌륭해? 고마워-♪ 너희들, 나에게 칭찬 많이 해주네-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -18187,7 +18187,7 @@
 "archive_id":"959",
 "log_type":"2",
 "id_by_type":"217",
-"message":"サイエンティストは、試験管に噛り付くだけじゃないんだからー。",
+"message":"사이언티스트는, 시험관을 물고 늘어지는 것 뿐만이 아니라니까-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -18277,7 +18277,7 @@
 "archive_id":"964",
 "log_type":"2",
 "id_by_type":"219",
-"message":"んでー、そーゆーキミたちはどーしてる？健康のヒケツ♪志希ちゃんにも教えてほしーなー。",
+"message":"근데-, 그런 너희들은 어떻게 하고있어? 건강의 비결♪ 시키쨩에게도 알려줬음 좋겠는데-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -18439,7 +18439,7 @@
 "archive_id":"973",
 "log_type":"2",
 "id_by_type":"221",
-"message":"はーい、スタッフー！アンケート用意してー。",
+"message":"자-, 스태프! 앙케이트 준비해줘-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -18529,25 +18529,25 @@
 "effect_name":"アンケート2",
 "category_name":"enquete",
 "effectid":"2",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
 "enquete_info":{
 "enquete_type":"2",
-"enquete_title":"キミたちの健康のヒケツは？",
+"enquete_title":"너희들의 건강비결은?",
 "answer_list":{
 "1":{
 "answer_id":1,
-"text":"手洗い・うがい"
+"text":"손씻기·양치질"
 },
 "2":{
 "answer_id":2,
-"text":"よく寝て、よく食べる"
+"text":"잘 먹고, 잘 자기"
 },
 "3":{
 "answer_id":3,
-"text":"我慢しないコト"
+"text":"참지 않는 것"
 }
 }
 }
@@ -18584,7 +18584,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -18813,7 +18813,7 @@
 "archive_id":"990",
 "log_type":"2",
 "id_by_type":"224",
-"message":"３つの中から答えてね。志希ちゃん的には…全部！って感じだけど♪",
+"message":"3개 중에서 대답해줘. 시키쨩은… 전부! 라는 느낌이지만♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -18975,7 +18975,7 @@
 "archive_id":"999",
 "log_type":"2",
 "id_by_type":"226",
-"message":"キミたちも、案外そうだったりしてー？",
+"message":"너희들도, 의외로 그랬거나 그래-?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -19119,7 +19119,7 @@
 "archive_id":"1007",
 "log_type":"2",
 "id_by_type":"228",
-"message":"その場合は…んー、メッセージで送っておくれ。",
+"message":"그런 경우는… 음-, 메세지로 보내줘.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -19299,7 +19299,7 @@
 "archive_id":"1017",
 "log_type":"4",
 "id_by_type":"5",
-"message":"一ノ瀬さん、失踪はダメですからね？",
+"message":"이치노세씨, 실종은 안되니까요?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -19332,7 +19332,7 @@
 "effect_name":"テロップ",
 "category_name":"info_comment",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":8
 },
@@ -19341,25 +19341,25 @@
 "effect_name":"アンケート2",
 "category_name":"enquete",
 "effectid":"2",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
 "enquete_info":{
 "enquete_type":"2",
-"enquete_title":"キミたちの健康のヒケツは？",
+"enquete_title":"너희들의 건강비결은?",
 "answer_list":{
 "1":{
 "answer_id":1,
-"text":"手洗い・うがい"
+"text":"손씻기·양치질"
 },
 "2":{
 "answer_id":2,
-"text":"よく寝て、よく食べる"
+"text":"잘 먹고, 잘 자기"
 },
 "3":{
 "answer_id":3,
-"text":"我慢しないコト"
+"text":"참지 않는 것"
 }
 }
 }
@@ -19396,7 +19396,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -19445,7 +19445,7 @@
 "archive_id":"1021",
 "log_type":"2",
 "id_by_type":"232",
-"message":"はいはいー、心得てまーすよー。",
+"message":"네네-, 알고 있-어요-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -19607,25 +19607,25 @@
 "effect_name":"アンケート2",
 "category_name":"enquete",
 "effectid":"2",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
 "enquete_info":{
 "enquete_type":"2",
-"enquete_title":"キミたちの健康のヒケツは？",
+"enquete_title":"너희들의 건강비결은?",
 "answer_list":{
 "1":{
 "answer_id":1,
-"text":"手洗い・うがい"
+"text":"손씻기·양치질"
 },
 "2":{
 "answer_id":2,
-"text":"よく寝て、よく食べる"
+"text":"잘 먹고, 잘 자기"
 },
 "3":{
 "answer_id":3,
-"text":"我慢しないコト"
+"text":"참지 않는 것"
 }
 }
 }
@@ -19662,7 +19662,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -19729,7 +19729,7 @@
 "archive_id":"1033",
 "log_type":"2",
 "id_by_type":"234",
-"message":"でも、アンケート待ってる間ヒマだと、どっか行っちゃうかもしれないから…キミたち、ちゃーんとあたしの相手をするよーにっ。",
+"message":"그래도, 앙케이트 기다리는 동안은 한가해서, 어딘가로 가버릴지도 모르니까… 너희들, 제대로 내 상대를 하도록.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -20017,7 +20017,7 @@
 "archive_id":"1049",
 "log_type":"2",
 "id_by_type":"238",
-"message":"聞きたいコトとか、言いたいコトとか、あるんじゃないのー？無いなら、退屈して…んふふ～♪",
+"message":"듣고 싶은 것이나, 말하고 싶은 것이라던지, 있잖아-? 없다면, 심심해서… 우후후~♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -20179,7 +20179,7 @@
 "archive_id":"1058",
 "log_type":"2",
 "id_by_type":"214",
-"message":"志希ウイルス！あはは、けっこー強力かもね！",
+"message":"시키 바이러스! 아하하, 꽤나 강력할지도!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -20359,7 +20359,7 @@
 "archive_id":"1068",
 "log_type":"2",
 "id_by_type":"201",
-"message":"インフルエンザの予防になる匂いか～。研究のし甲斐がありそう♪あのね、ヒトは１兆種類の匂いを嗅ぎ分けられるんだって！",
+"message":"독감 예방이 되는 냄새인가~. 연구하는 보람이 있을 것 같아♪ 있잖아, 사람은 1조가지 종류의 냄새를 맡고 판별할 수 있대!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -20665,7 +20665,7 @@
 "archive_id":"1085",
 "log_type":"2",
 "id_by_type":"180",
-"message":"ちなみにヘルスリテラシーを高めると、健康向上にも繋がるんだってー。アメリカの学者さんが言ってた！",
+"message":"덧붙여서 헬스 리터러시를 높이면, 건강 향상으로도 이어진대-. 미국의 학자가 말했어!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -20827,7 +20827,7 @@
 "archive_id":"1094",
 "log_type":"2",
 "id_by_type":"196",
-"message":"みんなも、キビシイ時には無理をしないで休むといいよー。ね？",
+"message":"다들, 힘들땐 무리하지 말고 쉬는게 좋아-. 그치?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -21043,7 +21043,7 @@
 "archive_id":"1106",
 "log_type":"2",
 "id_by_type":"160",
-"message":"ん～。だれか画期的な健康法を考えてるかもーって思ってたけど…期待外れ？なーんだ、つまんない。",
+"message":"으응~. 누군가 획기적인 건강법을 생각하고 있을지도 모른다고 생각했지만… 기대에 어긋났네? 뭐-야, 재미없어.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -21331,7 +21331,7 @@
 "archive_id":"1122",
 "log_type":"2",
 "id_by_type":"237",
-"message":"あ、アンケートはとるけど…ちゃーんと、全部実践すること！ぜーんぶ！志希ちゃんとの約束ねー♪",
+"message":"아, 앙케이트는 받았지만… 제대로, 전부 실천할 것! 전-부! 시키쨩과의 약속이야-♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -21673,7 +21673,7 @@
 "archive_id":"1141",
 "log_type":"2",
 "id_by_type":"250",
-"message":"そろそろいいっぽいねー。それじゃ、アンケート締めちゃおー！結果も出しちゃって。",
+"message":"슬슬 됐네-. 그럼, 앙케이트 마감해야지-! 결과도 내버리고.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -21781,27 +21781,27 @@
 "effect_name":"アンケート2結果",
 "category_name":"enquete_result",
 "effectid":"2",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":7,
 "enquete_enable":true,
 "enquete_result_info":{
 "enquete_type":"2",
-"enquete_title":"キミたちの健康のヒケツは？",
+"enquete_title":"너희들의 건강비결은?",
 "answer_list":{
 "1":{
 "answer_id":1,
-"text":"手洗い・うがい",
+"text":"손씻기·양치질",
 "percent":20.4
 },
 "2":{
 "answer_id":2,
-"text":"よく寝て、よく食べる",
+"text":"잘 먹고, 잘 자기",
 "percent":49.7
 },
 "3":{
 "answer_id":3,
-"text":"我慢しないコト",
+"text":"참지 않는 것",
 "percent":29.9
 }
 }
@@ -21839,7 +21839,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 }
@@ -21888,7 +21888,7 @@
 "archive_id":"1149",
 "log_type":"2",
 "id_by_type":"230",
-"message":"みんな本能に従って生きてるんだねー。健全健全♪",
+"message":"모두 본능에 따라 사는구나-. 건전건전♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -22122,7 +22122,7 @@
 "archive_id":"1162",
 "log_type":"2",
 "id_by_type":"231",
-"message":"おいしーの食べて寝たら、元気いっぱいだー。サンドイッチとか！",
+"message":"맛난걸 먹고 잤더니, 기운이 넘친다-. 샌드위치라던지!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -22248,7 +22248,7 @@
 "archive_id":"1169",
 "log_type":"2",
 "id_by_type":"243",
-"message":"三食しっかり食べるのって大事なんだよねー。食べないと脳の機能が低下しちゃうし。でも研究中はよく忘れがち♪",
+"message":"삼시세끼 든든하게 먹는건 중요하지-. 먹지 않으면 뇌의 기능이 저하되버리고. 그래도 연구중에는 걸핏하면 잊어버리기 쉬워♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -22428,7 +22428,7 @@
 "archive_id":"1179",
 "log_type":"2",
 "id_by_type":"246",
-"message":"手を洗ってーうがいしてー、よく寝てよく食べてー、我慢しないで…あたしとたっぷり遊んでおくれ♪",
+"message":"손을 씻고- 양치하고-, 잘 자고 잘 먹고-, 참지 말고… 나랑 실컷 놀아줘♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -22770,7 +22770,7 @@
 "archive_id":"1198",
 "log_type":"2",
 "id_by_type":"248",
-"message":"にゃははー、みんないい返事！実に健康的♪",
+"message":"냐하하-, 모두 좋은 대답이야! 참으로 건강적♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -22932,7 +22932,7 @@
 "archive_id":"1207",
 "log_type":"2",
 "id_by_type":"240",
-"message":"いいこだねー、キミたち。あたしよりいいこなんじゃない？",
+"message":"착한 아이네-, 너희들. 나보다 착한거 아냐?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -23148,7 +23148,7 @@
 "archive_id":"1219",
 "log_type":"2",
 "id_by_type":"259",
-"message":"おやおや、そろそろ終了の時間がやってきたみたい。",
+"message":"이런이런, 슬슬 끝낼 시간이 온 것 같아.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -23562,7 +23562,7 @@
 "archive_id":"1242",
 "log_type":"2",
 "id_by_type":"261",
-"message":"みんな、今日のデレマスチャンネル楽しんでくれたー？",
+"message":"모두, 오늘의 데레마스채널 즐거웠어-?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -23940,7 +23940,7 @@
 "archive_id":"1263",
 "log_type":"2",
 "id_by_type":"263",
-"message":"良きかな、良きかな～♪志希ちゃんも、キミたちとお喋りできて楽しかったよー。",
+"message":"좋아, 좋아~♪ 시키짱도, 너희들과 이야기할 수 있어서 즐거웠어-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -24192,7 +24192,7 @@
 "archive_id":"1277",
 "log_type":"2",
 "id_by_type":"265",
-"message":"あ、そうそう！そーいえばね！",
+"message":"아, 맞다맞다! 그러고 보니 말야!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -24336,7 +24336,7 @@
 "archive_id":"1285",
 "log_type":"2",
 "id_by_type":"267",
-"message":"ふつおたに送ってくれたメッセージで、今日が誕生日だって人がいたんだよね。",
+"message":"일반 사연으로 보내준 메세지에, 오늘이 생일인 사람이 있었어.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -24435,7 +24435,7 @@
 "effect_name":"放送室",
 "category_name":"wall1",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_basebg.jpg",
 "state":1,
 "categoryid":4
 },
@@ -24444,7 +24444,7 @@
 "effect_name":"オープニング",
 "category_name":"wall2",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
 "state":1,
 "categoryid":5
 }
@@ -24637,7 +24637,7 @@
 "archive_id":"1299",
 "log_type":"2",
 "id_by_type":"269",
-"message":"みゃあさん、誕生日おめでとー♪これ、言おうと思ってたんだー。",
+"message":"먀아씨, 생일 축하해-♪ 이거, 말하려고 했었어-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -25087,7 +25087,7 @@
 "archive_id":"1324",
 "log_type":"2",
 "id_by_type":"273",
-"message":"幸せな１年にしておくれ～。",
+"message":"행복한 1년이 되어라~.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -25429,7 +25429,7 @@
 "archive_id":"1343",
 "log_type":"2",
 "id_by_type":"275",
-"message":"はい。と言うわけで、一ノ瀬志希がお送りしてきたデレマスチャンネル。そろそろ、本当の本当に終了のお時間ー。",
+"message":"자. 말했으니까, 이치노세 시키가 보내드린 데레마스채널. 슬슬, 진짜진짜 종료할 시간-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -25591,7 +25591,7 @@
 "archive_id":"1352",
 "log_type":"2",
 "id_by_type":"278",
-"message":"みんな、どうだったー？セロトニンにドーパミン…あ、オキシトシンも分泌されてたんじゃない？",
+"message":"다들, 어땠어-? 세로토닌에 도파민… 아, 옥시토신도 분비되지 않았어?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -25861,7 +25861,7 @@
 "archive_id":"1367",
 "log_type":"2",
 "id_by_type":"281",
-"message":"ふんふん…いいねぇー。あたしも今日は、いつになくコーフンしちゃった♪",
+"message":"흠흠… 좋네-. 나도 오늘은, 평소와 다르게 흥분해버렸다♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -26023,7 +26023,7 @@
 "archive_id":"1376",
 "log_type":"2",
 "id_by_type":"283",
-"message":"こんなんだったら、失踪しないで、もっとキミたちと遊べばよかったよー。消えた分だけ、時間が巻き戻ったり…しないか。",
+"message":"이럴거면, 실종 안하고, 좀 더 너희들과 놀걸 그랬어-. 사라졌던 만큼, 시간이 되감겨서 돌아가지… 않겠지.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -26239,7 +26239,7 @@
 "archive_id":"1388",
 "log_type":"2",
 "id_by_type":"286",
-"message":"時間は不可逆だもんね。時間が一方向にしか進まない理由は、まだ解明されていない謎の１つだよ。",
+"message":"시간은 불가역인걸. 시간이 한 방향으로밖에 나아가지 않는 이유는, 아직 해명되지 않은 수수께끼 중 하나야.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -26419,7 +26419,7 @@
 "archive_id":"1398",
 "log_type":"2",
 "id_by_type":"288",
-"message":"でも、この瞬間も研究は進んでるの。たとえば…時間の不可逆性については、マクロの世界とミクロの世界から見て……",
+"message":"하지만, 이 순간에도 연구는 진행되고 있어. 예를 들어… 시간의 불가역성에 대해서, 거시적 세계와 미시적 세계에서 보고……",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -26581,7 +26581,7 @@
 "archive_id":"1407",
 "log_type":"2",
 "id_by_type":"291",
-"message":"と、まあ詳しい話はキョーミがある人だけ調べてみておくれ。志希ちゃん、説明するのメンドーだし！",
+"message":"흠, 뭐 자세한 얘기는 흥미있는 사람이 조사해봐. 시키쨩, 설명하는거 귀찮고!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -26743,7 +26743,7 @@
 "archive_id":"1416",
 "log_type":"2",
 "id_by_type":"272",
-"message":"溢れる想いがあるのなら、末ながーく応援しておくれー。そしたら、ココにいる志希ちゃんがビッグになるかも♪",
+"message":"흘러넘치는 마음이 있다면, 언제까지나 응원해줘-. 그러면, 여기 있는 시키쨩이 커다래질지도♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -26995,7 +26995,7 @@
 "archive_id":"1430",
 "log_type":"2",
 "id_by_type":"277",
-"message":"心配する必要無いよー？どこに行っても、あたしはキミたちの心の中にいたり、いなかったり…まー、気ままだからね。",
+"message":"걱정할 필요는 없다구-? 어딜 가든, 나는 너희들 마음 속에 있거나, 없거나… 뭐-, 제멋대로니까.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -27193,7 +27193,7 @@
 "archive_id":"1441",
 "log_type":"2",
 "id_by_type":"289",
-"message":"あたしへの想いを分泌しつつ、末永ーく見守ってねー♪",
+"message":"나에 대한 마음을 분비하면서, 오래오래 지켜봐줘-♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -27463,7 +27463,7 @@
 "archive_id":"1456",
 "log_type":"2",
 "id_by_type":"298",
-"message":"いやー、楽しい時間はあっという間だ！時間そのものは不変なはずなのに、人間の脳は自由だよねー。",
+"message":"이야-, 즐거운 시간은 순식간이다! 시간 자체는 불변할 터인데, 인간의 뇌는 자유롭지-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -27715,7 +27715,7 @@
 "archive_id":"1470",
 "log_type":"2",
 "id_by_type":"300",
-"message":"キミたちは、どうだった？あっという間の時間を、有意義に楽しめたかい？",
+"message":"너희들은, 어땠어? 짧은 시간을, 의미있게 즐길 수 있었을까?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -27967,7 +27967,7 @@
 "archive_id":"1484",
 "log_type":"2",
 "id_by_type":"303",
-"message":"なら、よかった！志希ちゃんがパーソナリティを務めた甲斐もあるねー。",
+"message":"그렇다면, 다행이야! 시키쨩이 퍼스널리티를 맡은 보람도 있네-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -28201,7 +28201,7 @@
 "archive_id":"1497",
 "log_type":"2",
 "id_by_type":"296",
-"message":"んー、そうだね。サンドイッチと健康に…感謝しとこー。",
+"message":"응-, 그렇구나. 샌드위치와 건강에… 감사-.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -28399,7 +28399,7 @@
 "archive_id":"1508",
 "log_type":"2",
 "id_by_type":"294",
-"message":"失踪、面白かった？んふふ、さすが！あたしのコトを好きなモノ好きたちめ～。",
+"message":"실종, 재밌었어? 우후후, 역시! 나의 그런점을 좋아하는걸 좋아하는 녀석들~.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -28525,7 +28525,7 @@
 "archive_id":"1515",
 "log_type":"2",
 "id_by_type":"308",
-"message":"２月ももう終わり…そろそろ春の匂いがしてくる頃だねー。クンクン…うん、まだ早いかも！",
+"message":"2월도 이제 끝… 슬슬 봄의 냄새가 날 무렵이네-. 킁킁… 음, 아직 이를지도!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -28723,7 +28723,7 @@
 "archive_id":"1526",
 "log_type":"2",
 "id_by_type":"310",
-"message":"にゃははっ♪みんなも、いろーんな匂いを嗅いで、楽しく毎日過ごしてねー♪",
+"message":"냐하핫♪ 다들, 여러 냄새를 맡고, 즐거운 매일을 보내-♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -28849,7 +28849,7 @@
 "archive_id":"1533",
 "log_type":"2",
 "id_by_type":"302",
-"message":"日本のみんなも、海外から参加してくれたみんなも、ありがとねー♪I had a great time with you all！",
+"message":"일본의 여러분도, 해외에서 참가해준 모든 사람들도, 고마워-♪ I had a great time with you all!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -29119,7 +29119,7 @@
 "archive_id":"1548",
 "log_type":"2",
 "id_by_type":"316",
-"message":"今日のデレマスチャンネル、お相手は一ノ瀬志希でした～。",
+"message":"오늘의 데레마스채널, 진행은 이치노세 시키였습니다~.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -29371,7 +29371,7 @@
 "archive_id":"1562",
 "log_type":"2",
 "id_by_type":"313",
-"message":"けっこーボーナスタイムあったんじゃない？にゃはは♪やってみたら案外退屈じゃなかったよ。",
+"message":"꽤 보너스타임 있지 않았어? 냐하하♪ 해보니까 의외로 지루하지 않았어.",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -29785,7 +29785,7 @@
 "archive_id":"1585",
 "log_type":"2",
 "id_by_type":"312",
-"message":"おや、テスト控えてる子がいるの？そっかそっか、頑張れ―♪",
+"message":"어라, 시험을 앞두고 있는 친구가 있어? 글쿠나글쿠나, 힘내-♪",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -29947,7 +29947,7 @@
 "archive_id":"1594",
 "log_type":"2",
 "id_by_type":"320",
-"message":"ばっいばーい！",
+"message":"바이바-이!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -30073,7 +30073,7 @@
 "archive_id":"1601",
 "log_type":"2",
 "id_by_type":"314",
-"message":"キミたち、約束守るんだよ～？",
+"message":"너희들, 약속 지키는거다~?",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -30469,7 +30469,7 @@
 "archive_id":"1623",
 "log_type":"2",
 "id_by_type":"321",
-"message":"じゃー、そろそろ！",
+"message":"그러면-, 이만!",
 "message_moba_id":"",
 "stamp_id":"",
 "send_viewer_id":"",
@@ -30631,7 +30631,7 @@
 "effect_name":"エンディング",
 "category_name":"wall2",
 "effectid":"2",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
 "state":1,
 "categoryid":5
 }
@@ -30803,7 +30803,7 @@
 "effect_name":"テロップ",
 "category_name":"info_comment",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":8
 },
@@ -30830,7 +30830,7 @@
 "effect_name":"エンディング",
 "category_name":"wall2",
 "effectid":"2",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
 "state":1,
 "categoryid":5
 }
@@ -31236,7 +31236,7 @@
 "effect_name":"テロップ",
 "category_name":"info_comment",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":8
 },
@@ -31245,33 +31245,33 @@
 "effect_name":"アンケート3",
 "category_name":"enquete",
 "effectid":"3",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":6,
 "enquete_enable":true,
 "enquete_info":{
 "enquete_type":"3",
-"enquete_title":"今日の放送はいかがでしたか？",
+"enquete_title":"오늘 방송은 어땠습니까?",
 "answer_list":{
 "1":{
 "answer_id":1,
-"text":"とても良かった"
+"text":"매우 좋았다"
 },
 "2":{
 "answer_id":2,
-"text":"まぁまぁ良かった"
+"text":"그럭저럭 괜찮았다"
 },
 "3":{
 "answer_id":3,
-"text":"ふつう"
+"text":"보통이었다"
 },
 "4":{
 "answer_id":4,
-"text":"あまり良くなかった"
+"text":"별로 좋지 않았다"
 },
 "5":{
 "answer_id":5,
-"text":"良くなかった"
+"text":"좋지 않았다"
 }
 }
 }
@@ -31296,7 +31296,7 @@
 "effect_name":"エンディング",
 "category_name":"wall2",
 "effectid":"2",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
 "state":1,
 "categoryid":5
 }
@@ -31579,37 +31579,37 @@
 "effect_name":"アンケート3結果",
 "category_name":"enquete_result",
 "effectid":"3",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":7,
 "enquete_enable":true,
 "enquete_result_info":{
 "enquete_type":"3",
-"enquete_title":"今日の放送はいかがでしたか？",
+"enquete_title":"오늘 방송은 어땠습니까?",
 "answer_list":{
 "1":{
 "answer_id":1,
-"text":"とても良かった",
+"text":"매우 좋았다",
 "percent":89.7
 },
 "2":{
 "answer_id":2,
-"text":"まぁまぁ良かった",
+"text":"그럭저럭 괜찮았다",
 "percent":7.5
 },
 "3":{
 "answer_id":3,
-"text":"ふつう",
+"text":"보통이었다",
 "percent":1.8
 },
 "4":{
 "answer_id":4,
-"text":"あまり良くなかった",
+"text":"별로 좋지 않았다",
 "percent":0
 },
 "5":{
 "answer_id":5,
-"text":"良くなかった",
+"text":"좋지 않았다",
 "percent":1
 }
 }
@@ -31635,7 +31635,7 @@
 "effect_name":"エンディング",
 "category_name":"wall2",
 "effectid":"2",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
 "state":1,
 "categoryid":5
 }
@@ -31681,7 +31681,7 @@
 "effect_name":"テロップ",
 "category_name":"info_comment",
 "effectid":"1",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":8
 },
@@ -31690,37 +31690,37 @@
 "effect_name":"アンケート3結果",
 "category_name":"enquete_result",
 "effectid":"3",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_wait.jpg",
 "state":1,
 "categoryid":7,
 "enquete_enable":true,
 "enquete_result_info":{
 "enquete_type":"3",
-"enquete_title":"今日の放送はいかがでしたか？",
+"enquete_title":"오늘 방송은 어땠습니까?",
 "answer_list":{
 "1":{
 "answer_id":1,
-"text":"とても良かった",
+"text":"매우 좋았다",
 "percent":89.7
 },
 "2":{
 "answer_id":2,
-"text":"まぁまぁ良かった",
+"text":"그럭저럭 괜찮았다",
 "percent":7.5
 },
 "3":{
 "answer_id":3,
-"text":"ふつう",
+"text":"보통이었다",
 "percent":1.8
 },
 "4":{
 "answer_id":4,
-"text":"あまり良くなかった",
+"text":"별로 좋지 않았다",
 "percent":0
 },
 "5":{
 "answer_id":5,
-"text":"良くなかった",
+"text":"좋지 않았다",
 "percent":1
 }
 }
@@ -31746,7 +31746,7 @@
 "effect_name":"エンディング",
 "category_name":"wall2",
 "effectid":"2",
-"image_path":"../../../../image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
 "state":1,
 "categoryid":5
 }
