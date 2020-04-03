@@ -9389,7 +9389,7 @@
 "effect_name":"お待ちください",
 "category_name":"wall2",
 "effectid":"5",
-"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast%2Fbg%2F1_wait.jpg%3Fv%3D20190524145526",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/1_wait.jpg",
 "state":1,
 "categoryid":5
 }
@@ -9833,7 +9833,7 @@
 "effect_name":"お待ちください",
 "category_name":"wall2",
 "effectid":"5",
-"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast%2Fbg%2F1_wait.jpg%3Fv%3D20190524145526",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/1_wait.jpg",
 "state":1,
 "categoryid":5
 }
@@ -10127,7 +10127,7 @@
 "effect_name":"お待ちください",
 "category_name":"wall2",
 "effectid":"5",
-"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast%2Fbg%2F1_wait.jpg%3Fv%3D20190524145526",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/1_wait.jpg",
 "state":1,
 "categoryid":5
 }
