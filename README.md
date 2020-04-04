@@ -18,6 +18,7 @@
 - 직함 목록
 - 캠페인
   - 리프레시 룸 ([49](https://crow88.github.io/lab/12008305/refresh_room/detail/49/)/[128](https://crow88.github.io/lab/12008305/refresh_room/detail/128/))
+  - 데레마스채널 ([시즌1](https://crow88.github.io/lab/12008305/radio/archive/season1/8/)/[시즌2](https://crow88.github.io/lab/12008305/radio/archive/season2/16/))
   - [spin-off!](https://crow88.github.io/lab/12008305/campaigns/spinoff/)
   - 신년 ([2020](https://crow88.github.io/lab/12008305/campaigns/new_year/2020/))
   - 발렌타인 (2015/2016/2017/[2018](https://crow88.github.io/lab/12008305/campaigns/valentine_present/2018/)/[2019](https://crow88.github.io/lab/12008305/campaigns/valentine_present/2019/)/[2020](https://crow88.github.io/lab/12008305/campaigns/valentine_present/2020/))
