@@ -14032,7 +14032,7 @@ input[type="submit"].submit_reset_style {
     height: 335px;
     width: 320px;
     z-index: 2;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Floading_bg.png%3F1487720329)
+    background: url(../../../12008305/image_sp/ui/rich/quest/loading_bg.png)
 }
 
 #loading #load1 .load_img {
@@ -14767,7 +14767,7 @@ input[type="submit"].submit_reset_style {
     width: 300px;
     border: solid 1.5px #ffffff;
     -webkit-border-radius: 15px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Fquest%2Fitem_bg.jpg%3F1487720327) repeat-y;
+    background: url(../../../12008305/image_sp/ui/rich/quest/item_bg.jpg) repeat-y;
     background-size: 300px 8px;
     position: relative;
     top: 10px;
