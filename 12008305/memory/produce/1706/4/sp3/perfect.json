@@ -1,0 +1,41 @@
+{
+"flash_id":544058,
+"swf_params":{
+"url":"https://crow88.github.io/lab/12008305/memory/produce/1706/4/sp3/",
+"heart_f":0,
+"heart_l":1,
+"lv_f":10,
+"lv_l":10,
+"lv_b":10,
+"lvup_flg":0,
+"comm_result":2,
+"point":10000,
+"emo":"5",
+"effect":"0",
+"card_comm1":"나, 설국에서 태어났으니 더위와는 상성이 안맞나봐. 흐냐~… 녹아버리기 시작했어~…",
+"card_comm":"나, 설국에서 태어났으니 더위와는 상성이 안맞나봐. 흐냐~… 녹아버리기 시작했어~…",
+"lv_inf_flg":1,
+"momorial_power":0,
+"training_room_flag":0,
+"puchi_power":0,
+"character_num":1,
+"ch":"1_2",
+"pair_produce_idol_id":false,
+"card_comm1_1":"나, 설국에서 태어났으니 ",
+"card_comm1_2":"더위와는 상성이 안맞나봐. ",
+"card_comm1_3":"흐냐~… 녹아버리기 ",
+"card_comm1_4":"시작했어~…",
+"com_mode":1
+},
+"swf_images":[
+"../../../../../image_sp/event_flash/1706/bg/1706/bg00_rich.png",
+"../../../../../image_sp/event_flash/common/name_plate/26_kr.png",
+"../../../../../image_sp/event_flash/1706/idol/dummy.png",
+"../../../../../image_sp/event_flash/1706/idol/idol_1_0_2_1.png",
+"../../../../../image_sp/event_flash/1706/idol/idol_1_0_2_5.png",
+"../../../../../image_sp/event_flash/1706/idol/dummy.png",
+"../../../../../image_sp/event_flash/1706/idol/dummy.png"
+],
+"special_raid_point":0,
+"special_generate_flag":false
+}

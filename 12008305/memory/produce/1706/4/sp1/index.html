@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta name="format-detection" content="telephone=no">
+    <title>아이돌마스터 신데렐라 걸즈</title>
+    <link rel="stylesheet" type="text/css" href="../../../../../../12008305/css/game/pex.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../../../../../../12008305/css/rich/quest_new.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../../../../../../12008305/css/rich/new_mypage_common_kr.css" media="all">
+    <link rel="apple-touch-icon-precomposed" href="../../../../../../12008305/image_sp/ui/icon_bookmark.png">
+    <script>
+        (function() {
+            window.console.log = function() {};
+        })();
+    </script>
+    <script type="text/javascript">
+        if (window.localStorage) {
+            var displaySet = localStorage.getItem('DisplayPositionSet');
+            if (displaySet == 1) {
+                if (navigator.userAgent.indexOf('Android') > 0) {
+                    document.write('<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">');
+                    document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                } else {
+                    document.write('<meta name="viewport" content="width=320, user-scalable=no">');
+                }
+                window.addEventListener('resize', function() {
+                    if (navigator.userAgent.indexOf('Android') > 0) document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                });
+            } else {
+                document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+        }
+    </script>
+    <script src="../../../../../../12008305/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="../../../../../../12008305/js/common.js" type="text/javascript"></script>
+    <script src="../../../../../../12008305/js/common_new.js" type="text/javascript"></script>
+    <script src='../../../../../../12008305/js/min/quest/event_date_quest_memory_kr.min.js' type="text/javascript"></script>
+    <script type="text/javascript" src="../../../../../../12008305/js/pex-1.2.0.js"></script>
+    <script src="../../../../../../12008305/js/underscore-min.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function() {
+            if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
+                newrelic.setPageViewName('/idolmaster/index.php/memory_produce/work_memory/1719/2/1');
+            }
+        });
+    </script>
+    <script type='text/javascript'>
+        var se_flg = 0,
+            bgm_flg = 0,
+            chrome_app_flg = 0,
+            chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+    </script>
+    <script type='text/javascript' src='../../../../../../12008305/js/app_sound.js'></script>
+    <link rel="stylesheet" type="text/css" href="../../../../../../css/base.css" />
+</head>
+
+<body id="memory_produce">
+    <div id="pageArea" onUnload="unloadBye()">
+        <div id="top" class="page_container jsOnBtn">
+            <script src="../../../../../../12008305/js/event/effect_produce.js" type="text/javascript"></script>
+            <link rel="stylesheet" type="text/css" href='../../../../../../12008305/css/rich/event_produce.css' media="all">
+            <div id="look_back_layout">
+                <div id="wrap" style="position:relative">
+                    <section id="direction_stage" style='background-image:url(../../../../../../12008305/image_sp/event/1706/bg_area_xl_5330.jpg); background-repeat:no-repeat; background-size:100%; background-position:right bottom;'>
+                        <div id="loading" style="display:none;">
+                            <div id="load1" style="display:none;">
+                                <img src='../../../../../../12008305/image_sp/ui/rich/quest/working_1.gif' class="working_img"><br>
+                                <img src='../../../../../../12008305/image_sp/ui/rich/quest/loading.gif' class="load_img"><br>
+                                <img src='../../../../../../12008305/image_sp/ui/rich/quest/loading/101103.gif' class="load_img"><br>
+                                <img src='../../../../../../12008305/image_sp/ui/rich/quest/loading/100857.gif' class="load_img"><br>
+                                <img src='../../../../../../12008305/image_sp/ui/rich/quest/loading/100440.gif' class="load_img"><br>
+                                <img src='../../../../../../12008305/image_sp/ui/rich/quest/loading/101620.gif' class="load_img"><br>
+                                <img src='../../../../../../12008305/image_sp/ui/rich/quest/loading/101517.gif' class="load_img"><br>
+                                <img src='../../../../../../12008305/image_sp/ui/rich/quest/loading/101424.gif' class="load_img"><br>
+                                <img src='../../../../../../12008305/image_sp/ui/rich/quest/loading/101327.gif' class="load_img"><br>
+                                <img src='../../../../../../12008305/image_sp/ui/rich/quest/loading/100635.gif' class="load_img"><br>
+                                <img src='../../../../../../12008305/image_sp/ui/rich/quest/loading/100521.gif' class="load_img"><br>
+                                <img src='../../../../../../12008305/image_sp/ui/rich/quest/loading/100702.gif' class="load_img"><br>
+                            </div>
+                        </div>
+                        <div id="animation" style="display:none;"></div>
+                        <canvas id="animation_effect_canvas" style="position:absolute;top:10px;left:0px;width:320px;height:280px;z-index:1;pointer-events:none;overflow:hidden"></canvas>
+                        <div id="date_info">
+                            <img src="../../../../../../12008305/image_sp/ui/rich/quest/event/produce/button_use_item_kr.png" style="width:63px; opacity:0.5; display:none; margin-bottom:5px;" id="choose_item_open" class="jsOnDesignBtn"><br>
+                        </div>
+                        <div id="choose_item" class="jsOnDesignBtn-wrap" style="display:none;"></div>
+                    </section>
+                    <section id="play_area" style='background-image:url(../../../../../../12008305/image_sp/ui/rich/quest/footer_bg.png); background-repeat:no-repeat; background-size:100%; background-position:0px 2px;height:30px'>
+                        <form action='http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fajax_play%3Fl_frm%3DMemory_produce_work_memory_1%26rnd%3D444177722' method="post" id="play">
+                            <input type="button" value="" id="play_button" class="play_btn_df se_008">
+                            <input type="hidden" name="area_id" value="2">
+                            <input type="hidden" name="quest_id" value="1">
+                            <input type="hidden" name="res_type" value="json">
+                        </form>
+                        <div id="open_commu_event_button" class="open_commu" style="display:none;"></div>
+                        <div id="play_commu_result_button" class="result_commu" style="display:none;"></div>
+                        <div class="area_play_guide">
+                            <div class="text_elem">
+                                <span class="_attr_1">시키</span> 스페셜 커뮤1
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <script type="text/template" id="template_choose_item">
+                <section class="t-Cnt m-Top10 m-Btm10 l-Hgt140" id="itemSelect">
+<div class="m-Cnt" style="width:280px;">
+<img src='../../../../../../12008305/image_sp/gacha/chance/button_chance_item_exit01.png' id="choose_item_close">
+<div class="displayBox" style="-webkit-box-pack:justify;">
+<form action='normal.json' method="get"<% if (raid_boss.boss_type !== 'extra') { %> style="width:88px;"<% } %>>
+<input type="hidden" name="use_item" value="3">
+<input type="hidden" name="area_id" value="2">
+<input type='hidden' name="max_use_flag" id="max_use_flag" value="0">
+<div>
+<input type="image" src='../../../../../../12008305/image_sp/event/produce/sprite/lookback/btn_normal_kr.png' class="jsOnDesignBtn" width="88" value=""><br>
+</div>
+</form>
+<form action='good.json' method="get"<% if (raid_boss.boss_type !== 'extra') { %> style="width:88px;"<% } %>>
+<input type="hidden" name="use_item" value="3">
+<input type="hidden" name="area_id" value="2">
+<input type='hidden' name="max_use_flag" id="max_use_flag" value="1">
+<div>
+<input type="image" src='../../../../../../12008305/image_sp/event/produce/sprite/lookback/btn_good_kr.png' class="jsOnDesignBtn" width="88" value=""><br>
+</div>
+</form>
+<form action='perfect.json' method="get" style="width:88px;">
+<div>
+<input type="hidden" name="use_item" value="1">
+<input type="hidden" name="area_id" value="2">
+<input type="image" src='../../../../../../12008305/image_sp/event/produce/sprite/lookback/btn_perfect_kr.png' class="jsOnDesignBtn" width="88" value=""><br>
+</div>
+</form>
+</div>
+<div class="t-Cnt m-Top4" style="font-size:12px">
+※아이템은 사용되지 않습니다
+</div>
+</div>
+</section>
+</script>
+            <a href='https://crow88.github.io/lab/12008305/memory/detail/1706/10020/'>
+                <div class="backLink">이벤트 메모리 상세로</div>
+            </a>
+            <div id="loadImages"></div>
+            <img id="background_image" src='../../../../../../12008305/image_sp/event_flash/1706/bg/1706/bg00_rich.png' style="display:none;">
+            <img id="dummy_image" src='../../../../../../12008305/image_sp/event_flash/1706/idol/dummy.png' style="display:none;">
+            <script type="text/javascript">
+                $(window).load(function() {
+                    Imascg.QuestImage.init({
+                        image_url: "",
+                        image_server: "",
+                        gadget_server: ""
+                    });
+                    Imascg.QuestModel.init({
+                        title: "コミュイベントメモリー",
+                        title_name_short_flag: true
+                    });
+                    /*
+                    Imascg.ScoutModel.init(null);
+                    Imascg.QuestModel.init({
+                    area_id: 2,
+                    quest_id: 1,
+                    title: "マキノをプロデュース",
+                    mission_name: "渓流",
+                    play_per: ,
+                    new_work_url: "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fwork%2F2%2F1%3Fl_frm%3DMemory_produce_work_memory_1%26rnd%3D488599071#do-work",
+                    next_work_url: "http://sp.pf.mbga.jp/12008305/?guid=ON",
+                    error_report_url: "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Freport_ajax_error%3Fl_frm%3DMemory_produce_work_memory_1%26rnd%3D790890734",
+                    title_name_short_flag:true,
+                    });
+                    Imascg.QuestModel.special_raid_url = "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_produce%2Fredirect_appear_raid_boss_swf%2F3%2F1%3Fl_frm%3DMemory_produce_work_memory_1%26rnd%3D660020900";
+                    Imascg.StatusModel.init({
+                    max_hp: ,
+                    cur_hp: ,
+                    hp_per: ,
+                    max_exp: ,
+                    cur_exp: ,
+                    exp_per: ,
+                    money: ,
+                    cur_idol: ,
+                    max_idol: 
+                    });
+                    Imascg.UserItemModel.init({
+                    item_url: "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fuser_stamina_items%3Fl_frm%3DMemory_produce_work_memory_1%26rnd%3D535013082",
+                    shop_url: "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fshop%2Findex%3Fl_frm%3DMemory_produce_work_memory_2%26rnd%3D905642416"
+                    });
+                    */
+                    //Imascg.QuestIdolImage.init(null);
+                    // イベントデータの初期化
+                    Imascg.IdolProduce.init(1719, false, "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fget_raid_boss%3Fres_type%3Djson%26l_frm%3DMemory_produce_work_memory_2%26rnd%3D379093556", 2, 1, 0, "normal");
+                    Imascg.IdolProduce.drawEventInfo({
+                        "fever": null,
+                        "has_raid": false,
+                        "idol_id": "2",
+                        "communication_id": "1",
+                        "swf_params": {
+                            "url": "http:\/\/sp.pf.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_produce%2Findex%3Fl_frm%3DMemory_produce_work_memory_2%26rnd%3D523042081",
+                            "com_mode": 1,
+                            "lv_f": 4,
+                            "lv_b": "5",
+                            "heart_f": 0,
+                            "emo": "1",
+                            "effect": "0",
+                            "card_comm1": "축제의 냄새에 유혹당해서… 밤벚꽃 시키쨩 등장~! 요염한 모습에 눈을 뺏길걸?",
+                            "card_comm": "축제의 냄새에 유혹당해서… 밤벚꽃 시키쨩 등장~! 요염한 모습에 눈을 뺏길걸?",
+                            "lv_inf_flg": 1,
+                            "short_flg": 0,
+                            "momorial_power": 0,
+                            "training_room_flag": 0,
+                            "puchi_power": 0,
+                            "item_type": null,
+                            "character_num": 1,
+                            "ch": "1_2",
+                            "pair_produce_idol_id": false,
+                            "card_comm1_1": "축제의 냄새에 유혹당해서… ",
+                            "card_comm1_2": "밤벚꽃 시키쨩 등장~! ",
+                            "card_comm1_3": "요염한 모습에 눈을 뺏길걸?",
+                            "card_comm1_4": ""
+                        },
+                        "flash_id": 544056,
+                        "swf_images": {
+                            "1": "../../../../../../12008305/image_sp/event_flash/1706/bg/1706/bg00_rich.png",
+                            "4": "../../../../../../12008305/image_sp/event_flash/common/name_plate/26_kr.png",
+                            "7": "../../../../../../12008305/image_sp/event_flash/1706/idol/dummy.png",
+                            "12": "../../../../../../12008305/image_sp/event_flash/1706/idol/idol_1_0_2_1.png",
+                            "17": "../../../../../../12008305/image_sp/event_flash/1706/idol/dummy.png"
+                        },
+                        "params": {
+                            "raid_type": "normal"
+                        }
+                    });
+                    Imascg.IdolProduce.EnergyItem.init({
+                        item_url: "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fuser_energy_items%3Fl_frm%3DMemory_produce_work_memory_1%26rnd%3D99971592"
+                    });
+                    Commonjs.setSearchMore({
+                        $trigger: $("#js_btn_more"),
+                        $contents: $("#js_more_contents"),
+                    });
+                    $('#js_btn_more').on('click', function() {
+                        $(this).toggleClass('_alone');
+                    });
+                });
+            </script>
+            <footer>
+                <div class="line_idolmaster"></div><a href="#top" id="toPageTop" class="mypage_under">
+                    <div></div>
+                </a>
+                <div class="t-Cnt">(C)窪岡俊之 (C)2011 BNEI</div>
+            </footer>
+        </div>
+    </div>
+    <script>
+        window._tarminal = {
+            'native_app_flg': false,
+            'android_app_flg': false,
+            'ios_app_flg': false,
+            'shell_app_flg': false
+        };
+    </script>
+    <div id="mbga-pf-footer">
+        <script type="text/javascript" charset="UTF-8">
+            (function() {
+                document.addEventListener('DOMContentLoaded', function() {
+                    var list = document.getElementsByClassName('mbga-pf-footer-li');
+                    var i = 0,
+                        l = list.length;
+                    for (; i < l; i++) {
+                        var elem = list[i];
+                        elem.addEventListener('touchstart', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/$/, ' mbga-pf-tapped');
+                        });
+                        elem.addEventListener('touchend', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/ mbga-pf-tapped/, '');
+                        });
+                        elem.addEventListener('touchmove', function(e) {});
+                    }
+                });
+            })();
+        </script>
+    </div>
+</body>
+
+</html>
