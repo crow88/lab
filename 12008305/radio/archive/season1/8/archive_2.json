@@ -40,7 +40,7 @@
 "effect_name":"オープニング",
 "category_name":"wall2",
 "effectid":"1",
-"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_open_kr.jpg",
 "state":1,
 "categoryid":5
 }
@@ -521,7 +521,7 @@
 "effect_name":"オープニング",
 "category_name":"wall2",
 "effectid":"1",
-"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_open_kr.jpg",
 "state":1,
 "categoryid":5
 }
@@ -9461,7 +9461,7 @@
 "effect_name":"お待ちください",
 "category_name":"wall2",
 "effectid":"5",
-"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/1_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/1_wait_kr.jpg",
 "state":1,
 "categoryid":5
 }
@@ -9923,7 +9923,7 @@
 "effect_name":"お待ちください",
 "category_name":"wall2",
 "effectid":"5",
-"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/1_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/1_wait_kr.jpg",
 "state":1,
 "categoryid":5
 }
@@ -10217,7 +10217,7 @@
 "effect_name":"お待ちください",
 "category_name":"wall2",
 "effectid":"5",
-"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/1_wait.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/1_wait_kr.jpg",
 "state":1,
 "categoryid":5
 }
@@ -13804,7 +13804,7 @@
 "effect_name":"オープニング",
 "category_name":"wall2",
 "effectid":"1",
-"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_open_kr.jpg",
 "state":1,
 "categoryid":5
 }
@@ -14435,7 +14435,7 @@
 "effect_name":"オープニング",
 "category_name":"wall2",
 "effectid":"1",
-"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_open_kr.jpg",
 "state":1,
 "categoryid":5
 }
@@ -14772,7 +14772,7 @@
 "effect_name":"オープニング",
 "category_name":"wall2",
 "effectid":"1",
-"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_open_kr.jpg",
 "state":1,
 "categoryid":5
 }
@@ -21762,7 +21762,7 @@
 "effect_name":"オープニング",
 "category_name":"wall2",
 "effectid":"1",
-"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_open.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_open_kr.jpg",
 "state":1,
 "categoryid":5
 }
@@ -26185,7 +26185,7 @@
 "effect_name":"エンディング",
 "category_name":"wall2",
 "effectid":"2",
-"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_close_kr.jpg",
 "state":1,
 "categoryid":5
 }
@@ -26366,7 +26366,7 @@
 "effect_name":"エンディング",
 "category_name":"wall2",
 "effectid":"2",
-"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_close_kr.jpg",
 "state":1,
 "categoryid":5
 }
@@ -26580,7 +26580,7 @@
 "effect_name":"エンディング",
 "category_name":"wall2",
 "effectid":"2",
-"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_close_kr.jpg",
 "state":1,
 "categoryid":5
 }
@@ -26703,7 +26703,7 @@
 "effect_name":"エンディング",
 "category_name":"wall2",
 "effectid":"2",
-"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_close_kr.jpg",
 "state":1,
 "categoryid":5
 }
@@ -26814,7 +26814,7 @@
 "effect_name":"エンディング",
 "category_name":"wall2",
 "effectid":"2",
-"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_close.jpg",
+"image_path":"https://crow88.github.io/lab/12008305/image_sp/campaign/radio/livebroadcast/bg/0_close_kr.jpg",
 "state":1,
 "categoryid":5
 }
