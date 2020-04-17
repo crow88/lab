@@ -1425,15 +1425,15 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/base_under.png?1586165648328", id:"cinderella_election_vote_base_under"},
-		{src:"images/bg_cool.jpg?1586165648328", id:"cinderella_election_vote_bg_cool"},
-		{src:"images/bg_cute.jpg?1586165648328", id:"cinderella_election_vote_bg_cute"},
-		{src:"images/bg_passion.jpg?1586165648328", id:"cinderella_election_vote_bg_passion"},
-		{src:"images/heart_s_64.png?1586165648328", id:"cinderella_election_vote_heart_s_64"},
-		{src:"images/kirakira.png?1586165648328", id:"cinderella_election_vote_kirakira"},
-		{src:"images/logo.png?1586165648328", id:"cinderella_election_vote_logo"},
-		{src:"images/replace_target_card_quest.png?1586165648328", id:"cinderella_election_vote_replace_target_card_quest"},
-		{src:"images/text_window.png?1586165648328", id:"cinderella_election_vote_text_window"}
+		{src:"images/base_under.png", id:"cinderella_election_vote_base_under"},
+		{src:"images/bg_cool.jpg", id:"cinderella_election_vote_bg_cool"},
+		{src:"images/bg_cute.jpg", id:"cinderella_election_vote_bg_cute"},
+		{src:"images/bg_passion.jpg", id:"cinderella_election_vote_bg_passion"},
+		{src:"images/heart_s_64.png", id:"cinderella_election_vote_heart_s_64"},
+		{src:"images/kirakira.png", id:"cinderella_election_vote_kirakira"},
+		{src:"images/logo.png", id:"cinderella_election_vote_logo"},
+		{src:"images/replace_target_card_quest.png", id:"cinderella_election_vote_replace_target_card_quest"},
+		{src:"images/text_window.png", id:"cinderella_election_vote_text_window"}
 	],
 	preloads: []
 };
