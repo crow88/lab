@@ -23,7 +23,7 @@
   - 신년 ([2020](https://crow88.github.io/lab/12008305/campaigns/new_year/2020/))
   - 발렌타인 (2015/2016/2017/[2018](https://crow88.github.io/lab/12008305/campaigns/valentine_present/2018/)/[2019](https://crow88.github.io/lab/12008305/campaigns/valentine_present/2019/)/[2020](https://crow88.github.io/lab/12008305/campaigns/valentine_present/2020/))
   - 화이트데이 (2014/2015/2016/2017/2018/[2019](https://crow88.github.io/lab/12008305/campaigns/whiteday_present/2019/)/[2020](https://crow88.github.io/lab/12008305/campaigns/whiteday_present/2020/))
-  - 총선거 (2014/2015/2016/2017/2018/[2019](https://crow88.github.io/lab/12008305/campaigns/vote/2019/)/[2020](https://crow88.github.io/lab/12008305/campaigns/vote/2020/))
+  - 총선거 ([2014](https://crow88.github.io/lab/12008305/campaigns/vote/2014/)/[2015](https://crow88.github.io/lab/12008305/campaigns/vote/2015/)/[2016](https://crow88.github.io/lab/12008305/campaigns/vote/2016/)/[2017](https://crow88.github.io/lab/12008305/campaigns/vote/2017/)/[2018](https://crow88.github.io/lab/12008305/campaigns/vote/2018/)/[2019](https://crow88.github.io/lab/12008305/campaigns/vote/2019/)/[2020](https://crow88.github.io/lab/12008305/campaigns/vote/2020/))
   - 칠석 (2015)
   - 크리스마스 (2014/2015/2016/2017/[2018](https://crow88.github.io/lab/12008305/campaigns/xmas/2018/1/)/[2019](https://crow88.github.io/lab/12008305/campaigns/xmas/2019/))
 
