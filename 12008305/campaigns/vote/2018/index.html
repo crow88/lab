@@ -83,26 +83,7 @@
                         </a></li>
                 </ul>
             </div>
-            <div id="headerPopupMenu" class="headerPopupMenu">
-            </div>
         </nav>
-        <script>
-            var $btnEventLogo = $('.jsBtnEventLogo');
-            var $btnGameMenu = $('.jsGameMenu');
-            var $menuElem = $('#headerPopupMenu');
-            // ゲームメニューは消しておく
-            $btnGameMenu.hide();
-            // メニュー開閉で表示制御
-            $('#headerAcd').on('click', function() {
-                if ($menuElem.css('display') == 'none') {
-                    $btnEventLogo.hide();
-                    $btnGameMenu.show();
-                } else {
-                    $btnEventLogo.show();
-                    $btnGameMenu.hide();
-                }
-            });
-        </script>
         <input id="delay" type="hidden" value="0">
         <section class="raidArea produce" style="margin-top:12px; margin-bottom: 40px;">
             <div class="animation_container">
