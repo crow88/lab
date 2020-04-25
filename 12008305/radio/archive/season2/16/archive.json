@@ -5386,6 +5386,26 @@
 "nice_comment_count":"",
 "idol_id":""
 },
+"266":{
+"archive_id":"265",
+"log_type":"1",
+"id_by_type":"118",
+"message":"",
+"message_moba_id":"22080944133",
+"stamp_id":"",
+"send_viewer_id":"59328775",
+"send_user_name":"nozarasi_sa",
+"idol_short_name":"",
+"expression_type":"",
+"effect_type":"",
+"motion_type":"",
+"json_layer_effects":"",
+"send_time":"2020-01-30 19:04:06.5253",
+"send_timestamp":"1580378646.5253",
+"layer_effects_set_id":"",
+"nice_comment_count":"",
+"idol_id":""
+},
 "267":{
 "archive_id":"267",
 "log_type":"1",
