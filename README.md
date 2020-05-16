@@ -30,8 +30,8 @@
 
 #### [데레스테 아이돌갤러리](https://crow88.github.io/sil/)
 - 카드대사
+- 신데렐라 포스트(데레포)
 - ~~추억 에피소드~~
 - ~~이벤트 에피소드~~
-- ~~데레포~~
 
 ![](https://crow88.github.io/lab/12008305/image_sp/campaign/valentine/2018/idol/26.png)
