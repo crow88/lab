@@ -9,49 +9,49 @@ lib.ssMetadata = [];
 
 
 
-(lib._003_ch3 = function() {
+(lib.003_ch3 = function() {
 	this.initialize(img.election_result_3_003_ch3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,640,640);
 
 
-(lib._004_place_3 = function() {
+(lib.004_place_3 = function() {
 	this.initialize(img.election_result_3_004_place_3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,256,153);
 
 
-(lib._004_votes_3 = function() {
+(lib.004_votes_3 = function() {
 	this.initialize(img.election_result_3_004_votes_3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,460,84);
 
 
-(lib._005_name_3 = function() {
+(lib.005_name_3 = function() {
 	this.initialize(img.election_result_3_005_name_3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,476,108);
 
 
-(lib._005_shuttle_co = function() {
+(lib.005_shuttle_co = function() {
 	this.initialize(img.election_result_3_005_shuttle_co);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,392,392);
 
 
-(lib._005_shuttle_cu = function() {
+(lib.005_shuttle_cu = function() {
 	this.initialize(img.election_result_3_005_shuttle_cu);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,392,392);
 
 
-(lib._005_shuttle_pa = function() {
+(lib.005_shuttle_pa = function() {
 	this.initialize(img.election_result_3_005_shuttle_pa);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,392,392);
 
 
-(lib._005_textflame = function() {
+(lib.005_textflame = function() {
 	this.initialize(img.election_result_3_005_textflame);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,432,206);
@@ -320,7 +320,7 @@ p.nominalBounds = new cjs.Rectangle(-82.7,-95.8,185.5,191.7);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 9th_votes3
-	this.instance = new lib._004_votes_3();
+	this.instance = new lib.004_votes_3();
 	this.instance.parent = this;
 	this.instance.setTransform(-115,-14,0.5,0.5);
 
@@ -364,15 +364,15 @@ p.nominalBounds = new cjs.Rectangle(-82.7,-95.8,185.5,191.7);
 	this.timeline.addTween(cjs.Tween.get(this).wait(1).call(this.frame_1).wait(3));
 
 	// レイヤー_1
-	this.instance = new lib._005_shuttle_cu();
+	this.instance = new lib.005_shuttle_cu();
 	this.instance.parent = this;
 	this.instance.setTransform(-98,-98,0.5,0.5);
 
-	this.instance_1 = new lib._005_shuttle_co();
+	this.instance_1 = new lib.005_shuttle_co();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-98,-98,0.5,0.5);
 
-	this.instance_2 = new lib._005_shuttle_pa();
+	this.instance_2 = new lib.005_shuttle_pa();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(-98,-98,0.5,0.5);
 
@@ -386,7 +386,7 @@ p.nominalBounds = new cjs.Rectangle(-98,-98,196,196);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 9th_name_3
-	this.instance = new lib._005_name_3();
+	this.instance = new lib.005_name_3();
 	this.instance.parent = this;
 	this.instance.setTransform(-238,-108);
 
@@ -533,7 +533,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,240,320);
 	this.initialize(mode,startPosition,loop,{});
 
 	// _
-	this.instance = new lib._004_place_3();
+	this.instance = new lib.004_place_3();
 	this.instance.parent = this;
 	this.instance.setTransform(-64,-13,0.5,0.5);
 
@@ -546,7 +546,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,240,320);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 9th_3
-	this.instance = new lib._003_ch3();
+	this.instance = new lib.003_ch3();
 	this.instance.parent = this;
 	this.instance.setTransform(-321,-640);
 
@@ -1437,7 +1437,7 @@ p.nominalBounds = new cjs.Rectangle(200.7,126.1,16.30000000000001,17.90000000000
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// guide
-	this.instance_1 = new lib._005_textflame();
+	this.instance_1 = new lib.005_textflame();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-108,-40,0.5,0.5);
 
