@@ -10,49 +10,49 @@ lib.ssMetadata = [];
 
 
 (lib._003_ch3 = function() {
-	this.initialize(img.election_result_3__003_ch3);
+	this.initialize(img.election_result_3_003_ch3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,640,640);
 
 
 (lib._004_place_3 = function() {
-	this.initialize(img.election_result_3__004_place_3);
+	this.initialize(img.election_result_3_004_place_3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,256,153);
 
 
 (lib._004_votes_3 = function() {
-	this.initialize(img.election_result_3__004_votes_3);
+	this.initialize(img.election_result_3_004_votes_3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,460,84);
 
 
 (lib._005_name_3 = function() {
-	this.initialize(img.election_result_3__005_name_3);
+	this.initialize(img.election_result_3_005_name_3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,476,108);
 
 
 (lib._005_shuttle_co = function() {
-	this.initialize(img.election_result_3__005_shuttle_co);
+	this.initialize(img.election_result_3_005_shuttle_co);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,392,392);
 
 
 (lib._005_shuttle_cu = function() {
-	this.initialize(img.election_result_3__005_shuttle_cu);
+	this.initialize(img.election_result_3_005_shuttle_cu);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,392,392);
 
 
 (lib._005_shuttle_pa = function() {
-	this.initialize(img.election_result_3__005_shuttle_pa);
+	this.initialize(img.election_result_3_005_shuttle_pa);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,392,392);
 
 
 (lib._005_textflame = function() {
-	this.initialize(img.election_result_3__005_textflame);
+	this.initialize(img.election_result_3_005_textflame);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,432,206);
 
@@ -2516,14 +2516,14 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/003_ch3.png", id:"election_result_3__003_ch3"},
-		{src:"images/004_place_3.png", id:"election_result_3__004_place_3"},
-		{src:"images/004_votes_3.png", id:"election_result_3__004_votes_3"},
-		{src:"images/005_name_3.png", id:"election_result_3__005_name_3"},
-		{src:"images/005_shuttle_co.png", id:"election_result_3__005_shuttle_co"},
-		{src:"images/005_shuttle_cu.png", id:"election_result_3__005_shuttle_cu"},
-		{src:"images/005_shuttle_pa.png", id:"election_result_3__005_shuttle_pa"},
-		{src:"images/005_textflame.png", id:"election_result_3__005_textflame"},
+		{src:"images/003_ch3.png", id:"election_result_3_003_ch3"},
+		{src:"images/004_place_3.png", id:"election_result_3_004_place_3"},
+		{src:"images/004_votes_3.png", id:"election_result_3_004_votes_3"},
+		{src:"images/005_name_3.png", id:"election_result_3_005_name_3"},
+		{src:"images/005_shuttle_co.png", id:"election_result_3_005_shuttle_co"},
+		{src:"images/005_shuttle_cu.png", id:"election_result_3_005_shuttle_cu"},
+		{src:"images/005_shuttle_pa.png", id:"election_result_3_005_shuttle_pa"},
+		{src:"images/005_textflame.png", id:"election_result_3_005_textflame"},
 		{src:"images/bg.jpg", id:"election_result_3_bg"},
 		{src:"images/bottom.png", id:"election_result_3_bottom"},
 		{src:"images/fp_flower3.png", id:"election_result_3_fp_flower3"},
