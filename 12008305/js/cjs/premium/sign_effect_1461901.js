@@ -261,7 +261,7 @@
 
         this.addChild(this.reflect_wrapper, this.reflect_mask, this.instance_7, this.instance_6, this.instance_5, this.instance_4, this.instance_3, this.instance_2, this.instance_1, this.instance);
     }).prototype = p = new cjs.Container();
-    p.nominalBounds = new cjs.Rectangle(-8.7, 280.1, 301.7, 529.3);
+    p.nominalBounds = new cjs.Rectangle(32,162.1,631.7,747.6999999999999);
 
 })(lib = lib || {}, images = images || {}, createjs = createjs || {});
 var lib, images, createjs;
