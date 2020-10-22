@@ -45,4 +45,4 @@ window.im_cjs.t[7][1] = "왜냐니……악수하는거야. ";
 window.im_cjs.t[7][2] = "이 향기를 처음 맡을 권리는 ";
 window.im_cjs.t[7][3] = "너에게 있으니까.";
 window.im_cjs.t[7][5] = "그야 너는, 나의 팬, ";
-window.im_cjs.t[7][6] = "제1호니까♪";
+window.im_cjs.t[7][6] = "제1호잖아♪";
