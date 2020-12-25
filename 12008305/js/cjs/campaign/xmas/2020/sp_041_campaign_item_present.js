@@ -11142,26 +11142,26 @@
 
 
             //1回目セリフ
-            this.txt0_1 = this.idol_name + "からの";
-            this.txt0_2 = "プレゼントを受け取った!";
-            this.txt0_3 = "※プレゼントは贈り物リストに";
-            this.txt0_4 = "送られます。";
+            this.txt0_1 = this.idol_name + "의";
+            this.txt0_2 = "선물을 받았다!";
+            this.txt0_3 = "※선물은 선물함으로";
+            this.txt0_4 = "보내드립니다.";
 
-            this.txt1_1 = "ちひろからのプレゼントを";
-            this.txt1_2 = "もらった！";
-            this.txt1_3 = "※プレゼントは贈り物リストに";
-            this.txt1_4 = "送られます。";
+            this.txt1_1 = "치히로에게 선물을";
+            this.txt1_2 = "받았다!";
+            this.txt1_3 = "※선물은 선물함으로";
+            this.txt1_4 = "보내드립니다.";
 
             //2回目セリフ
-            this.txt0_5 = this.idol_name + "からの";
-            this.txt0_6 = "プレゼントを受け取った!";
-            this.txt0_7 = "※プレゼントは受け取り済み";
-            this.txt0_8 = "です。";
+            this.txt0_5 = this.idol_name + "의";
+            this.txt0_6 = "선물을 받았다!";
+            this.txt0_7 = "※선물은 이미 받았";
+            this.txt0_8 = "습니다.";
 
-            this.txt1_5 = "ちひろからのプレゼントを";
-            this.txt1_6 = "もらった！";
-            this.txt1_7 = "※プレゼントは受け取り済み";
-            this.txt1_8 = "です。";
+            this.txt1_5 = "치히로에게 선물을";
+            this.txt1_6 = "받았다!";
+            this.txt1_7 = "※선물은 이미 받았";
+            this.txt1_8 = "습니다.";
         }
         this.frame_1 = function() {
             window.se_play("se_041_1");
