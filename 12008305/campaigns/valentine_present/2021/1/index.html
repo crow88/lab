@@ -329,7 +329,7 @@
         var cjs_file = [
             '../../../../../12008305/js/petit_cjs/petit_base.js', '../../../../../12008305/js/petit_cjs/petit_balloon.js', '../../../../../12008305/js/petit_cjs/petit_effect.js'
         ];
-        var url = 'ajax_petit_idol_avatar_data/1043.json';
+        var url = '../ajax_petit_idol_avatar_data/1043.json';
         var petitManager = window.petitManager || new PetitManager();
         var balloonManager = window.canvasManager || new Commonjs.CreateJsCanvas();
         var effectManager = window.canvasManager || new Commonjs.CreateJsCanvas();
@@ -512,7 +512,7 @@
             var characterList = [];
             characterList[0] = data.accessory_list;
             characterList[0].pose_id = 1;
-            characterList[0].image_url_list.gift_item = "../../../../../12008305/js/petit_cg%2Fetc%2Fgift_valentine_2021.js%3Fv%3D20210210144635";
+            characterList[0].image_url_list.gift_item = "../../../../../12008305/js/petit_cg/etc/gift_valentine_2021.js";
             var deffered = petitManager.requireCJS(cjs_file);
             deffered.done(function() {
                 petitManager.setCharacters(characterList);
