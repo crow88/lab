@@ -30542,6 +30542,15 @@ a.check_close_btn.petit {
     border: none
 }
 
+.headline_type_1 {
+    display: block;
+    background: url(../../../12008305/image_sp/cinderella_history/ui/sprite/map-s5604901edc.png) no-repeat 0 -1289px;
+    -webkit-background-size: 224px 1303px;
+    background-size: 224px 1303px;
+    width: 40px;
+    height: 14px
+}
+
 .search_list_text_area {
     top: 8px;
     left: 54px;
@@ -30713,4 +30722,12 @@ a.check_close_btn.petit {
 
 .search_result_list li ._marquee {
     width: 164px
+}
+
+.search_result_list li .icon_map_list {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 8px;
+    left: 8px
 }
