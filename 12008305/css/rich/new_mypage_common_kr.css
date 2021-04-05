@@ -30611,7 +30611,7 @@ a.check_close_btn.petit {
 .icon_deco,
 .icon_deco_search {
     display: block;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcinderella_history%2Fui%2Fsprite%2Fmap-s5604901edc.png%3F1606456048) no-repeat 0 -259px;
+    background: url(../../../12008305/image_sp/cinderella_history/ui/sprite/map-s5604901edc.png) no-repeat 0 -259px;
     -webkit-background-size: 224px 1303px;
     background-size: 224px 1303px;
     width: 224px;
@@ -30632,7 +30632,7 @@ a.check_close_btn.petit {
     height: 322px;
     position: absolute;
     bottom: 8px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcinderella_history%2Fui%2Fbg_search.png%3F1606456048) no-repeat;
+    background: url(../../../12008305/image_sp/cinderella_history/ui/bg_search.png) no-repeat;
     background-size: 280px 322px
 }
 
