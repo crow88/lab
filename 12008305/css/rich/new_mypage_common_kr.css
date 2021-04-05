@@ -30542,6 +30542,24 @@ a.check_close_btn.petit {
     border: none
 }
 
+.search_result {
+    width: 280px;
+    overflow: hidden;
+    padding-top: 12px;
+    position: relative
+}
+
+.search_result:before {
+    content: '';
+    display: block;
+    width: 280px;
+    height: 322px;
+    position: absolute;
+    bottom: 8px;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcinderella_history%2Fui%2Fbg_search.png%3F1606456048) no-repeat;
+    background-size: 280px 322px
+}
+
 .search_result_list {
     width: 280px
 }
