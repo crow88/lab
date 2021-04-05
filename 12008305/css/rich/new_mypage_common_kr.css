@@ -30634,17 +30634,6 @@ a.check_close_btn.petit {
     padding-top: 10px
 }
 
-.search_result:before {
-    content: '';
-    display: block;
-    width: 280px;
-    height: 322px;
-    position: absolute;
-    bottom: 8px;
-    background: url(../../../12008305/image_sp/cinderella_history/ui/bg_search.png) no-repeat;
-    background-size: 280px 322px
-}
-
 .search_result_list {
     width: 280px
 }
