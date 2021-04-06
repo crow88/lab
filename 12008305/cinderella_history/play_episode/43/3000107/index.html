@@ -1,0 +1,4460 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+
+<head>
+    <title>아이돌마스터 신데렐라 걸즈 </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href='../../../../../12008305/css/game/pex.css' media="all">
+    <script src='../../../../../12008305/js/jquery-1.9.1.min.js'></script>
+    <script>
+        $(document).ready(function() {
+            if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
+                newrelic.setPageViewName('/idolmaster/index.php/cinderella_history/play_episode/43/3000107/1/0');
+            }
+        });
+    </script>
+    <meta name="authoring-tool" content="Adobe_Animate_CC">
+    <style>
+        body {
+            overflow: hidden;
+        }
+
+        #mbga-pf-footer {
+            display: none;
+        }
+
+        #codeigniter_profiler {
+            height: 1500px;
+            position: absolute;
+            display: none;
+        }
+
+        #animation_container canvas {
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        #animation_container a {
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        .loading {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            height: 100%;
+            margin-top: -55px;
+        }
+
+        .l_image {
+            position: relative;
+            display: block;
+            left: 3px;
+            margin: 35px auto 0;
+            width: 40px;
+        }
+    </style>
+    <script type='text/javascript' src='../../../../../12008305/js/createjs.min.js'></script>
+    <script type='text/javascript' src='../../../../../12008305/js/app_sound.js'></script>
+    <script type='text/javascript' src='../../../../../12008305/js/cjs/story_generator/story_generator_n10.js' crossorigin="anonymous"></script>
+    <script type='text/javascript' src='../../../../../12008305/js/cjs/story_generator/effects/eff_chord.js' crossorigin="anonymous"></script>
+    <script type='text/javascript' src='../../../../../12008305/js/cjs/story_generator/effects/eff_flower_red.js' crossorigin="anonymous"></script>
+    <script type='text/javascript' src='../../../../../12008305/js/cjs/story_generator/effects/eff_sweat_fly.js' crossorigin="anonymous"></script>
+    <script type='text/javascript' src='../../../../../12008305/js/cjs/story_generator/effects/eff_notice.js' crossorigin="anonymous"></script>
+    <script type='text/javascript' src='../../../../../12008305/js/cjs/story_generator/effects/eff_question.js' crossorigin="anonymous"></script>
+    <script type='text/javascript'>
+        var se_flg = 0,
+            bgm_flg = 0,
+            chrome_app_flg = 0,
+            chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+    </script>
+    <script type='text/javascript' src='../../../../../12008305/js/app_sound.js'></script>
+    <link rel="stylesheet" type="text/css" href="../../../../../css/base.css" />
+</head>
+
+<body style="margin:0px;">
+    <div id="animation_container" style="background-color:rgba(0, 0, 0, 0); width:100%; height: 1500px position: relative">
+        <canvas id="canvas" width="100%" height="" style="position: absolute; display: block; background-color:rgba(0, 0, 0, 0);"></canvas>
+        <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:240px; height:310px; position: absolute; left: 0px; top: 0px; display: block;"></div>
+    </div>
+    <div class="loading">
+        <img class="l_image" src='data:image/png;base64,R0lGODlhUABQALMPAPDw8EFAQmZmZq+urBYWFouKidLRzqOjooKBgZeXllFRUT8+Pzc3OCoqK3R0dP///yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJCgAPACwAAAAAUABQAAAE//DJSau9OOvNu/9gKI5kaZ5oql7GMABrPB4LYRPBIe+cQzCBYIBBcPCOFkdDyAw0jEjkANdkEgbRowJYFTIU2R2A2hUSYOGVgVwOEAxpNbv81gBaBvQRcHAgXhljC20BNXoVBgIEC1sEBYcqBj4NlA0ECJATAkttDQIYBZcGo6OKWCtTnEILT3AWa4NdNa4VCQ0DpLkJZypjXFVPGAiLVTUIF2O4ubkOUCgIql1XwgQNsayXGAcKy90NmSKChF8ZkjetGQoJ3csCOidrhEG8duAVDMrsowjOJVPybuyFwKePlB8U8eTROyGgQMFRCt6ZGCOPQQMVAwI8XCMQxCZCDf8SrFBXUMCxFGt+NSHSMcSUA+yatQQRSmUQIqdWHCAgIN+BAA5mhtjVgIFRSwpyxgCQgAhSpUu3Ge0ZBoDVOFizat3KtavXr2An3MkTtsJYoRQGKLjBk9bXRNWeevDxC9tJr8McHHAxAFo/DEpkZesKbS9fvgr+VtjZZhbXNYYP82Ug0cIQkIrTOOgp+XCBABgSNr64tUHkzi4auJ3wTyHaFclQH14AVUJrQgvjxJbtIkDtB6LL1OBK4DRq1RgW2GwSbOtm3gMKLMjAWHidrZB5U9YQuNhgrggoo07c48cqS3cJP4kcPvMFtWwFrO4KtyiBpCHOlqWgf7///wAGKKD/DHxswQBVWVj1mghEGWXRfb+hwBQRNuAnQ01V4CQDYw4U4KEADAQlRywZ5nbCFB16qGIBiS3IXTTAiKSCAg2tuGIA6ZVA0TgMYMSAjTYO4yILc0gz5AUC1AikigtURsJtbZhIQohLrqhAjiMER0dHY3FAZZUekneCOG2Qg0FTbDWZjpJV5pACNLhF6AONSQqwlns0gOmhlCP4UkZzSRxY56AhIlMEmGKmkEoT2Mz3QAGeDCppSBfsgsCSijhagjmVoGdPpJIOugUo962IgBsRjtkHAgcINEaoofIJnCJFeQrWAKDCmuQtduBx5A4H5KorrwMSqeugshbL07G7FptBJ3jMNoCls5oEoKu11JYDYqgHaprtAwBMohx633bQl0PlpqvuuihEAAAh+QQFCgAPACwAAAAAUABQAAAE//DJSau9OOvNu/9gKI5kaZ5oql7GMABrPB4LYRPBIe+cQzCBYIBBcPCOFkdDyAw0jEjkANdkEgbRowJYFTIU2R2A2hUSYOGVgVwOEAxpNbv81gBaBvQRcHAgXhljC20BNXoVBgI3NgWHKgY+DZINBAiOEwJLbQ0CGAUEDYNBC5RYK1OaQqQOcBZrolU1rRUJBLBMRJckY1xVTxgItrGVF7ybUCgIqV1XwKCipMQXB8vMuiGChF8ZkDdPsxZbhE46J2vjbtcTAOoTDL1lvydT6Gcp7+MNCCjn4/YomfKVMzFmHIMGKui1MZQi4KYEK8TF25diDTxc/1JMuRjkSbsQn/84EjG14gCoXkQcfBRRq8G7gwQUkIwBIAERGzL3HNjCQMDMPeziCB1KtKjRo0iTKl1nIM/SCnecghigYJEAcEgTnYz5M4MPeJQoIlVWoGlTm8i8VhslzSgCBmbjGlCQ1oLJhXWKrpErd8FAC0MIySPqh2/cAwEw9FuIsGgDw3IfX1BIKGMcAI8hm81pgXIby2nGaN7c9cHiMjWMvhltQPKFBRyZDB5aWPOABRnuos5LtPXoHBqUdKkhtiiCBZAF1L3wVXbbo2QPL1iOgapVrEe1MqjB+UPUlUS/Px1Pvrz582H48PSZPuiRlgriO+lO0yYorjs+KRDAv3/V0iaYpED/Ai4M8JZKcuzX34JVgefBFAUUKKFyDvYQwIIYCsAARCoo8IeEEnqYwhgZYrhFQguACKJJFXLDSYkLgkaCciqCCNw8L8LIn4wjbFjjhMWRsIaO/fFIgXsa+PijC8qhQCKR8XHjgw3fZODhki4o8FcJbxHZAIDBeFhAAQhUVQAGO2HJ4ogxwTgdMPqMKSeZ+hRDAIE/NpmQLRkSgZ1plcw5ZzB/JtAAniASGkM320VjCQb8CSrofp4UcUCBOzUjRh8IHKDOGJJKaqR2TlTSIg+thSqoaxjcMYBUSqWqqpysomcBqLOOaaStD+yXqwBg8FpdA7l+KaxXAaj65rFqOTCnFxLUMUsBDS4RcaO0G7TwKrbcdustChEAACH5BAUKAA8ALAUAGABHADQAAAT/8MlJF7046827/2AojmRpnmiqrmzrvnAsz3Rt33hLEJwi/IJArkNoLAJIBu8CbAqGGsIRSQ00Jg2nE4qZVqlLnxYo5Eoa3y9DMt6aH940sthuvgnyL73+ez/yVTx8fW9xcjxibWVmaIBrD1l1fg9SgEsPDG1Xk5Vpm1iJQZMURV5KG5+jGDuqra6vsLGyszILAg4OAo+0GA4Fv8BPMgIDBsYHiyW+wMzCLwfG0cYOJgrM1wXJKwnS3c4i2NfULQHd5iXh1y4F5t0KIwzpzC7F7dHjIQ3ywPT20QgkEOz7poKbPwMEPwTYt0uDgAMDBhxIiOGggVQhBKR7t4EBxIggVw80xFCvHT4S1pgh0HahwUeQITuUlJZARQAFCix0cACz54CTGRB4g/LSp8QPCxSMxGG0Jy8JTWE+fRAV5FQEVQE+ZRD1wFQJCppy/BoPZoGlXxcswPgiAgAh+QQFCgAPACwFAA0APgA/AAAE//DJSau9L2Cpt/8TsyxgCXbmtAhsy6RwXCltLZByXjK23ejATc+mCBorQ9tx2UjWlsemkwU9TgXFajAwfWmDtGH2C+6NyUaFOvBDu9/wuHxOr9vv+Lyk0dZ/mgWBBWd+FQuCiAh9hROIjgiMFA6OjoR+lI+RDwyYjpqcnYKaDaGBkJqToZaXnaeaGZiurxICiAKzGIu4u7y9vr/AmgoICQkOOHEEMA0JA87Psl8NDAHVDMogzc/b0VDU1eBsHwLb5QOrQd/h4LoVB+bbCVoE6+vIFgzw5VoN9evtEhbo2wZQhzp/4jAMfKbloL+CD94N7HaBzw6E7DYoWHjPQgMEBmBCGlDkoR/GANgwINB3a8MCkTANfHAYDuIEARKdHUA3IWZMiAQW+PNSIgyKDQV8wizwJ9wCm0GUxixBoOobBlJhfsoqkmghriFfHeAqT9PLrF4ZCZDKK8AAmAM64qoGJQIAIfkEBQoADwAsBQAFACoARwAABP/wyUmrvbY1zHtviiAKyuadHDOuAupWDcu+dCiPCu3es37yK98PKBJ6iEVUQKFgnALEwElRqFYR0g7xZ+0WcpzYzcQJeL3ODnS0QCHO3ZYR04B75xiGvYvH7K19F38FDoEWVHtZhhQOdnKLFY1ej5AVCwIODgJplZ2en6ChoqOkpaUIA6kHhaEKqa+qoAywtAefBbS0lIYNubWdAb60wMKwnsWxnbjFu4azwrafrrkHnJ4MqKoOZKLWpt/g4eLj5BwJqQWKoAMG7e4Joezu89GdCPP4Bs2B+fgDnQv64eukQOC8TgwMuvOk0EC9DgQIvBCgUJ0FAg0WBAiwoIHEEwlKBCKAqHGjyQUfPdzDt28CgZImT6b8IACBAzAfYuoMwG0RzJ0cOxEAqnNmoKFETRoNlNTktabeDCElupQX0Z6VCDCIyaCq0IhGIwAAIfkEBQoADwAsBQAFAD4APgAABP/wyUmrvbUxhrv/IOYUZOGEaAouZVssaiw/rtvM+CfUrZD/F54LSJQ0hK1b8XdEkpTLnJMUakBVCoEgANohFZ+AdswJCQ6D9OAA9iCECN143nar7wOfuxb3ZOdzMB0KeHiCg28FCHUdgI4eaIVqfUt/jmQdknhRD5aXAocVC5p3V0Cel6EUDKRqnGKfWpCtCZwNsbIdDq2MRahzZR0JmpScv6AgDcN4xZwPDJYKpn4ICQkOqs7a29zd3t/g4eLj5OXm5QwJBusGBdPnFezyBsHwFAvz8/YWB/nyzfb86dsnQYFAee/KGTy4juAEhg0dPhjAECC8AAwTnhMgMBvBBf1X2BWQ2GFBPZIoU6pcybKlSwsaNjQgsJIAgwA4c550eDOnz532GvgcGkBjOaJDgZojgHSoRKZNc9IkCDUqF4kLrCo1JzTqVIk9iRo91zXngrHwCFixYi8CACH5BAUKAA8ALAUABQBHACsAAAT/8MlJq712rYa7/2AoMcVgDgUjrmyrnPCgtHRtMTF82HyN5DBEbygCxohIjxGWbFqWJ6dUcoDuQgwOsiFAOGYfB9TxURTOBURg6DC43wJPowq8dhDofNyWePsNQh0MdDoqHQ55iWAtAn9/ax4CdAd7HQuJmDWOf3ZIApiJkCsMm39OiKBoiyIKpX6nqaotC65vTp+xBQs0tQYDTiSxgS0FtZVJuKCiLQOlnU2oij3NfwlTEwHRAoZDCSYFy9fi4+Tl5ufo6err7O3uTQQE7zwEDAH3G/Lz2AL9AqsSGtwbiE/fPH8IjxEgyHDXwYQItdhjSFBLuwAQEc5YSJGgw3YZRBM+4NhxoMF1ISOSLBlOXUp/DVZ2/MjuZb8RLANYZIcxJRiZHk/WTGlRIMUFQtlxychNQr2B+fbx86dgZ4V4UjFYfRABACH5BAUKAA8ALA0ABQA/AD8AAAT/8MlJq60h3M27/08wGKRxLGCqfkLpGmssT+/LzPh31G6S/xveC0icMISuWxF4RJKWRefzw0DJCI1s41NwFjyOw2B8UKgamfRi23GyL43EeD5GgBjpfOB9WQg9cnR0Ah5oenkEHQ0ILgh8FgqCggceC4d5SoWPGwiSgmYbBJd6UA+BnmOEoaOIUKeoqheirBmlDqhzGhy0AZlFC7gDlIq0m0CdqKAdeJe+UAWesR0EzJilFQqndisNDN4Niddw4uTl5ufo6err7O3u7/BZFrrwF2FzjvWKYpLK+hX8PDn7JyDYl38UAqIyBi/YGCsIHzgcQA+hQk8M3xXEdTCihIt0Xgb+YwByAKiKCBvcqyPSo4RuLmPKnEmzps2bOCswUCCgp4KMFSCq49mzqAChHokaLdoy3tKnMQM8XRpT6dSjLq1ORapP69OmGq/2lOm1KFeEV/1FXQoWCEoMIOSliAAAOw=='>
+    </div>
+    <script>
+        // -------------------------------------------------------------------------
+        // -------------------------------------------------------------------------
+        function handleFileLoadComplete(event) {
+            var result = event.result;
+        }
+
+        function handleComplete() {
+            window.js_load_comp = true;
+        }
+        var load_js = new createjs.LoadQueue();
+        load_js.setMaxConnections(6);
+        // 1つのファイルを読み込み終わったら
+        load_js.addEventListener("fileload", handleFileLoadComplete);
+        // 全てのファイルを読み込み終わったら
+        load_js.addEventListener("complete", handleComplete);
+        // 読み込み開始
+        load_js.loadManifest(window.js_load_files);
+        var _effect_cnt = 5;
+        var image_server = "";
+        var base_url = "";
+        window.im_cjs = window.im_cjs || {};
+        window.replace_images = [];
+        window.file_name = "story_generator_n10"; // createjs の本体ファイルを定義
+        window.dir_name = "../../../../image_sp/cjs/genechara/";
+        window.im_cjs = {
+"scene_list":[
+{
+"id":"1",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"2",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"3",
+"story_id":"3000107",
+"character_id":"",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"180202",
+"message":"",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"4",
+"story_id":"3000107",
+"character_id":"",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"2021040201",
+"message":"",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"5",
+"story_id":"3000107",
+"character_id":"",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"2017040142",
+"message":"",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"6",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"C",
+"movement":"in_L",
+"chara_effect":"chord",
+"effect_direction":"R",
+"a_fade":"",
+"bgimg":"",
+"message":"흥흥흐흥, 흥흐흥-, \n후레데리카-♪ \n……어라?",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"7",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"C",
+"movement":"out_R",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":" ",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"8",
+"story_id":"3000107",
+"character_id":"",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"CtoR",
+"message":"",
+"timing":"10",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"9",
+"story_id":"3000107",
+"character_id":"10154_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"3",
+"position":"RR",
+"movement":"in_R",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"어 음, 그렇군요…… \n마, 마음가짐 같은것도 \n중요하니까요~…… \n아핫, 아하하하……☆",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"10",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"C",
+"movement":"in_R",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"과연, 마음가짐이구만. \n하기사, 뭘 하든간에 \n기합은 넣지 않으면 안되제. \n역시, 나나누님이여!",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"11",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"LL",
+"movement":"in_R",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"경험자의 말에는 \n무게가 있네요…….",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"12",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"LL",
+"movement":"out",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":" ",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"13",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"5",
+"position":"LL",
+"movement":"in_L",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"뭐야뭐야-? 무슨 이야기\n하고있어-? 후레쨩에게도 \n가르쳐줘 실부플레~♪",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"14",
+"story_id":"3000107",
+"character_id":"10154_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"RR",
+"movement":"jump",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"프, 프레데리카씨!",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"15",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"C",
+"movement":"pop",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"오오! 후레누님! \n마침 딱 좋은 타이밍이여, \n괜찮허면 누님도 말좀 해보드라고.",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"16",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"LL",
+"movement":"question_right2",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"말? 무슨 말? \n프라데리캉스어 강좌? \n잘은 모르지만 좋아-☆",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"17",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"C",
+"movement":"out",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":" ",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"18",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"C",
+"movement":"in_L",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"아, 아니요……실은 지금, \n나나씨에게 고교 수험때의 \n이야기를 듣고 있어서…….",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"19",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"8",
+"position":"LL",
+"movement":"pop",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"와오, 고등학교 수험? \n꽤나 주목해야 할 부분이 좋네요~.",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"20",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"C",
+"movement":"out",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":" ",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"21",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"C",
+"movement":"in_R",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"요새 학교 수험이 화제랑께. \n듣자허니 호타루가 댕기는 \n학교에서도 때때로 \n화제에 오른다더구먼.",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"22",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"C",
+"movement":"out",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":" ",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"23",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"3",
+"position":"C",
+"movement":"in_L",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"그래서……저희도 모르는게 \n많고, 그, 조금, 불안하기도 \n해서……잘 아는 분에게 \n물어보고 싶어가지고.",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"24",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"LL",
+"movement":"nod_double",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"호오호오, 그래서 나나쨩에게 \n물어봤구나~☆",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"25",
+"story_id":"3000107",
+"character_id":"10154_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"5",
+"position":"RR",
+"movement":"pop",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"아핫, 아하핫☆ \n괜찮으시다면, 프레데리카씨도 \n함께 상담해주셨으면 \n좋겠습니다만……!",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"26",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"LL",
+"movement":"question_right2",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"좋아~☆ \n후레쨩도 두 사람의 이야기 \n듣고싶어-♪",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"27",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"8",
+"position":"LL",
+"movement":"jump",
+"chara_effect":"flower_red",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"그런 이유로, \n『나나&프레데리카 상담실』에 \n오신걸 환영합니다~. \n오늘의 게스트는 여기 두 사람☆",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"28",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"C",
+"movement":"nod2",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"아……저, 저기, \n시라기쿠 호타루입니다. \n중학생이에요. \n잘 부탁드립니다.",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"29",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"C",
+"movement":"out",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":" ",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"30",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"C",
+"movement":"in_float",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"무라카미 토모에여라! 똑같은 중학생잉께! 잘 부탁혀!",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"31",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"LL",
+"movement":"nod2",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"그럼 본론으로 들어가서 \n이야기를 들어보도록 하겠습니다. \n수험때문에 고민이라고 하셨는데, \n구체적으로 어떤?",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"32",
+"story_id":"3000107",
+"character_id":"",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"all_out_fade",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"in",
+"bgimg":"",
+"message":"",
+"timing":"10",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"33",
+"story_id":"3000107",
+"character_id":"",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"Case.1 \n시라기쿠 호타루의 경우",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"34",
+"story_id":"3000107",
+"character_id":"",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"out",
+"bgimg":"",
+"message":"",
+"timing":"10",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"35",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"3",
+"position":"C",
+"movement":"in_float",
+"chara_effect":"sweat_fly",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"으음……고민이라고 할 \n정도는 아니지만…… 저 같은 \n경우는, 애초에 시험을 잘 볼 수 \n있을지가 걱정이여서……",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"36",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"4",
+"position":"C",
+"movement":"down",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"시험 당일에 폭설이 내리거나, \n수험표가 바람에 날아가거나…… \n시험장까지 무사히 도착할 수 \n없을 것 같아서……불안해져서…….",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"37",
+"story_id":"3000107",
+"character_id":"",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"all_out_fade",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"in",
+"bgimg":"",
+"message":"",
+"timing":"10",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"38",
+"story_id":"3000107",
+"character_id":"",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"Case.2 \n무라카미 토모에의 경우",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"39",
+"story_id":"3000107",
+"character_id":"",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"out",
+"bgimg":"",
+"message":"",
+"timing":"10",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"40",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"3",
+"position":"C",
+"movement":"in_float",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"최근에, 집안 사람들이\n「아가씨는 대학에 가야 \n하는가」로 싸움이 벌어졌당께.",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"41",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"C",
+"movement":"nod_double",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"대학 전에 고등학교 먼저 \n가야제 하고 질려버린 \n부모님도, 점점 욕심이 \n생겨부렀는지, 같이 떠들어댔다 안하요. ",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"42",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"4",
+"position":"C",
+"movement":"question_left2",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"고등학생이면 수험에 \n대해서도 잘 알잔혀? \n어떤 방식인지 궁금해가꼬, \n물어볼라고 했시야.",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"43",
+"story_id":"3000107",
+"character_id":"",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"all_out_fade",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"in",
+"bgimg":"",
+"message":"",
+"timing":"10",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"44",
+"story_id":"3000107",
+"character_id":"",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"out",
+"bgimg":"",
+"message":"",
+"timing":"10",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"45",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"6",
+"position":"LL",
+"movement":"in_L",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"흠흠, 그렇군요~.",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"46",
+"story_id":"3000107",
+"character_id":"10154_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"RR",
+"movement":"in_R",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"……나나는, 두 분의 말씀을 \n듣고 생각해봤는데요…… \n호타루쨩의 걱정은 아마 막을 수 \n있는 수단이 있을 것 같아요.",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"47",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"5",
+"position":"C",
+"movement":"in_float",
+"chara_effect":"notice",
+"effect_direction":"R",
+"a_fade":"",
+"bgimg":"",
+"message":"저, 정말요……?",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"48",
+"story_id":"3000107",
+"character_id":"10154_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"RR",
+"movement":"pop",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"그럼요! 날씨에 대해서는 \n일기예보를 통해서 얼마든지 \n확인할 수 있고, 만약 진짜로 \n폭설이 올 것 같다면",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"49",
+"story_id":"3000107",
+"character_id":"10154_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"6",
+"position":"RR",
+"movement":"nod2",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"시험 전날에 시험장 근처 \n호텔에서 묵으면 돼요. \n수험표도 파일에 넣어서 \n숨겨놓는다든지. ",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"50",
+"story_id":"3000107",
+"character_id":"10154_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"RR",
+"movement":"nod_double",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"시간은 아직 많이 \n남았으니까요, \n할 수 있는 대책을 사전에 \n확실히 하면 괜찮다구요!",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"51",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"C",
+"movement":"nod2",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"그렇구나…… \n조금 안심이 되네요. \n감사합니다……!",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"52",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"8",
+"position":"LL",
+"movement":"nod",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"이어서 무라카미씨의 \n경우입니다만, 대략\n「대학수험이란 어떤 것인가」\n라는 질문이군요?",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"53",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"C",
+"movement":"out",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":" ",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"54",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"4",
+"position":"C",
+"movement":"in_float",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"그려. 대학을 생각함서 \n고등학교 수험을 본다며는, \n우선 알아두고 싶당께.",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"55",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"3",
+"position":"C",
+"movement":"question_left2",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"애당초 대학이란거는 무엇을 배우는 곳인지도 모른당께,",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"56",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"C",
+"movement":"nod_double",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"어떤 식으로 진로와 \n마주하면 좋을까잉……\n누님들의 생각을 들려주면 좋겠서라.",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"57",
+"story_id":"3000107",
+"character_id":"10154_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"3",
+"position":"RR",
+"movement":"nod2",
+"chara_effect":"sweat_fly",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"대학이라……그렇군요……. \n……프레데리카씨는 어땠나요? \n분명 지금, 현역 전문대생 맞으시죠?",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"58",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"4",
+"position":"C",
+"movement":"pop",
+"chara_effect":"notice",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"아따! 시방 맞구먼! \n전문대……그런 선택지도 \n있었지라. ",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"59",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"9",
+"position":"LL",
+"movement":"nod2",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"진로인가~, \n그렇네~…….",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"60",
+"story_id":"3000107",
+"character_id":"",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"all_out_fade",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"in",
+"bgimg":"change2",
+"message":"",
+"timing":"10",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"61",
+"story_id":"3000107",
+"character_id":"",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"out",
+"bgimg":"",
+"message":"",
+"timing":"10",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"62",
+"story_id":"3000107",
+"character_id":"10094",
+"cname":"클래스메이트",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"R",
+"movement":"in_R",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"후레쨩은 어디로 갈거야? \n똑똑하니까, 역시 유명대학?",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"63",
+"story_id":"3000107",
+"character_id":"10131",
+"cname":"프레데리카（17）",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"L",
+"movement":"in_L",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"후레쨩은 말야~, \n좋아하는 것을 하고 싶으니까, \n전문이나 전문대려나-☆",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"64",
+"story_id":"3000107",
+"character_id":"10094",
+"cname":"클래스메이트",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"R",
+"movement":"question_left",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"엥, 그래? 뭐하려고?",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"65",
+"story_id":"3000107",
+"character_id":"10131",
+"cname":"프레데리카（17）",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"L",
+"movement":"swing",
+"chara_effect":"flower_red",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"패션 좋아하니까-, \n디자인 같은 거 하고싶어~♪",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"66",
+"story_id":"3000107",
+"character_id":"10094",
+"cname":"클래스메이트",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"R",
+"movement":"jump",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"헤에! 하긴! 모델 했었지? \n후레쨩에게 딱 맞을지도-! \n장래는 그쪽으로 정한거야?",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"67",
+"story_id":"3000107",
+"character_id":"10131",
+"cname":"프레데리카（17）",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"6",
+"position":"L",
+"movement":"question_right2",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"음-, 글쎄~☆ \n되는게 될거야♪",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"68",
+"story_id":"3000107",
+"character_id":"",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"all_out_fade",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"in",
+"bgimg":"change1",
+"message":"",
+"timing":"10",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"69",
+"story_id":"3000107",
+"character_id":"",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"out",
+"bgimg":"",
+"message":"",
+"timing":"10",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"70",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"LL",
+"movement":"in_L",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"……하고 싶은 길을 \n나아가는게 최고지~☆",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"71",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"C",
+"movement":"in_R",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"하고 싶은 것…….",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"72",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"6",
+"position":"RR",
+"movement":"in_R",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"흠, 확실히.",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"73",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"8",
+"position":"LL",
+"movement":"nod2",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"우리집 마마는 아가씨여서, \n가야 하는 대학이 정해져 \n있어가지구 엄청 갑갑했대!",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"74",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"LL",
+"movement":"nod",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"「그러니까 너는 가고 싶은 \n대학에 가렴」이라고, \n어렸을 때부터 입이 \n새콤달콤하도록 들었었지-.",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"75",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"3",
+"position":"LL",
+"movement":"question_right2",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"덧붙여서 진로는 자유롭게 \n정하되, 학력이나 성적은 \n의식하라고 하셨지만~.",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"76",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"3",
+"position":"RR",
+"movement":"nod2",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"성적은 중요하니…….",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"77",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"8",
+"position":"LL",
+"movement":"nod",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"파파는 그냥 직장인이고, \n프랑스에서 아내를 찾을 \n정도로 유연하고 발걸음이 \n가벼운 사람이니까",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"78",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"LL",
+"movement":"swing",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"꾸짖거나 잔소리 하지 않구. \n오히려, 인생은 세라비(C'est la vie)\n라고-말야♪",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"79",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"LL",
+"movement":"pop",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"그러니까, 역시 하고 싶은 것을 \n할 수 있는 길로 나아가는게 \n좋지 않을까~해서. \n후레쨩은 그런 느낌이야☆",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"80",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"RR",
+"movement":"out",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":" ",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"81",
+"story_id":"3000107",
+"character_id":"10154_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"RR",
+"movement":"in_R",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"……나나도, 같은 생각이에요! \n힘들어도, 좋아하는 일을 \n열심히 하고……그러다 보면 \n분명 큰 기쁨이 기다리고 있으니까요!",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"82",
+"story_id":"3000107",
+"character_id":"10154_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"RR",
+"movement":"out",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":" ",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"83",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"RR",
+"movement":"in_L",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"그렇군……\n나가 좋아하는 것을 \n생각하는게 중요하겠구만.",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"84",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"5",
+"position":"C",
+"movement":"nod",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"좋아하는 것을……확실하게. \n나라면……아이돌을, \n했을까…….",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"85",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"LL",
+"movement":"pop",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"응응☆ 두 사람은 중학생이면서 \n아이돌 하고 있으니까~, \n예능에 특화된 학교를 \n찾는다든지,",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"86",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"8",
+"position":"LL",
+"movement":"nod2",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"나처럼 좋아하는 일이라든지, \n취미를 파고들고 싶으니까 \n그쪽으로 가든지, 선택지는 \n여러가지가 있지-.",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"87",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"LL",
+"movement":"jump",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"그리고, 호타루쨩은 불안해서 \n어쩔 수 없을땐 나를 떠올려도 \n좋아☆ 반드시 기운이 \n빠질거야~라니 실례잖아!",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"88",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"C",
+"movement":"nod2",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"후훗…….",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"89",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"LL",
+"movement":"question_right2",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"후레쨩의 보이스엔 \n힐링 효과가 있으니까-. \n불안하면 전화해도 돼-☆",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"90",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"8",
+"position":"LL",
+"movement":"jump_double",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"시험 당일에 눈이 내리면 \n프로듀서가 시험장까지 \n데려다 주실거고, \n걱정금물!",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"91",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"C",
+"movement":"nod",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"네…… \n감사합니다……!",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"92",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"5",
+"position":"LL",
+"movement":"pop",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"착하다 착해♪ 그럼 여기서, \n긴장을 풀어주는 마법의 \n노래를 전해드리겠습니다. \n따라서 불러주세요.",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"93",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"LL",
+"movement":"swing",
+"chara_effect":"chord",
+"effect_direction":"R",
+"a_fade":"",
+"bgimg":"",
+"message":"흥흥흐흥, 흥흐흥-, \n후레데리카-♪",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"94",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"LL",
+"movement":"out",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":" ",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"95",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"C",
+"movement":"out",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":" ",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"96",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"RR",
+"movement":"out",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":" ",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"97",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"호타루・토모에・나나",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"LL",
+"movement":"in_R",
+"chara_effect":"chord",
+"effect_direction":"R",
+"a_fade":"",
+"bgimg":"",
+"message":"흥흥흐흥, 흥흐흥-, \n후레데리카-♪",
+"timing":"1",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"98",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"호타루・토모에・나나",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"C",
+"movement":"in_R",
+"chara_effect":"chord",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"흥흥흐흥, 흥흐흥-, \n후레데리카-♪",
+"timing":"1",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"99",
+"story_id":"3000107",
+"character_id":"10154_002",
+"cname":"호타루・토모에・나나",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"RR",
+"movement":"in_R",
+"chara_effect":"chord",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"흥흥흐흥, 흥흐흥-, \n후레데리카-♪",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"100",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"LL",
+"movement":"out",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"101",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"C",
+"movement":"out",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"102",
+"story_id":"3000107",
+"character_id":"10154_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"RR",
+"movement":"out",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"103",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"C",
+"movement":"in",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"",
+"timing":"0",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"104",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":" ",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"C",
+"movement":"shake",
+"chara_effect":"chord",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"흥흥흐흥, 흥흐흥-, \n후레데리카-♪",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"105",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"8",
+"position":"C",
+"movement":"nod",
+"chara_effect":"notice",
+"effect_direction":"R",
+"a_fade":"",
+"bgimg":"",
+"message":"아, 전화 왔다. \n와오, 프로듀서 호출이네?",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"106",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"5",
+"position":"C",
+"movement":"pop",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"그럼 이쯤에서, 여러분 세라비~☆",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"107",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"C",
+"movement":"out_L",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"",
+"timing":"10",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"108",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"호타루・토모에・나나",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"5",
+"position":"LL",
+"movement":"in_R",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"세라비……!",
+"timing":"1",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"109",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"호타루・토모에・나나",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"C",
+"movement":"in_R",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"세라비……!",
+"timing":"1",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"110",
+"story_id":"3000107",
+"character_id":"10154_002",
+"cname":"호타루・토모에・나나",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"5",
+"position":"RR",
+"movement":"in_R",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"세라비……!",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"111",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"7",
+"position":"LL",
+"movement":"pop",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"왠지 엄청 힘이 났어요…….",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"112",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"C",
+"movement":"nod",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"내도 마찬가지여. \n앞으로가 기대되구만!",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"113",
+"story_id":"3000107",
+"character_id":"10154_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"1",
+"position":"RR",
+"movement":"pop",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"좋은 이야기를 들을 수 있어서 \n다행이네요!",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"114",
+"story_id":"3000107",
+"character_id":"10161",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"LL",
+"movement":"nod2",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"네. 저랑 토모에쨩은 일단 \n고교수험을, 나나씨는 대학에 \n가신다면 대학수험을, \n힘내요…!",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"115",
+"story_id":"3000107",
+"character_id":"10293",
+"cname":"토모에・나나",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"7",
+"position":"C",
+"movement":"swing",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"세라비!",
+"timing":"1",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"116",
+"story_id":"3000107",
+"character_id":"10154_002",
+"cname":"토모에・나나",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"RR",
+"movement":"swing",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"세라비!",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"117",
+"story_id":"3000107",
+"character_id":"",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"all_out_fade",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"in",
+"bgimg":"change3",
+"message":"",
+"timing":"10",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"118",
+"story_id":"3000107",
+"character_id":"",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"",
+"position":"",
+"movement":"",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"out",
+"bgimg":"",
+"message":"",
+"timing":"10",
+"auto":"0",
+"sound_effect":""
+},
+{
+"id":"119",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"C",
+"movement":"in_L",
+"chara_effect":"chord",
+"effect_direction":"R",
+"a_fade":"",
+"bgimg":"",
+"message":"흥흥흐흥♪",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"120",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"8",
+"position":"C",
+"movement":"nod2",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"오늘은 오랜만에 학교도 가고, \n학생같은 얘기도 했고, \n디자인 좀 열심히 해볼까-?",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"121",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"2",
+"position":"C",
+"movement":"pop",
+"chara_effect":"notice",
+"effect_direction":"R",
+"a_fade":"",
+"bgimg":"",
+"message":"오, 프로듀서 발견! \n나이스 타이밍☆ \n과제의 모델이 되어줘 \n실부플레~♪",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+},
+{
+"id":"122",
+"story_id":"3000107",
+"character_id":"10131_002",
+"cname":"",
+"height_diff":"",
+"offsety":"",
+"offsetx":"",
+"scale":"",
+"face":"5",
+"position":"C",
+"movement":"swing",
+"chara_effect":"",
+"effect_direction":"",
+"a_fade":"",
+"bgimg":"",
+"message":"테마는 \n「한 낮의 우아한 배춤」 \n으로~♪",
+"timing":"",
+"auto":"1",
+"sound_effect":""
+}
+],
+            "chara_list": {
+                "10112": {
+                    "master_id": "10112",
+                    "id": "10112",
+                    "name": "\u667a\u7d75\u91cc",
+                    "image_story": "10112.png",
+                    "image_icon": "10112.png",
+                    "other_chara_flg": "1"
+                },
+                "2000701": {
+                    "master_id": "2000701",
+                    "id": "2000701",
+                    "name": "\u745e\u6a39",
+                    "image_story": "2000701.png",
+                    "image_icon": "2000701.png",
+                    "other_chara_flg": ""
+                },
+                "10164": {
+                    "master_id": "10164",
+                    "id": "10164",
+                    "name": "\u60a0\u8cb4",
+                    "image_story": "10164.png",
+                    "image_icon": "10164.png",
+                    "other_chara_flg": "1"
+                },
+                "10243": {
+                    "master_id": "10243",
+                    "id": "10243",
+                    "name": "\u307f\u308a\u3042",
+                    "image_story": "10243.png",
+                    "image_icon": "10243.png",
+                    "other_chara_flg": "1"
+                },
+                "10297": {
+                    "master_id": "10297",
+                    "id": "10297",
+                    "name": "\u5fc3",
+                    "image_story": "10297.png",
+                    "image_icon": "10297.png",
+                    "other_chara_flg": "1"
+                },
+                "10103": {
+                    "master_id": "10103",
+                    "id": "10103",
+                    "name": "\u3086\u304b\u308a",
+                    "image_story": "10103.png",
+                    "image_icon": "10103.png",
+                    "other_chara_flg": "1"
+                },
+                "10188": {
+                    "master_id": "10188",
+                    "id": "10188",
+                    "name": "\u3042\u308a\u3059",
+                    "image_story": "10188.png",
+                    "image_icon": "10188.png",
+                    "other_chara_flg": "1"
+                },
+                "1564002": {
+                    "master_id": "1564002",
+                    "id": "1564002",
+                    "name": "\u67d1\u5948",
+                    "image_story": "1564002.png",
+                    "image_icon": "1564002.png",
+                    "other_chara_flg": ""
+                },
+                "2535002": {
+                    "master_id": "2535002",
+                    "id": "2535002",
+                    "name": "\u4fdd\u5948\u7f8e",
+                    "image_story": "2535002.png",
+                    "image_icon": "2535002.png",
+                    "other_chara_flg": ""
+                },
+                "2331802": {
+                    "master_id": "2331802",
+                    "id": "2331802",
+                    "name": "\u73e0\u7f8e",
+                    "image_story": "2331802.png",
+                    "image_icon": "2331802.png",
+                    "other_chara_flg": ""
+                },
+                "3344102": {
+                    "master_id": "3344102",
+                    "id": "3344102",
+                    "name": "\u8475",
+                    "image_story": "3344102.png",
+                    "image_icon": "3344102.png",
+                    "other_chara_flg": ""
+                },
+                "1340102": {
+                    "master_id": "1340102",
+                    "id": "1340102",
+                    "name": "\u4ec1\u7f8e",
+                    "image_story": "1340102.png",
+                    "image_icon": "1340102.png",
+                    "other_chara_flg": ""
+                },
+                "3334702": {
+                    "master_id": "3334702",
+                    "id": "3334702",
+                    "name": "\u3042\u3084\u3081",
+                    "image_story": "3334702.png",
+                    "image_icon": "3334702.png",
+                    "other_chara_flg": ""
+                },
+                "1317902": {
+                    "master_id": "1317902",
+                    "id": "1317902",
+                    "name": "\u745b\u68a8\u83ef",
+                    "image_story": "1317902.png",
+                    "image_icon": "1317902.png",
+                    "other_chara_flg": ""
+                },
+                "3319802": {
+                    "master_id": "3319802",
+                    "id": "3319802",
+                    "name": "\u30ad\u30e3\u30b7\u30fc",
+                    "image_story": "3319802.png",
+                    "image_icon": "3319802.png",
+                    "other_chara_flg": ""
+                },
+                "2558002": {
+                    "master_id": "2558002",
+                    "id": "2558002",
+                    "name": "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2",
+                    "image_story": "2558002.png",
+                    "image_icon": "2558002.png",
+                    "other_chara_flg": ""
+                },
+                "2559902": {
+                    "master_id": "2559902",
+                    "id": "2559902",
+                    "name": "\u6953",
+                    "image_story": "2559902.png",
+                    "image_icon": "2559902.png",
+                    "other_chara_flg": ""
+                },
+                "2562702": {
+                    "master_id": "2562702",
+                    "id": "2562702",
+                    "name": "\u6587\u9999",
+                    "image_story": "2562702.png",
+                    "image_icon": "2562702.png",
+                    "other_chara_flg": ""
+                },
+                "10119": {
+                    "master_id": "10119",
+                    "id": "10119",
+                    "name": "\u88d5\u7f8e",
+                    "image_story": "10119.png",
+                    "image_icon": "10119.png",
+                    "other_chara_flg": "1"
+                },
+                "10256": {
+                    "master_id": "10256",
+                    "id": "10256",
+                    "name": "\u8f1d\u5b50",
+                    "image_story": "10256.png",
+                    "image_icon": "10256.png",
+                    "other_chara_flg": "1"
+                },
+                "10154": {
+                    "master_id": "10154",
+                    "id": "10154",
+                    "name": "\u83dc\u3005",
+                    "image_story": "10154.png",
+                    "image_icon": "10154.png",
+                    "other_chara_flg": "1"
+                },
+                "10108": {
+                    "master_id": "10108",
+                    "id": "10108",
+                    "name": "\u304b\u306a\u5b50",
+                    "image_story": "10108.png",
+                    "image_icon": "10108.png",
+                    "other_chara_flg": "1"
+                },
+                "10156": {
+                    "master_id": "10156",
+                    "id": "10156",
+                    "name": "\u30cd\u30cd",
+                    "image_story": "10156.png",
+                    "image_icon": "10156.png",
+                    "other_chara_flg": "1"
+                },
+                "10170": {
+                    "master_id": "10170",
+                    "id": "10170",
+                    "name": "\u30a2\u30e4",
+                    "image_story": "10170.png",
+                    "image_icon": "10170.png",
+                    "other_chara_flg": "1"
+                },
+                "10205": {
+                    "master_id": "10205",
+                    "id": "10205",
+                    "name": "\u96ea\u7f8e",
+                    "image_story": "10205.png",
+                    "image_icon": "10205.png",
+                    "other_chara_flg": "1"
+                },
+                "10260": {
+                    "master_id": "10260",
+                    "id": "10260",
+                    "name": "\u68a8\u6c99",
+                    "image_story": "10260.png",
+                    "image_icon": "10260.png",
+                    "other_chara_flg": "1"
+                },
+                "10275": {
+                    "master_id": "10275",
+                    "id": "10275",
+                    "name": "\u5fd7\u4fdd",
+                    "image_story": "10275.png",
+                    "image_icon": "10275.png",
+                    "other_chara_flg": "1"
+                },
+                "10282": {
+                    "master_id": "10282",
+                    "id": "10282",
+                    "name": "\u30d9\u30c6\u30e9\u30f3\u30c8\u30ec\u30fc\u30ca\u30fc",
+                    "image_story": "10282.png",
+                    "image_icon": "10282.png",
+                    "other_chara_flg": "1"
+                },
+                "10288": {
+                    "master_id": "10288",
+                    "id": "10288",
+                    "name": "\u4f0a\u5439",
+                    "image_story": "10288.png",
+                    "image_icon": "10288.png",
+                    "other_chara_flg": "1"
+                },
+                "10298": {
+                    "master_id": "10298",
+                    "id": "10298",
+                    "name": "\u5149",
+                    "image_story": "10298.png",
+                    "image_icon": "10298.png",
+                    "other_chara_flg": "1"
+                },
+                "3201301": {
+                    "master_id": "3201301",
+                    "id": "3201301",
+                    "name": "\u5fd7\u4fdd",
+                    "image_story": "3201301.png",
+                    "image_icon": "3201301.png",
+                    "other_chara_flg": ""
+                },
+                "10080": {
+                    "master_id": "10080",
+                    "id": "10080",
+                    "name": "\u9ed2\u670d",
+                    "image_story": "10080.png",
+                    "image_icon": "10080.png",
+                    "other_chara_flg": "1"
+                },
+                "10249": {
+                    "master_id": "10249",
+                    "id": "10249",
+                    "name": "\u67da",
+                    "image_story": "10249.png",
+                    "image_icon": "10249.png",
+                    "other_chara_flg": "1"
+                },
+                "10006": {
+                    "master_id": "10006",
+                    "id": "10006",
+                    "name": "\u90e8\u9577(\u7537)",
+                    "image_story": "10006.png",
+                    "image_icon": "10006.png",
+                    "other_chara_flg": "1"
+                },
+                "10017": {
+                    "master_id": "10017",
+                    "id": "10017",
+                    "name": "\u30a2\u30b7\u30b9\u30bf\u30f3\u30c8(\u5973\u6027\u30b9\u30bf\u30c3\u30d5)",
+                    "image_story": "10017.png",
+                    "image_icon": "10017.png",
+                    "other_chara_flg": "1"
+                },
+                "10151": {
+                    "master_id": "10151",
+                    "id": "10151",
+                    "name": "\u90fd",
+                    "image_story": "10151.png",
+                    "image_icon": "10151.png",
+                    "other_chara_flg": "1"
+                },
+                "10187": {
+                    "master_id": "10187",
+                    "id": "10187",
+                    "name": "\u983c\u5b50",
+                    "image_story": "10187.png",
+                    "image_icon": "10187.png",
+                    "other_chara_flg": "1"
+                },
+                "10280": {
+                    "master_id": "10280",
+                    "id": "10280",
+                    "name": "\u62d3\u6d77",
+                    "image_story": "10280.png",
+                    "image_icon": "10280.png",
+                    "other_chara_flg": "1"
+                },
+                "10008": {
+                    "master_id": "10008",
+                    "id": "10008",
+                    "name": "\u4e00\u822c\u6210\u4eba(\u5973)",
+                    "image_story": "10008.png",
+                    "image_icon": "10008.png",
+                    "other_chara_flg": "1"
+                },
+                "10033": {
+                    "master_id": "10033",
+                    "id": "10033",
+                    "name": "\u304a\u3070\u3061\u3083\u3093",
+                    "image_story": "10033.png",
+                    "image_icon": "10033.png",
+                    "other_chara_flg": "1"
+                },
+                "10076": {
+                    "master_id": "10076",
+                    "id": "10076",
+                    "name": "\u548c\u670d\u306e\u304a\u3070\u3061\u3083\u3093",
+                    "image_story": "10076.png",
+                    "image_icon": "10076.png",
+                    "other_chara_flg": "1"
+                },
+                "10674": {
+                    "master_id": "10674",
+                    "id": "10674",
+                    "name": "\u30da\u30ed",
+                    "image_story": "10674.png",
+                    "image_icon": "10674.png",
+                    "other_chara_flg": "1"
+                },
+                "10058": {
+                    "master_id": "10058",
+                    "id": "10058",
+                    "name": "\u5973\u6027_\u30b7\u30e7\u30fc\u30c8\u30ab\u30c3\u30c8",
+                    "image_story": "10058.png",
+                    "image_icon": "10058.png",
+                    "other_chara_flg": "1"
+                },
+                "10657": {
+                    "master_id": "10657",
+                    "id": "10657",
+                    "name": "\u5973\u5b50\u9ad8\u751f(\u30e6\u30cb\u30db\u30fc\u30e0)",
+                    "image_story": "10657.png",
+                    "image_icon": "10657.png",
+                    "other_chara_flg": "1"
+                },
+                "10189": {
+                    "master_id": "10189",
+                    "id": "10189",
+                    "name": "\u6587\u9999",
+                    "image_story": "10189.png",
+                    "image_icon": "10189.png",
+                    "other_chara_flg": "1"
+                },
+                "10271": {
+                    "master_id": "10271",
+                    "id": "10271",
+                    "name": "\u304d\u3089\u308a",
+                    "image_story": "10271.png",
+                    "image_icon": "10271.png",
+                    "other_chara_flg": "1"
+                },
+                "10271_002": {
+                    "master_id": "10271_002",
+                    "id": "10271_002",
+                    "name": "\u304d\u3089\u308a",
+                    "image_story": "10271_002.png",
+                    "image_icon": "10271_002.png",
+                    "other_chara_flg": "1"
+                },
+                "10002": {
+                    "master_id": "10002",
+                    "id": "10002",
+                    "name": "\u3061\u3072\u308d",
+                    "image_story": "10002.png",
+                    "image_icon": "10002.png",
+                    "other_chara_flg": "1"
+                },
+                "10115": {
+                    "master_id": "10115",
+                    "id": "10115",
+                    "name": "\u6843\u83ef",
+                    "image_story": "10115.png",
+                    "image_icon": "10115.png",
+                    "other_chara_flg": "1"
+                },
+                "10124": {
+                    "master_id": "10124",
+                    "id": "10124",
+                    "name": "\u3053\u305a\u3048",
+                    "image_story": "10124.png",
+                    "image_icon": "10124.png",
+                    "other_chara_flg": "1"
+                },
+                "10165": {
+                    "master_id": "10165",
+                    "id": "10165",
+                    "name": "\u7f8e\u4e16",
+                    "image_story": "10165.png",
+                    "image_icon": "10165.png",
+                    "other_chara_flg": "1"
+                },
+                "10180": {
+                    "master_id": "10180",
+                    "id": "10180",
+                    "name": "\u5343\u679d",
+                    "image_story": "10180.png",
+                    "image_icon": "10180.png",
+                    "other_chara_flg": "1"
+                },
+                "10181": {
+                    "master_id": "10181",
+                    "id": "10181",
+                    "name": "\u7f8e\u512a",
+                    "image_story": "10181.png",
+                    "image_icon": "10181.png",
+                    "other_chara_flg": "1"
+                },
+                "10229": {
+                    "master_id": "10229",
+                    "id": "10229",
+                    "name": "\u6674",
+                    "image_story": "10229.png",
+                    "image_icon": "10229.png",
+                    "other_chara_flg": "1"
+                },
+                "10248": {
+                    "master_id": "10248",
+                    "id": "10248",
+                    "name": "\u30c8\u30ec\u30fc\u30ca\u30fc",
+                    "image_story": "10248.png",
+                    "image_icon": "10248.png",
+                    "other_chara_flg": "1"
+                },
+                "10268": {
+                    "master_id": "10268",
+                    "id": "10268",
+                    "name": "\u8389\u5609",
+                    "image_story": "10268.png",
+                    "image_icon": "10268.png",
+                    "other_chara_flg": "1"
+                },
+                "10283": {
+                    "master_id": "10283",
+                    "id": "10283",
+                    "name": "\u4ec1\u5948",
+                    "image_story": "10283.png",
+                    "image_icon": "10283.png",
+                    "other_chara_flg": "1"
+                },
+                "10011": {
+                    "master_id": "10011",
+                    "id": "10011",
+                    "name": "\u5b50\u4f9b",
+                    "image_story": "10011.png",
+                    "image_icon": "10011.png",
+                    "other_chara_flg": "1"
+                },
+                "10026": {
+                    "master_id": "10026",
+                    "id": "10026",
+                    "name": "\u5973\u6027",
+                    "image_story": "10026.png",
+                    "image_icon": "10026.png",
+                    "other_chara_flg": "1"
+                },
+                "10039": {
+                    "master_id": "10039",
+                    "id": "10039",
+                    "name": "\u304a\u5316\u3051",
+                    "image_story": "10039.png",
+                    "image_icon": "10039.png",
+                    "other_chara_flg": "1"
+                },
+                "10040": {
+                    "master_id": "10040",
+                    "id": "10040",
+                    "name": "\u304a\u5316\u3051",
+                    "image_story": "10040.png",
+                    "image_icon": "10040.png",
+                    "other_chara_flg": "1"
+                },
+                "10059": {
+                    "master_id": "10059",
+                    "id": "10059",
+                    "name": "\u62c5\u4efb\u306e\u5148\u751f",
+                    "image_story": "10059.png",
+                    "image_icon": "10059.png",
+                    "other_chara_flg": "1"
+                },
+                "10659": {
+                    "master_id": "10659",
+                    "id": "10659",
+                    "name": "\u30bf\u30cc\u30ad",
+                    "image_story": "10659.png",
+                    "image_icon": "10659.png",
+                    "other_chara_flg": "1"
+                },
+                "3565102": {
+                    "master_id": "3565102",
+                    "id": "3565102",
+                    "name": "\u831c",
+                    "image_story": "3565102.png",
+                    "image_icon": "3565102.png",
+                    "other_chara_flg": ""
+                },
+                "1536102": {
+                    "master_id": "1536102",
+                    "id": "1536102",
+                    "name": "\u96c5",
+                    "image_story": "1536102.png",
+                    "image_icon": "1536102.png",
+                    "other_chara_flg": ""
+                },
+                "2337102": {
+                    "master_id": "2337102",
+                    "id": "2337102",
+                    "name": "\u60e0",
+                    "image_story": "2337102.png",
+                    "image_icon": "2337102.png",
+                    "other_chara_flg": ""
+                },
+                "2334802": {
+                    "master_id": "2334802",
+                    "id": "2334802",
+                    "name": "\u793c\u5b50",
+                    "image_story": "2334802.png",
+                    "image_icon": "2334802.png",
+                    "other_chara_flg": ""
+                },
+                "2340502": {
+                    "master_id": "2340502",
+                    "id": "2340502",
+                    "name": "\u5fd7\u4e43",
+                    "image_story": "2340502.png",
+                    "image_icon": "2340502.png",
+                    "other_chara_flg": ""
+                },
+                "2531902": {
+                    "master_id": "2531902",
+                    "id": "2531902",
+                    "name": "\u4e43\u3005",
+                    "image_story": "2531902.png",
+                    "image_icon": "2531902.png",
+                    "other_chara_flg": ""
+                },
+                "2545902": {
+                    "master_id": "2545902",
+                    "id": "2545902",
+                    "name": "\u7531\u611b",
+                    "image_story": "2545902.png",
+                    "image_icon": "2545902.png",
+                    "other_chara_flg": ""
+                },
+                "2549302": {
+                    "master_id": "2549302",
+                    "id": "2549302",
+                    "name": "\u983c\u5b50",
+                    "image_story": "2549302.png",
+                    "image_icon": "2549302.png",
+                    "other_chara_flg": ""
+                },
+                "3522202": {
+                    "master_id": "3522202",
+                    "id": "3522202",
+                    "name": "\u88d5\u5b50",
+                    "image_story": "3522202.png",
+                    "image_icon": "3522202.png",
+                    "other_chara_flg": ""
+                },
+                "3510702": {
+                    "master_id": "3510702",
+                    "id": "3510702",
+                    "name": "\u667a\u9999",
+                    "image_story": "3510702.png",
+                    "image_icon": "3510702.png",
+                    "other_chara_flg": ""
+                },
+                "3513402": {
+                    "master_id": "3513402",
+                    "id": "3513402",
+                    "name": "\u6e1a",
+                    "image_story": "3513402.png",
+                    "image_icon": "3513402.png",
+                    "other_chara_flg": ""
+                },
+                "2519102": {
+                    "master_id": "2519102",
+                    "id": "2519102",
+                    "name": "\u7fe0",
+                    "image_story": "2519102.png",
+                    "image_icon": "2519102.png",
+                    "other_chara_flg": ""
+                },
+                "1532102": {
+                    "master_id": "1532102",
+                    "id": "1532102",
+                    "name": "\u6cd5\u5b50",
+                    "image_story": "1532102.png",
+                    "image_icon": "1532102.png",
+                    "other_chara_flg": ""
+                },
+                "10175": {
+                    "master_id": "10175",
+                    "id": "10175",
+                    "name": "\u6625\u83dc",
+                    "image_story": "10175.png",
+                    "image_icon": "10175.png",
+                    "other_chara_flg": "1"
+                },
+                "10175_002": {
+                    "master_id": "10175_002",
+                    "id": "10175_002",
+                    "name": "\u6625\u83dc",
+                    "image_story": "10175_002.png",
+                    "image_icon": "10175_002.png",
+                    "other_chara_flg": "1"
+                },
+                "10175_003": {
+                    "master_id": "10175_003",
+                    "id": "10175_003",
+                    "name": "\u6625\u83dc",
+                    "image_story": "10175_003.png",
+                    "image_icon": "10175_003.png",
+                    "other_chara_flg": "1"
+                },
+                "10175_004": {
+                    "master_id": "10175_004",
+                    "id": "10175_004",
+                    "name": "\u6625\u83dc",
+                    "image_story": "10175_004.png",
+                    "image_icon": "10175_004.png",
+                    "other_chara_flg": "1"
+                },
+                "10175_005": {
+                    "master_id": "10175_005",
+                    "id": "10175_005",
+                    "name": "\u6625\u83dc",
+                    "image_story": "10175_005.png",
+                    "image_icon": "10175_005.png",
+                    "other_chara_flg": "1"
+                },
+                "10094": {
+                    "master_id": "10094",
+                    "id": "10094",
+                    "name": "\u5973\u5b50\u4e2d\u5b66\u751f",
+                    "image_story": "10094.png",
+                    "image_icon": "10094.png",
+                    "other_chara_flg": "1"
+                },
+                "10096": {
+                    "master_id": "10096",
+                    "id": "10096",
+                    "name": "\u5973\u5b50\u4e2d\u5b66\u751f",
+                    "image_story": "10096.png",
+                    "image_icon": "10096.png",
+                    "other_chara_flg": "1"
+                },
+                "10219": {
+                    "master_id": "10219",
+                    "id": "10219",
+                    "name": "\u670b",
+                    "image_story": "10219.png",
+                    "image_icon": "10219.png",
+                    "other_chara_flg": "1"
+                },
+                "10285": {
+                    "master_id": "10285",
+                    "id": "10285",
+                    "name": "\u6d77",
+                    "image_story": "10285.png",
+                    "image_icon": "10285.png",
+                    "other_chara_flg": "1"
+                },
+                "10214": {
+                    "master_id": "10214",
+                    "id": "10214",
+                    "name": "\u5c0f\u6885",
+                    "image_story": "10214.png",
+                    "image_icon": "10214.png",
+                    "other_chara_flg": "1"
+                },
+                "10147": {
+                    "master_id": "10147",
+                    "id": "10147",
+                    "name": "\u96ea\u83dc",
+                    "image_story": "10147.png",
+                    "image_icon": "10147.png",
+                    "other_chara_flg": "1"
+                },
+                "1931000": {
+                    "master_id": "1931000",
+                    "id": "1931000",
+                    "name": "\u305f\u3048",
+                    "image_story": "1931000.png",
+                    "image_icon": "1931000.png",
+                    "other_chara_flg": "1"
+                },
+                "1931001": {
+                    "master_id": "1931001",
+                    "id": "1931001",
+                    "name": "\u3055\u304f\u3089",
+                    "image_story": "1931001.png",
+                    "image_icon": "1931001.png",
+                    "other_chara_flg": "1"
+                },
+                "1931002": {
+                    "master_id": "1931002",
+                    "id": "1931002",
+                    "name": "\u30b5\u30ad",
+                    "image_story": "1931002.png",
+                    "image_icon": "1931002.png",
+                    "other_chara_flg": "1"
+                },
+                "1931003": {
+                    "master_id": "1931003",
+                    "id": "1931003",
+                    "name": "\u611b",
+                    "image_story": "1931003.png",
+                    "image_icon": "1931003.png",
+                    "other_chara_flg": "1"
+                },
+                "1931004": {
+                    "master_id": "1931004",
+                    "id": "1931004",
+                    "name": "\u7d14\u5b50",
+                    "image_story": "1931004.png",
+                    "image_icon": "1931004.png",
+                    "other_chara_flg": "1"
+                },
+                "1931005": {
+                    "master_id": "1931005",
+                    "id": "1931005",
+                    "name": "\u3086\u3046\u304e\u308a",
+                    "image_story": "1931005.png",
+                    "image_icon": "1931005.png",
+                    "other_chara_flg": "1"
+                },
+                "1931006": {
+                    "master_id": "1931006",
+                    "id": "1931006",
+                    "name": "\u30ea\u30ea\u30a3",
+                    "image_story": "1931006.png",
+                    "image_icon": "1931006.png",
+                    "other_chara_flg": "1"
+                },
+                "1931007": {
+                    "master_id": "1931007",
+                    "id": "1931007",
+                    "name": "\u5e78\u592a\u90ce",
+                    "image_story": "1931007.png",
+                    "image_icon": "1931007.png",
+                    "other_chara_flg": "1"
+                },
+                "1931008": {
+                    "master_id": "1931008",
+                    "id": "1931008",
+                    "name": "\u30ed\u30e1\u30ed",
+                    "image_story": "1931008.png",
+                    "image_icon": "1931008.png",
+                    "other_chara_flg": "1"
+                },
+                "1931010": {
+                    "master_id": "1931010",
+                    "id": "1931010",
+                    "name": "\u305f\u3048",
+                    "image_story": "1931010.png",
+                    "image_icon": "1931010.png",
+                    "other_chara_flg": "1"
+                },
+                "1931011": {
+                    "master_id": "1931011",
+                    "id": "1931011",
+                    "name": "\u3055\u304f\u3089",
+                    "image_story": "1931011.png",
+                    "image_icon": "1931011.png",
+                    "other_chara_flg": "1"
+                },
+                "1931012": {
+                    "master_id": "1931012",
+                    "id": "1931012",
+                    "name": "\u30b5\u30ad",
+                    "image_story": "1931012.png",
+                    "image_icon": "1931012.png",
+                    "other_chara_flg": "1"
+                },
+                "1931013": {
+                    "master_id": "1931013",
+                    "id": "1931013",
+                    "name": "\u611b",
+                    "image_story": "1931013.png",
+                    "image_icon": "1931013.png",
+                    "other_chara_flg": "1"
+                },
+                "1931014": {
+                    "master_id": "1931014",
+                    "id": "1931014",
+                    "name": "\u7d14\u5b50",
+                    "image_story": "1931014.png",
+                    "image_icon": "1931014.png",
+                    "other_chara_flg": "1"
+                },
+                "1931015": {
+                    "master_id": "1931015",
+                    "id": "1931015",
+                    "name": "\u3086\u3046\u304e\u308a",
+                    "image_story": "1931015.png",
+                    "image_icon": "1931015.png",
+                    "other_chara_flg": "1"
+                },
+                "1931016": {
+                    "master_id": "1931016",
+                    "id": "1931016",
+                    "name": "\u30ea\u30ea\u30a3",
+                    "image_story": "1931016.png",
+                    "image_icon": "1931016.png",
+                    "other_chara_flg": "1"
+                },
+                "1931020": {
+                    "master_id": "1931020",
+                    "id": "1931020",
+                    "name": "\u305f\u3048",
+                    "image_story": "1931020.png",
+                    "image_icon": "1931020.png",
+                    "other_chara_flg": "1"
+                },
+                "1931021": {
+                    "master_id": "1931021",
+                    "id": "1931021",
+                    "name": "\u3055\u304f\u3089",
+                    "image_story": "1931021.png",
+                    "image_icon": "1931021.png",
+                    "other_chara_flg": "1"
+                },
+                "1931022": {
+                    "master_id": "1931022",
+                    "id": "1931022",
+                    "name": "\u30b5\u30ad",
+                    "image_story": "1931022.png",
+                    "image_icon": "1931022.png",
+                    "other_chara_flg": "1"
+                },
+                "1931023": {
+                    "master_id": "1931023",
+                    "id": "1931023",
+                    "name": "\u611b",
+                    "image_story": "1931023.png",
+                    "image_icon": "1931023.png",
+                    "other_chara_flg": "1"
+                },
+                "1931024": {
+                    "master_id": "1931024",
+                    "id": "1931024",
+                    "name": "\u7d14\u5b50",
+                    "image_story": "1931024.png",
+                    "image_icon": "1931024.png",
+                    "other_chara_flg": "1"
+                },
+                "1931025": {
+                    "master_id": "1931025",
+                    "id": "1931025",
+                    "name": "\u3086\u3046\u304e\u308a",
+                    "image_story": "1931025.png",
+                    "image_icon": "1931025.png",
+                    "other_chara_flg": "1"
+                },
+                "1931026": {
+                    "master_id": "1931026",
+                    "id": "1931026",
+                    "name": "\u30ea\u30ea\u30a3",
+                    "image_story": "1931026.png",
+                    "image_icon": "1931026.png",
+                    "other_chara_flg": "1"
+                },
+                "1564802": {
+                    "master_id": "1564802",
+                    "id": "1564802",
+                    "name": "\u5e78\u5b50",
+                    "image_story": "1564802.png",
+                    "image_icon": "1564802.png",
+                    "other_chara_flg": "1"
+                },
+                "1564802_002": {
+                    "master_id": "1564802_002",
+                    "id": "1564802_002",
+                    "name": "\u5e78\u5b50",
+                    "image_story": "1564802_002.png",
+                    "image_icon": "1564802_002.png",
+                    "other_chara_flg": "1"
+                },
+                "1564902": {
+                    "master_id": "1564902",
+                    "id": "1564902",
+                    "name": "\u5e78\u5b50",
+                    "image_story": "1564902.png",
+                    "image_icon": "1564902.png",
+                    "other_chara_flg": "1"
+                },
+                "1565002": {
+                    "master_id": "1565002",
+                    "id": "1565002",
+                    "name": "\u536f\u6708",
+                    "image_story": "1565002.png",
+                    "image_icon": "1565002.png",
+                    "other_chara_flg": "1"
+                },
+                "2565702": {
+                    "master_id": "2565702",
+                    "id": "2565702",
+                    "name": "\u594f",
+                    "image_story": "2565702.png",
+                    "image_icon": "2565702.png",
+                    "other_chara_flg": "1"
+                },
+                "2565702_002": {
+                    "master_id": "2565702_002",
+                    "id": "2565702_002",
+                    "name": "\u594f",
+                    "image_story": "2565702_002.png",
+                    "image_icon": "2565702_002.png",
+                    "other_chara_flg": "1"
+                },
+                "3565402": {
+                    "master_id": "3565402",
+                    "id": "3565402",
+                    "name": "\u96eb",
+                    "image_story": "3565402.png",
+                    "image_icon": "3565402.png",
+                    "other_chara_flg": "1"
+                },
+                "3565402_002": {
+                    "master_id": "3565402_002",
+                    "id": "3565402_002",
+                    "name": "\u96eb",
+                    "image_story": "3565402_002.png",
+                    "image_icon": "3565402_002.png",
+                    "other_chara_flg": "1"
+                },
+                "3516602": {
+                    "master_id": "3516602",
+                    "id": "3516602",
+                    "name": "\u96eb",
+                    "image_story": "3516602.png",
+                    "image_icon": "3516602.png",
+                    "other_chara_flg": ""
+                },
+                "10101": {
+                    "master_id": "10101",
+                    "id": "10101",
+                    "name": "\u536f\u6708",
+                    "image_story": "10101.png",
+                    "image_icon": "10101.png",
+                    "other_chara_flg": "1"
+                },
+                "10253": {
+                    "master_id": "10253",
+                    "id": "10253",
+                    "name": "\u96eb",
+                    "image_story": "10253.png",
+                    "image_icon": "10253.png",
+                    "other_chara_flg": "1"
+                },
+                "10150": {
+                    "master_id": "10150",
+                    "id": "10150",
+                    "name": "\u5e78\u5b50",
+                    "image_story": "10150.png",
+                    "image_icon": "10150.png",
+                    "other_chara_flg": "1"
+                },
+                "10223": {
+                    "master_id": "10223",
+                    "id": "10223",
+                    "name": "\u594f",
+                    "image_story": "10223.png",
+                    "image_icon": "10223.png",
+                    "other_chara_flg": "1"
+                },
+                "10157": {
+                    "master_id": "10157",
+                    "id": "10157",
+                    "name": "\u5c0f\u6625",
+                    "image_story": "10157.png",
+                    "image_icon": "10157.png",
+                    "other_chara_flg": "1"
+                },
+                "10221": {
+                    "master_id": "10221",
+                    "id": "10221",
+                    "name": "\u73e0\u7f8e",
+                    "image_story": "10221.png",
+                    "image_icon": "10221.png",
+                    "other_chara_flg": "1"
+                },
+                "1000101": {
+                    "master_id": "1000101",
+                    "id": "1000101",
+                    "name": "\u536f\u6708",
+                    "image_story": "1000101.png",
+                    "image_icon": "1000101.png",
+                    "other_chara_flg": ""
+                },
+                "1213201": {
+                    "master_id": "1213201",
+                    "id": "1213201",
+                    "name": "\u536f\u6708",
+                    "image_story": "1213201.png",
+                    "image_icon": "1213201.png",
+                    "other_chara_flg": ""
+                },
+                "10131": {
+                    "master_id": "10131",
+                    "id": "10131",
+                    "name": "\u30d5\u30ec\u30c7\u30ea\u30ab",
+                    "image_story": "10131.png",
+                    "image_icon": "10131.png",
+                    "other_chara_flg": "1"
+                },
+                "10131_002": {
+                    "master_id": "10131_002",
+                    "id": "10131_002",
+                    "name": "\u30d5\u30ec\u30c7\u30ea\u30ab",
+                    "image_story": "10131_002.png",
+                    "image_icon": "10131_002.png",
+                    "other_chara_flg": "1"
+                },
+                "10161": {
+                    "master_id": "10161",
+                    "id": "10161",
+                    "name": "\u307b\u305f\u308b",
+                    "image_story": "10161.png",
+                    "image_icon": "10161.png",
+                    "other_chara_flg": "1"
+                },
+                "10293": {
+                    "master_id": "10293",
+                    "id": "10293",
+                    "name": "\u5df4",
+                    "image_story": "10293.png",
+                    "image_icon": "10293.png",
+                    "other_chara_flg": "1"
+                },
+                "10220": {
+                    "master_id": "10220",
+                    "id": "10220",
+                    "name": "\u5468\u5b50",
+                    "image_story": "10220.png",
+                    "image_icon": "10220.png",
+                    "other_chara_flg": "1"
+                },
+                "10220_002": {
+                    "master_id": "10220_002",
+                    "id": "10220_002",
+                    "name": "\u5468\u5b50",
+                    "image_story": "10220_002.png",
+                    "image_icon": "10220_002.png",
+                    "other_chara_flg": "1"
+                },
+                "1228101": {
+                    "master_id": "1228101",
+                    "id": "1228101",
+                    "name": "\u5fd7\u5e0c",
+                    "image_story": "1228101.png",
+                    "image_icon": "1228101.png",
+                    "other_chara_flg": "1"
+                },
+                "10095": {
+                    "master_id": "10095",
+                    "id": "10095",
+                    "name": "\u5973\u5b50\u9ad8\u751f",
+                    "image_story": "10095.png",
+                    "image_icon": "10095.png",
+                    "other_chara_flg": "1"
+                },
+                "10154_002": {
+                    "master_id": "10154_002",
+                    "id": "10154_002",
+                    "name": "\u83dc\u3005",
+                    "image_story": "10154_002.png",
+                    "image_icon": "10154_002.png",
+                    "other_chara_flg": "1"
+                }
+            },
+            "bg_list": [180202, 2021040201, 2017040142],
+            "effect_list": ["chord", "flower_red", "sweat_fly", "notice", "question"],
+            "character_list": {
+                "10161": {
+                    "id": 1,
+                    "hash_id": "",
+                    "name": "\u307b\u305f\u308b",
+                    "offsetx": "0",
+                    "offsety": "0",
+                    "other_flg": "1"
+                },
+                "10293": {
+                    "id": 2,
+                    "hash_id": "",
+                    "name": "\u5df4",
+                    "offsetx": "0",
+                    "offsety": "0",
+                    "other_flg": "1"
+                },
+                "10131_002": {
+                    "id": 3,
+                    "hash_id": "",
+                    "name": "\u30d5\u30ec\u30c7\u30ea\u30ab",
+                    "offsetx": "0",
+                    "offsety": "0",
+                    "other_flg": "1"
+                },
+                "10154_002": {
+                    "id": 4,
+                    "hash_id": "",
+                    "name": "\u83dc\u3005",
+                    "offsetx": "0",
+                    "offsety": "0",
+                    "other_flg": "1"
+                },
+                "10094": {
+                    "id": 5,
+                    "hash_id": "",
+                    "name": "\u5973\u5b50\u4e2d\u5b66\u751f",
+                    "offsetx": "0",
+                    "offsety": "0",
+                    "other_flg": "1"
+                },
+                "10131": {
+                    "id": 6,
+                    "hash_id": "",
+                    "name": "\u30d5\u30ec\u30c7\u30ea\u30ab",
+                    "offsetx": "0",
+                    "offsety": "0",
+                    "other_flg": "1"
+                }
+            },
+            "title": "\u3068\u3042\u308b\u5348\u5f8c",
+            "story_type": "2",
+            "all_skip": "0",
+            "logo_bg": ""
+        };
+        window.replace_images = []
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+        11
+        12
+        13
+        14
+        15
+        16
+        17
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+        11
+        12
+        13
+        14
+        15
+        16
+        17
+        18
+        19
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+        11
+        12
+        13
+        14
+        15
+        16
+        17
+        18
+        19
+        20
+        21
+        22
+        23
+        24
+        25
+        26
+        27
+        28
+        29
+        30
+        31
+        32
+        33
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+        11
+        12
+        13
+        14
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+        11
+        12
+        13
+        14
+        15
+        16
+        17
+        18
+        19
+        20
+        21
+        22
+        23
+        24
+        25
+        26
+        27
+        28
+        29
+        30
+        31
+        32
+        33
+        34
+        35
+        36
+        window.chara_replace_images = {};
+        // 一旦すべてのキャラ画像をダミーに差し替え
+        for (i = 1; i <= 20; i++) {
+            for (n = 1; n <= 13; n++) {
+                window.chara_replace_images[('c' + i + '_face' + n)] = '../../../../image_sp/cjs/chara/no_face.png';
+            }
+        }
+        // 必要なキャラ画像を追加
+        window.chara_replace_images['c1_face1'] = '../../../../image_sp/cjs/chara/other/10161.png';
+        window.chara_replace_images['c1_face2'] = '../../../../image_sp/cjs/chara/other/10161_2.png';
+        window.chara_replace_images['c1_face1'] = '../../../../image_sp/cjs/chara/other/10161.png';
+        window.chara_replace_images['c1_face3'] = '../../../../image_sp/cjs/chara/other/10161_3.png';
+        window.chara_replace_images['c1_face1'] = '../../../../image_sp/cjs/chara/other/10161.png';
+        window.chara_replace_images['c1_face3'] = '../../../../image_sp/cjs/chara/other/10161_3.png';
+        window.chara_replace_images['c1_face4'] = '../../../../image_sp/cjs/chara/other/10161_4.png';
+        window.chara_replace_images['c1_face5'] = '../../../../image_sp/cjs/chara/other/10161_5.png';
+        window.chara_replace_images['c1_face2'] = '../../../../image_sp/cjs/chara/other/10161_2.png';
+        window.chara_replace_images['c1_face1'] = '../../../../image_sp/cjs/chara/other/10161.png';
+        window.chara_replace_images['c1_face5'] = '../../../../image_sp/cjs/chara/other/10161_5.png';
+        window.chara_replace_images['c1_face2'] = '../../../../image_sp/cjs/chara/other/10161_2.png';
+        window.chara_replace_images['c1_face1'] = '../../../../image_sp/cjs/chara/other/10161.png';
+        window.chara_replace_images['c1_face2'] = '../../../../image_sp/cjs/chara/other/10161_2.png';
+        window.chara_replace_images['c1_face5'] = '../../../../image_sp/cjs/chara/other/10161_5.png';
+        window.chara_replace_images['c1_face7'] = '../../../../image_sp/cjs/chara/other/10161_7.png';
+        window.chara_replace_images['c1_face2'] = '../../../../image_sp/cjs/chara/other/10161_2.png';
+        window.chara_replace_images['c1_b'] = '../../../../image_sp/cjs/chara/other/10161_b.png';
+        window.chara_replace_images['c2_face1'] = '../../../../image_sp/cjs/chara/other/10293.png';
+        window.chara_replace_images['c2_face1'] = '../../../../image_sp/cjs/chara/other/10293.png';
+        window.chara_replace_images['c2_face2'] = '../../../../image_sp/cjs/chara/other/10293_2.png';
+        window.chara_replace_images['c2_face1'] = '../../../../image_sp/cjs/chara/other/10293.png';
+        window.chara_replace_images['c2_face1'] = '../../../../image_sp/cjs/chara/other/10293.png';
+        window.chara_replace_images['c2_face3'] = '../../../../image_sp/cjs/chara/other/10293_3.png';
+        window.chara_replace_images['c2_face1'] = '../../../../image_sp/cjs/chara/other/10293.png';
+        window.chara_replace_images['c2_face4'] = '../../../../image_sp/cjs/chara/other/10293_4.png';
+        window.chara_replace_images['c2_face4'] = '../../../../image_sp/cjs/chara/other/10293_4.png';
+        window.chara_replace_images['c2_face3'] = '../../../../image_sp/cjs/chara/other/10293_3.png';
+        window.chara_replace_images['c2_face1'] = '../../../../image_sp/cjs/chara/other/10293.png';
+        window.chara_replace_images['c2_face4'] = '../../../../image_sp/cjs/chara/other/10293_4.png';
+        window.chara_replace_images['c2_face6'] = '../../../../image_sp/cjs/chara/other/10293_6.png';
+        window.chara_replace_images['c2_face3'] = '../../../../image_sp/cjs/chara/other/10293_3.png';
+        window.chara_replace_images['c2_face2'] = '../../../../image_sp/cjs/chara/other/10293_2.png';
+        window.chara_replace_images['c2_face2'] = '../../../../image_sp/cjs/chara/other/10293_2.png';
+        window.chara_replace_images['c2_face1'] = '../../../../image_sp/cjs/chara/other/10293.png';
+        window.chara_replace_images['c2_face2'] = '../../../../image_sp/cjs/chara/other/10293_2.png';
+        window.chara_replace_images['c2_face7'] = '../../../../image_sp/cjs/chara/other/10293_7.png';
+        window.chara_replace_images['c2_b'] = '../../../../image_sp/cjs/chara/other/10293_b.png';
+        window.chara_replace_images['c3_face1'] = '../../../../image_sp/cjs/chara/other/10131_002.png';
+        window.chara_replace_images['c3_face2'] = '../../../../image_sp/cjs/chara/other/10131_002_2.png';
+        window.chara_replace_images['c3_face2'] = '../../../../image_sp/cjs/chara/other/10131_002_2.png';
+        window.chara_replace_images['c3_face5'] = '../../../../image_sp/cjs/chara/other/10131_002_5.png';
+        window.chara_replace_images['c3_face1'] = '../../../../image_sp/cjs/chara/other/10131_002.png';
+        window.chara_replace_images['c3_face8'] = '../../../../image_sp/cjs/chara/other/10131_002_8.png';
+        window.chara_replace_images['c3_face1'] = '../../../../image_sp/cjs/chara/other/10131_002.png';
+        window.chara_replace_images['c3_face2'] = '../../../../image_sp/cjs/chara/other/10131_002_2.png';
+        window.chara_replace_images['c3_face8'] = '../../../../image_sp/cjs/chara/other/10131_002_8.png';
+        window.chara_replace_images['c3_face1'] = '../../../../image_sp/cjs/chara/other/10131_002.png';
+        window.chara_replace_images['c3_face6'] = '../../../../image_sp/cjs/chara/other/10131_002_6.png';
+        window.chara_replace_images['c3_face8'] = '../../../../image_sp/cjs/chara/other/10131_002_8.png';
+        window.chara_replace_images['c3_face9'] = '../../../../image_sp/cjs/chara/other/10131_002_9.png';
+        window.chara_replace_images['c3_face1'] = '../../../../image_sp/cjs/chara/other/10131_002.png';
+        window.chara_replace_images['c3_face8'] = '../../../../image_sp/cjs/chara/other/10131_002_8.png';
+        window.chara_replace_images['c3_face2'] = '../../../../image_sp/cjs/chara/other/10131_002_2.png';
+        window.chara_replace_images['c3_face3'] = '../../../../image_sp/cjs/chara/other/10131_002_3.png';
+        window.chara_replace_images['c3_face8'] = '../../../../image_sp/cjs/chara/other/10131_002_8.png';
+        window.chara_replace_images['c3_face1'] = '../../../../image_sp/cjs/chara/other/10131_002.png';
+        window.chara_replace_images['c3_face2'] = '../../../../image_sp/cjs/chara/other/10131_002_2.png';
+        window.chara_replace_images['c3_face2'] = '../../../../image_sp/cjs/chara/other/10131_002_2.png';
+        window.chara_replace_images['c3_face8'] = '../../../../image_sp/cjs/chara/other/10131_002_8.png';
+        window.chara_replace_images['c3_face1'] = '../../../../image_sp/cjs/chara/other/10131_002.png';
+        window.chara_replace_images['c3_face2'] = '../../../../image_sp/cjs/chara/other/10131_002_2.png';
+        window.chara_replace_images['c3_face8'] = '../../../../image_sp/cjs/chara/other/10131_002_8.png';
+        window.chara_replace_images['c3_face5'] = '../../../../image_sp/cjs/chara/other/10131_002_5.png';
+        window.chara_replace_images['c3_face2'] = '../../../../image_sp/cjs/chara/other/10131_002_2.png';
+        window.chara_replace_images['c3_face8'] = '../../../../image_sp/cjs/chara/other/10131_002_8.png';
+        window.chara_replace_images['c3_face5'] = '../../../../image_sp/cjs/chara/other/10131_002_5.png';
+        window.chara_replace_images['c3_face2'] = '../../../../image_sp/cjs/chara/other/10131_002_2.png';
+        window.chara_replace_images['c3_face8'] = '../../../../image_sp/cjs/chara/other/10131_002_8.png';
+        window.chara_replace_images['c3_face2'] = '../../../../image_sp/cjs/chara/other/10131_002_2.png';
+        window.chara_replace_images['c3_face5'] = '../../../../image_sp/cjs/chara/other/10131_002_5.png';
+        window.chara_replace_images['c3_b'] = '../../../../image_sp/cjs/chara/other/10131_002_b.png';
+        window.chara_replace_images['c4_face1'] = '../../../../image_sp/cjs/chara/other/10154_002.png';
+        window.chara_replace_images['c4_face3'] = '../../../../image_sp/cjs/chara/other/10154_002_3.png';
+        window.chara_replace_images['c4_face1'] = '../../../../image_sp/cjs/chara/other/10154_002.png';
+        window.chara_replace_images['c4_face5'] = '../../../../image_sp/cjs/chara/other/10154_002_5.png';
+        window.chara_replace_images['c4_face1'] = '../../../../image_sp/cjs/chara/other/10154_002.png';
+        window.chara_replace_images['c4_face2'] = '../../../../image_sp/cjs/chara/other/10154_002_2.png';
+        window.chara_replace_images['c4_face6'] = '../../../../image_sp/cjs/chara/other/10154_002_6.png';
+        window.chara_replace_images['c4_face1'] = '../../../../image_sp/cjs/chara/other/10154_002.png';
+        window.chara_replace_images['c4_face3'] = '../../../../image_sp/cjs/chara/other/10154_002_3.png';
+        window.chara_replace_images['c4_face2'] = '../../../../image_sp/cjs/chara/other/10154_002_2.png';
+        window.chara_replace_images['c4_face1'] = '../../../../image_sp/cjs/chara/other/10154_002.png';
+        window.chara_replace_images['c4_face5'] = '../../../../image_sp/cjs/chara/other/10154_002_5.png';
+        window.chara_replace_images['c4_face1'] = '../../../../image_sp/cjs/chara/other/10154_002.png';
+        window.chara_replace_images['c4_face2'] = '../../../../image_sp/cjs/chara/other/10154_002_2.png';
+        window.chara_replace_images['c4_b'] = '../../../../image_sp/cjs/chara/other/10154_002_b.png';
+        window.chara_replace_images['c5_face1'] = '../../../../image_sp/cjs/chara/other/10094.png';
+        window.chara_replace_images['c5_b'] = '../../../../image_sp/cjs/chara/other/10094_b.png';
+        window.chara_replace_images['c6_face1'] = '../../../../image_sp/cjs/chara/other/10131.png';
+        window.chara_replace_images['c6_face2'] = '../../../../image_sp/cjs/chara/other/10131_2.png';
+        window.chara_replace_images['c6_face2'] = '../../../../image_sp/cjs/chara/other/10131_2.png';
+        window.chara_replace_images['c6_face5'] = '../../../../image_sp/cjs/chara/other/10131_5.png';
+        window.chara_replace_images['c6_face1'] = '../../../../image_sp/cjs/chara/other/10131.png';
+        window.chara_replace_images['c6_face8'] = '../../../../image_sp/cjs/chara/other/10131_8.png';
+        window.chara_replace_images['c6_face1'] = '../../../../image_sp/cjs/chara/other/10131.png';
+        window.chara_replace_images['c6_face2'] = '../../../../image_sp/cjs/chara/other/10131_2.png';
+        window.chara_replace_images['c6_face8'] = '../../../../image_sp/cjs/chara/other/10131_8.png';
+        window.chara_replace_images['c6_face1'] = '../../../../image_sp/cjs/chara/other/10131.png';
+        window.chara_replace_images['c6_face6'] = '../../../../image_sp/cjs/chara/other/10131_6.png';
+        window.chara_replace_images['c6_face8'] = '../../../../image_sp/cjs/chara/other/10131_8.png';
+        window.chara_replace_images['c6_face9'] = '../../../../image_sp/cjs/chara/other/10131_9.png';
+        window.chara_replace_images['c6_face1'] = '../../../../image_sp/cjs/chara/other/10131.png';
+        window.chara_replace_images['c6_face2'] = '../../../../image_sp/cjs/chara/other/10131_2.png';
+        window.chara_replace_images['c6_face6'] = '../../../../image_sp/cjs/chara/other/10131_6.png';
+        window.chara_replace_images['c6_face1'] = '../../../../image_sp/cjs/chara/other/10131.png';
+        window.chara_replace_images['c6_face8'] = '../../../../image_sp/cjs/chara/other/10131_8.png';
+        window.chara_replace_images['c6_face2'] = '../../../../image_sp/cjs/chara/other/10131_2.png';
+        window.chara_replace_images['c6_face3'] = '../../../../image_sp/cjs/chara/other/10131_3.png';
+        window.chara_replace_images['c6_face8'] = '../../../../image_sp/cjs/chara/other/10131_8.png';
+        window.chara_replace_images['c6_face1'] = '../../../../image_sp/cjs/chara/other/10131.png';
+        window.chara_replace_images['c6_face2'] = '../../../../image_sp/cjs/chara/other/10131_2.png';
+        window.chara_replace_images['c6_face2'] = '../../../../image_sp/cjs/chara/other/10131_2.png';
+        window.chara_replace_images['c6_face8'] = '../../../../image_sp/cjs/chara/other/10131_8.png';
+        window.chara_replace_images['c6_face1'] = '../../../../image_sp/cjs/chara/other/10131.png';
+        window.chara_replace_images['c6_face2'] = '../../../../image_sp/cjs/chara/other/10131_2.png';
+        window.chara_replace_images['c6_face8'] = '../../../../image_sp/cjs/chara/other/10131_8.png';
+        window.chara_replace_images['c6_face5'] = '../../../../image_sp/cjs/chara/other/10131_5.png';
+        window.chara_replace_images['c6_face2'] = '../../../../image_sp/cjs/chara/other/10131_2.png';
+        window.chara_replace_images['c6_face8'] = '../../../../image_sp/cjs/chara/other/10131_8.png';
+        window.chara_replace_images['c6_face5'] = '../../../../image_sp/cjs/chara/other/10131_5.png';
+        window.chara_replace_images['c6_face2'] = '../../../../image_sp/cjs/chara/other/10131_2.png';
+        window.chara_replace_images['c6_face8'] = '../../../../image_sp/cjs/chara/other/10131_8.png';
+        window.chara_replace_images['c6_face2'] = '../../../../image_sp/cjs/chara/other/10131_2.png';
+        window.chara_replace_images['c6_face5'] = '../../../../image_sp/cjs/chara/other/10131_5.png';
+        window.chara_replace_images['c6_b'] = '../../../../image_sp/cjs/chara/other/10131_b.png';
+        window.im_cjs.bg_frame_info = {
+            '180202': 0,
+            '2021040201': 1,
+            '2017040142': 2,
+        };
+        window.bg_replace_images = {};
+        window.bg_replace_images['bg1'] = '180202';
+        window.bg_replace_images['bg2'] = '2021040201';
+        window.bg_replace_images['bg3'] = '2017040142';
+        window.bg_replace_images['bg4'] = '_nobg';
+        window.bg_replace_images['bg5'] = '_nobg';
+        window.bg_replace_images['bg6'] = '_nobg';
+        window.bg_replace_images['bg7'] = '_nobg';
+        window.bg_replace_images['bg8'] = '_nobg';
+        window.bg_replace_images['bg9'] = '_nobg';
+        window.bg_replace_images['bg10'] = '_nobg';
+        window.op_bg_replace_images = {};
+        window.im_cjs.effect_frame_info = {
+            'chord': 0,
+            'flower_red': 1,
+            'sweat_fly': 2,
+            'notice': 3,
+            'question': 4,
+        };
+        window.im_cjs.chara_frame_info = {
+            "10161": {
+                "id": 1,
+                "hash_id": "",
+                "name": "호타루",
+                "offsetx": "0",
+                "offsety": "0",
+                "other_flg": "1",
+                "face": ["1", "2", "1", "3", "1", "3", "4", "5", "2", "1", "5", "2", "1", "2", "5", "7", "2"]
+            },
+            "10293": {
+                "id": 2,
+                "hash_id": "",
+                "name": "토모에",
+                "offsetx": "0",
+                "offsety": "0",
+                "other_flg": "1",
+                "face": ["1", "1", "2", "1", "1", "3", "1", "4", "4", "3", "1", "4", "6", "3", "2", "2", "1", "2", "7"]
+            },
+            "10131_002": {
+                "id": 3,
+                "hash_id": "",
+                "name": "프레데리카",
+                "offsetx": "0",
+                "offsety": "0",
+                "other_flg": "1",
+                "face": ["1", "2", "2", "5", "1", "8", "1", "2", "8", "1", "6", "8", "9", "1", "8", "2", "3", "8", "1", "2", "2", "8", "1", "2", "8", "5", "2", "8", "5", "2", "8", "2", "5"]
+            },
+            "10154_002": {
+                "id": 4,
+                "hash_id": "",
+                "name": "나나",
+                "offsetx": "0",
+                "offsety": "0",
+                "other_flg": "1",
+                "face": ["1", "3", "1", "5", "1", "2", "6", "1", "3", "2", "1", "5", "1", "2"]
+            },
+            "10094": {
+                "id": 5,
+                "hash_id": "",
+                "name": "클래스메이트",
+                "offsetx": "0",
+                "offsety": "0",
+                "other_flg": "1",
+                "face": ["1"]
+            },
+            "10131": {
+                "id": 6,
+                "hash_id": "",
+                "name": "프레데리카",
+                "offsetx": "0",
+                "offsety": "0",
+                "other_flg": "1",
+                "face": ["1", "2", "2", "5", "1", "8", "1", "2", "8", "1", "6", "8", "9", "1", "2", "6", "1", "8", "2", "3", "8", "1", "2", "2", "8", "1", "2", "8", "5", "2", "8", "5", "2", "8", "2", "5"]
+            }
+        };
+        window.im_cjs.title_name = '어느 날 오후' || 'no_title';
+        window.im_cjs.event_type = '2' || 0;
+        window.im_cjs.jump_url = 'https://crow88.github.io/lab/'; // createjsの演出が全て終了した場合の飛び先urlの定義
+        window.im_cjs.chara_num = 10;
+        window.im_cjs.voice_flag = 0; // 音声再生フラグを定義
+    </script>
+    <script>
+        (function() {
+            window.exportRoot;
+            var canvas, stage, anim_container, dom_overlay_container, fnStartAnimation, flag;
+            var manifest = [];
+            var manifestCount = 1;
+            var _child_num = [];
+            var loadCount = 0;
+            var lib;
+            var lib_supporter = [];
+            window.init = function init() {
+                // 高さを設定する
+                $('body').css('height', window.innerHeight);
+                canvas = document.getElementById("canvas");
+                anim_container = document.getElementById("animation_container");
+                dom_overlay_container = document.getElementById("dom_overlay_container");
+                var comp = AdobeAn.getComposition(window.file_name);
+                lib = comp.getLibrary();
+                var comp_eff_supporter = [];
+                var effect_list = ["chord", "flower_red", "sweat_fly", "notice", "question"];
+                for (var n = 0, len = _effect_cnt; n < len; n++) {
+                    comp_eff_supporter[n] = AdobeAn.getComposition('eff_' + effect_list[n]);
+                    if (comp_eff_supporter[n]) {
+                        lib_supporter[n] = comp_eff_supporter[n].getLibrary();
+                    }
+                }
+                createjs.MotionGuidePlugin.install();
+                var loader = new createjs.LoadQueue(false);
+                loader.setMaxConnections(6);
+                loader.installPlugin(createjs.Sound);
+                loader.addEventListener("fileload", function(evt) {
+                    handleFileLoad(evt, comp)
+                });
+                loader.addEventListener("complete", function(evt) {
+                    handleComplete(evt, comp)
+                });
+                if (comp_eff_supporter[0]) {
+                    loader.addEventListener("fileload", function(evt) {
+                        handleFileLoad(evt, comp_eff_supporter[0])
+                    });
+                    loader.addEventListener("complete", function(evt) {
+                        handleComplete(evt, comp_eff_supporter[0])
+                    });
+                }
+                if (comp_eff_supporter[1]) {
+                    loader.addEventListener("fileload", function(evt) {
+                        handleFileLoad(evt, comp_eff_supporter[1])
+                    });
+                    loader.addEventListener("complete", function(evt) {
+                        handleComplete(evt, comp_eff_supporter[1])
+                    });
+                }
+                if (comp_eff_supporter[2]) {
+                    loader.addEventListener("fileload", function(evt) {
+                        handleFileLoad(evt, comp_eff_supporter[2])
+                    });
+                    loader.addEventListener("complete", function(evt) {
+                        handleComplete(evt, comp_eff_supporter[2])
+                    });
+                }
+                if (comp_eff_supporter[3]) {
+                    loader.addEventListener("fileload", function(evt) {
+                        handleFileLoad(evt, comp_eff_supporter[3])
+                    });
+                    loader.addEventListener("complete", function(evt) {
+                        handleComplete(evt, comp_eff_supporter[3])
+                    });
+                }
+                if (comp_eff_supporter[4]) {
+                    loader.addEventListener("fileload", function(evt) {
+                        handleFileLoad(evt, comp_eff_supporter[4])
+                    });
+                    loader.addEventListener("complete", function(evt) {
+                        handleComplete(evt, comp_eff_supporter[4])
+                    });
+                }
+                if (comp_eff_supporter[5]) {
+                    loader.addEventListener("fileload", function(evt) {
+                        handleFileLoad(evt, comp_eff_supporter[5])
+                    });
+                    loader.addEventListener("complete", function(evt) {
+                        handleComplete(evt, comp_eff_supporter[5])
+                    });
+                }
+                var new_manifest = [];
+                for (var i = 0, len = lib.properties.manifest.length; i < len; i++) {
+                    var _img_path = window.dir_name + lib.properties.manifest[i].src;
+                    var _prefix = lib.properties.manifest[i].id.replace(window.file_name + '_', '');
+                    // 背景
+                    if (window.bg_replace_images[_prefix]) {
+                        _img_path = 'image_sp/event_flash/story/bg/bg' + window.bg_replace_images[_prefix] + '_wide.jpg';
+                    }
+                    // op背景
+                    if (window.op_bg_replace_images[_prefix]) {
+                        _img_path = 'image_sp/event_flash/story/bg/bg' + window.op_bg_replace_images[_prefix] + '.jpg';
+                    }
+                    if (window.chara_replace_images[_prefix]) {
+                        _img_path = window.chara_replace_images[_prefix];
+                    }
+                    if (window.replace_images[_prefix]) {
+                        _img_path = window.replace_images[_prefix];
+                    }
+                    new_manifest[i] = {
+                        'type': 'image',
+                        'src': window.image_server + window.base_url + _img_path,
+                        'id': lib.properties.manifest[i].id,
+                        'crossOrigin': 'Anonymous'
+                    }
+                }
+                //console.warn("manifest", new_manifest);
+                loader.loadManifest(new_manifest);
+            }
+
+            function handleFileLoad(evt, comp) {
+                var images = comp.getImages();
+                if (evt && (evt.item.type == "image")) {
+                    images[evt.item.id] = evt.result;
+                }
+            }
+
+            function handleComplete(evt, comp) {
+                // // //This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+                // var lib=comp.getLibrary();
+                // var ss=comp.getSpriteSheet();
+                // var queue = evt.target;
+                // var ssMetadata = lib.ssMetadata;
+                // for(i=0; i<ssMetadata.length; i++) {
+                // ss[ssMetadata[i].name] = new createjs.SpriteSheet( { "images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames } )
+                // }
+                // // 
+                loadCount++;
+                // /console.warn(loadCount, _child_num.length , _effect_cnt, (_child_num.length + _effect_cnt));
+                if (loadCount < (_child_num.length + _effect_cnt)) {
+                    return;
+                }
+                if (flag) {
+                    return;
+                }
+                flag = true;
+                var _eff_i = 0;
+                var _chara_i = 0;
+                for (var i in lib_supporter) {
+                    var _no = parseInt(i) + 1;
+                    if (lib_supporter[i] && (lib_supporter[i].properties.id.match(/eff_/) && lib_supporter[i].properties.id.match(/eff_/).length > 0)) {
+                        _eff_i++;
+                        lib['replace_effect' + _eff_i] = lib_supporter[i].replace;
+                    }
+                }
+                /* createjs本体を自動挿入するように変数を入れています。 */
+                exportRoot = new lib[window.file_name]();
+                /* -------------------------------------------- */
+                stage = new lib.Stage(canvas);
+                //Registers the "tick" event listener.
+                fnStartAnimation = function() {
+                    stage.addChild(exportRoot);
+                    createjs.Ticker.framerate = 12;
+                    createjs.Ticker.addEventListener("tick", stage);
+                }
+                //Code to support hidpi screens and responsive scaling.
+                function makeResponsive(isResp, respDim, isScale, scaleType) {
+                    var lastW, lastH, lastS = 1;
+                    window.addEventListener('resize', resizeCanvas);
+
+                    function resizeCanvas() {
+                        var w = lib.properties.width,
+                            h = lib.properties.height;
+                        var iw = window.innerWidth,
+                            ih = window.innerHeight;
+                        var pRatio = window.devicePixelRatio || 1,
+                            xRatio = iw / w,
+                            yRatio = ih / h,
+                            sRatio = 1;
+                        if (isResp) {
+                            if ((respDim == 'width' && lastW == iw) || (respDim == 'height' && lastH == ih)) {
+                                sRatio = lastS;
+                            } else if (!isScale) {
+                                if (iw < w || ih < h)
+                                    sRatio = Math.min(xRatio, yRatio);
+                            } else if (scaleType == 1) {
+                                sRatio = Math.min(xRatio, yRatio);
+                            } else if (scaleType == 2) {
+                                sRatio = Math.max(xRatio, yRatio);
+                            }
+                        }
+                        canvas.width = w * pRatio * sRatio;
+                        canvas.height = h * pRatio * sRatio;
+                        canvas.style.width = dom_overlay_container.style.width = anim_container.style.width = w * sRatio + 'px';
+                        canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h * sRatio + 'px';
+                        stage.scaleX = pRatio * sRatio;
+                        stage.scaleY = pRatio * sRatio;
+                        lastW = iw;
+                        lastH = ih;
+                        lastS = sRatio;
+                        stage.tickOnUpdate = false;
+                        stage.update();
+                        stage.tickOnUpdate = true;
+                        $('#animation_container').css('margin-top', (window.innerHeight - $('#animation_container').innerHeight()) / 2 + "px");
+                    }
+                    resizeCanvas();
+                }
+                makeResponsive(true, 'width', true, 1);
+                AdobeAn.compositionLoaded(lib.properties.id);
+                fnStartAnimation();
+                $('.loading').hide();
+                exportRoot.skip_btn.visible = false;
+            }
+
+            function playSound(id, loop) {
+                return createjs.Sound.play(id, createjs.Sound.INTERRUPT_EARLY, 0, 0, loop);
+            }
+            init();
+        })();
+        var keyup_func = function(e) {
+            $(window).off('keydown');
+            if (e.keyCode == 13) {
+                if (typeof exportRoot.toggle_flag === 'undefined' || exportRoot.toggle_flag == 'in') {
+                    if ((exportRoot.scene_list.length - 1) <= exportRoot.story_point) {
+                        console.log("end_story");
+                        if (exportRoot.event_type == 0 || exportRoot.event_type == 1) {
+                            window.location.href = exportRoot.back_url;
+                            return;
+                        }
+                        if (exportRoot.scene_name == 'end') {
+                            window.location.href = exportRoot.back_url;
+                        } else {
+                            exportRoot.gotoAndPlay('end');
+                        }
+                        exportRoot.scene_name = 'end';
+                    } else {
+                        switch (exportRoot.scene_name) {
+                            case 'title':
+                                exportRoot.scene_name = 'main';
+                                exportRoot.gotoAndStop('main');
+                                exportRoot._u.scene_init();
+                                if (window.im_cjs.voice_flag) {
+                                    window.im_cjs.voice_play();
+                                    window.im_cjs.load_voice("scene" + (exportRoot.story_point + 2));
+                                    exportRoot.loader.visible = true;
+                                    exportRoot.addEventListener('tick', exportRoot._u._ticker);
+                                    exportRoot.stop();
+                                }
+                                e.stopPropagation();
+                                break;
+                            case 'main':
+                                exportRoot.story_point++;
+                                for (var i = 0; i < 7; i++) {
+                                    if (exportRoot.chara_display_info[exportRoot._all_pos[i]]) {
+                                        exportRoot['effect_target_' + exportRoot._all_pos[i]].visible = false;
+                                    }
+                                }
+                                exportRoot._u.scene_init();
+                                if (window.im_cjs.voice_flag) {
+                                    window.im_cjs.voice_play();
+                                    if (exportRoot.scene_list.length > (exportRoot.story_point + 1)) {
+                                        window.im_cjs.load_voice("scene" + (exportRoot.story_point + 2));
+                                        exportRoot.loader.visible = true;
+                                        exportRoot.addEventListener('tick', exportRoot._u._ticker);
+                                        exportRoot.stop();
+                                    }
+                                }
+                                e.stopPropagation();
+                                break;
+                        }
+                    }
+                } else {
+                    exportRoot.toggle_flag = 'in';
+                    exportRoot.win.gotoAndPlay('in');
+                }
+            }
+            $(window).off('keydown');
+            setTimeout(function() {
+                $(window).one('keydown', keyup_func);
+            }, 300);
+            return false;
+        };
+        $(window).one('keydown', keyup_func);
+    </script>
+    <div id="mbga-pf-footer">
+        <script type="text/javascript" charset="UTF-8">
+            (function() {
+                document.addEventListener('DOMContentLoaded', function() {
+                    var list = document.getElementsByClassName('mbga-pf-footer-li');
+                    var i = 0,
+                        l = list.length;
+                    for (; i < l; i++) {
+                        var elem = list[i];
+                        elem.addEventListener('touchstart', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/$/, ' mbga-pf-tapped');
+                        });
+                        elem.addEventListener('touchend', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/ mbga-pf-tapped/, '');
+                        });
+                        elem.addEventListener('touchmove', function(e) {});
+                    }
+                });
+            })();
+        </script>
+    </div>
+</body>
+
+</html>
