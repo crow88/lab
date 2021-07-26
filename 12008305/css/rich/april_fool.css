@@ -1,0 +1,1510 @@
+.large {
+    font-size: 22px
+}
+
+.small {
+    font-size: 10px
+}
+
+.red {
+    color: #ff0000
+}
+
+.red_mild {
+    color: #ff3333
+}
+
+.green {
+    color: #33ff33
+}
+
+.yellow {
+    color: #ff9900
+}
+
+.lemon_yellow {
+    color: #fff800
+}
+
+.blue {
+    color: #00ccff
+}
+
+.blue_st {
+    color: #0066ff
+}
+
+.gray {
+    color: #aaaaaa
+}
+
+.pink {
+    color: #f08080
+}
+
+.dark_gray {
+    color: #666666
+}
+
+.white {
+    color: #ffffff;
+    text-decoration: none
+}
+
+.defMargin {
+    width: 296px;
+    padding: 0 12px
+}
+
+.m-Btm0 {
+    margin-bottom: 0px
+}
+
+.m-Btm4 {
+    margin-bottom: 4px
+}
+
+.m-Btm5 {
+    margin-bottom: 5px
+}
+
+.m-Btm8 {
+    margin-bottom: 8px
+}
+
+.m-Btm10 {
+    margin-bottom: 10px
+}
+
+.m-Btm12 {
+    margin-bottom: 12px
+}
+
+.m-Btm15 {
+    margin-bottom: 15px
+}
+
+.m-Btm20 {
+    margin-bottom: 20px
+}
+
+.m-Top4 {
+    margin-top: 4px
+}
+
+.m-Top5 {
+    margin-top: 5px
+}
+
+.m-Top8 {
+    margin-top: 8px
+}
+
+.m-Top10 {
+    margin-top: 10px
+}
+
+.m-Top12 {
+    margin-top: 12px
+}
+
+.m-Head_img {
+    margin-top: -14px
+}
+
+.m-Cnt {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.t-Lft {
+    text-align: left !important
+}
+
+.t-Rgt {
+    text-align: right !important
+}
+
+.t-Cnt {
+    text-align: center !important
+}
+
+.left_float {
+    float: left
+}
+
+.right_float {
+    float: right
+}
+
+.displayBox {
+    display: -webkit-box;
+    display: -moz-box;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.v-Top {
+    vertical-align: top
+}
+
+.v-Mdl {
+    vertical-align: middle
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block
+}
+
+.l-Hgt120 {
+    line-height: 120%
+}
+
+.l-Hgt140 {
+    line-height: 140%
+}
+
+.position._relative {
+    position: relative !important
+}
+
+.position._absolute {
+    position: absolute !important
+}
+
+.display._block {
+    display: block !important
+}
+
+.display._inline {
+    display: inline !important
+}
+
+.display._inline_block {
+    display: inline-block !important
+}
+
+.display._inline_block+._clear_space {
+    margin-left: -4px
+}
+
+.display._none {
+    display: none !important
+}
+
+.vertical_align._top {
+    vertical-align: top !important
+}
+
+.vertical_align._middle {
+    vertical-align: middle !important
+}
+
+.vertical_align._bottom {
+    vertical-align: bottom !important
+}
+
+.box._border_box {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.box._bg_gray {
+    background: rgba(0, 0, 0, 0.8)
+}
+
+.box._bg_white {
+    background: rgba(255, 255, 255, 0.8)
+}
+
+.box._border_gray {
+    border: 1px solid #787878 !important
+}
+
+.box._border_white {
+    border: 1px solid #ffffff !important
+}
+
+.box._r_1 {
+    -webkit-border-radius: 1px;
+    -ms-border-radius: 1px;
+    border-radius: 1px
+}
+
+.box._r_2 {
+    -webkit-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px
+}
+
+.box._r_3 {
+    -webkit-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px
+}
+
+.box._r_4 {
+    -webkit-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px
+}
+
+.box._r_5 {
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px
+}
+
+.box._r_6 {
+    -webkit-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px
+}
+
+.box._r_7 {
+    -webkit-border-radius: 7px;
+    -ms-border-radius: 7px;
+    border-radius: 7px
+}
+
+.box._r_8 {
+    -webkit-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px
+}
+
+.box._r_9 {
+    -webkit-border-radius: 9px;
+    -ms-border-radius: 9px;
+    border-radius: 9px
+}
+
+.box._r_10 {
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px
+}
+
+.box._r_11 {
+    -webkit-border-radius: 11px;
+    -ms-border-radius: 11px;
+    border-radius: 11px
+}
+
+.box._r_12 {
+    -webkit-border-radius: 12px;
+    -ms-border-radius: 12px;
+    border-radius: 12px
+}
+
+.box._r_13 {
+    -webkit-border-radius: 13px;
+    -ms-border-radius: 13px;
+    border-radius: 13px
+}
+
+.box._r_14 {
+    -webkit-border-radius: 14px;
+    -ms-border-radius: 14px;
+    border-radius: 14px
+}
+
+.box._r_15 {
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    border-radius: 15px
+}
+
+.box._r_16 {
+    -webkit-border-radius: 16px;
+    -ms-border-radius: 16px;
+    border-radius: 16px
+}
+
+.box._r_17 {
+    -webkit-border-radius: 17px;
+    -ms-border-radius: 17px;
+    border-radius: 17px
+}
+
+.box._r_18 {
+    -webkit-border-radius: 18px;
+    -ms-border-radius: 18px;
+    border-radius: 18px
+}
+
+.box._r_19 {
+    -webkit-border-radius: 19px;
+    -ms-border-radius: 19px;
+    border-radius: 19px
+}
+
+.box._w_5 {
+    width: 5% !important
+}
+
+.box._w_10 {
+    width: 10% !important
+}
+
+.box._w_15 {
+    width: 15% !important
+}
+
+.box._w_20 {
+    width: 20% !important
+}
+
+.box._w_25 {
+    width: 25% !important
+}
+
+.box._w_30 {
+    width: 30% !important
+}
+
+.box._w_35 {
+    width: 35% !important
+}
+
+.box._w_40 {
+    width: 40% !important
+}
+
+.box._w_45 {
+    width: 45% !important
+}
+
+.box._w_50 {
+    width: 50% !important
+}
+
+.box._w_55 {
+    width: 55% !important
+}
+
+.box._w_60 {
+    width: 60% !important
+}
+
+.box._w_65 {
+    width: 65% !important
+}
+
+.box._w_70 {
+    width: 70% !important
+}
+
+.box._w_75 {
+    width: 75% !important
+}
+
+.box._w_80 {
+    width: 80% !important
+}
+
+.box._w_85 {
+    width: 85% !important
+}
+
+.box._w_90 {
+    width: 90% !important
+}
+
+.box._w_95 {
+    width: 95% !important
+}
+
+.box._w_304 {
+    width: 304px
+}
+
+.box._w_288 {
+    width: 288px
+}
+
+.box._w_280 {
+    width: 280px
+}
+
+.margin0 {
+    margin: 0px !important
+}
+
+.m-Top0 {
+    margin-top: 0px !important
+}
+
+.m-Btm0 {
+    margin-bottom: 0px !important
+}
+
+.m-Lft0 {
+    margin-left: 0px !important
+}
+
+.m-Rgt0 {
+    margin-right: 0px !important
+}
+
+.p0 {
+    padding: 0px !important
+}
+
+.p-Top0 {
+    padding-top: 0px !important
+}
+
+.p-Btm0 {
+    padding-bottom: 0px !important
+}
+
+.p-Lft0 {
+    padding-left: 0px !important
+}
+
+.p-Rgt0 {
+    padding-right: 0px !important
+}
+
+.margin2 {
+    margin: 2px !important
+}
+
+.m-Top2 {
+    margin-top: 2px !important
+}
+
+.m-Btm2 {
+    margin-bottom: 2px !important
+}
+
+.m-Lft2 {
+    margin-left: 2px !important
+}
+
+.m-Rgt2 {
+    margin-right: 2px !important
+}
+
+.p2 {
+    padding: 2px !important
+}
+
+.p-Top2 {
+    padding-top: 2px !important
+}
+
+.p-Btm2 {
+    padding-bottom: 2px !important
+}
+
+.p-Lft2 {
+    padding-left: 2px !important
+}
+
+.p-Rgt2 {
+    padding-right: 2px !important
+}
+
+.margin4 {
+    margin: 4px !important
+}
+
+.m-Top4 {
+    margin-top: 4px !important
+}
+
+.m-Btm4 {
+    margin-bottom: 4px !important
+}
+
+.m-Lft4 {
+    margin-left: 4px !important
+}
+
+.m-Rgt4 {
+    margin-right: 4px !important
+}
+
+.p4 {
+    padding: 4px !important
+}
+
+.p-Top4 {
+    padding-top: 4px !important
+}
+
+.p-Btm4 {
+    padding-bottom: 4px !important
+}
+
+.p-Lft4 {
+    padding-left: 4px !important
+}
+
+.p-Rgt4 {
+    padding-right: 4px !important
+}
+
+.margin6 {
+    margin: 6px !important
+}
+
+.m-Top6 {
+    margin-top: 6px !important
+}
+
+.m-Btm6 {
+    margin-bottom: 6px !important
+}
+
+.m-Lft6 {
+    margin-left: 6px !important
+}
+
+.m-Rgt6 {
+    margin-right: 6px !important
+}
+
+.p6 {
+    padding: 6px !important
+}
+
+.p-Top6 {
+    padding-top: 6px !important
+}
+
+.p-Btm6 {
+    padding-bottom: 6px !important
+}
+
+.p-Lft6 {
+    padding-left: 6px !important
+}
+
+.p-Rgt6 {
+    padding-right: 6px !important
+}
+
+.margin8 {
+    margin: 8px !important
+}
+
+.m-Top8 {
+    margin-top: 8px !important
+}
+
+.m-Btm8 {
+    margin-bottom: 8px !important
+}
+
+.m-Lft8 {
+    margin-left: 8px !important
+}
+
+.m-Rgt8 {
+    margin-right: 8px !important
+}
+
+.p8 {
+    padding: 8px !important
+}
+
+.p-Top8 {
+    padding-top: 8px !important
+}
+
+.p-Btm8 {
+    padding-bottom: 8px !important
+}
+
+.p-Lft8 {
+    padding-left: 8px !important
+}
+
+.p-Rgt8 {
+    padding-right: 8px !important
+}
+
+.margin10 {
+    margin: 10px !important
+}
+
+.m-Top10 {
+    margin-top: 10px !important
+}
+
+.m-Btm10 {
+    margin-bottom: 10px !important
+}
+
+.m-Lft10 {
+    margin-left: 10px !important
+}
+
+.m-Rgt10 {
+    margin-right: 10px !important
+}
+
+.p10 {
+    padding: 10px !important
+}
+
+.p-Top10 {
+    padding-top: 10px !important
+}
+
+.p-Btm10 {
+    padding-bottom: 10px !important
+}
+
+.p-Lft10 {
+    padding-left: 10px !important
+}
+
+.p-Rgt10 {
+    padding-right: 10px !important
+}
+
+.margin12 {
+    margin: 12px !important
+}
+
+.m-Top12 {
+    margin-top: 12px !important
+}
+
+.m-Btm12 {
+    margin-bottom: 12px !important
+}
+
+.m-Lft12 {
+    margin-left: 12px !important
+}
+
+.m-Rgt12 {
+    margin-right: 12px !important
+}
+
+.p12 {
+    padding: 12px !important
+}
+
+.p-Top12 {
+    padding-top: 12px !important
+}
+
+.p-Btm12 {
+    padding-bottom: 12px !important
+}
+
+.p-Lft12 {
+    padding-left: 12px !important
+}
+
+.p-Rgt12 {
+    padding-right: 12px !important
+}
+
+.margin14 {
+    margin: 14px !important
+}
+
+.m-Top14 {
+    margin-top: 14px !important
+}
+
+.m-Btm14 {
+    margin-bottom: 14px !important
+}
+
+.m-Lft14 {
+    margin-left: 14px !important
+}
+
+.m-Rgt14 {
+    margin-right: 14px !important
+}
+
+.p14 {
+    padding: 14px !important
+}
+
+.p-Top14 {
+    padding-top: 14px !important
+}
+
+.p-Btm14 {
+    padding-bottom: 14px !important
+}
+
+.p-Lft14 {
+    padding-left: 14px !important
+}
+
+.p-Rgt14 {
+    padding-right: 14px !important
+}
+
+.margin16 {
+    margin: 16px !important
+}
+
+.m-Top16 {
+    margin-top: 16px !important
+}
+
+.m-Btm16 {
+    margin-bottom: 16px !important
+}
+
+.m-Lft16 {
+    margin-left: 16px !important
+}
+
+.m-Rgt16 {
+    margin-right: 16px !important
+}
+
+.p16 {
+    padding: 16px !important
+}
+
+.p-Top16 {
+    padding-top: 16px !important
+}
+
+.p-Btm16 {
+    padding-bottom: 16px !important
+}
+
+.p-Lft16 {
+    padding-left: 16px !important
+}
+
+.p-Rgt16 {
+    padding-right: 16px !important
+}
+
+.margin18 {
+    margin: 18px !important
+}
+
+.m-Top18 {
+    margin-top: 18px !important
+}
+
+.m-Btm18 {
+    margin-bottom: 18px !important
+}
+
+.m-Lft18 {
+    margin-left: 18px !important
+}
+
+.m-Rgt18 {
+    margin-right: 18px !important
+}
+
+.p18 {
+    padding: 18px !important
+}
+
+.p-Top18 {
+    padding-top: 18px !important
+}
+
+.p-Btm18 {
+    padding-bottom: 18px !important
+}
+
+.p-Lft18 {
+    padding-left: 18px !important
+}
+
+.p-Rgt18 {
+    padding-right: 18px !important
+}
+
+.margin20 {
+    margin: 20px !important
+}
+
+.m-Top20 {
+    margin-top: 20px !important
+}
+
+.m-Btm20 {
+    margin-bottom: 20px !important
+}
+
+.m-Lft20 {
+    margin-left: 20px !important
+}
+
+.m-Rgt20 {
+    margin-right: 20px !important
+}
+
+.p20 {
+    padding: 20px !important
+}
+
+.p-Top20 {
+    padding-top: 20px !important
+}
+
+.p-Btm20 {
+    padding-bottom: 20px !important
+}
+
+.p-Lft20 {
+    padding-left: 20px !important
+}
+
+.p-Rgt20 {
+    padding-right: 20px !important
+}
+
+.m-Cnt {
+    margin-left: auto !important;
+    margin-right: auto !important
+}
+
+.button_1 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -909px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 136px;
+    height: 37px
+}
+
+.button_2 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -871px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 136px;
+    height: 37px
+}
+
+.button_3 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -795px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 136px;
+    height: 37px
+}
+
+.button_4 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -833px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 136px;
+    height: 37px
+}
+
+.button_additional {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 0;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 280px;
+    height: 44px
+}
+
+.button_additional_gray {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -45px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 280px;
+    height: 44px
+}
+
+.button_characters {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -567px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 136px;
+    height: 37px
+}
+
+.button_continue {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -280px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 280px;
+    height: 44px
+}
+
+.button_continue_gray {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -325px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 280px;
+    height: 44px
+}
+
+.button_prologue {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -643px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 136px;
+    height: 37px
+}
+
+.button_side10_1 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -681px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 136px;
+    height: 37px
+}
+
+.button_side12_1 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -242px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 136px;
+    height: 37px
+}
+
+.button_side12_2 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -128px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 136px;
+    height: 37px
+}
+
+.button_side1_1 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -605px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 136px;
+    height: 37px
+}
+
+.button_side1_2 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -166px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 136px;
+    height: 37px
+}
+
+.button_side2_1 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -757px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 136px;
+    height: 37px
+}
+
+.button_side3_1 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -408px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 136px;
+    height: 37px
+}
+
+.button_side4_1 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -529px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 136px;
+    height: 37px
+}
+
+.button_side5_1 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -719px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 136px;
+    height: 37px
+}
+
+.button_side5_2 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -90px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 136px;
+    height: 37px
+}
+
+.button_side7_1 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -491px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 136px;
+    height: 37px
+}
+
+.button_side9_1 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -370px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 136px;
+    height: 37px
+}
+
+.button_side9_2 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -204px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 136px;
+    height: 37px
+}
+
+.button_start {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -446px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 280px;
+    height: 44px
+}
+
+.new {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -947px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 36px;
+    height: 18px
+}
+
+.arrow_left {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fui-s23d3afc9ea.png%3F1585633596) no-repeat 0 -284px;
+    -webkit-background-size: 320px 353px;
+    background-size: 320px 353px;
+    width: 24px;
+    height: 24px
+}
+
+.arrow_right {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fui-s23d3afc9ea.png%3F1585633596) no-repeat 0 -259px;
+    -webkit-background-size: 320px 353px;
+    background-size: 320px 353px;
+    width: 24px;
+    height: 24px
+}
+
+.cast_bg_effect_01 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fui-s23d3afc9ea.png%3F1585633596) no-repeat 0 -121px;
+    -webkit-background-size: 320px 353px;
+    background-size: 320px 353px;
+    width: 320px;
+    height: 120px
+}
+
+.cast_bg_effect_02 {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fui-s23d3afc9ea.png%3F1585633596) no-repeat 0 0;
+    -webkit-background-size: 320px 353px;
+    background-size: 320px 353px;
+    width: 320px;
+    height: 120px
+}
+
+.line {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fui-s23d3afc9ea.png%3F1585633596) no-repeat 0 -309px;
+    -webkit-background-size: 320px 353px;
+    background-size: 320px 353px;
+    width: 280px;
+    height: 4px
+}
+
+.line_main_contents {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fui-s23d3afc9ea.png%3F1585633596) no-repeat 0 -242px;
+    -webkit-background-size: 320px 353px;
+    background-size: 320px 353px;
+    width: 320px;
+    height: 16px
+}
+
+.top_border {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fui-s23d3afc9ea.png%3F1585633596) no-repeat 0 -314px;
+    -webkit-background-size: 320px 353px;
+    background-size: 320px 353px;
+    width: 321px;
+    height: 39px
+}
+
+body {
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Fmypage_new%2Fbg%2Fbg_status_mypage_01.png%3F1285858800);
+    background-size: 7px 7px
+}
+
+body#april_fool.synopsis {
+    background: #1d1d1d
+}
+
+.main_contents {
+    padding-bottom: 12px;
+    background-color: #000d4a
+}
+
+.main_contents:after {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fui-s23d3afc9ea.png%3F1585633596) no-repeat 0 -242px;
+    -webkit-background-size: 320px 353px;
+    background-size: 320px 353px;
+    width: 320px;
+    height: 16px;
+    bottom: -6px
+}
+
+.main_contents._into_header {
+    margin-top: -14px;
+    padding-top: 14px
+}
+
+.main_contents ._bg-top {
+    position: absolute;
+    top: 0
+}
+
+.main_contents ._bg-top:after {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fui-s23d3afc9ea.png%3F1585633596) no-repeat 0 -314px;
+    -webkit-background-size: 320px 353px;
+    background-size: 320px 353px;
+    width: 321px;
+    height: 39px;
+    content: ''
+}
+
+._line {
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fui-s23d3afc9ea.png%3F1585633596) no-repeat 0 -309px;
+    -webkit-background-size: 320px 353px;
+    background-size: 320px 353px;
+    width: 280px;
+    height: 4px
+}
+
+._campaign_top .slide_img._effect_on {
+    display: none;
+    opacity: 0
+}
+
+._campaign_top .top-btn_start_area {
+    position: relative;
+    margin-top: 306px
+}
+
+._character_list .charater_tab {
+    position: relative;
+    width: 320px;
+    height: 248px
+}
+
+._character_list .charater_tab:after {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fui-s23d3afc9ea.png%3F1585633596) no-repeat 0 -314px;
+    -webkit-background-size: 320px 353px;
+    background-size: 320px 353px;
+    width: 321px;
+    height: 39px;
+    content: ''
+}
+
+._character_list .charater_tab ._bg {
+    position: absolute;
+    top: -14px;
+    width: 320px;
+    height: 262px;
+    background-repeat: no-repeat;
+    background-size: 320px;
+    content: ''
+}
+
+._character_list .charater_tab ._bg:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fui-s23d3afc9ea.png%3F1585633596) no-repeat 0 -121px;
+    -webkit-background-size: 320px 353px;
+    background-size: 320px 353px;
+    width: 320px;
+    height: 120px;
+    content: ''
+}
+
+._character_list .charater_tab ._cast {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 320px;
+    height: 262px
+}
+
+._character_list .charater_tab ._cast:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fui-s23d3afc9ea.png%3F1585633596) no-repeat 0 0;
+    -webkit-background-size: 320px 353px;
+    background-size: 320px 353px;
+    width: 320px;
+    height: 120px;
+    content: ''
+}
+
+._character_list .charater_tab ._cast img {
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+
+._character_list .charater_tab ._name {
+    position: absolute;
+    width: 160px;
+    height: 80px;
+    top: 0;
+    left: 0
+}
+
+._character_list .charater_tab ._comment {
+    position: absolute;
+    top: 80px;
+    left: 12px;
+    width: 140px;
+    height: 170px;
+    font-size: 11px;
+    line-height: 160%;
+    text-shadow: 0 0 2px #1d1d1d, 0 0 2px #1d1d1d, 0 0 2px #1d1d1d, 0 0 2px #1d1d1d, 0 0 2px #1d1d1d, 0 0 2px #1d1d1d, 0 0 2px #1d1d1d, 0 0 2px #1d1d1d, 0 0 2px #1d1d1d, 0 0 2px #1d1d1d, 0 0 2px #1d1d1d, 0 0 2px #1d1d1d, 0 0 2px #1d1d1d, 0 0 2px #1d1d1d, 0 0 2px #1d1d1d
+}
+
+._character_list .character_thumbs {
+    width: 196px
+}
+
+._character_list .character_thumbs .tab_thumb {
+    display: inline-block;
+    position: relative
+}
+
+._character_list .character_thumbs .tab_thumb:not(:nth-of-type(3n+1)) {
+    margin-left: 8px
+}
+
+._character_list .character_thumbs .tab_thumb:nth-of-type(n+4) {
+    margin-top: 8px
+}
+
+._character_list .character_thumbs .tab_thumb.selected:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.5);
+    content: ''
+}
+
+._story_list._into_header {
+    padding-top: 0
+}
+
+._story_list .slider-story {
+    height: 262px
+}
+
+._story_list .slider-story a {
+    padding: 0
+}
+
+._story_list .slider_navi {
+    position: relative;
+    height: 24px
+}
+
+._story_list .slider_navi .slider_back {
+    position: absolute;
+    left: 0
+}
+
+._story_list .slider_navi .slider_next {
+    position: absolute;
+    right: 0
+}
+
+._story_list .slider_navi .icon_navi {
+    margin-top: 0;
+    line-height: 24px
+}
+
+._story_list .story_area {
+    position: relative;
+    width: 320px;
+    height: 262px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+._story_list .story_area>* {
+    position: relative
+}
+
+._story_list .story_area:after {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fui-s23d3afc9ea.png%3F1585633596) no-repeat 0 -314px;
+    -webkit-background-size: 320px 353px;
+    background-size: 320px 353px;
+    width: 321px;
+    height: 39px;
+    pointer-events: none;
+    content: ''
+}
+
+._story_list .story_area ._bg {
+    position: absolute;
+    width: 320px;
+    height: 262px;
+    background-repeat: no-repeat;
+    background-size: 320px
+}
+
+._story_list .story_area ._bg:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fui-s23d3afc9ea.png%3F1585633596) no-repeat 0 -121px;
+    -webkit-background-size: 320px 353px;
+    background-size: 320px 353px;
+    width: 320px;
+    height: 120px;
+    content: ''
+}
+
+._story_list .story_area ._cast {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 320px
+}
+
+._story_list .story_area ._cast:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fui-s23d3afc9ea.png%3F1585633596) no-repeat 0 0;
+    -webkit-background-size: 320px 353px;
+    background-size: 320px 353px;
+    width: 320px;
+    height: 120px;
+    content: ''
+}
+
+._story_list .story_area ._cast img {
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+
+._story_list .story_area ._info {
+    height: 262px;
+    padding-top: 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+._story_list .story_area ._name {
+    margin-bottom: -8px
+}
+
+._story_list .story_area ._scene {
+    position: relative;
+    margin-left: 12px
+}
+
+._story_list .story_area ._scene .btn_scene {
+    position: relative
+}
+
+._story_list .story_area ._scene .btn_scene._new:before {
+    position: absolute;
+    top: -2px;
+    left: 12px;
+    display: block;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fapril_fool%2F2020%2Fbutton-s9a1d028753.png%3F1585633595) no-repeat 0 -947px;
+    -webkit-background-size: 280px 965px;
+    background-size: 280px 965px;
+    width: 36px;
+    height: 18px;
+    content: ''
+}
+
+._story_list._is_single_day {
+    padding-bottom: 0
+}
+
+._story_list._is_single_day .story_area {
+    height: 248px
+}
+
+._story_list._is_single_day .story_area:after {
+    background-image: none
+}
+
+._story_list._is_single_day .story_area ._bg {
+    position: absolute
+}
+
+._story_list._is_single_day .story_area ._info {
+    height: 262px;
+    padding-top: 14px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
