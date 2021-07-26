@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobage: footer-color" content="none">
+    <link rel="stylesheet" href='12008305/css/game/pex.css' media="all">
+    <script src='12008305/js/jquery-1.9.1.min.js'></script>
+    <script src='12008305/js/pex-1.2.0.js'></script>
+    <script src='12008305/js/pex_common.js'></script>
+    <title>아이돌마스터 신데렐라 걸즈 </title>
+    <style>
+        body {
+            position: relative;
+        }
+
+        #loading {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            z-index: 100;
+            background: rgba(0, 0, 0, 0.8);
+            text-align: center;
+        }
+
+        .loading_text {
+            width: 201px;
+            height: 153px;
+            margin-top: 100px;
+        }
+
+        .loading_img {
+            width: 102px;
+            height: 102px;
+            margin-top: -80px;
+        }
+    </style>
+    <script type="text/javascript">
+        var next_day = false;
+        addEventListener("DOMContentLoaded", function() {
+            setTimeout(hideURLbar, 100);
+        }, false);
+
+        function hideURLbar() {
+            if (window.pageYOffset === 0) {
+                window.scrollTo(0, 1);
+                var isTouch = ('ontouchstart' in window);
+                var isSp = false;
+                if (isTouch === false) isSp = false;
+                else if (window.orientation === undefined) isSp = false;
+                else isSp = true;
+                displayScaleValue = scaleSizeCheck();
+                var width = 240 * displayScaleValue * 2;
+            }
+        }
+        var isTouch = ('ontouchstart' in window);
+        var isSp = false;
+        if (isTouch === false) isSp = false;
+        else if (window.orientation === undefined) isSp = false;
+        else isSp = true;
+        displayScaleValue = scaleSizeCheck();
+        var width = 240 * displayScaleValue * 2;
+        window.onunload = function() {};
+        window.onload = function() {
+            //pex control
+            window.april_func = new AprilFunc();
+            //pex初期化
+            window.april_pex_control = new PexControlFunc();
+            april_pex_control.pexSet('1-2.swf', 'container1');
+            window.scrollTo(0, 1);
+        };
+
+        function touchHandler(event) {
+            event.preventDefault();
+        };
+
+        function scaleSizeCheck() {
+            window.scrollTo(0, 1);
+            myW = window.innerWidth;
+            myH = window.innerHeight;
+            scaleWidth = myW / 240;
+            scaleHeight = myH / 320;
+            if (myH > myW) {
+                myS = scaleWidth;
+            } else {
+                myS = scaleHeight;
+            }
+            return myS;
+        };
+
+        function PexControlFunc() {
+            this.pex = false;
+            this.api = false;
+        }
+        //pex set
+        PexControlFunc.prototype.pexSet = function(swf_path, dom_elem) {
+            this.container = document.getElementById(dom_elem);
+            this.container.style.zoom = "50%";
+            this.container.style.minHeight = "481px";
+            var option = {
+                enableButton: true,
+                enableTouch: true,
+                partialDraw: getPexPartialDraw(),
+                delayEval: false,
+                operation: {
+                    lighter_tgt: "lighter"
+                },
+                stopOnStart: true,
+                width: width
+            };
+            this.runPex(option, swf_path, dom_elem);
+        }
+        //pex run
+        PexControlFunc.prototype.runPex = function(option, swf_path, dom_elem) {
+            this.pex = new Pex(swf_path, dom_elem, option);
+            this.api = this.pex.getAPI();
+            this.api.ready(function() {
+                april_pex_control.pexEngineStart();
+                $('#loading').hide();
+            });
+        };
+        //pex engine start
+        PexControlFunc.prototype.pexEngineStart = function() {
+            this.api.engineStart();
+        };
+        //pex delete
+        PexControlFunc.prototype.pexDestroy = function() {
+            this.api.destroy();
+        };
+
+        function AprilFunc() {
+            this.episode_array = [0, 1, 5, 8, 10, 14, 17, 18, 19, 22, 24, 27, 30, 33];
+        }
+        AprilFunc.prototype.episodeRefreshKey = function(no) {
+            return this.episode_array[no];
+        };
+        //pex control run
+        AprilFunc.prototype.pexControlRun = function(swf_path) {
+            april_pex_control.pexDestroy();
+            delete april_pex_control.pex;
+            delete april_pex_control.api;
+            april_pex_control.pex = false;
+            april_pex_control.api = false;
+            $('#container1').empty();
+            april_pex_control.pexSet(swf_path, 'container1');
+        };
+        //Ajax
+        AprilFunc.prototype.submitAjax = function(name) {
+            if (name.match(/episode1/)) {
+                var day = name.replace(/_episode1_1/g, "");
+                day = this.episodeRefreshKey(day.replace(/scene/g, ""));
+                this.url_txt = 'https://crow88.github.io/lab/12008305/campaigns/april_fool/2020/story/__url__/';
+                this.url_txt = this.url_txt.replace(/__url__/g, day);
+            } else if (name == 'end2' || name == 'true_end') {
+                location.href = 'https://crow88.github.io/lab/12008305/campaigns/april_fool/2020/story_list/';
+            }
+            if (!name) {
+                if (next_day == 1) {
+                    this.url_txt = 'https://crow88.github.io/lab/12008305/campaigns/april_fool/2020/story/__url__/';
+                    this.url_txt = this.url_txt.replace(/__url__/g, 1);
+                    location.href = this.url_txt;
+                } else {
+                    location.href = this.url_txt;
+                }
+            } else {
+                if (name == 'end2' || name == 'true_end') {} else {
+                    $.ajax({
+                        type: 'get',
+                        //dataType: 'json',
+                        url: 'a.json',
+                        data: {
+                            'goto_swf_file_name': name,
+                            'next_day': next_day,
+                            'sidestory_flag': 0
+                        },
+                        timeout: 3000,
+                        success: function(data) {
+                            next_day = data.next_day;
+                            april_func.pexControlRun(data.next_url);
+                        },
+                        error: function(data) {
+                            alert('通信失敗');
+                        }
+                    });
+                }
+            }
+        };
+
+        function call_function_next_jump(name) {
+            if (name == 'end') {
+                location.href = 'https://crow88.github.io/lab/12008305/campaigns/april_fool/2020/story_list/';
+            } else {
+                $('#loading').show();
+                april_func.submitAjax(name);
+            }
+        }
+    </script>
+    <script type='text/javascript'>
+        var se_flg = 0,
+            bgm_flg = 0,
+            chrome_app_flg = 0,
+            chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+    </script>
+    <script type='text/javascript' src='12008305/js/app_sound.js'></script>
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+</head>
+
+<body style="height:100%">
+    <div id="container1"></div>
+    <div id="container2"></div>
+    <div id="loading"><img src='12008305/image_sp/petit_cg/ui/sprite/loading/working_1.gif' class="loading_text"><br><img src='12008305/image_sp/petit_cg/ui/sprite/loading/loading.gif' class="loading_img"></div>
+</body>
+
+</html>
