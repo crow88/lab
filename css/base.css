@@ -338,13 +338,13 @@ div#mbga-pf-footer .sandboxMode .sandboxModeTxt {
 }
 @font-face {
     font-family: 'NanumSquare';
-    src: url(../fonts/NanumSquareR.eot);
-    src: url(../fonts/NanumSquareR.eot?#iefix) format("embedded-opentype"), url(../fonts/NanumSquareR.woff) format("woff"), url(../fonts/NanumSquareR.ttf) format("truetype");
+    src: url(../font/NanumSquareR.eot);
+    src: url(../font/NanumSquareR.eot?#iefix) format("embedded-opentype"), url(../font/NanumSquareR.woff) format("woff"), url(../font/NanumSquareR.ttf) format("truetype");
   }
 @font-face {
     font-family: 'UhBeeRyuga';
-    src: url(../fonts/UhBeeRyuga.eot);
-    src: url(../fonts/UhBeeRyuga.eot?#iefix) format("embedded-opentype"), url(../fonts/UhBeeRyuga.woff) format("woff"), url(../fonts/UhBeeRyuga.ttf) format("truetype");
+    src: url(../font/UhBeeRyuga.eot);
+    src: url(../font/UhBeeRyuga.eot?#iefix) format("embedded-opentype"), url(../font/UhBeeRyuga.woff) format("woff"), url(../font/UhBeeRyuga.ttf) format("truetype");
     font-weight: normal;
     font-style: normal;
   }
