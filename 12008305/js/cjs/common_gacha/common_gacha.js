@@ -8491,7 +8491,7 @@
             exportRoot.Dig9 = 0;
             exportRoot.Dig10 = 0;
             for (var d = 1; d <= exportRoot.card_all; d++) exportRoot["mes" + d] = exportRoot["card_name" +
-                d] + "(" + exportRoot["rare" + d] + ")\u가 소속!\n공격력 : " + exportRoot["card_att" + d] + "\u3000방어력 : " + exportRoot["card_def" + d] + "\n코스트 : " + exportRoot["card_cost" + d], 0 < this["card_pop" + d] && (exportRoot["mes" + d] = exportRoot["mes" + d] + "\n인기도+" + exportRoot["card_pop" + d]);
+                d] + "(" + exportRoot["rare" + d] + ")\uAC00\20\uC18C\uC18D\21\n\uACF5\uACA9\uB825 : " + exportRoot["card_att" + d] + "\u3000\uBC29\uC5B4\uB825 : " + exportRoot["card_def" + d] + "\n\uCF54\uC2A4\uD2B8 : " + exportRoot["card_cost" + d], 0 < this["card_pop" + d] && (exportRoot["mes" + d] = exportRoot["mes" + d] + "\n\uC778\uAE30\uB3C4+" + exportRoot["card_pop" + d]);
             exportRoot.srNum = 0;
             for (d = 1; d <= exportRoot.card_all; d++) {
                 exportRoot["srMes" + d + "_1"] && exportRoot.srNum++;
