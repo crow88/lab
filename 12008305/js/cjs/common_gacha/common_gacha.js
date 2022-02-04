@@ -8491,25 +8491,25 @@
             exportRoot.Dig9 = 0;
             exportRoot.Dig10 = 0;
             for (var d = 1; d <= exportRoot.card_all; d++) exportRoot["mes" + d] = exportRoot["card_name" +
-                d] + "(" + exportRoot["rare" + d] + ")\u304c\u6240\u5c5e!\n\u653b : " + exportRoot["card_att" + d] + "\u3000\u5b88 : " + exportRoot["card_def" + d] + "\n\uff7a\uff7d\uff84 : " + exportRoot["card_cost" + d], 0 < this["card_pop" + d] && (exportRoot["mes" + d] = exportRoot["mes" + d] + "\n\u4eba\u6c17\u5ea6+" + exportRoot["card_pop" + d]);
+                d] + "(" + exportRoot["rare" + d] + ")\u가 소속!\n공격력 : " + exportRoot["card_att" + d] + "\u3000방어력 : " + exportRoot["card_def" + d] + "\n코스트 : " + exportRoot["card_cost" + d], 0 < this["card_pop" + d] && (exportRoot["mes" + d] = exportRoot["mes" + d] + "\n인기도+" + exportRoot["card_pop" + d]);
             exportRoot.srNum = 0;
             for (d = 1; d <= exportRoot.card_all; d++) {
                 exportRoot["srMes" + d + "_1"] && exportRoot.srNum++;
                 switch (exportRoot["petit_id" + d]) {
                     case 1:
-                        add_message = "\n\u3055\u3089\u306b\u3077\u3061\uff83\uff9e\uff9a\uff97\u3092\uff79\uff9e\uff6f\uff84!";
+                        add_message = "\n그리고 푸치데렐라를 GET!";
                         break;
                     case 2:
-                        add_message = "\n\u3055\u3089\u306b\u3077\u3061\uff83\uff9e\uff9a\uff97\uff65\u3077\u3061\u8863\u88c5\u3092\uff79\uff9e\uff6f\uff84!";
+                        add_message = "\n그리고 푸치데렐라·푸치 의상을 GET!";
                         break;
                     case 3:
-                        add_message = "\n\u3055\u3089\u306b\uff7d\uff76\uff73\uff84\uff92\uff80\uff9e\uff99\u3092\uff79\uff9e\uff6f\uff84!";
+                        add_message = "\n그리고 스카우트 메달을 GET!";
                         break;
                     case 4:
-                        add_message = "\n\u3055\u3089\u306b\u3077\u3061\u8863\u88c5\u3092\uff79\uff9e\uff6f\uff84!";
+                        add_message = "\n그리고 푸치 의상을 GET!";
                         break;
                     case 5:
-                        add_message = "\n\u3055\u3089\u306b\uff7d\uff76\uff73\uff84\uff92\uff80\uff9e\uff99\uff65\u3077\u3061\u8863\u88c5\u3092\uff79\uff9e\uff6f\uff84!"
+                        add_message = "\n그리고 스카우트 메달·푸치 의상을 GET!"
                 }
                 0 <
                     exportRoot["petit_id" + d] && (exportRoot["mes" + d] += add_message)
