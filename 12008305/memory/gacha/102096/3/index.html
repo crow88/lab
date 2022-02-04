@@ -10,8 +10,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fcss%2Fgame%2Fpex.css%3Fv%3D20210909201058' media="all">
-    <script src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fjquery-1.9.1.min.js%3Fversion%3D1_9_1%26v%3D20210904134922'></script>
+    <link rel="stylesheet" href='../../../../../12008305/css/game%2Fpex.css%3Fv%3D20210909201058' media="all">
+    <script src='../../../../../12008305/js/jquery-1.9.1.min.js%3Fversion%3D1_9_1%26v%3D20210904134922'></script>
     <script>
         $(document).ready(function() {
             if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
@@ -48,17 +48,18 @@
             window.console.log = function() {};
         })();
     </script>
-    <script type='text/javascript' src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fcreatejs.min.js%3Fv%3D20210904134921'></script>
-    <script type='text/javascript' src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fapp_sound.js%3Fv%3D20210904134916'></script>
-    <script type='text/javascript' src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fcjs%2Fcommon_gacha%2Fcommon_gacha.js%3Fv%3D20210904134917'></script>
+    <script type='text/javascript' src='../../../../../12008305/js/createjs.min.js'></script>
+    <script type='text/javascript' src='../../../../../12008305/js/app_sound.js'></script>
+    <script type='text/javascript' src='../../../../../12008305/js/cjs/common_gacha/common_gacha.js'></script>
+    <script type='text/javascript' src='../../../../../12008305/js/cjs/Fsign_effect/26_sign_effect.js'></script>
     <script type='text/javascript'>
         var se_flg = 0,
             bgm_flg = 0,
             chrome_app_flg = 0,
             chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
     </script>
-    <script type='text/javascript' src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fapp_sound.js%3Fv%3D20210904134916'></script>
-    <link rel="stylesheet" type="text/css" href="http://sp.pf-img-a.mbga.jp/css/base.css?20171116" />
+    <script type='text/javascript' src='../../../../../12008305/js/app_sound.js'></script>
+    <link rel="stylesheet" type="text/css" href="../../../../../css/base.css" />
 </head>
 
 <body style="margin:0px;">
@@ -67,19 +68,19 @@
         <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:240px; height:310px; position: absolute; left: 0px; top: 0px; display: block;"></div>
     </div>
     <script>
-        var image_server = "http://sp.pf-img-a.mbga.jp/12008305/";
-        var base_url = "http://mobamas.net/idolmaster/";
+        var image_server = "";
+        var base_url = "";
         window.file_name = "common_gacha"; // createjs の本体ファイルを定義
-        window.dir_name = "image_sp/cjs/common_gacha/";
+        window.dir_name = "../../../../../12008305/image_sp/cjs/common_gacha/";
         window.replace_images = {
-            "replace_card01": "card_sign_b\/l\/03e0fcc6829933f72bff2fdab5aa473c.jpg",
-            "replace_card_l1": "card_sign_b\/l\/03e0fcc6829933f72bff2fdab5aa473c.jpg",
-            "replace_bg": "gacha_flash\/gacha_bg\/gacha_bg_normal.jpg",
-            "replace_bg_blur": "gacha_flash\/gacha_bg\/gacha_bg_normal_b.jpg",
-            "replace_title": "gacha_flash\/logo_event_gacha_003.png",
-            "replace_title_light": "gacha_flash\/logo_event_gacha_003_light.png",
-            "replace_caption": "gacha_flash\/text_gacha_01.png",
-            "replace_costume01": "item\/l\/petit_cg\/43431.png"
+            "replace_card01": "card_sign_b/l/5a94fee5a508c035167dca4418fedad1.jpg",
+            "replace_card_l1": "card_sign_b/l/5a94fee5a508c035167dca4418fedad1.jpg",
+            "replace_bg": "gacha_flash/gacha_bg/gacha_bg_normal.jpg",
+            "replace_bg_blur": "gacha_flash/gacha_bg/gacha_bg_normal_b.jpg",
+            "replace_title": "gacha_flash/logo_event_gacha_003.png",
+            "replace_title_light": "gacha_flash/logo_event_gacha_003_light.png",
+            "replace_caption": "gacha_flash/text_gacha_01.png",
+            "replace_costume01": "item/l/petit_cg/24196.png"
         }
         window.im_cjs = {
             "card_all": 1,
@@ -87,26 +88,26 @@
             "max_card_count": "300",
             "effect": 0,
             "new_card1": 1,
-            "card_name1": "[\u8fce\u6625\uff92\uff72\uff95\uff70\uff73\uff9e]\u5bae\u672c\uff8c\uff9a\uff83\uff9e\uff98\uff76",
+            "card_name1": "[로맨스·프레그런스] 이치노세 시키",
             "effect1": true,
-            "rare1": "S\uff9a\uff71",
-            "card_att1": "11520",
-            "card_def1": "4720",
+            "rare1": "S레어",
+            "card_att1": "9120",
+            "card_def1": "7120",
             "card_cost1": "27",
             "card_pop1": "0",
-            "skill1": "\u98db\u3093\u3058\u3083\u3048\u65b0\u5e74\u2606",
-            "premium_card_flag1": 0,
-            "srMes1": "\uff7a\uff82\u306f\uff64\u601d\u3044\u5207\u308a\uff8a\uff9e\uff7c\uff70\uff6f\u3068\u98db\u3070\u3059\u3053\u3068\uff61\u72d9\u3044\u306f\uff83\uff77\uff84\uff70\u3067\uff75\uff6f\uff79\uff70\u3060\u3088\u266a\u305d\u308c\u3067\u306f\uff64\uff8c\uff9a\uff83\uff9e\uff98\uff76\u8a9e\u8b1b\u5ea7\u304a\u6b63\u6708\u7de8\uff64\uff7d\uff80\uff70\uff84\u2606",
+            "skill1": "감미로운 유혹",
+            "premium_card_flag1": 1,
+            "srMes1": "수제 초코의 재료? 일단 카카오랑 코코아지. 향을 더하고…먹으면 트립해 버릴 정도로, 자극적인 사랑의 파우더를-♪",
             "srFlg1": "2",
             "srFlg2": "2",
             "call_flag": 1,
-            "call_msg": "\uff8c\uff9f\uff9b\uff83\uff9e\uff6d\uff70\uff7b\uff70\uff64\u4e00\u7dd2\u306b\u304a\u6b63\u6708\u3092\u582a\u80fd\u3057\u3088\u30fc\u2606",
+            "call_msg": "내 심박수도 시너지 효과로 상승중-♪",
             "light_bg_flag": 1,
-            "srMes1_1": "\uff7a\uff82\u306f\uff64\u601d\u3044\u5207\u308a\uff8a\uff9e\uff7c\uff70\uff6f\u3068\u98db\u3070\u3059\u3053\u3068\uff61\u72d9",
-            "srMes1_2": "\u3044\u306f\uff83\uff77\uff84\uff70\u3067\uff75\uff6f\uff79\uff70\u3060\u3088\u266a\u305d\u308c\u3067\u306f\uff64\uff8c\uff9a\uff83\uff9e\uff98",
-            "srMes1_3": "\uff76\u8a9e\u8b1b\u5ea7\u304a\u6b63\u6708\u7de8\uff64\uff7d\uff80\uff70\uff84\u2606",
-            "call_msg_1": "\uff8c\uff9f\uff9b\uff83\uff9e\uff6d\uff70\uff7b\uff70\uff64\u4e00\u7dd2\u306b\u304a\u6b63\u6708\u3092\u582a\u80fd\u3057\u3088\u30fc",
-            "call_msg_2": "\u2606",
+            "srMes1_1": "수제 초코의 재료? 일단 카카오랑 ",
+            "srMes1_2": "코코아지. 향을 더하고…먹으면 트립해 ",
+            "srMes1_3": "버릴 정도로, 자극적인 사랑의 파우더를-♪",
+            "call_msg_1": "내 심박수도 시너지 효과로 상승중-",
+            "call_msg_2": "♪",
             "petit_id1": 5,
             "petit_small_flag1": 0,
             "petit_id2": 0,
@@ -128,7 +129,7 @@
             "petit_id10": 0,
             "petit_small_flag10": 0,
             "petit_big_flag1": 0,
-            "_url": "http:\/\/sp.pf.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fgacha%2Fresponse%2F%3Fpid%3Dd7b90a8c5ec5f427bd8d1935c4e1a001%26l_frm%3DGacha_flash_1%26rnd%3D138635487",
+            "_url": "https://crow88.github.io/lab/?slide=7&index=36",
             "premium_card_effect_flag": 1
         };
         window.child_obj = [];
@@ -246,7 +247,7 @@
                     }
                     new_manifest[i] = {
                         'type': 'image',
-                        'src': window.image_server + '?url=' + encodeURIComponent(window.base_url + _img_path),
+                        'src': window.image_server + window.base_url + _img_path,
                         'id': lib.properties.manifest[i].id,
                         'crossOrigin': 'Anonymous'
                     }
@@ -349,41 +350,6 @@
         })();
     </script>
     <div id="mbga-pf-footer">
-        <div class="mbga-pf-footer-container odd-lines mbga-pf-footer-white">
-            <ul>
-                <li class="mbga-pf-footer-list">
-                    <div class="mbga-pf-fotter-content">
-                        <a class="mbga-pf-footer-arrow" href="http://sp.mbga.jp/_grp_view?g=32095227">
-                            <span class="mbga-pf-footer-caption">公式サークル</span>
-                        </a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div id="mbga-pf-footer-navbar">
-            <ul class="mbga-pf-box-h">
-                <li id="mbga-pf-footer-navbar-icon-grid" class="mbga-pf-footer-li">
-                    <a class="mbga-pf-footer-a mbga-pf-footer-home-w" href="http://sp.mbga.jp/?_from=globalfooter">
-                        <span class="mbga-pf-footer-txt">ホーム</span>
-                    </a>
-                </li>
-                <li id="mbga-pf-footer-navbar-icon-mypage" class="mbga-pf-footer-li">
-                    <a class="mbga-pf-footer-a mbga-pf-footer-mypage-w" href="http://sp.mbga.jp/_my0?_from=globalfooter">
-                        <span class="mbga-pf-footer-txt">マイページ</span>
-                    </a>
-                </li>
-                <li id="mbga-pf-footer-navbar-icon-mygame" class="mbga-pf-footer-li">
-                    <a class="mbga-pf-footer-a mbga-pf-footer-mygame-w" href="http://sp.mbga.jp/_game_my_top?_from=globalfooter">
-                        <span class="mbga-pf-footer-txt">マイゲーム</span>
-                    </a>
-                </li>
-                <li id="mbga-pf-footer-navbar-icon-notification" class="mbga-pf-footer-li">
-                    <a class="mbga-pf-footer-a mbga-pf-footer-game-w" href="http://sp.mbga.jp/_game_top?_from=globalfooter">
-                        <span class="mbga-pf-footer-txt">ゲーム</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
         <script type="text/javascript" charset="UTF-8">
             (function() {
                 document.addEventListener('DOMContentLoaded', function() {
