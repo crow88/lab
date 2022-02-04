@@ -11071,260 +11071,258 @@
         color: "#000000",
         opacity: 1,
         manifest: [{
-                src: "images/button.png?1602144369902",
+                src: "../../../images/button.png",
                 id: "common_gacha_button"
             }, {
-                src: "images/glitter.png?1602144369902",
+                src: "../../../images/glitter.png",
                 id: "common_gacha_glitter"
             }, {
-                src: "images/image80.png?1602144369902",
+                src: "../../../images/image80.png",
                 id: "common_gacha_image80"
             },
             {
-                src: "images/LocalAudition.png?1602144369902",
+                src: "../../../images/LocalAudition.png",
                 id: "common_gacha_LocalAudition"
             }, {
-                src: "images/LocalAudition_light.png?1602144369902",
+                src: "../../../images/LocalAudition_light.png",
                 id: "common_gacha_LocalAudition_light"
             }, {
-                src: "images/LocalAudition_shadow.png?1602144369902",
+                src: "../../../images/LocalAudition_shadow.png",
                 id: "common_gacha_LocalAudition_shadow"
             }, {
-                src: "images/NEW.png?1602144369902",
+                src: "../../../images/NEW.png",
                 id: "common_gacha_NEW"
             }, {
-                src: "images/new_bg_s_maku.png?1602144369902",
+                src: "../../../images/new_bg_s_maku.png",
                 id: "common_gacha_new_bg_s_maku"
             }, {
-                src: "images/new_bg_s_maku_b.png?1602144369902",
+                src: "../../../images/new_bg_s_maku_b.png",
                 id: "common_gacha_new_bg_s_maku_b"
             }, {
-                src: "images/new_w.png?1602144369902",
+                src: "../../../images/new_w.png",
                 id: "common_gacha_new_w"
             }, {
-                src: "images/p0.png?1602144369902",
+                src: "../../../images/p0.png",
                 id: "common_gacha_p0"
             }, {
-                src: "images/p0_w.png?1602144369902",
+                src: "../../../images/p0_w.png",
                 id: "common_gacha_p0_w"
             }, {
-                src: "images/p1.png?1602144369902",
+                src: "../../../images/p1.png",
                 id: "common_gacha_p1"
             }, {
-                src: "images/p1_w.png?1602144369902",
+                src: "../../../images/p1_w.png",
                 id: "common_gacha_p1_w"
             }, {
-                src: "images/p2.png?1602144369902",
+                src: "../../../images/p2.png",
                 id: "common_gacha_p2"
             }, {
-                src: "images/p2_w.png?1602144369902",
+                src: "../../../images/p2_w.png",
                 id: "common_gacha_p2_w"
             }, {
-                src: "images/p3.png?1602144369902",
+                src: "../../../images/p3.png",
                 id: "common_gacha_p3"
             }, {
-                src: "images/p3_w.png?1602144369902",
+                src: "../../../images/p3_w.png",
                 id: "common_gacha_p3_w"
             }, {
-                src: "images/p4.png?1602144369902",
+                src: "../../../images/p4.png",
                 id: "common_gacha_p4"
             }, {
-                src: "images/p4_w.png?1602144369902",
+                src: "../../../images/p4_w.png",
                 id: "common_gacha_p4_w"
             }, {
-                src: "images/p5.png?1602144369902",
+                src: "../../../images/p5.png",
                 id: "common_gacha_p5"
             }, {
-                src: "images/p5_w.png?1602144369902",
+                src: "../../../images/p5_w.png",
                 id: "common_gacha_p5_w"
             }, {
-                src: "images/p6.png?1602144369902",
+                src: "../../../images/p6.png",
                 id: "common_gacha_p6"
             }, {
-                src: "images/p6_w.png?1602144369902",
+                src: "../../../images/p6_w.png",
                 id: "common_gacha_p6_w"
             }, {
-                src: "images/p7.png?1602144369902",
+                src: "../../../images/p7.png",
                 id: "common_gacha_p7"
             }, {
-                src: "images/p7_w.png?1602144369902",
+                src: "../../../images/p7_w.png",
                 id: "common_gacha_p7_w"
             }, {
-                src: "images/p8.png?1602144369902",
+                src: "../../../images/p8.png",
                 id: "common_gacha_p8"
             }, {
-                src: "images/p8_w.png?1602144369902",
+                src: "../../../images/p8_w.png",
                 id: "common_gacha_p8_w"
             }, {
-                src: "images/p9.png?1602144369902",
+                src: "../../../images/p9.png",
                 id: "common_gacha_p9"
             }, {
-                src: "images/p9_w.png?1602144369902",
+                src: "../../../images/p9_w.png",
                 id: "common_gacha_p9_w"
             }, {
-                src: "images/plus.png?1602144369902",
+                src: "../../../images/plus.png",
                 id: "common_gacha_plus"
             }, {
-                src: "images/plus_w.png?1602144369902",
+                src: "../../../images/plus_w.png",
                 id: "common_gacha_plus_w"
             }, {
-                src: "images/replace_bg.jpg?1602144369902",
+                src: "../../../images/replace_bg.jpg",
                 id: "common_gacha_replace_bg"
             }, {
-                src: "images/replace_bg_blur.jpg?1602144369902",
+                src: "../../../images/replace_bg_blur.jpg",
                 id: "common_gacha_replace_bg_blur"
             }, {
-                src: "images/replace_caption.png?1602144369902",
+                src: "../../../images/replace_caption.png",
                 id: "common_gacha_replace_caption"
             },
             {
-                src: "images/replace_card01.jpg?1602144369902",
+                src: "../../../images/replace_card01.jpg",
                 id: "common_gacha_replace_card01"
             }, {
-                src: "images/replace_card02.jpg?1602144369902",
+                src: "../../../images/replace_card02.jpg",
                 id: "common_gacha_replace_card02"
             }, {
-                src: "images/replace_card03.jpg?1602144369902",
+                src: "../../../images/replace_card03.jpg",
                 id: "common_gacha_replace_card03"
             }, {
-                src: "images/replace_card04.jpg?1602144369902",
+                src: "../../../images/replace_card04.jpg",
                 id: "common_gacha_replace_card04"
             }, {
-                src: "images/replace_card05.jpg?1602144369902",
+                src: "../../../images/replace_card05.jpg",
                 id: "common_gacha_replace_card05"
             }, {
-                src: "images/replace_card06.jpg?1602144369902",
+                src: "../../../images/replace_card06.jpg",
                 id: "common_gacha_replace_card06"
             }, {
-                src: "images/replace_card07.jpg?1602144369902",
+                src: "../../../images/replace_card07.jpg",
                 id: "common_gacha_replace_card07"
             }, {
-                src: "images/replace_card08.jpg?1602144369902",
+                src: "../../../images/replace_card08.jpg",
                 id: "common_gacha_replace_card08"
             }, {
-                src: "images/replace_card09.jpg?1602144369902",
+                src: "../../../images/replace_card09.jpg",
                 id: "common_gacha_replace_card09"
             }, {
-                src: "images/replace_card10.jpg?1602144369902",
+                src: "../../../images/replace_card10.jpg",
                 id: "common_gacha_replace_card10"
             }, {
-                src: "images/replace_card_l1.jpg?1602144369902",
+                src: "../../../images/replace_card_l1.jpg",
                 id: "common_gacha_replace_card_l1"
             }, {
-                src: "images/replace_card_l10.jpg?1602144369902",
+                src: "../../../images/replace_card_l10.jpg",
                 id: "common_gacha_replace_card_l10"
             }, {
-                src: "images/replace_card_l2.jpg?1602144369902",
+                src: "../../../images/replace_card_l2.jpg",
                 id: "common_gacha_replace_card_l2"
-            },
-            {
-                src: "images/replace_card_l3.jpg?1602144369902",
+            }, {
+                src: "../../../images/replace_card_l3.jpg",
                 id: "common_gacha_replace_card_l3"
             }, {
-                src: "images/replace_card_l4.jpg?1602144369902",
+                src: "../../../images/replace_card_l4.jpg",
                 id: "common_gacha_replace_card_l4"
             }, {
-                src: "images/replace_card_l5.jpg?1602144369902",
+                src: "../../../images/replace_card_l5.jpg",
                 id: "common_gacha_replace_card_l5"
             }, {
-                src: "images/replace_card_l6.jpg?1602144369902",
+                src: "../../../images/replace_card_l6.jpg",
                 id: "common_gacha_replace_card_l6"
             }, {
-                src: "images/replace_card_l7.jpg?1602144369902",
+                src: "../../../images/replace_card_l7.jpg",
                 id: "common_gacha_replace_card_l7"
             }, {
-                src: "images/replace_card_l8.jpg?1602144369902",
+                src: "../../../images/replace_card_l8.jpg",
                 id: "common_gacha_replace_card_l8"
             }, {
-                src: "images/replace_card_l9.jpg?1602144369902",
+                src: "../../../images/replace_card_l9.jpg",
                 id: "common_gacha_replace_card_l9"
             }, {
-                src: "images/replace_costume01.png?1602144369902",
+                src: "../../../images/replace_costume01.png",
                 id: "common_gacha_replace_costume01"
             }, {
-                src: "images/replace_costume02.png?1602144369902",
+                src: "../../../images/replace_costume02.png",
                 id: "common_gacha_replace_costume02"
             }, {
-                src: "images/replace_costume03.png?1602144369902",
+                src: "../../../images/replace_costume03.png",
                 id: "common_gacha_replace_costume03"
             }, {
-                src: "images/replace_costume04.png?1602144369902",
+                src: "../../../images/replace_costume04.png",
                 id: "common_gacha_replace_costume04"
             }, {
-                src: "images/replace_costume05.png?1602144369902",
+                src: "../../../images/replace_costume05.png",
                 id: "common_gacha_replace_costume05"
             }, {
-                src: "images/replace_costume06.png?1602144369902",
+                src: "../../../images/replace_costume06.png",
                 id: "common_gacha_replace_costume06"
             }, {
-                src: "images/replace_costume07.png?1602144369902",
+                src: "../../../images/replace_costume07.png",
                 id: "common_gacha_replace_costume07"
             }, {
-                src: "images/replace_costume08.png?1602144369902",
+                src: "../../../images/replace_costume08.png",
                 id: "common_gacha_replace_costume08"
             }, {
-                src: "images/replace_costume09.png?1602144369902",
+                src: "../../../images/replace_costume09.png",
                 id: "common_gacha_replace_costume09"
             }, {
-                src: "images/replace_costume10.png?1602144369902",
+                src: "../../../images/replace_costume10.png",
                 id: "common_gacha_replace_costume10"
             }, {
-                src: "images/replace_petit01.png?1602144369902",
+                src: "../../../images/replace_petit01.png",
                 id: "common_gacha_replace_petit01"
             }, {
-                src: "images/replace_petit02.png?1602144369902",
+                src: "../../../images/replace_petit02.png",
                 id: "common_gacha_replace_petit02"
             }, {
-                src: "images/replace_petit03.png?1602144369902",
+                src: "../../../images/replace_petit03.png",
                 id: "common_gacha_replace_petit03"
             }, {
-                src: "images/replace_petit04.png?1602144369902",
+                src: "../../../images/replace_petit04.png",
                 id: "common_gacha_replace_petit04"
             }, {
-                src: "images/replace_petit05.png?1602144369902",
+                src: "../../../images/replace_petit05.png",
                 id: "common_gacha_replace_petit05"
             }, {
-                src: "images/replace_petit06.png?1602144369902",
+                src: "../../../images/replace_petit06.png",
                 id: "common_gacha_replace_petit06"
             }, {
-                src: "images/replace_petit07.png?1602144369902",
+                src: "../../../images/replace_petit07.png",
                 id: "common_gacha_replace_petit07"
             }, {
-                src: "images/replace_petit08.png?1602144369902",
+                src: "../../../images/replace_petit08.png",
                 id: "common_gacha_replace_petit08"
-            },
-            {
-                src: "images/replace_petit09.png?1602144369902",
+            }, {
+                src: "../../../images/replace_petit09.png",
                 id: "common_gacha_replace_petit09"
             }, {
-                src: "images/replace_petit10.png?1602144369902",
+                src: "../../../images/replace_petit10.png",
                 id: "common_gacha_replace_petit10"
             }, {
-                src: "images/replace_title.png?1602144369902",
+                src: "../../../images/replace_title.png",
                 id: "common_gacha_replace_title"
             }, {
-                src: "images/replace_title_light.png?1602144369902",
+                src: "../../../images/replace_title_light.png",
                 id: "common_gacha_replace_title_light"
             }, {
-                src: "images/scout_medal.png?1602144369902",
+                src: "../../../images/scout_medal.png",
                 id: "common_gacha_scout_medal"
             }, {
-                src: "images/sp_bMas2k.png?1602144369902",
+                src: "../../../images/sp_bMas2k.png",
                 id: "common_gacha_sp_bMas2k"
             }, {
-                src: "images/sp_bMask.png?1602144369902",
+                src: "../../../images/sp_bMask.png",
                 id: "common_gacha_sp_bMask"
             }, {
-                src: "images/sp_whiteGlow.png?1602144369902",
+                src: "../../../images/sp_whiteGlow.png",
                 id: "common_gacha_sp_whiteGlow"
             }, {
-                src: "images/star.png?1602144369902",
+                src: "../../../images/star.png",
                 id: "common_gacha_star"
             }, {
-                src: "images/star_rainbow.png?1602144369902",
+                src: "../../../images/star_rainbow.png",
                 id: "common_gacha_star_rainbow"
             }, {
-                src: "images/vignette_mask.png?1602144369902",
+                src: "../../../images/vignette_mask.png",
                 id: "common_gacha_vignette_mask"
             }
         ],
