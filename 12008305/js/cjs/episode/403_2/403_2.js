@@ -147,6 +147,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,480,64);
     }
     ).prototype = p = new cjs.Bitmap();
     p.nominalBounds = new cjs.Rectangle(0,0,321,75);
+	
 // helper functions:
 
 function mc_symbol_clone() {
