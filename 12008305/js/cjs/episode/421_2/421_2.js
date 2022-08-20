@@ -1179,16 +1179,27 @@ p.nominalBounds = new cjs.Rectangle(-2.2,-0.1,4.5,6.8999999999999995);
 	this.initialize(mode,startPosition,loop,{});
 
 	// txt
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#333333").s().p("AhKA7QAGgKACgOQADgOAAgQIABgdIAAgwICBAAIAAAnIhwAAIAAAKIBzAAIAAANIgbAAIAMAJIAPAMIgMAMIgFgDIgDgFIgLACIgUACIAAALIApAAIAAAOIgpAAIAAAMIA4AAIAAANIh9AAIAAgNIA1AAIAAgMIgoAAIAAgOIAoAAIAAgKIgTABIgWAAIgEgPIAJAAIAJAAIAIgIIAGgIIgjAAQAAANgCAPQAAAOgDAPQgEANgGANgAADgCIgIAJIAQgBIAPgBIAMgBIgFgEIgDgCIgDgCIAMgGIgfAAIgFAIgAgtgvIBfAAIAAgLIhfAAg");
-	this.shape.setTransform(7.9,0.65);
+	//this.shape = new cjs.Shape();
+	//this.shape.graphics.f("#333333").s().p("AhKA7QAGgKACgOQADgOAAgQIABgdIAAgwICBAAIAAAnIhwAAIAAAKIBzAAIAAANIgbAAIAMAJIAPAMIgMAMIgFgDIgDgFIgLACIgUACIAAALIApAAIAAAOIgpAAIAAAMIA4AAIAAANIh9AAIAAgNIA1AAIAAgMIgoAAIAAgOIAoAAIAAgKIgTABIgWAAIgEgPIAJAAIAJAAIAIgIIAGgIIgjAAQAAANgCAPQAAAOgDAPQgEANgGANgAADgCIgIAJIAQgBIAPgBIAMgBIgFgEIgDgCIgDgCIAMgGIgfAAIgFAIgAgtgvIBfAAIAAgLIhfAAg");
+	//this.shape.setTransform(7.9,0.65);
 
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#333333").s().p("AgHBLIAAgmIgPAMQgJAHgKAFQgKAFgNAEIgLgRQATgDAOgGQAOgGAJgIIgzAAIAAgPIA/AAIAAgLIgWAAIAAhDIAOAAIADgFIACgEIABgCIAQADIgBADIgEAFIAcAAIAABDIgWAAIAAALIBAAAIAAAPIg0AAQALAIAOAGQANAGARADIgJARQgTgGgPgJQgPgJgJgJIAAAmgAgOgIIAcAAIAAgPIgcAAgAgOgkIAcAAIAAgNIgcAAgAAwgDIgLgKIgFgEIAKgLIAFAEIAKAIIAOAKIgKANIgNgKgAhLgGQAKgEAHgGIAKgJIAEgEIAKALIgEAEIgLAKQgGAFgJAGgAg6gvIgJgHIgDgDIAKgMIADADIAJAHIAMALIgKAMIgMgLgAAkgxIALgJIAIgJIACgDIALAMIgDADIgIAIIgMAKg");
-	this.shape_1.setTransform(-8,0.425);
+	//this.shape_1 = new cjs.Shape();
+	//this.shape_1.graphics.f("#333333").s().p("AgHBLIAAgmIgPAMQgJAHgKAFQgKAFgNAEIgLgRQATgDAOgGQAOgGAJgIIgzAAIAAgPIA/AAIAAgLIgWAAIAAhDIAOAAIADgFIACgEIABgCIAQADIgBADIgEAFIAcAAIAABDIgWAAIAAALIBAAAIAAAPIg0AAQALAIAOAGQANAGARADIgJARQgTgGgPgJQgPgJgJgJIAAAmgAgOgIIAcAAIAAgPIgcAAgAgOgkIAcAAIAAgNIgcAAgAAwgDIgLgKIgFgEIAKgLIAFAEIAKAIIAOAKIgKANIgNgKgAhLgGQAKgEAHgGIAKgJIAEgEIAKALIgEAEIgLAKQgGAFgJAGgAg6gvIgJgHIgDgDIAKgMIADADIAJAHIAMALIgKAMIgMgLgAAkgxIALgJIAIgJIACgDIALAMIgDADIgIAIIgMAKg");
+	//this.shape_1.setTransform(-8,0.425);
+	
+	// 타이틀 텍스트 한글화
+	korTitle = {
+		text: "분장실", // 장소 이름
+		font: "20px sans-serif", // 폰트 크기, 폰트 이름
+		color: "#333333", // 색상 RGB 값
+		x: -100, // x 좌표값
+		y: -10, // y 좌표값
+	}
+	this.shape = new cjs.Text(korTitle.text, korTitle.font, korTitle.color);
+	this.shape.setTransform(korTitle.x, korTitle.y);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
-
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape}]}).wait(1)); //state 안에 {t:this.shape_1},
+	
 	// base
 	this.instance = new lib.tie_inner();
 	this.instance.parent = this;
@@ -2051,15 +2062,27 @@ p.nominalBounds = new cjs.Rectangle(-41.7,-47.9,173.5,72.7);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(4));
 
 	// dummy
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#000000").s().p("AAABLIAAgwIgWAAIAAAlIgUAAIAAgiIgJAJIgJAHIgOgSQAOgHAMgJQAMgJAHgIIgnAAIAAgSIAPAAIAlAAIADgGIACgEIgUAFIgWAFIgKgTIAcgCIAXgFIgNgDIgQgCIgMgCIAKgSIAaAGIAeAJIARgIIANgHIARANIgLAFIgNAGIAKADIAKAEIAKAEIgOAQIgUgJIgUgJIgLAEIgJAEIATABIgCAEIgDAFIBFAAIAAASIhQAAIgGAHIgGAHIARAAIAAgJIATAAIAAAJIAuAAIAAAXIgBARQgBAGgEADQgDADgGACIgSABIgJgUIAKAAIAIgBQABAAABAAQAAAAABAAQAAAAAAAAQAAgBABAAIAAgEIAAgLIgaAAIAAAwgAg1gXIAWgFIAUgFIgCAEIgDAGgAg1gXg");
-	this.shape.setTransform(39.7,11.8);
+	//this.shape = new cjs.Shape();
+	//this.shape.graphics.f("#000000").s().p("AAABLIAAgwIgWAAIAAAlIgUAAIAAgiIgJAJIgJAHIgOgSQAOgHAMgJQAMgJAHgIIgnAAIAAgSIAPAAIAlAAIADgGIACgEIgUAFIgWAFIgKgTIAcgCIAXgFIgNgDIgQgCIgMgCIAKgSIAaAGIAeAJIARgIIANgHIARANIgLAFIgNAGIAKADIAKAEIAKAEIgOAQIgUgJIgUgJIgLAEIgJAEIATABIgCAEIgDAFIBFAAIAAASIhQAAIgGAHIgGAHIARAAIAAgJIATAAIAAAJIAuAAIAAAXIgBARQgBAGgEADQgDADgGACIgSABIgJgUIAKAAIAIgBQABAAABAAQAAAAABAAQAAAAAAAAQAAgBABAAIAAgEIAAgLIgaAAIAAAwgAg1gXIAWgFIAUgFIgCAEIgDAGgAg1gXg");
+	//this.shape.setTransform(39.7,11.8);
 
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#000000").s().p("AgTBKQgIAAgFgDQgEgCgBgIIAAguIAWAAIAAAkIACACIACAAIAYAAIAFgBQADgBABgDIACgNIAWAJIgEAQQgCAGgDADQgDADgEABIgLABgAAxAsIgIgSIgDgGIAUgIIADAGIAIARIAJAWIgUAMIgJgZgAhMA3IAHgPIAFgOIABgLIABgDIAVAGIgBAFIgCAMIgFAQIgIASgAABAcIgNgKIANgOIAPAJIAPAKIgPARIgPgMgAg/AEIAAgTIA1AAIAAgSIg9AAIAAgVIA9AAIAAgTIAUAAIAAATIA9AAIAAAVIg9AAIAAASIA2AAIAAATg");
-	this.shape_1.setTransform(24,11.6);
+	//this.shape_1 = new cjs.Shape();
+	//this.shape_1.graphics.f("#000000").s().p("AgTBKQgIAAgFgDQgEgCgBgIIAAguIAWAAIAAAkIACACIACAAIAYAAIAFgBQADgBABgDIACgNIAWAJIgEAQQgCAGgDADQgDADgEABIgLABgAAxAsIgIgSIgDgGIAUgIIADAGIAIARIAJAWIgUAMIgJgZgAhMA3IAHgPIAFgOIABgLIABgDIAVAGIgBAFIgCAMIgFAQIgIASgAABAcIgNgKIANgOIAPAJIAPAKIgPARIgPgMgAg/AEIAAgTIA1AAIAAgSIg9AAIAAgVIA9AAIAAgTIAUAAIAAATIA9AAIAAAVIg9AAIAAASIA2AAIAAATg");
+	//this.shape_1.setTransform(24,11.6);
+	
+	// 이름 한글화
+	korTitle = {
+		text: "시키", // 아이돌 이름
+		font: "16px sans-serif", // 폰트 크기, 폰트 이름
+		color: "#333333", // 색상 RGB 값
+		x: 18, // x 좌표값
+		y: 6, // y 좌표값
+	}
+	this.shape = new cjs.Text(korTitle.text, korTitle.font, korTitle.color);
+	this.shape.setTransform(korTitle.x, korTitle.y);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(4));
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape}]}).wait(4)); //state 안에 {t:this.shape_1},
 
 	// text
 	this.text_mc = new lib.textfield();
