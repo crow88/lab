@@ -1193,7 +1193,7 @@ p.nominalBounds = new cjs.Rectangle(-2.2,-0.1,4.5,6.8999999999999995);
 		font: "bold 17px sans-serif", // 폰트 크기, 폰트 이름
 		color: "#333333", // 색상 RGB 값
 		x: -20, // x 좌표값
-		y: -10, // y 좌표값
+		y: -5, // y 좌표값
 	}
 	this.shape = new cjs.Text(korTitle.text, korTitle.font, korTitle.color);
 	this.shape.setTransform(korTitle.x, korTitle.y);
