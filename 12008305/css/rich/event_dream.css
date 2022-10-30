@@ -744,29 +744,29 @@
 
 h2.title_img.event_red,
 div.title_img.event_red {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_head_bg.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_head_bg.jpg)
 }
 
 h2.title_img.event_red div,
 div.title_img.event_red div {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_head_bottom.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_head_bottom.jpg)
 }
 
 h2.title_img.event_red:before,
 div.title_img.event_red:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_head_top.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_head_top.jpg)
 }
 
 h3.title_img.event_red {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_bg.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_bg.jpg)
 }
 
 h3.title_img.event_red div.frame {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_bottom.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_bottom.jpg)
 }
 
 h3.title_img.event_red:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_top.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_top.jpg)
 }
 
 .eventH2Color_red {
@@ -796,7 +796,7 @@ h3.title_img.event_red:before {
 .medal_idol_event_red:before {
     width: 320px;
     height: 6px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_top.jpg) center top no-repeat;
     background-size: 320px 6px;
     content: "";
     display: block
@@ -817,7 +817,7 @@ h3.title_img.event_red:before {
 .medal_idol_event_red .slideTitle {
     text-align: center;
     padding: 8px 0 14px;
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_bg.jpg%3F1487720052);
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_bg.jpg);
     background-size: 320px
 }
 
@@ -832,7 +832,7 @@ h3.title_img.event_red:before {
     width: 320px;
     height: 6px;
     margin-top: 36px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fred%2Fline_normal_bottom.jpg) center top no-repeat;
     background-size: 320px;
     z-index: 20;
     position: absolute
@@ -936,29 +936,29 @@ h3.title_img.event_red:before {
 
 h2.title_img.event_orange,
 div.title_img.event_orange {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_head_bg.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_head_bg.jpg)
 }
 
 h2.title_img.event_orange div,
 div.title_img.event_orange div {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_head_bottom.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_head_bottom.jpg)
 }
 
 h2.title_img.event_orange:before,
 div.title_img.event_orange:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_head_top.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_head_top.jpg)
 }
 
 h3.title_img.event_orange {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_bg.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_bg.jpg)
 }
 
 h3.title_img.event_orange div.frame {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_bottom.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_bottom.jpg)
 }
 
 h3.title_img.event_orange:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_top.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_top.jpg)
 }
 
 .eventH2Color_orange {
@@ -988,7 +988,7 @@ h3.title_img.event_orange:before {
 .medal_idol_event_orange:before {
     width: 320px;
     height: 6px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_top.jpg) center top no-repeat;
     background-size: 320px 6px;
     content: "";
     display: block
@@ -1009,7 +1009,7 @@ h3.title_img.event_orange:before {
 .medal_idol_event_orange .slideTitle {
     text-align: center;
     padding: 8px 0 14px;
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_bg.jpg%3F1487720052);
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_bg.jpg);
     background-size: 320px
 }
 
@@ -1024,7 +1024,7 @@ h3.title_img.event_orange:before {
     width: 320px;
     height: 6px;
     margin-top: 36px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Forange%2Fline_normal_bottom.jpg) center top no-repeat;
     background-size: 320px;
     z-index: 20;
     position: absolute
@@ -1128,29 +1128,29 @@ h3.title_img.event_orange:before {
 
 h2.title_img.event_green,
 div.title_img.event_green {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_head_bg.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_head_bg.jpg)
 }
 
 h2.title_img.event_green div,
 div.title_img.event_green div {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_head_bottom.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_head_bottom.jpg)
 }
 
 h2.title_img.event_green:before,
 div.title_img.event_green:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_head_top.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_head_top.jpg)
 }
 
 h3.title_img.event_green {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_bg.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_bg.jpg)
 }
 
 h3.title_img.event_green div.frame {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_bottom.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_bottom.jpg)
 }
 
 h3.title_img.event_green:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_top.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_top.jpg)
 }
 
 .eventH2Color_green {
@@ -1180,7 +1180,7 @@ h3.title_img.event_green:before {
 .medal_idol_event_green:before {
     width: 320px;
     height: 6px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_top.jpg) center top no-repeat;
     background-size: 320px 6px;
     content: "";
     display: block
@@ -1201,7 +1201,7 @@ h3.title_img.event_green:before {
 .medal_idol_event_green .slideTitle {
     text-align: center;
     padding: 8px 0 14px;
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_bg.jpg%3F1487720052);
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_bg.jpg);
     background-size: 320px
 }
 
@@ -1216,7 +1216,7 @@ h3.title_img.event_green:before {
     width: 320px;
     height: 6px;
     margin-top: 36px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fgreen%2Fline_normal_bottom.jpg) center top no-repeat;
     background-size: 320px;
     z-index: 20;
     position: absolute
@@ -1320,29 +1320,29 @@ h3.title_img.event_green:before {
 
 h2.title_img.event_bluegreen,
 div.title_img.event_bluegreen {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_head_bg.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_head_bg.jpg)
 }
 
 h2.title_img.event_bluegreen div,
 div.title_img.event_bluegreen div {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_head_bottom.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_head_bottom.jpg)
 }
 
 h2.title_img.event_bluegreen:before,
 div.title_img.event_bluegreen:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_head_top.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_head_top.jpg)
 }
 
 h3.title_img.event_bluegreen {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_bg.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_bg.jpg)
 }
 
 h3.title_img.event_bluegreen div.frame {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_bottom.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_bottom.jpg)
 }
 
 h3.title_img.event_bluegreen:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_top.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_top.jpg)
 }
 
 .eventH2Color_bluegreen {
@@ -1372,7 +1372,7 @@ h3.title_img.event_bluegreen:before {
 .medal_idol_event_bluegreen:before {
     width: 320px;
     height: 6px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_top.jpg) center top no-repeat;
     background-size: 320px 6px;
     content: "";
     display: block
@@ -1393,7 +1393,7 @@ h3.title_img.event_bluegreen:before {
 .medal_idol_event_bluegreen .slideTitle {
     text-align: center;
     padding: 8px 0 14px;
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_bg.jpg%3F1487720052);
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_bg.jpg);
     background-size: 320px
 }
 
@@ -1408,7 +1408,7 @@ h3.title_img.event_bluegreen:before {
     width: 320px;
     height: 6px;
     margin-top: 36px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fbluegreen%2Fline_normal_bottom.jpg) center top no-repeat;
     background-size: 320px;
     z-index: 20;
     position: absolute
@@ -1512,29 +1512,29 @@ h3.title_img.event_bluegreen:before {
 
 h2.title_img.event_blue,
 div.title_img.event_blue {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_head_bg.jpg%3F1487720052)
+    background-image: url(../../../12008305/image_sp/event/common/line/blue/line_head_bg.jpg)
 }
 
 h2.title_img.event_blue div,
 div.title_img.event_blue div {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_head_bottom.jpg%3F1487720052)
+    background-image: url(../../../12008305/image_sp/event/common/line/blue/line_head_bottom.jpg)
 }
 
 h2.title_img.event_blue:before,
 div.title_img.event_blue:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_head_top.jpg%3F1487720052)
+    background-image: url(../../../12008305/image_sp/event/common/line/blue/line_head_top.jpg)
 }
 
 h3.title_img.event_blue {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_normal_bg.jpg%3F1487720052)
+    background-image: url(../../../12008305/image_sp/event/common/line/blue/line_normal_bg.jpg)
 }
 
 h3.title_img.event_blue div.frame {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_normal_bottom.jpg%3F1487720052)
+    background-image: url(../../../12008305/image_sp/event/common/line/blue/line_normal_bottom.jpg)
 }
 
 h3.title_img.event_blue:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_normal_top.jpg%3F1487720052)
+    background-image: url(../../../12008305/image_sp/event/common/line/blue/line_normal_top.jpg)
 }
 
 .eventH2Color_blue {
@@ -1564,7 +1564,7 @@ h3.title_img.event_blue:before {
 .medal_idol_event_blue:before {
     width: 320px;
     height: 6px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
+    background: url(../../../12008305/image_sp/event/common/line/blue/line_normal_top.jpg) center top no-repeat;
     background-size: 320px 6px;
     content: "";
     display: block
@@ -1585,7 +1585,7 @@ h3.title_img.event_blue:before {
 .medal_idol_event_blue .slideTitle {
     text-align: center;
     padding: 8px 0 14px;
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_normal_bg.jpg%3F1487720052);
+    background-image: url(../../../12008305/image_sp/event/common/line/blue/line_normal_bg.jpg);
     background-size: 320px
 }
 
@@ -1600,7 +1600,7 @@ h3.title_img.event_blue:before {
     width: 320px;
     height: 6px;
     margin-top: 36px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fblue%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
+    background: url(../../../12008305/image_sp/event/common/line/blue/line_normal_bottom.jpg) center top no-repeat;
     background-size: 320px;
     z-index: 20;
     position: absolute
@@ -1704,29 +1704,29 @@ h3.title_img.event_blue:before {
 
 h2.title_img.event_pink,
 div.title_img.event_pink {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_head_bg.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_head_bg.jpg)
 }
 
 h2.title_img.event_pink div,
 div.title_img.event_pink div {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_head_bottom.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_head_bottom.jpg)
 }
 
 h2.title_img.event_pink:before,
 div.title_img.event_pink:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_head_top.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_head_top.jpg)
 }
 
 h3.title_img.event_pink {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_bg.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_bg.jpg)
 }
 
 h3.title_img.event_pink div.frame {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_bottom.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_bottom.jpg)
 }
 
 h3.title_img.event_pink:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_top.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_top.jpg)
 }
 
 .eventH2Color_pink {
@@ -1756,7 +1756,7 @@ h3.title_img.event_pink:before {
 .medal_idol_event_pink:before {
     width: 320px;
     height: 6px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_top.jpg) center top no-repeat;
     background-size: 320px 6px;
     content: "";
     display: block
@@ -1777,7 +1777,7 @@ h3.title_img.event_pink:before {
 .medal_idol_event_pink .slideTitle {
     text-align: center;
     padding: 8px 0 14px;
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_bg.jpg%3F1487720052);
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_bg.jpg);
     background-size: 320px
 }
 
@@ -1792,7 +1792,7 @@ h3.title_img.event_pink:before {
     width: 320px;
     height: 6px;
     margin-top: 36px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpink%2Fline_normal_bottom.jpg) center top no-repeat;
     background-size: 320px;
     z-index: 20;
     position: absolute
@@ -1896,29 +1896,29 @@ h3.title_img.event_pink:before {
 
 h2.title_img.event_crimson,
 div.title_img.event_crimson {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_head_bg.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_head_bg.jpg)
 }
 
 h2.title_img.event_crimson div,
 div.title_img.event_crimson div {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_head_bottom.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_head_bottom.jpg)
 }
 
 h2.title_img.event_crimson:before,
 div.title_img.event_crimson:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_head_top.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_head_top.jpg)
 }
 
 h3.title_img.event_crimson {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_bg.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_bg.jpg)
 }
 
 h3.title_img.event_crimson div.frame {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_bottom.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_bottom.jpg)
 }
 
 h3.title_img.event_crimson:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_top.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_top.jpg)
 }
 
 .eventH2Color_crimson {
@@ -1948,7 +1948,7 @@ h3.title_img.event_crimson:before {
 .medal_idol_event_crimson:before {
     width: 320px;
     height: 6px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_top.jpg) center top no-repeat;
     background-size: 320px 6px;
     content: "";
     display: block
@@ -1969,7 +1969,7 @@ h3.title_img.event_crimson:before {
 .medal_idol_event_crimson .slideTitle {
     text-align: center;
     padding: 8px 0 14px;
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_bg.jpg%3F1487720052);
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_bg.jpg);
     background-size: 320px
 }
 
@@ -1984,7 +1984,7 @@ h3.title_img.event_crimson:before {
     width: 320px;
     height: 6px;
     margin-top: 36px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fcrimson%2Fline_normal_bottom.jpg) center top no-repeat;
     background-size: 320px;
     z-index: 20;
     position: absolute
@@ -2088,29 +2088,29 @@ h3.title_img.event_crimson:before {
 
 h2.title_img.event_parple,
 div.title_img.event_parple {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_head_bg.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_head_bg.jpg)
 }
 
 h2.title_img.event_parple div,
 div.title_img.event_parple div {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_head_bottom.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_head_bottom.jpg)
 }
 
 h2.title_img.event_parple:before,
 div.title_img.event_parple:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_head_top.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_head_top.jpg)
 }
 
 h3.title_img.event_parple {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_bg.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_bg.jpg)
 }
 
 h3.title_img.event_parple div.frame {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_bottom.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_bottom.jpg)
 }
 
 h3.title_img.event_parple:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_top.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_top.jpg)
 }
 
 .eventH2Color_parple {
@@ -2140,7 +2140,7 @@ h3.title_img.event_parple:before {
 .medal_idol_event_parple:before {
     width: 320px;
     height: 6px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_top.jpg) center top no-repeat;
     background-size: 320px 6px;
     content: "";
     display: block
@@ -2161,7 +2161,7 @@ h3.title_img.event_parple:before {
 .medal_idol_event_parple .slideTitle {
     text-align: center;
     padding: 8px 0 14px;
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_bg.jpg%3F1487720052);
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_bg.jpg);
     background-size: 320px
 }
 
@@ -2176,7 +2176,7 @@ h3.title_img.event_parple:before {
     width: 320px;
     height: 6px;
     margin-top: 36px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fparple%2Fline_normal_bottom.jpg) center top no-repeat;
     background-size: 320px;
     z-index: 20;
     position: absolute
@@ -2280,29 +2280,29 @@ h3.title_img.event_parple:before {
 
 h2.title_img.event_purplepink,
 div.title_img.event_purplepink {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_head_bg.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_head_bg.jpg)
 }
 
 h2.title_img.event_purplepink div,
 div.title_img.event_purplepink div {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_head_bottom.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_head_bottom.jpg)
 }
 
 h2.title_img.event_purplepink:before,
 div.title_img.event_purplepink:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_head_top.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_head_top.jpg)
 }
 
 h3.title_img.event_purplepink {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_bg.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_bg.jpg)
 }
 
 h3.title_img.event_purplepink div.frame {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_bottom.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_bottom.jpg)
 }
 
 h3.title_img.event_purplepink:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_top.jpg%3F1487720052)
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_top.jpg)
 }
 
 .eventH2Color_purplepink {
@@ -2332,7 +2332,7 @@ h3.title_img.event_purplepink:before {
 .medal_idol_event_purplepink:before {
     width: 320px;
     height: 6px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_top.jpg%3F1487720052) center top no-repeat;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_top.jpg) center top no-repeat;
     background-size: 320px 6px;
     content: "";
     display: block
@@ -2353,7 +2353,7 @@ h3.title_img.event_purplepink:before {
 .medal_idol_event_purplepink .slideTitle {
     text-align: center;
     padding: 8px 0 14px;
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_bg.jpg%3F1487720052);
+    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_bg.jpg);
     background-size: 320px
 }
 
@@ -2368,7 +2368,7 @@ h3.title_img.event_purplepink:before {
     width: 320px;
     height: 6px;
     margin-top: 36px;
-    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_bottom.jpg%3F1487720052) center top no-repeat;
+    background: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fevent%2Fcommon%2Fline%2Fpurplepink%2Fline_normal_bottom.jpg) center top no-repeat;
     background-size: 320px;
     z-index: 20;
     position: absolute
