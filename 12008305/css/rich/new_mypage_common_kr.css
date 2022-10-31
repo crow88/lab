@@ -17822,7 +17822,7 @@ body#battles .fukidashiWrap .fukidashi img.voiceIdol {
     position: absolute;
     top: 0;
     right: 0;
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Ficon_my_idol.png%3F1285858800);
+    background-image: url(../../../12008305/image_sp/ui/icon_my_idol.png);
     background-repeat: no-repeat
 }
 
@@ -17854,7 +17854,7 @@ body#battles .fukidashiWrap .fukidashi img.voiceIdol {
 }
 
 .rotate_img.rotate_my_idol:before {
-    background-image: url(http://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Ficon_my_idol.png%3F1285858800)
+    background-image: url(../../../12008305/image_sp/ui/icon_my_idol.png)
 }
 
 .rotate_img.rotate_guest_idol:before {

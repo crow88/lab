@@ -426,13 +426,13 @@ body#mypage #user_status .etcMenu .js_butten_yuzyopt_hover .value {
 body#quests,
 body#quest_boss,
 body#bonus_point {
-    background-image: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fmypage_new%2Fbg%2Fbg_status_mypage_01.png%3F1630730944);
+    background-image: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fmypage_new%2Fbg%2Fbg_status_mypage_01.png);
     background-size: 7px 7px
 }
 
 .quests-arrow_left {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2785px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2785px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 24px;
@@ -441,7 +441,7 @@ body#bonus_point {
 
 .quests-arrow_right {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2831px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2831px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 24px;
@@ -450,7 +450,7 @@ body#bonus_point {
 
 .quests-boss_bg {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 0;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 0;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 320px;
@@ -459,7 +459,7 @@ body#bonus_point {
 
 .quests-btn_area {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1202px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -1202px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 136px;
@@ -468,7 +468,7 @@ body#bonus_point {
 
 .quests-btn_area_progress {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1141px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -1141px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 136px;
@@ -477,7 +477,7 @@ body#bonus_point {
 
 .quests-btn_boss_bg {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -482px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -482px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 304px;
@@ -486,7 +486,7 @@ body#bonus_point {
 
 .quests-btn_boss_cover {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1031px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -1031px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 304px;
@@ -495,7 +495,7 @@ body#bonus_point {
 
 .quests-btn_mission {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -640px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -640px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 304px;
@@ -504,7 +504,7 @@ body#bonus_point {
 
 .quests-btn_mission_progress {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -543px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -543px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 304px;
@@ -513,7 +513,7 @@ body#bonus_point {
 
 .quests-gauge_ex {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2986px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2986px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 124px;
@@ -522,7 +522,7 @@ body#bonus_point {
 
 .quests-gauge_process {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2761px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2761px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 224px;
@@ -531,7 +531,7 @@ body#bonus_point {
 
 .quests-gauge_stamina {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2999px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2999px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 124px;
@@ -540,7 +540,7 @@ body#bonus_point {
 
 .quests-headline {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1000px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -1000px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 320px;
@@ -549,7 +549,7 @@ body#bonus_point {
 
 .quests-icon_new {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -964px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -964px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 35px;
@@ -558,7 +558,7 @@ body#bonus_point {
 
 .quests-icon_nocostumes {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2877px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2877px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 42px;
@@ -567,7 +567,7 @@ body#bonus_point {
 
 .quests-icon_nocostumes_progress {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2918px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2918px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 42px;
@@ -576,7 +576,7 @@ body#bonus_point {
 
 .quests-round_1 {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2468px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2468px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 320px;
@@ -585,7 +585,7 @@ body#bonus_point {
 
 .quests-round_2 {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1504px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -1504px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 320px;
@@ -594,7 +594,7 @@ body#bonus_point {
 
 .quests-round_3 {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1986px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -1986px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 320px;
@@ -603,7 +603,7 @@ body#bonus_point {
 
 .quests-round_4 {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2227px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2227px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 320px;
@@ -612,7 +612,7 @@ body#bonus_point {
 
 .quests-round_5 {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1745px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -1745px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 320px;
@@ -621,7 +621,7 @@ body#bonus_point {
 
 .quests-round_final {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1263px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -1263px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 320px;
@@ -630,7 +630,7 @@ body#bonus_point {
 
 .quests-status_bg {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -806px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -806px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 304px;
@@ -639,7 +639,7 @@ body#bonus_point {
 
 .quests-status_line_bg {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -3073px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -3073px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 80px;
@@ -648,7 +648,7 @@ body#bonus_point {
 
 .quests-text_cleared {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2972px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2972px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 52px;
@@ -657,7 +657,7 @@ body#bonus_point {
 
 .quests-text_completed {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -3025px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -3025px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 28px;
@@ -666,7 +666,7 @@ body#bonus_point {
 
 .quests-text_ex {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -3037px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -3037px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 28px;
@@ -675,7 +675,7 @@ body#bonus_point {
 
 .quests-text_fan {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -3061px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -3061px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 28px;
@@ -684,7 +684,7 @@ body#bonus_point {
 
 .quests-text_finished {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1128px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -1128px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 304px;
@@ -693,7 +693,7 @@ body#bonus_point {
 
 .quests-text_freestamina_1 {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2748px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2748px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 184px;
@@ -702,7 +702,7 @@ body#bonus_point {
 
 .quests-text_freestamina_2 {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2709px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2709px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 184px;
@@ -711,7 +711,7 @@ body#bonus_point {
 
 .quests-text_freestamina_3 {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2735px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2735px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 184px;
@@ -720,7 +720,7 @@ body#bonus_point {
 
 .quests-text_freestamina_4 {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2722px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2722px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 184px;
@@ -729,7 +729,7 @@ body#bonus_point {
 
 .quests-text_lose {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -879px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -879px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 168px;
@@ -738,7 +738,7 @@ body#bonus_point {
 
 .quests-text_money {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -3078px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -3078px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 28px;
@@ -747,7 +747,7 @@ body#bonus_point {
 
 .quests-text_nocostumes {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2774px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2774px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 184px;
@@ -756,7 +756,7 @@ body#bonus_point {
 
 .quests-text_stamina {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -3049px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -3049px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 28px;
@@ -765,7 +765,7 @@ body#bonus_point {
 
 .quests-text_win {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -721px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -721px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 168px;
@@ -774,7 +774,7 @@ body#bonus_point {
 
 .quests-win {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -241px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -241px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 320px;
@@ -921,7 +921,7 @@ body#bonus_point {
     top: 0;
     left: 0;
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1202px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -1202px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 136px;
@@ -932,7 +932,7 @@ body#bonus_point {
 .quests-arealist .quests-area-list .quests-btn_area._progress:after {
     display: inline-block;
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1141px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -1141px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 136px;
@@ -997,7 +997,7 @@ body#bonus_point {
 .quests-questslist .area_navi-area .area_navi._prev {
     left: 8px;
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2785px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2785px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 24px;
@@ -1011,7 +1011,7 @@ body#bonus_point {
 .quests-questslist .area_navi-area .area_navi._next {
     right: 8px;
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2831px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2831px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 24px;
@@ -1047,7 +1047,7 @@ body#bonus_point {
     margin-right: auto;
     padding: 8px 12px;
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -806px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -806px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 304px;
@@ -1062,7 +1062,7 @@ body#bonus_point {
     right: 12px;
     margin-top: -17.5px;
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -964px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -964px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 35px;
@@ -1071,7 +1071,7 @@ body#bonus_point {
 
 .quests-questslist .area_status-area .btn_newinfo._gray {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1092px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -1092px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 35px;
@@ -1104,7 +1104,7 @@ body#bonus_point {
 
 .quests-questslist .area_status-area .freestamina._1 {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2748px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2748px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 184px;
@@ -1113,7 +1113,7 @@ body#bonus_point {
 
 .quests-questslist .area_status-area .freestamina._2 {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2709px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2709px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 184px;
@@ -1122,7 +1122,7 @@ body#bonus_point {
 
 .quests-questslist .area_status-area .freestamina._3 {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2735px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2735px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 184px;
@@ -1131,7 +1131,7 @@ body#bonus_point {
 
 .quests-questslist .area_status-area .freestamina._4 {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2722px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2722px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 184px;
@@ -1152,7 +1152,7 @@ body#bonus_point {
 .quests-questslist .area_status-area .status_info .gauge._ex {
     position: relative;
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -3012px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -3012px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 124px;
@@ -1161,7 +1161,7 @@ body#bonus_point {
 
 .quests-questslist .area_status-area .status_info .gauge._process {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2959px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2959px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 224px;
@@ -1211,7 +1211,7 @@ body#bonus_point {
 
 .quests-questslist .mission-list .quests-btn_mission._progress {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -543px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -543px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 304px;
@@ -1252,7 +1252,7 @@ body#bonus_point {
     position: absolute;
     right: 0;
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2959px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -2959px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 224px;
@@ -1324,7 +1324,7 @@ body#bonus_point {
 .quests-questslist .mission-list .quests-btn_boss {
     position: relative;
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -482px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -482px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 304px;
@@ -1336,7 +1336,7 @@ body#bonus_point {
     top: 0;
     left: 0;
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1031px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -1031px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 304px;
@@ -1409,7 +1409,7 @@ body#bonus_point {
 
 .quests_boss-area .img-title {
     display: block;
-    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1000px;
+    background: url(../../../12008305/image_sp/ui/quests/sprite-sc74fd91400.png) no-repeat 0 -1000px;
     -webkit-background-size: 320px 3089px;
     background-size: 320px 3089px;
     width: 320px;
@@ -1457,8 +1457,8 @@ body#bonus_point {
     top: -54px;
     left: 80px;
     width: 320px;
-    mask-image: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fboss_mask.png%3F1630730944);
-    -webkit-mask-image: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fboss_mask.png%3F1630730944)
+    mask-image: url(../../../12008305/image_sp/ui/quests/boss_mask.png);
+    -webkit-mask-image: url(../../../12008305/image_sp/ui/quests/boss_mask.png)
 }
 
 .quests_boss-area._event .idol-area._back {
