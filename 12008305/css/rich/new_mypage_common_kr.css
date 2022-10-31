@@ -14201,7 +14201,7 @@ a {
     position: absolute;
     width: 320px;
     height: 12px;
-    background: url("../../../12008305/image_sp/ui/common/tab/tab_large%2Fline_btm.png%3F1558677469") no-repeat;
+    background: url("../../../12008305/image_sp/ui/common/tab/tab_large/line_btm.png") no-repeat;
     background-size: 320px 10px;
     content: ''
 }
@@ -14259,7 +14259,7 @@ a {
 .tab_area_btm {
     width: 320px;
     height: 10px;
-    background: url("../../../12008305/image_sp/ui/common/tab/tab_large%2Fline_btm.png%3F1558677469") no-repeat;
+    background: url("../../../12008305/image_sp/ui/common/tab/tab_large/line_btm.png") no-repeat;
     background-size: 320px 10px
 }
 
