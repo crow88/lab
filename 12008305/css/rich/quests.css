@@ -1,0 +1,1620 @@
+.large {
+    font-size: 22px
+}
+
+.small {
+    font-size: 10px
+}
+
+.red {
+    color: #ff0000
+}
+
+.red_mild {
+    color: #ff3333
+}
+
+.green {
+    color: #33ff33
+}
+
+.yellow {
+    color: #ff9900
+}
+
+.lemon_yellow {
+    color: #fff800
+}
+
+.blue {
+    color: #00ccff
+}
+
+.blue_st {
+    color: #0066ff
+}
+
+.gray {
+    color: #aaaaaa
+}
+
+.pink {
+    color: #f08080
+}
+
+.dark_gray {
+    color: #666666
+}
+
+.white {
+    color: #ffffff;
+    text-decoration: none
+}
+
+.defMargin {
+    width: 296px;
+    padding: 0 12px
+}
+
+.m-Btm0 {
+    margin-bottom: 0px
+}
+
+.m-Btm4 {
+    margin-bottom: 4px
+}
+
+.m-Btm5 {
+    margin-bottom: 5px
+}
+
+.m-Btm8 {
+    margin-bottom: 8px
+}
+
+.m-Btm10 {
+    margin-bottom: 10px
+}
+
+.m-Btm12 {
+    margin-bottom: 12px
+}
+
+.m-Btm15 {
+    margin-bottom: 15px
+}
+
+.m-Btm20 {
+    margin-bottom: 20px
+}
+
+.m-Top4 {
+    margin-top: 4px
+}
+
+.m-Top5 {
+    margin-top: 5px
+}
+
+.m-Top8 {
+    margin-top: 8px
+}
+
+.m-Top10 {
+    margin-top: 10px
+}
+
+.m-Top12 {
+    margin-top: 12px
+}
+
+.m-Head_img {
+    margin-top: -14px
+}
+
+.m-Cnt {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.t-Lft {
+    text-align: left !important
+}
+
+.t-Rgt {
+    text-align: right !important
+}
+
+.t-Cnt {
+    text-align: center !important
+}
+
+.left_float {
+    float: left
+}
+
+.right_float {
+    float: right
+}
+
+.displayBox {
+    display: -webkit-box;
+    display: -moz-box;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.v-Top {
+    vertical-align: top
+}
+
+.v-Mdl {
+    vertical-align: middle
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block
+}
+
+.l-Hgt120 {
+    line-height: 120%
+}
+
+.l-Hgt140 {
+    line-height: 140%
+}
+
+body#mypage #user_status {
+    width: 320px;
+    height: 210px;
+    text-align: center
+}
+
+body#mypage #user_status .js_bg_status {
+    overflow: hidden;
+    position: relative
+}
+
+body#mypage #user_status .user_name {
+    position: relative;
+    z-index: 10;
+    text-decoration: none;
+    margin: 38px auto 0
+}
+
+body#mypage #user_status .user_name a {
+    margin: 0 auto;
+    text-decoration: none
+}
+
+body#mypage #user_status .user_name .user_lv {
+    position: absolute;
+    top: -8px;
+    left: 23px;
+    text-align: center;
+    z-index: 20
+}
+
+body#mypage #user_status .user_name .user_lv .value {
+    font-size: 16px;
+    color: #fff;
+    line-height: 75px
+}
+
+body#mypage #user_status .user_name #user_name_txt {
+    font-size: 13px;
+    line-height: 42px;
+    color: #000;
+    padding-left: 50px
+}
+
+body#mypage #user_status #user_lv_up {
+    position: absolute;
+    top: 60px;
+    left: 64px;
+    z-index: 30;
+    text-decoration: none
+}
+
+body#mypage #user_status #user_lv_up div {
+    background: -webkit-gradient(linear, right top, left bottom, from(#ffb7b8), to(#a30000));
+    -webkit-border-radius: 12px;
+    border: 1px solid #fff;
+    padding: 5px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 100%
+}
+
+body#mypage #user_status .usardata {
+    width: auto;
+    margin: 4px auto 0;
+    display: -webkit-box;
+    display: -moz-box
+}
+
+body#mypage #user_status .usardata .menu_left {
+    overflow: hidden;
+    width: 215px
+}
+
+body#mypage #user_status .usardata .menu_left li {
+    width: 180px;
+    height: 20px;
+    margin-left: 15px;
+    text-align: left;
+    font-size: 12px;
+    line-height: 20px;
+    text-indent: 20px;
+    background: no-repeat 0% 50%;
+    background-size: 20px
+}
+
+body#mypage #user_status .usardata .menu_left li.type01 {
+    background-image: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Ficon%2Ficon_maru.png%3F1630730945)
+}
+
+body#mypage #user_status .usardata .menu_left li.type02 {
+    background-image: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Ficon%2Ficon_star2.png%3F1630730945)
+}
+
+body#mypage #user_status .usardata .menu_left li.type03 {
+    background-image: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Frich%2Ficon%2Ficon_star1.png%3F1630730945)
+}
+
+body#mypage #user_status .usardata .menuIdol {
+    width: 90px;
+    margin-top: 6px
+}
+
+body#mypage #user_status .usardata .menuIdol a {
+    text-decoration: none
+}
+
+body#mypage #user_status .usardata .menuIdol div {
+    color: #fff;
+    padding: 22px 10px 0 0;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none
+}
+
+body#mypage #user_status .usardata .js_butten_aidol_hover div {
+    color: #b9b9b9
+}
+
+body#mypage #user_status .etcMenu {
+    width: 292px;
+    margin: 1px auto 0;
+    overflow: hidden
+}
+
+body#mypage #user_status .etcMenu li {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    margin-left: 10px
+}
+
+body#mypage #user_status .etcMenu li:first-child {
+    margin-left: 1px
+}
+
+body#mypage #user_status .etcMenu li a {
+    text-decoration: none
+}
+
+body#mypage #user_status .etcMenu li .value {
+    position: absolute;
+    width: 80px;
+    top: 23px;
+    left: 5px;
+    color: #fff;
+    text-decoration: none
+}
+
+body#mypage #user_status .etcMenu .js_butten_yuzyopt_hover .value {
+    color: #b9b9b9
+}
+
+.label_status-attackcost {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Flabel_status-sb9105c2252.png%3F1630730943) no-repeat 0 -42px;
+    -webkit-background-size: 32px 97px;
+    background-size: 32px 97px;
+    width: 32px;
+    height: 13px
+}
+
+.label_status-defensecost {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Flabel_status-sb9105c2252.png%3F1630730943) no-repeat 0 -28px;
+    -webkit-background-size: 32px 97px;
+    background-size: 32px 97px;
+    width: 32px;
+    height: 13px
+}
+
+.label_status-ex {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Flabel_status-sb9105c2252.png%3F1630730943) no-repeat 0 -56px;
+    -webkit-background-size: 32px 97px;
+    background-size: 32px 97px;
+    width: 32px;
+    height: 13px
+}
+
+.label_status-fan {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Flabel_status-sb9105c2252.png%3F1630730943) no-repeat 0 -70px;
+    -webkit-background-size: 32px 97px;
+    background-size: 32px 97px;
+    width: 32px;
+    height: 13px
+}
+
+.label_status-idol {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Flabel_status-sb9105c2252.png%3F1630730943) no-repeat 0 0;
+    -webkit-background-size: 32px 97px;
+    background-size: 32px 97px;
+    width: 32px;
+    height: 13px
+}
+
+.label_status-money {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Flabel_status-sb9105c2252.png%3F1630730943) no-repeat 0 -84px;
+    -webkit-background-size: 32px 97px;
+    background-size: 32px 97px;
+    width: 32px;
+    height: 13px
+}
+
+.label_status-stamina {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Flabel_status-sb9105c2252.png%3F1630730943) no-repeat 0 -14px;
+    -webkit-background-size: 32px 97px;
+    background-size: 32px 97px;
+    width: 32px;
+    height: 13px
+}
+
+.text-status {
+    position: relative;
+    font-size: 11px;
+    line-height: 11px
+}
+
+.text-status._label {
+    line-height: 13px;
+    min-height: 13px;
+    text-align: right
+}
+
+.text-status._label .label {
+    position: absolute
+}
+
+.text-status._border {
+    overflow: hidden;
+    position: relative
+}
+
+.text-status._border:before {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 80px;
+    height: 4px;
+    background-image: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fstatus_line_bg.png%3F1630730949);
+    background-size: 80px 4px;
+    content: ''
+}
+
+.text-status._border>* {
+    position: relative
+}
+
+*[class*='label_status-'] {
+    text-indent: -9999px
+}
+
+body#quests,
+body#quest_boss,
+body#bonus_point {
+    background-image: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fmypage_new%2Fbg%2Fbg_status_mypage_01.png%3F1630730944);
+    background-size: 7px 7px
+}
+
+.quests-arrow_left {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2785px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 24px;
+    height: 45px
+}
+
+.quests-arrow_right {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2831px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 24px;
+    height: 45px
+}
+
+.quests-boss_bg {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 0;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 320px;
+    height: 240px
+}
+
+.quests-btn_area {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1202px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 136px;
+    height: 60px
+}
+
+.quests-btn_area_progress {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1141px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 136px;
+    height: 60px
+}
+
+.quests-btn_boss_bg {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -482px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 304px;
+    height: 60px
+}
+
+.quests-btn_boss_cover {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1031px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 304px;
+    height: 60px
+}
+
+.quests-btn_mission {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -640px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 304px;
+    height: 80px
+}
+
+.quests-btn_mission_progress {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -543px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 304px;
+    height: 96px
+}
+
+.quests-gauge_ex {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2986px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 124px;
+    height: 12px
+}
+
+.quests-gauge_process {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2761px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 224px;
+    height: 12px
+}
+
+.quests-gauge_stamina {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2999px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 124px;
+    height: 12px
+}
+
+.quests-headline {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1000px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 320px;
+    height: 30px
+}
+
+.quests-icon_new {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -964px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 35px;
+    height: 35px
+}
+
+.quests-icon_nocostumes {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2877px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 42px;
+    height: 40px
+}
+
+.quests-icon_nocostumes_progress {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2918px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 42px;
+    height: 40px
+}
+
+.quests-round_1 {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2468px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 320px;
+    height: 240px
+}
+
+.quests-round_2 {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1504px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 320px;
+    height: 240px
+}
+
+.quests-round_3 {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1986px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 320px;
+    height: 240px
+}
+
+.quests-round_4 {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2227px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 320px;
+    height: 240px
+}
+
+.quests-round_5 {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1745px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 320px;
+    height: 240px
+}
+
+.quests-round_final {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1263px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 320px;
+    height: 240px
+}
+
+.quests-status_bg {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -806px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 304px;
+    height: 72px
+}
+
+.quests-status_line_bg {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -3073px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 80px;
+    height: 4px
+}
+
+.quests-text_cleared {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2972px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 52px;
+    height: 13px
+}
+
+.quests-text_completed {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -3025px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 28px;
+    height: 11px
+}
+
+.quests-text_ex {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -3037px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 28px;
+    height: 11px
+}
+
+.quests-text_fan {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -3061px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 28px;
+    height: 11px
+}
+
+.quests-text_finished {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1128px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 304px;
+    height: 12px
+}
+
+.quests-text_freestamina_1 {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2748px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 184px;
+    height: 12px
+}
+
+.quests-text_freestamina_2 {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2709px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 184px;
+    height: 12px
+}
+
+.quests-text_freestamina_3 {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2735px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 184px;
+    height: 12px
+}
+
+.quests-text_freestamina_4 {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2722px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 184px;
+    height: 12px
+}
+
+.quests-text_lose {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -879px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 168px;
+    height: 84px
+}
+
+.quests-text_money {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -3078px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 28px;
+    height: 11px
+}
+
+.quests-text_nocostumes {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2774px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 184px;
+    height: 10px
+}
+
+.quests-text_stamina {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -3049px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 28px;
+    height: 11px
+}
+
+.quests-text_win {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -721px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 168px;
+    height: 84px
+}
+
+.quests-win {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -241px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 320px;
+    height: 240px
+}
+
+.area_response_item_list ul li .value-item-num._long {
+    width: 120px;
+    right: -38px
+}
+
+.display-inline-block {
+    display: inline-block !important
+}
+
+.vertical-align-top {
+    vertical-align: top
+}
+
+.vertical-align-middle {
+    vertical-align: middle
+}
+
+.position-relative {
+    position: relative
+}
+
+.position-absolute {
+    position: absolute
+}
+
+.z-index-1 {
+    z-index: 1
+}
+
+.m-Top1 {
+    margin-top: 1px
+}
+
+.m-Top2 {
+    margin-top: 2px
+}
+
+.m-Top6 {
+    margin-top: 6px
+}
+
+.m-Lft4 {
+    margin-left: 4px
+}
+
+.m-Lft8 {
+    margin-left: 8px
+}
+
+.p-Top8 {
+    padding-top: 8px
+}
+
+.font-size-11 {
+    font-size: 11px
+}
+
+.font-size-12 {
+    font-size: 12px
+}
+
+.lemonyellow {
+    color: #fffb84
+}
+
+.text-shadow-black,
+.quests-arealist .quests-area-list .quests-btn_area,
+.quests-questslist .mission-list .quests-btn_mission .mission_title {
+    text-shadow: 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000
+}
+
+.text-shadow-white,
+.quests-questslist .area_status-area .status_info .value,
+.quests-questslist .mission-list .quests-btn_mission .mission_contents,
+.quests-questslist .mission-list .quests-btn_boss .boss_img-area .idol_name {
+    text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff
+}
+
+*[class*='quests-text_'] {
+    display: inline-block;
+    text-indent: -9999px
+}
+
+._contents_base {
+    width: 304px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+._contents_in_area {
+    width: 286px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.bg-blue {
+    background-color: #151f4a
+}
+
+.quests-container,
+.bonus_point-container {
+    position: relative;
+    padding-top: 14px;
+    background-color: #151f4a
+}
+
+.quests-container._is_top {
+    margin-top: -14px
+}
+
+.quests-container._is_arealist {
+    margin-top: -14px
+}
+
+.bonus_point-container {
+    margin-top: -14px
+}
+
+.quests-arealist .quests-area-list {
+    width: 280px;
+    margin: 0 auto
+}
+
+.quests-arealist .quests-area-list .quests-btn_area {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    margin-top: 6px
+}
+
+.quests-arealist .quests-area-list .quests-btn_area:nth-of-type(even) {
+    margin-left: 8px
+}
+
+.quests-arealist .quests-area-list .quests-btn_area:after {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1202px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 136px;
+    height: 60px;
+    content: ''
+}
+
+.quests-arealist .quests-area-list .quests-btn_area._progress:after {
+    display: inline-block;
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1141px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 136px;
+    height: 60px
+}
+
+.quests-arealist .quests-area-list .quests-btn_area .area_img {
+    overflow: hidden;
+    position: relative;
+    width: 136px;
+    height: 60px;
+    -webkit-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px
+}
+
+.quests-arealist .quests-area-list .quests-btn_area .area_img .bg_img {
+    position: absolute;
+    width: 136px;
+    margin-top: 6px
+}
+
+.quests-arealist .quests-area-list .quests-btn_area .area_name {
+    position: absolute;
+    z-index: 2;
+    bottom: 4px;
+    width: 136px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center
+}
+
+.quests-questslist .area_bg-area {
+    position: absolute;
+    top: 0px;
+    width: 320px;
+    height: 335px
+}
+
+.quests-questslist .area_name-area {
+    position: relative;
+    padding-left: 6px
+}
+
+.quests-questslist .area_navi-area {
+    position: absolute;
+    top: 64px;
+    width: 320px
+}
+
+.quests-questslist .area_navi-area .area_navi {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 23px;
+    zoom: 0.6;
+    transform: scale(1);
+    -webkit-transform: scale(1)
+}
+
+.quests-questslist .area_navi-area .area_navi._prev {
+    left: 8px;
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2785px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 24px;
+    height: 45px
+}
+
+.quests-questslist .area_navi-area .area_navi._prev input[type="submit"] {
+    left: 0
+}
+
+.quests-questslist .area_navi-area .area_navi._next {
+    right: 8px;
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2831px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 24px;
+    height: 45px
+}
+
+.quests-questslist .area_navi-area .area_navi._next input[type="submit"] {
+    right: 0
+}
+
+.quests-questslist .area_navi-area .area_navi input[type="submit"] {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background: none;
+    margin-top: -10px;
+    padding: 0;
+    vertical-align: inherit;
+    border: none;
+    outline: 0;
+    text-indent: -9999px;
+    text-shadow: inherit;
+    line-height: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+.quests-questslist .area_status-area {
+    position: relative;
+    margin-top: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 12px;
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -806px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 304px;
+    height: 72px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.quests-questslist .area_status-area .btn_newinfo {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    margin-top: -17.5px;
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -964px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 35px;
+    height: 35px
+}
+
+.quests-questslist .area_status-area .btn_newinfo._gray {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1092px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 35px;
+    height: 35px
+}
+
+.quests-questslist .area_status-area .btn_newinfo .count_text {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    border: 1px solid #ffffff;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear, 100% 0%, 0% 100%, color-stop(0%, #ffbbbb), color-stop(100%, #bb0000));
+    background-image: -webkit-linear-gradient(right top, #ffbbbb, #bb0000);
+    background-image: linear-gradient(right top, #ffbbbb, #bb0000);
+    padding: 2px 4px;
+    color: #fff;
+    font-size: 10px;
+    line-height: 10px
+}
+
+.quests-questslist .area_status-area .freestamina {
+    position: absolute;
+    top: -8px;
+    text-indent: -9999px
+}
+
+.quests-questslist .area_status-area .freestamina._1 {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2748px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 184px;
+    height: 12px
+}
+
+.quests-questslist .area_status-area .freestamina._2 {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2709px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 184px;
+    height: 12px
+}
+
+.quests-questslist .area_status-area .freestamina._3 {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2735px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 184px;
+    height: 12px
+}
+
+.quests-questslist .area_status-area .freestamina._4 {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2722px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 184px;
+    height: 12px
+}
+
+.quests-questslist .area_status-area .status_info {
+    display: inline-block;
+    font-size: 11px;
+    line-height: 11px
+}
+
+.quests-questslist .area_status-area .status_info._right {
+    width: 106px
+}
+
+.quests-questslist .area_status-area .status_info .gauge._stamina,
+.quests-questslist .area_status-area .status_info .gauge._ex {
+    position: relative;
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -3012px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 124px;
+    height: 12px
+}
+
+.quests-questslist .area_status-area .status_info .gauge._process {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2959px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 224px;
+    height: 12px;
+    position: absolute;
+    right: 0
+}
+
+.quests-questslist .area_status-area .status_info .gauge .value {
+    position: absolute;
+    top: 0;
+    left: 4px
+}
+
+.quests-questslist .area_status-area .status_info .value {
+    padding-right: 1px;
+    color: #000000
+}
+
+.quests-questslist .area_status-area .about_rewards {
+    position: absolute;
+    right: 0;
+    bottom: -8px
+}
+
+.quests-questslist .mission-list {
+    position: relative;
+    padding-top: 8px
+}
+
+.quests-questslist .mission-list .quests-btn_mission {
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 11px
+}
+
+.quests-questslist .mission-list .quests-btn_mission:not(:first-of-type) {
+    margin-top: 8px
+}
+
+.quests-questslist .mission-list .quests-btn_mission._progress {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -543px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 304px;
+    height: 96px
+}
+
+.quests-questslist .mission-list .quests-btn_mission._progress .mission_item_box,
+.quests-questslist .mission-list .quests-btn_mission._progress .mission_status {
+    margin-top: 4px
+}
+
+.quests-questslist .mission-list .quests-btn_mission .mission_title {
+    position: relative;
+    margin-top: 1px;
+    color: #ffffff
+}
+
+.quests-questslist .mission-list .quests-btn_mission .mission_title .quests-text_cleared {
+    position: absolute;
+    top: 0;
+    right: 8px
+}
+
+.quests-questslist .mission-list .quests-btn_mission .mission_contents {
+    position: relative;
+    margin-top: 6px
+}
+
+.quests-questslist .mission-list .quests-btn_mission .mission_contents .gauge {
+    height: 12px;
+    margin-bottom: 4px;
+    line-height: 12px
+}
+
+.quests-questslist .mission-list .quests-btn_mission .mission_contents .gauge._process {
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    right: 0;
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -2959px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 224px;
+    height: 12px
+}
+
+.quests-questslist .mission-list .quests-btn_mission .mission_contents .gauge .value {
+    display: inline-block;
+    height: 12px;
+    line-height: 12px;
+    vertical-align: top
+}
+
+.quests-questslist .mission-list .quests-btn_mission .mission_contents .item_box {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.quests-questslist .mission-list .quests-btn_mission .mission_contents .item_box .item {
+    position: relative;
+    display: inline-block;
+    vertical-align: top
+}
+
+.quests-questslist .mission-list .quests-btn_mission .mission_contents .item_box .item:not(:nth-of-type(1)) {
+    margin-left: 8px
+}
+
+.quests-questslist .mission-list .quests-btn_mission .mission_contents .item_box .item._nocostumes {
+    margin-left: 6px
+}
+
+.quests-questslist .mission-list .quests-btn_mission .mission_contents .item_box .item._border:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0.3px solid rgba(29, 29, 29, 0.6);
+    content: ''
+}
+
+.quests-questslist .mission-list .quests-btn_mission .mission_contents .item_box._3 {
+    margin-left: 16px
+}
+
+.quests-questslist .mission-list .quests-btn_mission .mission_contents .item_box._3 .item:not(:nth-of-type(1)) {
+    margin-left: 16px
+}
+
+.quests-questslist .mission-list .quests-btn_mission .mission_contents .item_box._3+.status {
+    margin-left: 16px
+}
+
+.quests-questslist .mission-list .quests-btn_mission .mission_contents .status {
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: -4px;
+    vertical-align: middle
+}
+
+.quests-questslist .mission-list .quests-btn_mission .mission_contents .status p {
+    line-height: 11px
+}
+
+.quests-questslist .mission-list .quests-btn_boss {
+    position: relative;
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -482px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 304px;
+    height: 60px
+}
+
+.quests-questslist .mission-list .quests-btn_boss:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1031px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 304px;
+    height: 60px;
+    content: ''
+}
+
+.quests-questslist .mission-list .quests-btn_boss .boss_img-area {
+    overflow: hidden;
+    position: absolute;
+    top: 2px;
+    right: 0;
+    width: 134px;
+    height: 56px
+}
+
+.quests-questslist .mission-list .quests-btn_boss .boss_img-area .idol_img {
+    position: absolute;
+    top: -48px;
+    left: -24px;
+    width: 176px
+}
+
+.quests-questslist .mission-list .quests-btn_boss .boss_img-area .idol_name {
+    position: absolute;
+    right: 4px;
+    bottom: 0;
+    font-size: 11px;
+    color: #000000
+}
+
+.quests_boss-area {
+    position: relative;
+    overflow: hidden;
+    top: -26px;
+    width: 320px;
+    height: 254px;
+    margin-bottom: -12px
+}
+
+.quests_boss-area._event {
+    top: -14px;
+    padding-top: 24px
+}
+
+.quests_boss-area._lose:before {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    content: ''
+}
+
+.quests_boss-area:after {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    width: 320px;
+    height: 80px;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, #151f4a));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #151f4a 100%);
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0) 0%, #151f4a 100%);
+    content: ''
+}
+
+.quests_boss-area .img-title {
+    display: block;
+    background: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fsprite-sc74fd91400.png%3F1630730944) no-repeat 0 -1000px;
+    -webkit-background-size: 320px 3089px;
+    background-size: 320px 3089px;
+    width: 320px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1
+}
+
+.quests_boss-area .img-title .text-val {
+    line-height: 100%;
+    padding: 12px 0 0 8px;
+    font-size: 13px;
+    text-shadow: 0 0 2px #ff009c, 0 0 2px #ff009c, 0 0 2px #ff009c, 0 0 2px #ff009c, 0 0 2px #ff009c, 0 0 2px #ff009c, 0 0 2px #ff009c, 0 0 2px #ff009c, 0 0 2px #ff009c, 0 0 2px #ff009c, 0 0 2px #ff009c, 0 0 2px #ff009c, 0 0 2px #ff009c, 0 0 2px #ff009c, 0 0 2px #ff009c, 0 0 2px #ff009c, 0 0 2px #ff009c
+}
+
+.quests_boss-area .img-area {
+    position: absolute
+}
+
+.quests_boss-area .img-area .result_text {
+    position: absolute;
+    top: 56px
+}
+
+.quests_boss-area .img-area.quests-lose {
+    z-index: 2
+}
+
+.quests_boss-area .idol-area img {
+    width: 100%
+}
+
+.quests_boss-area .idol-area._back {
+    position: absolute;
+    top: -130px;
+    left: -144px;
+    width: 480px;
+    opacity: 0.6
+}
+
+.quests_boss-area .idol-area._front {
+    position: absolute;
+    top: -54px;
+    left: 80px;
+    width: 320px;
+    mask-image: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fboss_mask.png%3F1630730944);
+    -webkit-mask-image: url(https://sp.pf-img-a.mbga.jp/12008305/?url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fui%2Fquests%2Fboss_mask.png%3F1630730944)
+}
+
+.quests_boss-area._event .idol-area._back {
+    top: -106px
+}
+
+.quests_boss-area._event .idol-area._front {
+    top: -30px
+}
+
+.quests_boss-area .balloon-area {
+    position: absolute;
+    z-index: 2;
+    left: 8px;
+    bottom: 0
+}
+
+.bonus_point_status-area {
+    display: flex;
+    border-radius: 8px
+}
+
+.bonus_point_status-area .text-status {
+    width: 86px;
+    font-size: 12px
+}
+
+.bonus_point_status-area .text-status:not(:nth-of-type(1)) {
+    margin-left: 4px
+}
+
+.balloon {
+    position: relative;
+    padding: 8px;
+    border: 3px solid #54D129;
+    width: 304px;
+    -webkit-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #ffffff;
+    text-align: left;
+    line-height: 120%;
+    color: #1d1d1d
+}
+
+.balloon:before {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    content: ''
+}
+
+.balloon:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    content: ''
+}
+
+.balloon._d_t:before {
+    top: -15px;
+    border-width: 0 6px 12px 6px;
+    border-color: transparent transparent #54D129 transparent
+}
+
+.balloon._d_t:after {
+    top: -9px;
+    margin-left: 3px;
+    border-width: 0 3px 9px 3px;
+    border-color: transparent transparent #ffffff transparent
+}
+
+.balloon._d_l:before {
+    left: -15px;
+    border-width: 6px 12px 6px 0;
+    border-color: transparent #54D129 transparent transparent
+}
+
+.balloon._d_l:after {
+    left: -9px;
+    margin-top: 3px;
+    border-width: 3px 9px 3px 0;
+    border-color: transparent #ffffff transparent transparent
+}
+
+.balloon._h_p_70:before {
+    left: 70%
+}
+
+.balloon._h_p_70:after {
+    left: 70%
+}
+
+.balloon._v_p_50:before {
+    top: 50%
+}
+
+.balloon._v_p_50:after {
+    top: 50%
+}
+
+.balloon._cute {
+    border-color: #ff0073
+}
+
+.balloon._cute:before {
+    border-bottom-color: #ff0073
+}
+
+.balloon._passion {
+    border-color: #fa0
+}
+
+.balloon._passion:before {
+    border-bottom-color: #fa0
+}
+
+.balloon._cool {
+    border-color: #006aff
+}
+
+.balloon._cool:before {
+    border-bottom-color: #006aff
+}
+
+.chihiro_navi {
+    width: 304px;
+    margin: 0 auto
+}
+
+.chihiro_navi .chihiro_img-area {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    width: 56px;
+    height: 56px;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #ffffff
+}
+
+.chihiro_navi .chihiro_balloon-area {
+    display: inline-block;
+    vertical-align: top;
+    width: 244px
+}
+
+.chihiro_navi .chihiro_balloon-area .balloon {
+    width: 244px
+}
