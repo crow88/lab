@@ -1,0 +1,802 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta name="format-detection" content="telephone=no">
+    <title>アイドルマスター シンデレラガールズ</title>
+    <link rel="stylesheet" type="text/css" href="../../../../12008305/css/rich/new_mypage_common_kr.css" media="all">
+    <link rel="apple-touch-icon-precomposed" href="../../../../12008305/image_sp/ui/icon_bookmark.png">
+    <script>
+        (function() {
+            window.console.log = function() {};
+        })();
+    </script>
+    <script type="text/javascript">
+        if (window.localStorage) {
+            var displaySet = localStorage.getItem('DisplayPositionSet');
+            if (displaySet == 1) {
+                if (navigator.userAgent.indexOf('Android') > 0) {
+                    document.write('<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">');
+                    document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                } else {
+                    document.write('<meta name="viewport" content="width=320, user-scalable=no">');
+                }
+                window.addEventListener('resize', function() {
+                    if (navigator.userAgent.indexOf('Android') > 0)
+                        document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                });
+            } else {
+                document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+        }
+    </script>
+    <script src="../../../../12008305/js/jquery-2.2.2.min.js"></script>
+    <script>
+        (function() {
+            window.viewer_id = 139087231;
+            var _url = "https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fgame_error%2Freport_js_error%3Fl_frm%3DAnime_magic_hour_sp_1%26rnd%3D866074136";
+            var _path = location.href;
+            var _spec_obj;
+            var _spec = 'none';
+            var version = 1;
+            // access方法検出
+            _spec_obj = {
+                'isNative': false,
+                'isAndApp': false,
+                'isShellApp': false,
+                'isIosApp': false,
+                'isChromeApp': false
+            };
+            window._spec = _spec_obj;
+            if (_spec.isAndApp) {
+                _spec = 'andapp'
+            } else if (_spec.isIosApp) {
+                _spec = 'iosApp';
+            } else if (_spec.isShellApp) {
+                _spec = 'shellapp';
+            } else {
+                _spec = 'browser?';
+            }
+        })();
+    </script>
+    <script src="../../../../12008305/js/underscore-min.js"></script>
+    <script src="../../../../12008305/js/require.js"></script>
+    <script src="../../../../12008305/js/require.js"></script>
+    <script>
+        requirejs.config({
+            paths: {
+                easeljs: "../../../../12008305/js/easeljs-0.8.2.min.js",
+                easeljs_0_7_1: "../../../../12008305/js/easeljs-0.7.1.min.js",
+                //スプライトを読むためのバージョン
+                tweenjs: "../../../../12008305/js/tweenjs-0.6.2.min.js",
+                movieclipjs: "../../../../12008305/js/movieclip-0.7.1.min.js",
+                createjs: "../../../../12008305/js/createjs-2015.11.26.min.js",
+            }
+        })
+    </script>
+    <script src="../../../../12008305/js/common.js"></script>
+    <script src="../../../../12008305/js/common_new.js"></script>
+    <script>
+        $(function() {
+            window.$ibox = $('.ibox').ibox();
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
+                newrelic.setPageViewName('/idolmaster/index.php/campaigns/anime/magic_hour_sp/25');
+            }
+        });
+    </script>
+    <script type='text/javascript'>
+        var se_flg = 0,
+            bgm_flg = 0,
+            chrome_app_flg = 0,
+            chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+    </script>
+    <script type='text/javascript' src='../../../../12008305/js/app_sound.js'></script>
+    <link rel="stylesheet" type="text/css" href="../../../../12008305/css/base.css" />
+</head>
+
+<body id="anime" class="magic_hour_sp">
+    <div id="top" class="page_container jsOnBtn">
+        <nav class="area_menu_header">
+            <div class="area_menu_header_6btn">
+                <h1 id="JtextLimit">프라이데이 나이트 피버</h1>
+                <ul>
+                    <li>
+                        <a class="head_menu_01" href="">
+                            <div></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="head_menu_02" href="">
+                            <div></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="head_menu_03" href="">
+                            <div></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="head_menu_04" href="">
+                            <div></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="head_menu_05" href="">
+                            <div></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <input id="delay" type="hidden" value="0">
+        <style>
+            h1 {
+                font-size: 16px;
+            }
+
+            .cute {
+                color: #fe0074;
+            }
+
+            .cool {
+                color: #006afe;
+            }
+
+            .passion {
+                color: #ff8a01;
+            }
+
+            .other {
+                color: #5f3afe;
+            }
+
+            .chihiro {
+                color: #55d529;
+            }
+
+            .lr_layout {
+                overflow: hidden;
+            }
+
+            .lr_layout .left {
+                float: left;
+            }
+
+            .lr_layout .right {
+                float: left;
+            }
+
+            .text_defa {
+                line-height: 140%;
+                padding: 7px;
+            }
+
+            h4 {
+                margin-top: 0px;
+                font-size: 16px;
+                line-height: 180%;
+                text-align: center;
+                margin-bottom: 0;
+            }
+
+            #slider {
+                height: 210px;
+            }
+
+            .main_image_area {
+                width: 320px;
+                height: 210px;
+                position: relative;
+            }
+
+            .main_image_area:after {
+                content: '';
+                width: 320px;
+                height: 210px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: 10;
+                background: url(https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fcommon%2Ftitle_top_re.png%3Fv%3D20210909201059) no-repeat;
+                background-size: 320px;
+            }
+
+            .slide_banner01 {
+                width: 320px;
+                height: 265px;
+                padding-top: 10px;
+                background: url(https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fcommon%2Fbg_introduction_idol.jpg%3Fv%3D20210909201059) no-repeat;
+                background-size: 320px;
+                color: #1d1d1d;
+            }
+
+            .side_back {
+                width: 320px;
+                background: url(https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fcommon%2Fbg_episode.jpg%3Fv%3D20210909201059) no-repeat top;
+                background-size: 320px;
+                -webkit-box-shadow: 0px 0px 20px 20px #fff inset;
+            }
+
+            .side_back .side_title {
+                width: 320px;
+                height: 50px;
+                background: url(https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fcommon%2Fline_top_episode.png%3Fv%3D20210909201059) no-repeat;
+                background-size: 320px;
+                line-height: 54px;
+                text-align: center;
+                overflow: hidden;
+                font-size: 20px;
+                font-weight: bold;
+                color: #0e75e0;
+                text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 5px #fff;
+            }
+
+            .side_back .side_body {
+                width: 320px;
+                background: url(https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fcommon%2Fline_bg_episode.png%3Fv%3D20210909201059) repeat-y;
+                background-size: 320px;
+                text-align: center;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .side_body .side_in {
+                width: 270px;
+                margin: 0 auto;
+                overflow: hidden;
+            }
+
+            .side_body .side_in .text_defa {
+                text-align: left;
+                padding-bottom: 12px;
+                color: #000;
+                text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff;
+                font-weight: bold;
+            }
+
+            .play_btn {
+                position: absolute;
+                left: 95px;
+                bottom: 20px;
+            }
+
+            .side_idol_list {
+                width: 200px;
+                overflow: hidden;
+                padding-top: 5px;
+                text-align: left;
+                font-size: 15px;
+            }
+
+            .side_idol_list ul {
+                margin: 5px 0 0 5px;
+            }
+
+            .side_idol_list ul li {
+                float: left;
+                margin-right: 10px;
+                margin-bottom: 7px;
+                word-break: keep-all;
+                text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff;
+            }
+
+            .movie_title {
+                width: 320px;
+                height: 70px;
+                background: url(https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fcommon%2Fline_movie_title.jpg%3Fv%3D20210909201059) no-repeat;
+                background-size: 320px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 18px;
+            }
+
+            .back_number {
+                width: 282px;
+                overflow: hidden;
+                margin: 0 auto;
+            }
+
+            .back_number ul {
+                width: 288px;
+                overflow: hidden;
+                margin: 0 auto;
+            }
+
+            .back_number li {
+                width: 66px;
+                float: left;
+                margin: 5px 6px 0 0;
+            }
+
+            .exArea {
+                width: 260px;
+                margin: 10px auto 0;
+                padding: 0;
+                border: 2px solid #b4d5f4;
+                background: #1d1d1d;
+                z-index: 10;
+                color: #ffffff;
+                line-height: 140%;
+                -webkit-border-radius: 8px;
+            }
+
+            .exArea h3 {
+                background: #17285c;
+                -webkit-border-top-left-radius: 8px;
+                -webkit-border-top-right-radius: 8px;
+                padding: 10px 0;
+                text-align: center;
+            }
+
+            .reset_btn {
+                height: 45px;
+                line-height: 45px;
+                padding: 0 20px;
+                -webkit-border-radius: 5px;
+                color: #fff;
+                text-align: center;
+                vertical-align: middle;
+                border: 1px solid #666;
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #444), color-stop(50%, #1d1d1d), color-stop(100%, #444));
+                margin: 0 5px 0 10px;
+            }
+
+            .mejs-container .mejs-controls {
+                -webkit-border-radius: 15px;
+            }
+
+            .mejs-container {
+                -webkit-border-radius: 15px;
+                background: rgba(0, 0, 0, 0.2) !important;
+            }
+
+            .mejs-controls .mejs-time-rail .mejs-time-total {
+                margin: 5px 0 !important;
+            }
+
+            .mejs-time-rail {
+                width: 130px !important;
+                position: relative;
+                left: 25px;
+            }
+
+            .mejs-time-rail a {
+                width: 130px !important;
+                background-image: url(https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fcommon%2Fvoice_gauge_black.png%3Fv%3D20210909201059) !important;
+                background-size: 130px 10px !important;
+            }
+
+            .mejs-time {
+                position: relative;
+                left: 30px;
+            }
+
+            .mejs-button {
+                position: relative;
+                left: 10px;
+            }
+
+            .mejs-time-loaded {
+                background-image: url(https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fcommon%2Fvoice_gauge_black.png%3Fv%3D20210909201059) !important;
+                background-size: 130px 10px !important;
+            }
+
+            .mejs-time-current {
+                background-image: url(https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fcommon%2Fvoice_gauge.png%3Fv%3D20210909201059) !important;
+                background-size: 130px 10px !important;
+            }
+
+            .mejs-container .mejs-controls .mejs-playpause-button {
+                width: 34px !important;
+            }
+
+            .mejs-container .mejs-controls .mejs-playpause-button button {
+                width: 33px !important;
+                margin: 8px 5px;
+                background-size: 33px 16px !important;
+            }
+
+            .mejs-play button {
+                background: transparent;
+                background-image: url(https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fcommon%2Fvoice_play.png%3Fv%3D20210909201059) !important;
+            }
+
+            .mejs-pause button {
+                background: transparent;
+                background-image: url(https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fcommon%2Fvoice_stop.png%3Fv%3D20210909201059) !important;
+            }
+
+            .information {
+                text-align: left;
+                color: #dddddd;
+            }
+
+            .information p {
+                padding-left: 1em;
+                text-indent: -1em;
+                line-height: 130%;
+                margin-bottom: 0.6em;
+                font-size: 12px;
+            }
+        </style>
+        <link rel="stylesheet" type="text/css" href="../../../../12008305/css/mediaelementplayer.css" media="all">
+        <header>
+            <img src='../../../../12008305/image_sp/campaign/animation/common/top_03.jpg' width="320" height="120" class="m-Head_img">
+            <br>
+            <div class="main_image_area" id="slider">
+                <img src='../../../../12008305/image_sp/campaign/animation/episode25/top_image_001.jpg' width="320" class="fadeImage" style="display:none;opacity:0">
+                <img src='../../../../12008305/image_sp/campaign/animation/episode25/top_image_002.jpg' width="320" class="fadeImage" style="display:none;opacity:0">
+                <img src='../../../../12008305/image_sp/campaign/animation/episode25/top_image_003.jpg' width="320" class="fadeImage" style="display:none;opacity:0">
+            </div>
+        </header>
+        <!--
+        <div class="tab_common-large m-Top10 m-Btm8">
+            <a class='tab_line_3 tab_text' href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fcampaigns%2Fanime%3Fl_frm%3DAnime_magic_hour_sp_1%26rnd%3D30509719' style="font-size:12px">최신 스토리</a>
+            <a class='tab_line_3_center tab_text' href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fcampaigns%2Fanime%2Fintro%3Fl_frm%3DAnime_magic_hour_sp_1%26rnd%3D430591773'>346プロ紹介</a>
+            <div class='tab_line_3 tab_text selected'>매직아워 SP</div>
+        </div>
+        -->
+        <section style="margin-bottom:5px">
+            <h2 class="title_tenhoshi">
+                <div>매직아워 특별편</div>
+            </h2>
+        </section>
+        <section>
+            <div class="side_b_area area_tab">
+                <div class="text_defa">매직아워는 346프로덕션에서 매주 게스트를 초대해 재미있는 이야기를 들려주는 라디오 프로그램입니다.</div><!--マジックアワーは、346プロダクションから毎週ゲストを呼んで、楽しいトークをお送りするラジオ番組です。-->
+                <div class="side_back">
+                    <div class="side_title">매직아워 SP #11</div>
+                    <div class="side_body">
+                        <div class="side_in">
+                            <img src='../../../../12008305/image_sp/campaign/animation/episode25/image_magichour.jpg' width="270" height="152">
+                            <div class="lr_layout">
+                                <div class="left" style="width:70px;text-align:left;padding-top:6px">
+                                    <img src='../../../../12008305/image_sp/campaign/animation/common/explain_episode_character.png' width="68" height="23">
+                                </div>
+                                <div class="right side_idol_list">
+                                    <ul style="width:210px">
+                                        <li class="cute">이치노세 시키 (CV:아이하라 코토미)</li><!--一ノ瀬志希(CV:藍原ことみ)-->
+                                        <li class="cute">미야모토 프레데리카 (CV:타카노 아사미)</li><!--宮本フレデリカ(CV:髙野麻美)-->
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="text_defa"></div>
+                            <img src='../../../../12008305/image_sp/campaign/animation/common/line_episode.png' width="279" height="10">
+                            <div style="height: 55px;" class="m-Top10">
+                                <script>
+                                    document.write('<audio src="../../../../sound/anime/audio/11_anime_ep_sideb_sp.mp4" controls>');
+                                </script>
+                            </div>
+                        </div>
+                        <img src='../../../../12008305/image_sp/campaign/animation/common/line_bottom_episode.png' width="320" height="28" style="position:absolute;left:0;bottom:0">
+                    </div>
+                </div>
+                <div class="t-Cnt m-Top5" style="font-size:16px;font-weight:bold">
+                    <span class="yellow">ミッション達成！</span>
+                </div>
+            </div>
+        </section>
+        <!--
+        <div id="exchange_window">
+            <div class="exArea">
+                <h3 class="m-Btm10 exchange_episode clselm" style="display:none">ストーリーを解放しますか？</h3>
+                <h3 class="m-Btm10 exchange_idol clselm" style="display:none">プレゼントを交換しますか？</h3>
+                <div class="exchange_idol clselm"></div>
+                <div class="t-Cnt m-Btm10 submit_permit clselm" style="display:none">
+                    <span class="blue">必要スターエンブレム : </span>
+                    <span class="yellow">3</span>
+                    個<br>
+                    <span class="blue">所持スターエンブレム : </span>
+                    66340→<span class="yellow">66337</span>
+                    個<br>
+                </div>
+                <div class="m-Btm10">
+                    <div class="submit_permit clselm" style="display:none">
+                        <form action="https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fcampaigns%2Fanime%2Fexchange%3Fl_frm%3DAnime_magic_hour_sp_1%26rnd%3D937947793" method="post">
+                            <input type="hidden" name="story_id" value="25">
+                            <input type="hidden" name="type" value="" id="exchange_type">
+                            <div class="area-btn-common" style="width:200px;">
+                                <label class="btn_cancel_line_3" for='exchange_text_cancel'>
+                                    <div>キャンセル</div>
+                                    <input id='exchange_text_cancel' type="reset" value="キャンセル" class="exchange_window_close" style='display:none;'>
+                                </label>
+                                <label for="exchange_text" class="btn_decision_line_3" onclick="">
+                                    <input type="submit" value="" id="exchange_text">
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="exchange_window_btn" style="display:none"></a>
+        <section>
+            <h3 class="title_hanyo">
+                <div>バックナンバー</div>
+            </h3>
+            <div class="back_number">
+                <ul>
+                    <li>
+                        <a href="https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fcampaigns%2Fanime%2Fmagic_hour_sp%2F15%3Fl_frm%3DAnime_magic_hour_sp_1%26rnd%3D6827618" class="jsOnDesignBtn">
+                            <img src='https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fepisode15%2Fback_number.jpg%3Fv%3D20210909201100' width="66" height="66">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fcampaigns%2Fanime%2Fmagic_hour_sp%2F16%3Fl_frm%3DAnime_magic_hour_sp_1%26rnd%3D121172188" class="jsOnDesignBtn">
+                            <img src='https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fepisode16%2Fback_number.jpg%3Fv%3D20210909201100' width="66" height="66">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fcampaigns%2Fanime%2Fmagic_hour_sp%2F17%3Fl_frm%3DAnime_magic_hour_sp_1%26rnd%3D303842023" class="jsOnDesignBtn">
+                            <img src='https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fepisode17%2Fback_number.jpg%3Fv%3D20210909201100' width="66" height="66">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fcampaigns%2Fanime%2Fmagic_hour_sp%2F18%3Fl_frm%3DAnime_magic_hour_sp_1%26rnd%3D993905002" class="jsOnDesignBtn">
+                            <img src='https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fepisode18%2Fback_number.jpg%3Fv%3D20210909201100' width="66" height="66">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fcampaigns%2Fanime%2Fmagic_hour_sp%2F19%3Fl_frm%3DAnime_magic_hour_sp_1%26rnd%3D59153229" class="jsOnDesignBtn">
+                            <img src='https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fepisode19%2Fback_number.jpg%3Fv%3D20210909201100' width="66" height="66">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fcampaigns%2Fanime%2Fmagic_hour_sp%2F20%3Fl_frm%3DAnime_magic_hour_sp_1%26rnd%3D907766739" class="jsOnDesignBtn">
+                            <img src='https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fepisode20%2Fback_number.jpg%3Fv%3D20210909201100' width="66" height="66">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fcampaigns%2Fanime%2Fmagic_hour_sp%2F21%3Fl_frm%3DAnime_magic_hour_sp_1%26rnd%3D778375480" class="jsOnDesignBtn">
+                            <img src='https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fepisode21%2Fback_number.jpg%3Fv%3D20210909201100' width="66" height="66">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fcampaigns%2Fanime%2Fmagic_hour_sp%2F22%3Fl_frm%3DAnime_magic_hour_sp_1%26rnd%3D934103298" class="jsOnDesignBtn">
+                            <img src='https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fepisode22%2Fback_number.jpg%3Fv%3D20210909201100' width="66" height="66">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fcampaigns%2Fanime%2Fmagic_hour_sp%2F23%3Fl_frm%3DAnime_magic_hour_sp_1%26rnd%3D905008223" class="jsOnDesignBtn">
+                            <img src='https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fepisode23%2Fback_number.jpg%3Fv%3D20210909201100' width="66" height="66">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fcampaigns%2Fanime%2Fmagic_hour_sp%2F24%3Fl_frm%3DAnime_magic_hour_sp_1%26rnd%3D920547060" class="jsOnDesignBtn">
+                            <img src='https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fepisode24%2Fback_number.jpg%3Fv%3D20210909201100' width="66" height="66">
+                        </a>
+                    </li>
+                    <li>
+                        <img src='https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fepisode25%2Fback_number_gray.jpg%3Fv%3D20210909201100' width="66" height="66">
+                    </li>
+                    <li>
+                        <a href="https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fcampaigns%2Fanime%2Fmagic_hour_sp%2F26%3Fl_frm%3DAnime_magic_hour_sp_1%26rnd%3D41805332" class="jsOnDesignBtn">
+                            <img src='https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fcampaign%2Fanimation%2Fepisode26%2Fback_number.jpg%3Fv%3D20210909201100' width="66" height="66">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        -->
+        <section>
+            <h3 class="title_hanyo">
+                <div>주의사항</div><!--注意事項-->
+            </h3>
+            <div class="information gray">
+                <p class="yellow">・「매직아워 SP」보이스 드라마는 기간 내 미션을 달성한 후, 다음 업데이트 전까지 본 캠페인 페이지에 접속하면 해금됩니다.</p>
+                <p>※「매직아워 SP」가 미해금인 경우, 미션 기간 종료 후 스타 엠블럼 3개로 해제할 수 있습니다.</p>
+                <p>・Lv5 미만의 프로듀서는 매직 아워 SP 해제 미션 대상에서 제외되며, Lv5 이상의 프로듀서일 경우 조건을 달성하면 매직 아워 SP를 해제할 수 있습니다.</p>
+                <p>・「푸치 레슨을 하자」미션은 이미 푸치 레슨을 진행 중인 경우, 미션 조건 달성으로 간주됩니다. 또한, 푸치 레슨을 완료했을 경우, 다시 푸치 레슨을 진행하면 미션 조건이 달성됩니다.</p>
+            </div>
+        </section>
+        <!--
+        <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fcampaigns%2Fanime%2Fmagic_hour_sp%3Fl_frm%3DAnime_magic_hour_sp_1%26rnd%3D554812933'>
+            <div class="backLink">最新のマジックアワーSPに戻る</div>
+        </a>
+        -->
+        <a href='https://crow88.github.io/lab/'>
+            <div class="backLink">돌아가기</div>
+        </a>
+        <img src='../../../../12008305/image_sp/campaign/animation/common/button_play_voice.png' style="display:none;" id="button_play_voice">
+        <img src='../../../../12008305/image_sp/campaign/animation/common/button_stop_voice.png' style="display:none;" id="button_stop_voice">
+        <script src="../../../../12008305/js/jquery.common-popup.js"></script>
+        <script src="../../../../12008305/js/islider.js"></script>
+        <script src="../../../../12008305/js/ilibrary.js"></script>
+        <script>
+            $(function() {
+                Imascg.FadeImage = {
+                    init: function() {
+                        if ($('.fadeImage').length > 1) {
+                            var cnt = 0;
+                            this.onImage(cnt);
+                        } else if ($('.fadeImage').length == 1) {
+                            $('.fadeImage').show();
+                        }
+                    },
+                    onImage: function(cnt) {
+                        if ($('.fadeImage').length <= cnt) {
+                            var cnt = 0;
+                        }
+                        $('.fadeImage').eq(cnt).show().animate({
+                            opacity: "1"
+                        }, {
+                            duration: 1000,
+                            complete: function() {
+                                Imascg.FadeImage.offImage(cnt);
+                            }
+                        });
+                    },
+                    offImage: function(cnt) {
+                        setTimeout(function() {
+                            $('.fadeImage').eq(cnt).animate({
+                                opacity: "0"
+                            }, {
+                                duration: 1000,
+                                complete: function() {
+                                    $(this).hide();
+                                    cnt++;
+                                    Imascg.FadeImage.onImage(cnt);
+                                }
+                            });
+                        }, 5000);
+                    }
+                };
+                Imascg.FadeImage.init();
+                $('.slide_banner01').iSlider({
+                    width: "320px",
+                    height: "254px",
+                    slideshowSpeed: 3000,
+                    touch: true,
+                    start: 0,
+                    loop: true
+                });
+                $('#exchange_window').ou();
+                $('.jsExchangeBt').on('click', function() {
+                    $('.clselm').hide();
+                    if ($(this).data('contents') == "present") {
+                        $('#exchange_text').val('交換する');
+                        $('.exchange_idol').show();
+                    } else {
+                        $('#exchange_text').val('解放する');
+                        $('.exchange_episode').show();
+                    }
+                    if ($(this).data('judge') == "enough") {
+                        $('#exchange_type').val($(this).data('type'));
+                        $('.submit_permit').show();
+                    } else {
+                        $('.submit_disallowed').show();
+                    }
+                    $('.exchange_window_btn').trigger('click');
+                    return false;
+                });
+            });
+        </script>
+        <script src="https://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fjs%2Fmediaelement%2Fbuild%2Fmediaelement-and-player.min.js%3Fv%3D20210904134922" type="text/javascript"></script>
+        <script>
+            $('audio').mediaelementplayer({
+                // width of audio player
+                audioWidth: 270,
+                // initial volume when the player starts
+                startVolume: 0.8,
+                // useful for <audio> player loops
+                loop: false,
+                // enables Flash and Silverlight to resize to content size
+                enableAutosize: true,
+                // the order of controls you want on the control bar (and other plugins below)
+                features: ['playpause', 'progress', 'current', 'duration', 'tracks', 'volume', 'fullscreen'],
+                // Hide controls when playing and mouse is not over the video
+                alwaysShowControls: false,
+                // force iPad's native controls
+                iPadUseNativeControls: false,
+                // force iPhone's native controls
+                iPhoneUseNativeControls: false,
+                // force Android's native controls
+                AndroidUseNativeControls: false,
+                // forces the hour marker (##:00:00)
+                alwaysShowHours: false,
+                // show framecount in timecode (##:00:00:00)
+                showTimecodeFrameCount: false,
+                // used when showTimecodeFrameCount is set to true
+                framesPerSecond: 25,
+                // turns keyboard support on and off for this instance
+                enableKeyboard: true,
+                // when this player starts, it will pause other players
+                pauseOtherPlayers: true,
+                // array of keyboard commands
+                keyActions: []
+            });
+            $('a[class="mejs-time-total mejs-time-slider"]').addClass('se_000');
+        </script>
+        <footer>
+            <div class="line_idolmaster"></div>
+            <a href="#top" id="toPageTop" class="mypage_under">
+                <div></div>
+            </a>
+            <div class="t-Cnt">&copy;T.K. THE IDOLM@STER &trade;&amp;&copy;BNEI</div>
+        </footer>
+    </div>
+    <script>
+        window._tarminal = {
+            'native_app_flg': false,
+            'android_app_flg': false,
+            'ios_app_flg': false,
+            'shell_app_flg': false
+        };
+    </script>
+    <script>
+        window._tarminal = {
+            'native_app_flg': false,
+            'android_app_flg': false,
+            'ios_app_flg': false,
+            'shell_app_flg': false
+        };
+    </script>
+    <div id="mbga-pf-footer">
+        <div class="mbga-pf-footer-container odd-lines mbga-pf-footer-white">
+            <ul>
+                <li class="mbga-pf-footer-list">
+                    <div class="mbga-pf-fotter-content">
+                        <a class="mbga-pf-footer-arrow" href="https://sp.mbga.jp/_grp_view?g=32095227">
+                            <span class="mbga-pf-footer-caption">公式サークル</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="mbga-pf-footer-navbar">
+            <ul class="mbga-pf-box-h">
+                <li id="mbga-pf-footer-navbar-icon-grid" class="mbga-pf-footer-li">
+                    <a class="mbga-pf-footer-a mbga-pf-footer-home-w" href="https://sp.mbga.jp/?_from=globalfooter">
+                        <span class="mbga-pf-footer-txt">ホーム</span>
+                    </a>
+                </li>
+                <li id="mbga-pf-footer-navbar-icon-mypage" class="mbga-pf-footer-li">
+                    <a class="mbga-pf-footer-a mbga-pf-footer-mypage-w" href="https://sp.mbga.jp/_my0?_from=globalfooter">
+                        <span class="mbga-pf-footer-txt">マイページ</span>
+                    </a>
+                </li>
+                <li id="mbga-pf-footer-navbar-icon-mygame" class="mbga-pf-footer-li">
+                    <a class="mbga-pf-footer-a mbga-pf-footer-mygame-w" href="https://sp.mbga.jp/_game_my_top?_from=globalfooter">
+                        <span class="mbga-pf-footer-txt">マイゲーム</span>
+                    </a>
+                </li>
+                <li id="mbga-pf-footer-navbar-icon-notification" class="mbga-pf-footer-li">
+                    <a class="mbga-pf-footer-a mbga-pf-footer-game-w" href="https://sp.mbga.jp/_game_top?_from=globalfooter">
+                        <span class="mbga-pf-footer-txt">ゲーム</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <script type="text/javascript" charset="UTF-8">
+            (function() {
+                document.addEventListener('DOMContentLoaded', function() {
+                    var list = document.getElementsByClassName('mbga-pf-footer-li');
+                    var i = 0,
+                        l = list.length;
+                    for (; i < l; i++) {
+                        var elem = list[i];
+                        elem.addEventListener('touchstart', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/$/, ' mbga-pf-tapped');
+                        });
+                        elem.addEventListener('touchend', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/ mbga-pf-tapped/, '');
+                        });
+                        elem.addEventListener('touchmove', function(e) {});
+                    }
+                });
+            })();
+        </script>
+    </div>
+</body>
+
+</html>
