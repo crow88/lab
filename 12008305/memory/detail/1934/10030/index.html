@@ -1,0 +1,1004 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta name="format-detection" content="telephone=no">
+    <title>아이돌마스터 신데렐라 걸즈</title>
+    <link rel="stylesheet" type="text/css" href="../../../../../12008305/css/rich/new_mypage_common_kr.css" media="all">
+    <link rel="apple-touch-icon-precomposed" href="../../../../../12008305/image_sp/ui/icon_bookmark.png">
+    <script>
+        (function() {
+            window.console.log = function() {};
+        })();
+    </script>
+    <script type="text/javascript">
+        if (window.localStorage) {
+            var displaySet = localStorage.getItem('DisplayPositionSet');
+            if (displaySet == 1) {
+                if (navigator.userAgent.indexOf('Android') > 0) {
+                    document.write('<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">');
+                    document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                } else {
+                    document.write('<meta name="viewport" content="width=320, user-scalable=no">');
+                }
+                window.addEventListener('resize', function() {
+                    if (navigator.userAgent.indexOf('Android') > 0) document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                });
+            } else {
+                document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+        }
+    </script>
+    <script src="../../../../../12008305/js/jquery-2.2.2.min.js"></script>
+    <script>
+        (function() {
+            window.viewer_id = 139087231;
+            var _url = "https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/game_error/report_js_error%3Fl_frm%3DMemory_detail_1%26rnd%3D919405970";
+            var _path = location.href;
+            var _spec_obj;
+            var _spec = 'none';
+            var version = 1;
+            // access方法検出
+            _spec_obj = {
+                'isNative': false,
+                'isAndApp': false,
+                'isShellApp': false,
+                'isIosApp': false,
+                'isChromeApp': false
+            };
+            window._spec = _spec_obj;
+            if (_spec.isAndApp) {
+                _spec = 'andapp'
+            } else if (_spec.isIosApp) {
+                _spec = 'iosApp';
+            } else if (_spec.isShellApp) {
+                _spec = 'shellapp';
+            } else {
+                _spec = 'browser?';
+            }
+        })();
+    </script>
+    <script src="../../../../../12008305/js/underscore-min.js"></script>
+    <script src="../../../../../12008305/js/require.js"></script>
+    <script src="../../../../../12008305/js/require.js"></script>
+    <script>
+        requirejs.config({
+            paths: {
+                easeljs: "../../../../../12008305/js/easeljs-0.8.2.min.js",
+                easeljs_0_7_1: "../../../../../12008305/js/easeljs-0.7.1.min.js", //スプライトを読むためのバージョン
+                tweenjs: "../../../../../12008305/js/tweenjs-0.6.2.min.js",
+                movieclipjs: "../../../../../12008305/js/movieclip-0.7.1.min.js",
+                createjs: "../../../../../12008305/js/createjs-2015.11.26.min.js",
+            }
+        })
+    </script>
+    <script src="../../../../../12008305/js/common.js"></script>
+    <script src="../../../../../12008305/js/common_new.js"></script>
+    <script>
+        $(function() {
+            window.$ibox = $('.ibox').ibox();
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
+                newrelic.setPageViewName('/idolmaster/index.php/memory/detail/1934/10030/0');
+            }
+        });
+    </script>
+    <script type='text/javascript'>
+        var se_flg = 0,
+            bgm_flg = 0,
+            chrome_app_flg = 0,
+            chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+    </script>
+    <script type='text/javascript' src='../../../../../12008305/js/app_sound.js'></script>
+    <link rel="stylesheet" type="text/css" href="../../../../../css/base.css" />
+</head>
+
+<body id="memory" class="detail">
+    <div id="top" class="page_container jsOnBtn">
+        <nav class="area_menu_header">
+            <div class="area_menu_header_6btn">
+                <h1 id="JtextLimit">イベントメモリー</h1>
+                <ul>
+                    <li><a class="head_menu_01" href="">
+                            <div></div>
+                        </a></li>
+                    <li><a class="head_menu_02" href="">
+                            <div></div>
+                        </a></li>
+                    <li><a class="head_menu_03" href="">
+                            <div></div>
+                        </a></li>
+                    <li><a class="head_menu_04" href="">
+                            <div></div>
+                        </a></li>
+                    <li><a class="head_menu_05" href="">
+                            <div></div>
+                        </a></li>
+                    <li><a class="head_menu_06 se_000" href="#" id="headerAcd">
+                            <div></div>
+                        </a></li>
+                </ul>
+            </div>
+        </nav>
+        <input id="delay" type="hidden" value="0">
+        <style type="text/css">
+            .comments {
+                min-height: 115px;
+                text-align: left;
+                color: #1d1d1d;
+                padding: 25px 20px 10px;
+                position: relative;
+                top: -50px;
+            }
+
+            .comments.cute {
+                background: url('../../../../../12008305/image_sp/ui/event_memory/cute_comment.png') center top no-repeat;
+                background-size: 300px;
+            }
+
+            .comments.cool {
+                background: url('../../../../../12008305/image_sp/ui/event_memory/cool_comment.png') center top no-repeat;
+                background-size: 300px;
+            }
+
+            .comments.passion {
+                background: url('../../../../../12008305/image_sp/ui/event_memory/passion_comment.png') center top no-repeat;
+                background-size: 300px;
+            }
+
+            .icon_navi {
+                width: auto;
+                margin: 0 13px;
+                padding: 8px 0;
+                background: -webkit-gradient(radial, 50% 50%, 50, 50% 50%, 130, from(#222), to(#333));
+                -webkit-border-radius: 6px;
+            }
+
+            .cover {
+                height: 370px;
+            }
+
+            .exBox {
+                width: 320px;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            a.inline {
+                width: 300px;
+                height: 70px;
+                color: #1d1d1d;
+                display: block;
+                margin: 0 auto 10px;
+            }
+
+            .exArea {
+                width: 260px;
+                margin: 10px auto 0;
+                padding: 0;
+                border: 2px solid #b4d5f4;
+                background: #1d1d1d;
+                z-index: 10;
+                color: #ffffff;
+                line-height: 140%;
+                -webkit-border-radius: 8px;
+            }
+
+            .exArea h3 {
+                background: #17285c;
+                -webkit-border-top-left-radius: 8px;
+                -webkit-border-top-right-radius: 8px;
+                padding: 10px 0;
+            }
+
+            .check_close_btn {
+                top: -10px;
+                width: 37px;
+                height: 37px;
+                right: 20px;
+                display: block;
+            }
+
+            .m-12px {
+                margin-top: -12px;
+            }
+
+            .appear_idol_area .appear_idol_bg {
+                position: relative;
+                width: 320px;
+            }
+
+            .appear_idol_area .appear_idol_chara {
+                position: absolute;
+                top: -15px;
+                left: 0;
+                z-index: 1;
+                width: 320px;
+            }
+
+            .appear_idol_area .appear_idol_title_area {
+                position: absolute;
+                top: 4px;
+                left: 0px;
+                z-index: 2;
+                width: 320px;
+                height: 36px;
+            }
+
+            .appear_idol_area .appear_idol_title_bg {
+                position: relative;
+                background-image: url('../../../../../12008305/image_sp/ui/event_memory/appear_idol_title_bg.png');
+                background-size: 320px;
+                background-repeat: no-repeat;
+                display: table-cell;
+                height: inherit;
+                vertical-align: middle;
+                color: transparent;
+                padding-left: 34px;
+                -webkit-mask-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 90%, rgba(255, 255, 255, 0) 100%);
+            }
+
+            .appear_idol_area .appear_idol_title_text {
+                position: relative;
+                top: 2px;
+                display: table-cell;
+                height: inherit;
+                vertical-align: middle;
+                color: #1d1d1d;
+                padding-left: 34px;
+                text-shadow: 0px 0px 3px #ffffff, 0px 0px 3px #ffffff, 0px 0px 3px #ffffff, 0px 0px 3px #ffffff, 0px 0px 3px #ffffff, 0px 0px 3px #ffffff, 0px 0px 3px #ffffff, 0px 0px 3px #ffffff;
+            }
+
+            .appear_idol_area .appear_idol_title_text._line_2 {
+                top: -1px;
+                font-size: 12px;
+            }
+        </style>
+        <header style="margin:0 0 5px;">
+            <h1 style="margin:0 0 10px;"><img src='../../../../../12008305/image_sp/event/1934/top_event.jpg' width="100%" alt="爆烈公演 誰よりも強くあれ" class="m-12px"></h1>
+            <div class="titleH2" style="margin:0 auto; padding:5px; line-height:110%;"><span class="blue">개최기간</span><br>2021/08/17 ～ 2021/08/25</div>
+        </header><img src="../../../../../12008305/image_sp/ui/line_hoshi.jpg" width="100%"><br>
+        <section class="naviArea"><img src="../../../../../12008305/image_sp/ui/navi/tujo_m2.png" width="90">
+            <div class="Wrap">
+                <div class="fukiRight">이번 LIVE 투어 카니발은 쇼코쨩네의 폭렬공연! 인공섬을 무대로 뜨거운 싸움의 이야기가 펼쳐졌습니다!<br></div>
+            </div>
+        </section><img src="../../../../../12008305/image_sp/ui/line_hoshi.jpg" width="100%" class="m-Btm10"><br>
+        <h2 class="title_img_blue" style="margin:0;">
+            <div>登場アイドル</div>
+        </h2>
+        <section class="iSlider">
+            <div class="underline"></div>
+            <div class="medal_idol">
+                <style>
+                    .cover {
+                        height: inherit;
+                    }
+                </style>
+                <div class="medal_slide" style="height:369px;">
+                    <ul class="slides" style="display:none;">
+                        <li class="appear_idol_area" style="width:320px;margin:0; position:relative;">
+                            <h3 class="slideTitle">
+                                <div class="name">[매쉬스톰･피스트] 호시 쇼코+</div>
+                                <div class="icon">
+                                    <div class="type att_3"></div>
+                                    <div class="rarity r_6"></div>
+                                </div>
+                            </h3>
+                            <div style="position:relative;">
+                                <div style="height:300px;overflow:hidden;position:relative;"><img src='../../../../../12008305/image_sp/event/1934/bg_area_xl_1.jpg' class="appear_idol_bg" style="width:320px;height:335px;"><img src='../../../../../12008305/image_sp/card/quest/3b18e6cb07567b82a3da5411c23b0baf.jpg%3Fv%3D20210909201319' class="appear_idol_chara"></div>
+                                <div class="appear_idol_title_area""><div class=" appear_idol_title_bg" style="">폭렬공연 누구보다 굳세어라</div>
+                            </div>
+                            <div class="appear_idol_title_area">
+                                <div class="appear_idol_title_text ">폭렬공연 누구보다 굳세어라</div>
+                            </div>
+                            <div class="comments passion" style="z-index:2;top:-48px;">
+                                <div>
+                                    <p class="l-Hgt120">너덜너덜해져도 절대 포기하지 않아…. 그것이야말로 최강이다…!</p>
+                                </div>
+                            </div>
+                </div>
+                </li>
+                </ul>
+            </div>
+    </div>
+    </section>
+    <script src="../../../../../12008305/js/islider.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $('.medal_slide').iSlider({
+            slideshowSpeed: 5000,
+            navi: ".icon_navi",
+            selected: "icon_selected",
+            touch: true,
+            loop: true
+        });
+    </script>
+    <section class="t-Cnt m-Btm0"><img src="../../../../../12008305/image_sp/ui/line_hanyo_ten.jpg" width="100%" class="m-Btm10"><br>
+        <p class="m-Btm10"><a href='쇼코극장' class="jsOnDesignBtn"><img src='../../../../../12008305/image_sp/ui/event_memory/theater/1537.jpg' style="width:150px; height:40px;"></a></p>
+        <div class="area-btn-common _base-width m-Btm8"><a href='#intro_box' class="btn_normal_line_2 ibox">あらすじ</a>
+            <a class="btn_normal_line_2 " href='../../../../../12008305/memory/show_opening/1934/1/'><span style="font-size: 12px;">이벤트 OP 연출보기</span></a>
+        </div>
+        <div class="area-btn-common _base-width m-Btm8"><a class="btn_normal_line_2 " href='../../../../../12008305/memory/show_opening/1934/2/'><span style="font-size: 12px;">후반개시 연출보기</span></a>
+            <a class="btn_normal_line_2 " href='../../../../../12008305/memory/show_opening/1934/3/'><span style="font-size: 12px;">이벤트 ED 연출보기</span></a>
+        </div>
+        <div style="background:url(../../../../../12008305/image_sp/ui/episode/epi_frame_prof_top.jpg) center top no-repeat;background-size:326px;width:304px;height:44px; line-height:47px; margin:0 auto;">
+            登場アイドル一覧<br>
+        </div>
+        <div style="background:url(../../../../../12008305/image_sp/ui/episode/epi_frame_prof_line.jpg) center top repeat-y;background-size:326px;width:304px;text-align:center;margin:0 auto;">
+            <ul style="width:220px; margin:0 auto; padding: 10px 0 0; overflow:hidden; text-align:left;" class="displayBox">
+                <li style="padding:5px 3px 5px 0px;"><a href="쇼코앨범링크" class="jsOnDesignBtn"><img src='../../../../../12008305/image_sp/card/xs/3b18e6cb07567b82a3da5411c23b0baf.jpg' style='width:50px; height:50px;'></a></li>
+            </ul>
+        </div>
+        <div style="background:url(../../../../../12008305/image_sp/ui/episode/epi_frame_prof_bottom.jpg) center top no-repeat;background-size:326px; width:304px; height:19px; margin:0 auto 10px;"></div>
+    </section>
+    <link rel="stylesheet" type="text/css" href="../../../../../12008305/css/rich/memory.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../../../../../12008305/css/rich/event_carnival.css" media="all">
+    <div id="story_collection_tab" class="tab_common-large m-Top8 m-Btm8">
+        <a class="tab_line_2 tab_text selected" href='#'>이벤트 스토리</a>
+        <a class="tab_line_2 tab_text" href='#'>유닛 콜렉션</a>
+    </div>
+    <section class="t-Cnt area_story_collection_tab">
+        <div id="story_collection_tab_sub" class="tab_common-middle">
+            <a href='#' class="tab_line_2_1 tab_text selected">전반</a>
+            <a href='#' class="tab_line_2_2 tab_text">후반</a>
+        </div>
+        <div class="area_tab t-Cnt">
+            <a href='../../../../../12008305/memory/event_story_inline_detail/1934/1/meet/' class="js_btn_stage story_base story_st1 jsOnDesignBtn" data-id="1" style="background:url(../../../../../12008305/image_sp/event/1934/bg_button_base_1.jpg);background-size:280px;width:280px;height:44px;">
+                <div class="event_story_title">
+                    <p>뒷골목・1</p>
+                </div>
+                <div class="event_story_chara ">
+                    <img src='../../../../../12008305/image_sp/event/1934/top_stage_chara_101.png'>
+                </div>
+                <div class="story_stage_title"></div>
+            </a>
+            <a href='../../../../../12008305/memory/event_story_inline_detail/1934/2/meet/' class="js_btn_stage story_base story_st2 jsOnDesignBtn" data-id="2" style="background:url(../../../../../12008305/image_sp/event/1934/bg_button_base_1.jpg);background-size:280px;width:280px;height:44px;">
+                <div class="event_story_title">
+                    <p>뒷골목・2</p>
+                </div>
+                <div class="event_story_chara ">
+                    <img src='../../../../../12008305/image_sp/event/1934/top_stage_chara_102.png'>
+                </div>
+                <div class="story_stage_title"></div>
+            </a>
+            <a href='../../../../../12008305/memory/event_story_inline_detail/1934/3/meet/' class="js_btn_stage story_base story_st3 jsOnDesignBtn" data-id="3" style="background:url(../../../../../12008305/image_sp/event/1934/bg_button_base_2.jpg);background-size:280px;width:280px;height:44px;">
+                <div class="event_story_title">
+                    <p>뒷골목・3</p>
+                </div>
+                <div class="event_story_chara ">
+                    <img src='../../../../../12008305/image_sp/event/1934/top_stage_chara_202.png'>
+                </div>
+                <div class="story_stage_title"></div>
+            </a>
+            <a href='../../../../../12008305/memory/event_story_inline_detail/1934/4/meet/' class="js_btn_stage story_base story_st4 jsOnDesignBtn" data-id="4" style="background:url(../../../../../12008305/image_sp/event/1934/bg_button_base_2.jpg);background-size:280px;width:280px;height:44px;">
+                <div class="event_story_title">
+                    <p>뒷골목・4</p>
+                </div>
+                <div class="event_story_chara ">
+                    <img src='../../../../../12008305/image_sp/event/1934/top_stage_chara_101.png'>
+                </div>
+                <div class="story_stage_title"></div>
+            </a>
+        </div>
+        <div class="area_tab t-Cnt">
+            <a href='../../../../../12008305/memory/event_story_inline_detail/1934/5/meet/' class="js_btn_stage story_base story_st5 jsOnDesignBtn" data-id="5" style="background:url(../../../../../12008305/image_sp/event/1934/bg_button_base_3.jpg);background-size:280px;width:280px;height:44px;">
+                <div class="event_story_title">
+                    <p>앞골목・1</p>
+                </div>
+                <div class="event_story_chara ">
+                    <img src='../../../../../12008305/image_sp/event/1934/top_stage_chara_301.png'>
+                </div>
+                <div class="story_stage_title"></div>
+            </a>
+            <a href='../../../../../12008305/memory/event_story_inline_detail/1934/6/meet/' class="js_btn_stage story_base story_st6 jsOnDesignBtn" data-id="6" style="background:url(../../../../../12008305/image_sp/event/1934/bg_button_base_3.jpg);background-size:280px;width:280px;height:44px;">
+                <div class="event_story_title">
+                    <p>앞골목・2</p>
+                </div>
+                <div class="event_story_chara ">
+                    <img src='../../../../../12008305/image_sp/event/1934/top_stage_chara_401.png'>
+                </div>
+                <div class="story_stage_title"></div>
+            </a>
+            <a href='../../../../../12008305/memory/event_story_inline_detail/1934/7/meet/' class="js_btn_stage story_base story_st7 jsOnDesignBtn" data-id="7" style="background:url(../../../../../12008305/image_sp/event/1934/bg_button_base_4.jpg);background-size:280px;width:280px;height:44px;">
+                <div class="event_story_title">
+                    <p>투기장・1</p>
+                </div>
+                <div class="event_story_chara ">
+                    <img src='../../../../../12008305/image_sp/event/1934/top_stage_chara_102.png'>
+                </div>
+                <div class="story_stage_title"></div>
+            </a>
+            <a href='../../../../../12008305/memory/event_story_inline_detail/1934/8/meet/' class="js_btn_stage story_base story_st8 jsOnDesignBtn" data-id="8" style="background:url(../../../../../12008305/image_sp/event/1934/bg_button_base_4.jpg);background-size:280px;width:280px;height:44px;">
+                <div class="event_story_title">
+                    <p>투기장・2</p>
+                </div>
+                <div class="event_story_chara ">
+                    <img src='../../../../../12008305/image_sp/event/1934/top_stage_chara_501.png'>
+                </div>
+                <div class="story_stage_title"></div>
+            </a>
+        </div>
+        <div class="infortext_nosp gray">
+            <p>미해방 이벤트 스토리는, 스타 엠블럼을 교환하여 해방시킬 수 있습니다.</p>
+        </div>
+    </section>
+    <section class="area_story_collection_tab  m-Btm8">
+        <div class="selectArea type_02  m-Btm8">
+            <form action="#" name="area_select_form" method="post">
+                <div class="area-btn-common _base-width">
+                    <select name="js_area_switch" id="js_area_switch" class="search_pulldown_1_5" style="font-size:12px;">
+                        <option value="1">뒷골목</option>
+                        <option value="2">뒷골목</option>
+                        <option value="3">앞골목</option>
+                        <option value="4">투기장</option>
+                    </select>
+                    <a id="jsAreaSwitchBtn" class="btn_decision_sub_line_3">
+                        표시하기
+                    </a>
+                </div>
+            </form>
+        </div>
+        <h2 id="area_title_1" class="title_img_blue" style="margin:0;">
+            <div>뒷골목</div>
+        </h2>
+        <h2 id="area_title_2" class="title_img_blue" style="margin:0;display:none">
+            <div>뒷골목</div>
+        </h2>
+        <h2 id="area_title_3" class="title_img_blue" style="margin:0;display:none">
+            <div>앞골목</div>
+        </h2>
+        <h2 id="area_title_4" class="title_img_blue" style="margin:0;display:none">
+            <div>투기장</div>
+        </h2>
+        <div id="area_tab_1" class="t-Cnt">
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/1%3Fl_frm%3DMemory_detail_1%26rnd%3D630009990' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>뒷골목의 불량소녀들</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934010.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/2%3Fl_frm%3DMemory_detail_1%26rnd%3D361046899' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>섬에 내린 여행자들</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934020.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/3%3Fl_frm%3DMemory_detail_1%26rnd%3D948351580' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>나쁜 아이가 되고 싶어서</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934030.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/4%3Fl_frm%3DMemory_detail_1%26rnd%3D258952028' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>매쉬 플로트 쟁패・개막</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934040.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/5%3Fl_frm%3DMemory_detail_1%26rnd%3D970812497' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>선원 언니들</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934050.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/6%3Fl_frm%3DMemory_detail_1%26rnd%3D555752328' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>강함이야말로 정의</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934060.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/7%3Fl_frm%3DMemory_detail_1%26rnd%3D706926193' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>매쉬 플로트 섬 주민</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934070.png'>
+                </div>
+                <div class="event_story_side"></div>
+                <div class="event_story_clear"></div>
+            </a>
+        </div>
+        <div id="area_tab_2" class="t-Cnt" style="display:none">
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/8%3Fl_frm%3DMemory_detail_1%26rnd%3D227333123' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>본섬에서 온 카메라 크루</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934110.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/9%3Fl_frm%3DMemory_detail_1%26rnd%3D424966419' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>싸우는 소녀들</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934120.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/10%3Fl_frm%3DMemory_detail_1%26rnd%3D398426296' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>아가씨의 뒷골목 산책</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934130.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/11%3Fl_frm%3DMemory_detail_1%26rnd%3D695481656' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>매쉬 플로트 쟁패・속・뒷골목</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934140.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/12%3Fl_frm%3DMemory_detail_1%26rnd%3D142349412' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>본섬의 연구자들</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934150.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/13%3Fl_frm%3DMemory_detail_1%26rnd%3D327055021' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>시키의 피험자들</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934160.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/14%3Fl_frm%3DMemory_detail_1%26rnd%3D99047503' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>정기선의 작업원님</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934170.png'>
+                </div>
+                <div class="event_story_side"></div>
+                <div class="event_story_clear"></div>
+            </a>
+        </div>
+        <div id="area_tab_3" class="t-Cnt" style="display:none">
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/15%3Fl_frm%3DMemory_detail_1%26rnd%3D333813692' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>먹으러 다니는 소녀들</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934210.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/16%3Fl_frm%3DMemory_detail_1%26rnd%3D417593401' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>파이트 의상&헤어 메이크업 조</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934220.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/17%3Fl_frm%3DMemory_detail_1%26rnd%3D176290029' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>상류층의 유흥거리</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934230.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/18%3Fl_frm%3DMemory_detail_1%26rnd%3D972938345' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>DJ&댄서</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934240.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/19%3Fl_frm%3DMemory_detail_1%26rnd%3D602406944' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>매쉬 플로트 쟁패・종막?</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934250.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/20%3Fl_frm%3DMemory_detail_1%26rnd%3D654190101' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>CD 매장의 단골 손님들</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934260.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/21%3Fl_frm%3DMemory_detail_1%26rnd%3D733850431' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>마음의 메신저 with 리이나</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934270.png'>
+                </div>
+                <div class="event_story_side"></div>
+                <div class="event_story_clear"></div>
+            </a>
+        </div>
+        <div id="area_tab_4" class="t-Cnt" style="display:none">
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/22%3Fl_frm%3DMemory_detail_1%26rnd%3D191745917' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>파이트 응원중☆</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934310.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/23%3Fl_frm%3DMemory_detail_1%26rnd%3D997859604' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>버섯을 먹자!</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934320.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/24%3Fl_frm%3DMemory_detail_1%26rnd%3D162533728' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>에마의 동업자들</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934330.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/25%3Fl_frm%3DMemory_detail_1%26rnd%3D37917330' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>매쉬 플로트 쟁패・유대의 결전!</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934340.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/26%3Fl_frm%3DMemory_detail_1%26rnd%3D945472778' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>매혹의 구호실</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934350.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/27%3Fl_frm%3DMemory_detail_1%26rnd%3D231300360' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>전설의 전사들</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934360.png'>
+                </div>
+                <div class="event_story_clear"></div>
+            </a>
+            <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/unit_collection_detail/1934/10030/28%3Fl_frm%3DMemory_detail_1%26rnd%3D558119294' class="unit_collection jsOnDesignBtn" style="">
+                <div class="event_story_title">
+                    <p>마음의 메신저</p>
+                </div>
+                <div class="event_story_chara">
+                    <img src='../../../../../12008305/image_sp/event_flash/1934/unit/1934370.png'>
+                </div>
+                <div class="event_story_side"></div>
+                <div class="event_story_clear"></div>
+            </a>
+        </div>
+        <div class="infortext_nosp gray">
+            <p>※미해방 코멘트는, 스타 엠블럼을 교환하여 해방시킬 수 있습니다.</p>
+        </div>
+        <a href="#unlock_unit_collection_box" id="js_btn_unlock_unit_collection" class="ibox" style="display:none;"></a>
+        <div id="unlock_unit_collection_box" class='area-popup_common _hd_blue _bd_black ibox_content' style='width:290px;'>
+            <a href="#" class="btn-ibox-close icon_close ibox_close jsOnDesignBtn">
+                <div></div>
+            </a>
+            <div class="area-popup_wrap">
+                <h3 class="area-popup_header nameArea">
+                    <div class="area-popup_title">
+                        <span style="line-height:150%;font-size:13px">ユニットコレクション</span>
+                    </div>
+                </h3>
+                <div class="m-Top8 m-Btm8 t-Cnt" style="padding-top:1px;padding-bottom:1px;">
+                    <p class="m-Top5 m-Btm5"><span class="yellow js_comment_kind"></span>コメントを解放しますか?</p>
+                    <ul class="m-Btm10 l-Hgt140">
+                        <li><span class="blue">必要スターエンブレム : </span><span class="yellow js_req_medal_num"></span>個</li>
+                        <li class="js_pos_medal_num"></li>
+                    </ul>
+                    <div class="unlockable">
+                        <form action="" method="post" class="form_exchange_unit_collection" style="margin:0;">
+                            <div class="area-btn-common m-Btm8" style="width:282px;">
+                                <label class="btn_cancel_line_2">
+                                    <div class='btn_text'>キャンセル</div>
+                                    <input type="reset" value="キャンセル" class="ibox_close" style="display:none;">
+                                </label>
+                                <label class="btn_decision_line_2" onclick="">
+                                    <input type="submit" value="解放する">
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="disunlockable">
+                        <div class="t-Cnt">
+                            <div class="red m-Btm5">スターエンブレムが不足しています</div>
+                            <input type="submit" value="キャンセル" class="ibox_close">
+                        </div>
+                    </div>
+                </div>
+                <div class="area-popup_bg_image"></div>
+            </div>
+        </div>
+        <script>
+            $(".js_unlock_unit_collection").on("click", function() {
+                var $target = $("#unlock_unit_collection_box");
+                $target.find(".js_comment_kind").html($(this).data("comment-type"));
+                var unit_id = $(this).data("id");
+                var url = "https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/exchange_unit_collection/1934/10030/replace_unit_id/1%3Fl_frm%3DMemory_detail_1%26rnd%3D218100082".replace(/replace_unit_id/g, unit_id);
+                $target.find(".form_exchange_unit_collection").attr("action", url);
+                var user_point = 66340;
+                var medal_num = $(this).data("medal-num");
+                $target.find(".js_req_medal_num").empty().text(medal_num);
+                var pos_medal_text = '<span class="blue">所持スターエンブレム : </span>' + user_point;
+                if (user_point >= medal_num) {
+                    pos_medal_text += '→ <span class="yellow">' + (user_point - medal_num) + '</span>';
+                    $target.find(".unlockable").show();
+                    $target.find(".disunlockable").hide();
+                } else {
+                    $target.find(".unlockable").hide();
+                    $target.find(".disunlockable").show();
+                }
+                pos_medal_text += "個";
+                $target.find(".js_pos_medal_num").empty().html(pos_medal_text);
+                //trigger
+                $("#js_btn_unlock_unit_collection").trigger("click");
+            })
+        </script>
+    </section>
+    <script type="text/javascript">
+        $(function() {
+            $('#jsAreaSwitchBtn').on('click', function() {
+                $("[id^='area_tab_']").hide();
+                $("[id^='area_title_']").hide();
+                $('#area_tab_' + $('#js_area_switch').val()).show();
+                $('#area_title_' + $('#js_area_switch').val()).show();
+                return false;
+            }).trigger("click");
+        });
+    </script>
+    <script src="../../../../../12008305/js/ilibrary.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $('#story_collection_tab_sub').tab_switch({
+            contents: ".area_tab",
+            start: 1 + 0
+        });
+        $('#story_collection_tab').tab_switch({
+            tabs: "[class^='tab_line_']",
+            contents: ".area_story_collection_tab",
+            start: 0
+        });
+    </script>
+    <img src="../../../../../12008305/image_sp/ui/line_hoshi.jpg" width="100%" class="m-Btm8"><br>
+    <!--
+    <form method="POST" action='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/memory/detail/1934/10030/0%3Fl_frm%3DMemory_detail_1%26rnd%3D105641514' style="margin:0">
+        <input type="hidden" name="before_event_id" value="1736">
+        <input type="hidden" name="after_event_id" value="1435">
+        <input type="hidden" name="first_event_id" value="101">
+        <input type="hidden" name="last_event_id" value="065">
+        <div class="pager_area" style="height:74px;">
+            <div class="pager_submit_area"><input type="number" name="target_page_num" id="jsPageNumber" pattern="\d*" value="">ページに<label class="btn_normal_line_4 _disabled m-Cnt m-Btm8" id="jsMovePagerLabel" for="jsMovePagerBtn" style="display:inline-block;vertical-align:middle;margin-left:5px;margin-bottom:3px;"><input id="jsMovePagerBtn" type="submit" value="移動" style="width:inherit;height:inherit;line-height:inherit;margin:0;"></label></div>
+            <div class="pager_panel_area"><input type="submit" name="first" class="btn_pager_first jsNotDisabled jsOnDesignBtn" value="1"><input type="submit" name="prev" class="btn_pager_back jsNotDisabled jsOnDesignBtn" value="1"><input type="submit" name="next" class="btn_pager_next jsNotDisabled jsOnDesignBtn" value="1"><input type="submit" name="last" class="btn_pager_last jsNotDisabled jsOnDesignBtn" value="1">394 / 441</div>
+        </div><input type="hidden" name="is_paging" value="1">
+        <script>
+            $('#jsPageNumber').focus(function() {
+                $('#jsMovePagerLabel').removeClass("_disabled");
+            });
+        </script>
+    </form>
+    --> 
+    <img src="../../../../../12008305/image_sp/ui/line_hoshi.jpg" width="100%" class="m-Btm8"><br>
+    <style>
+        .outline_area {
+            background: url(../../../../../12008305/image_sp/event/1934/bg_story.jpg)no-repeat;
+            background-size: 360px;
+            font-size: 11px;
+            text-shadow: 0.05rem 0.05rem 1px #000;
+            margin: auto;
+            padding: 8px 0;
+            line-height: 140%;
+            background-position: center
+        }
+    </style>
+    <div class="area-popup_common _hd_blue _bd_black ibox_content" id="intro_box">
+        <a href="#" class="btn-ibox-close icon_close ibox_close jsOnDesignBtn">
+            <div></div>
+        </a>
+        <div class="area-popup_wrap">
+            <h3 class="area-popup_header">
+                <div class="area-popup_title">
+                    <span style="line-height:150%;font-size:13px">줄거리</span>
+                </div>
+            </h3>
+            <div class="t-Cnt">
+                <div class="outline_area">
+                    읏샤아아아! 네놈들! 놀고 있는가!?<br />이번 공연, 무대는 인공섬의 콜로세움!<br />난폭한 녀석들이 모여들고, 날뛰고, 힘을 과시하는,<br />매쉬 배틀의 시간이 왔다!<br /><br />주인공인 최강의 소녀를 연기하는 건,<br />버섯으로 햣하-하는 그 아이돌!<br />페어인 소녀는,<br />후와아…하고 호와아…한 그 아이돌이 연기한다!<br /><br />그 외에도 개성적인 아이돌들이, 배틀과 우정으로 바쁜 나날!<br /><br />뜨거운 싸움이 펼쳐지는 이번 여름,<br />고독도 인연도, 소녀들을 강하게 만든다――!
+                </div>
+            </div>
+            <div class="area-popup_bg_image"></div>
+        </div>
+    </div>
+    <a href='https://crow88.github.io/lab/'>
+        <div class="backLink">돌아가기</div>
+    </a>
+    <script type="text/javascript">
+        $(function() {
+            $('form').bind('submit', function() {
+                var $submit = $("input[type=submit], input[type=reset]");
+                for (var i = 0; i < $submit.length; i++) {
+                    if ($submit.eq(i).val() != '' && !$submit.eq(i).hasClass('jsNotDisabled')) {
+                        $submit.eq(i).val('送信中');
+                        $submit.eq(i).prop('disabled', true);
+                        var prev = $submit.eq(i).prev();
+                        if (prev.hasClass('btn_text')) {
+                            prev.text('送信中');
+                            if ($submit.eq(i).parent()[0].tagName == 'LABEL') {
+                                $submit.eq(i).parent().removeClass('_line_2');
+                            }
+                        }
+                    } else if (!$submit.eq(i).hasClass('jsNotDisabled')) {
+                        $submit.eq(i).prop('disabled', true);
+                    }
+                    if ($submit.eq(i).parent()[0].tagName == 'LABEL') {
+                        $submit.eq(i).parent().css({
+                            "opacity": "0.5"
+                        });
+                    }
+                }
+                $(".livebutton input[type='submit']").val('').css({
+                    "opacity": "0.5"
+                }).prop('disabled', true);
+                var $imagesub = $("input[type='image']");
+                $imagesub.prop('disabled', true);
+                for (var i = 0; i < $imagesub.length; i++) {
+                    if (!$imagesub.eq(i).attr('class')) {
+                        $imagesub.eq(i).css({
+                            "opacity": "0.5"
+                        });
+                        continue;
+                    }
+                    if ($imagesub.eq(i).attr('class').indexOf('noop') == -1) {
+                        $imagesub.eq(i).css({
+                            "opacity": "0.5"
+                        });
+                    } else {
+                        $imagesub.eq(i).css({
+                            "opacity": "1"
+                        });
+                    }
+                }
+                setTimeout(function() {
+                    $submit.prop('disabled', false).parent().css({
+                        "opacity": "1"
+                    });
+                    $imagesub.prop('disabled', false).css({
+                        "opacity": "1"
+                    });
+                    $(".livebutton input[type='submit']").css({
+                        "opacity": "1"
+                    });
+                }, 2500);
+            });
+            $(".submit a").click(function() {
+                $(this).click(function() {
+                    return false;
+                })
+                $(".submit").find("img").css({
+                    "opacity": "0.5"
+                });
+                setTimeout(function() {
+                    $(this).click(function() {
+                        return true;
+                    })
+                    $(".submit").find("img").css({
+                        "opacity": "1"
+                    });
+                }, 2500);
+            });
+            $('body').on("click", '.stop-repeat-link', function(e) {
+                var self = $('.stop-repeat-link');
+                self.css({
+                    'pointer-events': 'none',
+                    'opacity': 0.6
+                });
+                setTimeout(function() {
+                    self.css({
+                        'pointer-events': 'auto',
+                        'opacity': 1
+                    });
+                }, 2500);
+            });
+        });
+    </script>
+    <footer>
+        <div class="line_idolmaster"></div><a href="#top" id="toPageTop" class="mypage_under">
+            <div></div>
+        </a>
+        <div class="t-Cnt">&copy;T.K. THE IDOLM@STER&trade; &amp; &copy;BNEI<br></div>
+    </footer>
+    </div>
+    <script>
+        window._tarminal = {
+            'native_app_flg': false,
+            'android_app_flg': false,
+            'ios_app_flg': false,
+            'shell_app_flg': false
+        };
+    </script>
+    <script>
+        window._tarminal = {
+            'native_app_flg': false,
+            'android_app_flg': false,
+            'ios_app_flg': false,
+            'shell_app_flg': false
+        };
+    </script>
+    <div id="mbga-pf-footer">
+        <script type="text/javascript" charset="UTF-8">
+            (function() {
+                document.addEventListener('DOMContentLoaded', function() {
+                    var list = document.getElementsByClassName('mbga-pf-footer-li');
+                    var i = 0,
+                        l = list.length;
+                    for (; i < l; i++) {
+                        var elem = list[i];
+                        elem.addEventListener('touchstart', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/$/, ' mbga-pf-tapped');
+                        });
+                        elem.addEventListener('touchend', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/ mbga-pf-tapped/, '');
+                        });
+                        elem.addEventListener('touchmove', function(e) {});
+                    }
+                });
+            })();
+        </script>
+    </div>
+</body>
+
+</html>
