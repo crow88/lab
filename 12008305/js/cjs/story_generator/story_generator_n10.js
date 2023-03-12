@@ -15034,459 +15034,459 @@
         color: "#000000",
         opacity: 1,
         manifest: [{
-                src: "images/bg1.jpg",
+                src: "../../../../images/bg1.jpg",
                 id: "story_generator_n10_bg1"
             }, {
-                src: "images/bg10.jpg",
+                src: "../../../../images/bg10.jpg",
                 id: "story_generator_n10_bg10"
             }, {
-                src: "images/bg2.jpg",
+                src: "../../../../images/bg2.jpg",
                 id: "story_generator_n10_bg2"
             }, {
-                src: "images/bg3.jpg",
+                src: "../../../../images/bg3.jpg",
                 id: "story_generator_n10_bg3"
             }, {
-                src: "images/bg4.jpg",
+                src: "../../../../images/bg4.jpg",
                 id: "story_generator_n10_bg4"
             }, {
-                src: "images/bg5.jpg",
+                src: "../../../../images/bg5.jpg",
                 id: "story_generator_n10_bg5"
             }, {
-                src: "images/bg6.jpg",
+                src: "../../../../images/bg6.jpg",
                 id: "story_generator_n10_bg6"
             },
             {
-                src: "images/bg7.jpg",
+                src: "../../../../images/bg7.jpg",
                 id: "story_generator_n10_bg7"
             }, {
-                src: "images/bg8.jpg",
+                src: "../../../../images/bg8.jpg",
                 id: "story_generator_n10_bg8"
             }, {
-                src: "images/bg9.jpg",
+                src: "../../../../images/bg9.jpg",
                 id: "story_generator_n10_bg9"
             }, {
-                src: "images/bg_op.jpg",
+                src: "../../../../images/bg_op.jpg",
                 id: "story_generator_n10_bg_op"
             }, {
-                src: "images/c10_b.png",
+                src: "../../../../images/c10_b.png",
                 id: "story_generator_n10_c10_b"
             }, {
-                src: "images/c10_face1.png",
+                src: "../../../../images/c10_face1.png",
                 id: "story_generator_n10_c10_face1"
             }, {
-                src: "images/c10_face10.png",
+                src: "../../../../images/c10_face10.png",
                 id: "story_generator_n10_c10_face10"
             }, {
-                src: "images/c10_face11.png",
+                src: "../../../../images/c10_face11.png",
                 id: "story_generator_n10_c10_face11"
             }, {
-                src: "images/c10_face12.png",
+                src: "../../../../images/c10_face12.png",
                 id: "story_generator_n10_c10_face12"
             }, {
-                src: "images/c10_face2.png",
+                src: "../../../../images/c10_face2.png",
                 id: "story_generator_n10_c10_face2"
             }, {
-                src: "images/c10_face3.png",
+                src: "../../../../images/c10_face3.png",
                 id: "story_generator_n10_c10_face3"
             }, {
-                src: "images/c10_face4.png",
+                src: "../../../../images/c10_face4.png",
                 id: "story_generator_n10_c10_face4"
             }, {
-                src: "images/c10_face5.png",
+                src: "../../../../images/c10_face5.png",
                 id: "story_generator_n10_c10_face5"
             }, {
-                src: "images/c10_face6.png",
+                src: "../../../../images/c10_face6.png",
                 id: "story_generator_n10_c10_face6"
             },
             {
-                src: "images/c10_face7.png",
+                src: "../../../../images/c10_face7.png",
                 id: "story_generator_n10_c10_face7"
             }, {
-                src: "images/c10_face8.png",
+                src: "../../../../images/c10_face8.png",
                 id: "story_generator_n10_c10_face8"
             }, {
-                src: "images/c10_face9.png",
+                src: "../../../../images/c10_face9.png",
                 id: "story_generator_n10_c10_face9"
             }, {
-                src: "images/c1_b.png",
+                src: "../../../../images/c1_b.png",
                 id: "story_generator_n10_c1_b"
             }, {
-                src: "images/c1_face1.png",
+                src: "../../../../images/c1_face1.png",
                 id: "story_generator_n10_c1_face1"
             }, {
-                src: "images/c1_face10.png",
+                src: "../../../../images/c1_face10.png",
                 id: "story_generator_n10_c1_face10"
             }, {
-                src: "images/c1_face11.png",
+                src: "../../../../images/c1_face11.png",
                 id: "story_generator_n10_c1_face11"
             },
             {
-                src: "images/c1_face12.png",
+                src: "../../../../images/c1_face12.png",
                 id: "story_generator_n10_c1_face12"
             }, {
-                src: "images/c1_face2.png",
+                src: "../../../../images/c1_face2.png",
                 id: "story_generator_n10_c1_face2"
             }, {
-                src: "images/c1_face3.png",
+                src: "../../../../images/c1_face3.png",
                 id: "story_generator_n10_c1_face3"
             }, {
-                src: "images/c1_face4.png",
+                src: "../../../../images/c1_face4.png",
                 id: "story_generator_n10_c1_face4"
             }, {
-                src: "images/c1_face5.png",
+                src: "../../../../images/c1_face5.png",
                 id: "story_generator_n10_c1_face5"
             }, {
-                src: "images/c1_face6.png",
+                src: "../../../../images/c1_face6.png",
                 id: "story_generator_n10_c1_face6"
             }, {
-                src: "images/c1_face7.png",
+                src: "../../../../images/c1_face7.png",
                 id: "story_generator_n10_c1_face7"
             },
             {
-                src: "images/c1_face8.png",
+                src: "../../../../images/c1_face8.png",
                 id: "story_generator_n10_c1_face8"
             }, {
-                src: "images/c1_face9.png",
+                src: "../../../../images/c1_face9.png",
                 id: "story_generator_n10_c1_face9"
             }, {
-                src: "images/c2_b.png",
+                src: "../../../../images/c2_b.png",
                 id: "story_generator_n10_c2_b"
             }, {
-                src: "images/c2_face1.png",
+                src: "../../../../images/c2_face1.png",
                 id: "story_generator_n10_c2_face1"
             }, {
-                src: "images/c2_face10.png",
+                src: "../../../../images/c2_face10.png",
                 id: "story_generator_n10_c2_face10"
             }, {
-                src: "images/c2_face11.png",
+                src: "../../../../images/c2_face11.png",
                 id: "story_generator_n10_c2_face11"
             }, {
-                src: "images/c2_face12.png",
+                src: "../../../../images/c2_face12.png",
                 id: "story_generator_n10_c2_face12"
             },
             {
-                src: "images/c2_face2.png",
+                src: "../../../../images/c2_face2.png",
                 id: "story_generator_n10_c2_face2"
             }, {
-                src: "images/c2_face3.png",
+                src: "../../../../images/c2_face3.png",
                 id: "story_generator_n10_c2_face3"
             }, {
-                src: "images/c2_face4.png",
+                src: "../../../../images/c2_face4.png",
                 id: "story_generator_n10_c2_face4"
             }, {
-                src: "images/c2_face5.png",
+                src: "../../../../images/c2_face5.png",
                 id: "story_generator_n10_c2_face5"
             }, {
-                src: "images/c2_face6.png",
+                src: "../../../../images/c2_face6.png",
                 id: "story_generator_n10_c2_face6"
             }, {
-                src: "images/c2_face7.png",
+                src: "../../../../images/c2_face7.png",
                 id: "story_generator_n10_c2_face7"
             }, {
-                src: "images/c2_face8.png",
+                src: "../../../../images/c2_face8.png",
                 id: "story_generator_n10_c2_face8"
             },
             {
-                src: "images/c2_face9.png",
+                src: "../../../../images/c2_face9.png",
                 id: "story_generator_n10_c2_face9"
             }, {
-                src: "images/c3_b.png",
+                src: "../../../../images/c3_b.png",
                 id: "story_generator_n10_c3_b"
             }, {
-                src: "images/c3_face1.png",
+                src: "../../../../images/c3_face1.png",
                 id: "story_generator_n10_c3_face1"
             }, {
-                src: "images/c3_face10.png",
+                src: "../../../../images/c3_face10.png",
                 id: "story_generator_n10_c3_face10"
             }, {
-                src: "images/c3_face11.png",
+                src: "../../../../images/c3_face11.png",
                 id: "story_generator_n10_c3_face11"
             }, {
-                src: "images/c3_face12.png",
+                src: "../../../../images/c3_face12.png",
                 id: "story_generator_n10_c3_face12"
             }, {
-                src: "images/c3_face2.png",
+                src: "../../../../images/c3_face2.png",
                 id: "story_generator_n10_c3_face2"
             },
             {
-                src: "images/c3_face3.png",
+                src: "../../../../images/c3_face3.png",
                 id: "story_generator_n10_c3_face3"
             }, {
-                src: "images/c3_face4.png",
+                src: "../../../../images/c3_face4.png",
                 id: "story_generator_n10_c3_face4"
             }, {
-                src: "images/c3_face5.png",
+                src: "../../../../images/c3_face5.png",
                 id: "story_generator_n10_c3_face5"
             }, {
-                src: "images/c3_face6.png",
+                src: "../../../../images/c3_face6.png",
                 id: "story_generator_n10_c3_face6"
             }, {
-                src: "images/c3_face7.png",
+                src: "../../../../images/c3_face7.png",
                 id: "story_generator_n10_c3_face7"
             }, {
-                src: "images/c3_face8.png",
+                src: "../../../../images/c3_face8.png",
                 id: "story_generator_n10_c3_face8"
             }, {
-                src: "images/c3_face9.png",
+                src: "../../../../images/c3_face9.png",
                 id: "story_generator_n10_c3_face9"
             },
             {
-                src: "images/c4_b.png",
+                src: "../../../../images/c4_b.png",
                 id: "story_generator_n10_c4_b"
             }, {
-                src: "images/c4_face1.png",
+                src: "../../../../images/c4_face1.png",
                 id: "story_generator_n10_c4_face1"
             }, {
-                src: "images/c4_face10.png",
+                src: "../../../../images/c4_face10.png",
                 id: "story_generator_n10_c4_face10"
             }, {
-                src: "images/c4_face11.png",
+                src: "../../../../images/c4_face11.png",
                 id: "story_generator_n10_c4_face11"
             }, {
-                src: "images/c4_face12.png",
+                src: "../../../../images/c4_face12.png",
                 id: "story_generator_n10_c4_face12"
             }, {
-                src: "images/c4_face2.png",
+                src: "../../../../images/c4_face2.png",
                 id: "story_generator_n10_c4_face2"
             }, {
-                src: "images/c4_face3.png",
+                src: "../../../../images/c4_face3.png",
                 id: "story_generator_n10_c4_face3"
             },
             {
-                src: "images/c4_face4.png",
+                src: "../../../../images/c4_face4.png",
                 id: "story_generator_n10_c4_face4"
             }, {
-                src: "images/c4_face5.png",
+                src: "../../../../images/c4_face5.png",
                 id: "story_generator_n10_c4_face5"
             }, {
-                src: "images/c4_face6.png",
+                src: "../../../../images/c4_face6.png",
                 id: "story_generator_n10_c4_face6"
             }, {
-                src: "images/c4_face7.png",
+                src: "../../../../images/c4_face7.png",
                 id: "story_generator_n10_c4_face7"
             }, {
-                src: "images/c4_face8.png",
+                src: "../../../../images/c4_face8.png",
                 id: "story_generator_n10_c4_face8"
             }, {
-                src: "images/c4_face9.png",
+                src: "../../../../images/c4_face9.png",
                 id: "story_generator_n10_c4_face9"
             }, {
-                src: "images/c5_b.png",
+                src: "../../../../images/c5_b.png",
                 id: "story_generator_n10_c5_b"
             },
             {
-                src: "images/c5_face1.png",
+                src: "../../../../images/c5_face1.png",
                 id: "story_generator_n10_c5_face1"
             }, {
-                src: "images/c5_face10.png",
+                src: "../../../../images/c5_face10.png",
                 id: "story_generator_n10_c5_face10"
             }, {
-                src: "images/c5_face11.png",
+                src: "../../../../images/c5_face11.png",
                 id: "story_generator_n10_c5_face11"
             }, {
-                src: "images/c5_face12.png",
+                src: "../../../../images/c5_face12.png",
                 id: "story_generator_n10_c5_face12"
             }, {
-                src: "images/c5_face2.png",
+                src: "../../../../images/c5_face2.png",
                 id: "story_generator_n10_c5_face2"
             }, {
-                src: "images/c5_face3.png",
+                src: "../../../../images/c5_face3.png",
                 id: "story_generator_n10_c5_face3"
             }, {
-                src: "images/c5_face4.png",
+                src: "../../../../images/c5_face4.png",
                 id: "story_generator_n10_c5_face4"
             }, {
-                src: "images/c5_face5.png",
+                src: "../../../../images/c5_face5.png",
                 id: "story_generator_n10_c5_face5"
             }, {
-                src: "images/c5_face6.png",
+                src: "../../../../images/c5_face6.png",
                 id: "story_generator_n10_c5_face6"
             }, {
-                src: "images/c5_face7.png",
+                src: "../../../../images/c5_face7.png",
                 id: "story_generator_n10_c5_face7"
             }, {
-                src: "images/c5_face8.png",
+                src: "../../../../images/c5_face8.png",
                 id: "story_generator_n10_c5_face8"
             }, {
-                src: "images/c5_face9.png",
+                src: "../../../../images/c5_face9.png",
                 id: "story_generator_n10_c5_face9"
             }, {
-                src: "images/c6_b.png",
+                src: "../../../../images/c6_b.png",
                 id: "story_generator_n10_c6_b"
             }, {
-                src: "images/c6_face1.png",
+                src: "../../../../images/c6_face1.png",
                 id: "story_generator_n10_c6_face1"
             }, {
-                src: "images/c6_face10.png",
+                src: "../../../../images/c6_face10.png",
                 id: "story_generator_n10_c6_face10"
             }, {
-                src: "images/c6_face11.png",
+                src: "../../../../images/c6_face11.png",
                 id: "story_generator_n10_c6_face11"
             }, {
-                src: "images/c6_face12.png",
+                src: "../../../../images/c6_face12.png",
                 id: "story_generator_n10_c6_face12"
             }, {
-                src: "images/c6_face2.png",
+                src: "../../../../images/c6_face2.png",
                 id: "story_generator_n10_c6_face2"
             }, {
-                src: "images/c6_face3.png",
+                src: "../../../../images/c6_face3.png",
                 id: "story_generator_n10_c6_face3"
             }, {
-                src: "images/c6_face4.png",
+                src: "../../../../images/c6_face4.png",
                 id: "story_generator_n10_c6_face4"
             }, {
-                src: "images/c6_face5.png",
+                src: "../../../../images/c6_face5.png",
                 id: "story_generator_n10_c6_face5"
             }, {
-                src: "images/c6_face6.png",
+                src: "../../../../images/c6_face6.png",
                 id: "story_generator_n10_c6_face6"
             }, {
-                src: "images/c6_face7.png",
+                src: "../../../../images/c6_face7.png",
                 id: "story_generator_n10_c6_face7"
             }, {
-                src: "images/c6_face8.png",
+                src: "../../../../images/c6_face8.png",
                 id: "story_generator_n10_c6_face8"
             }, {
-                src: "images/c6_face9.png",
+                src: "../../../../images/c6_face9.png",
                 id: "story_generator_n10_c6_face9"
             }, {
-                src: "images/c7_b.png",
+                src: "../../../../images/c7_b.png",
                 id: "story_generator_n10_c7_b"
             }, {
-                src: "images/c7_face1.png",
+                src: "../../../../images/c7_face1.png",
                 id: "story_generator_n10_c7_face1"
             }, {
-                src: "images/c7_face10.png",
+                src: "../../../../images/c7_face10.png",
                 id: "story_generator_n10_c7_face10"
             }, {
-                src: "images/c7_face11.png",
+                src: "../../../../images/c7_face11.png",
                 id: "story_generator_n10_c7_face11"
             }, {
-                src: "images/c7_face12.png",
+                src: "../../../../images/c7_face12.png",
                 id: "story_generator_n10_c7_face12"
             }, {
-                src: "images/c7_face2.png",
+                src: "../../../../images/c7_face2.png",
                 id: "story_generator_n10_c7_face2"
             }, {
-                src: "images/c7_face3.png",
+                src: "../../../../images/c7_face3.png",
                 id: "story_generator_n10_c7_face3"
             }, {
-                src: "images/c7_face4.png",
+                src: "../../../../images/c7_face4.png",
                 id: "story_generator_n10_c7_face4"
             }, {
-                src: "images/c7_face5.png",
+                src: "../../../../images/c7_face5.png",
                 id: "story_generator_n10_c7_face5"
             }, {
-                src: "images/c7_face6.png",
+                src: "../../../../images/c7_face6.png",
                 id: "story_generator_n10_c7_face6"
             }, {
-                src: "images/c7_face7.png",
+                src: "../../../../images/c7_face7.png",
                 id: "story_generator_n10_c7_face7"
             }, {
-                src: "images/c7_face8.png",
+                src: "../../../../images/c7_face8.png",
                 id: "story_generator_n10_c7_face8"
             }, {
-                src: "images/c7_face9.png",
+                src: "../../../../images/c7_face9.png",
                 id: "story_generator_n10_c7_face9"
             }, {
-                src: "images/c8_b.png",
+                src: "../../../../images/c8_b.png",
                 id: "story_generator_n10_c8_b"
             }, {
-                src: "images/c8_face1.png",
+                src: "../../../../images/c8_face1.png",
                 id: "story_generator_n10_c8_face1"
             }, {
-                src: "images/c8_face10.png",
+                src: "../../../../images/c8_face10.png",
                 id: "story_generator_n10_c8_face10"
             }, {
-                src: "images/c8_face11.png",
+                src: "../../../../images/c8_face11.png",
                 id: "story_generator_n10_c8_face11"
             }, {
-                src: "images/c8_face12.png",
+                src: "../../../../images/c8_face12.png",
                 id: "story_generator_n10_c8_face12"
             }, {
-                src: "images/c8_face2.png",
+                src: "../../../../images/c8_face2.png",
                 id: "story_generator_n10_c8_face2"
             }, {
-                src: "images/c8_face3.png",
+                src: "../../../../images/c8_face3.png",
                 id: "story_generator_n10_c8_face3"
             }, {
-                src: "images/c8_face4.png",
+                src: "../../../../images/c8_face4.png",
                 id: "story_generator_n10_c8_face4"
             }, {
-                src: "images/c8_face5.png",
+                src: "../../../../images/c8_face5.png",
                 id: "story_generator_n10_c8_face5"
             }, {
-                src: "images/c8_face6.png",
+                src: "../../../../images/c8_face6.png",
                 id: "story_generator_n10_c8_face6"
             }, {
-                src: "images/c8_face7.png",
+                src: "../../../../images/c8_face7.png",
                 id: "story_generator_n10_c8_face7"
             }, {
-                src: "images/c8_face8.png",
+                src: "../../../../images/c8_face8.png",
                 id: "story_generator_n10_c8_face8"
             }, {
-                src: "images/c8_face9.png",
+                src: "../../../../images/c8_face9.png",
                 id: "story_generator_n10_c8_face9"
             }, {
-                src: "images/c9_b.png",
+                src: "../../../../images/c9_b.png",
                 id: "story_generator_n10_c9_b"
             }, {
-                src: "images/c9_face1.png",
+                src: "../../../../images/c9_face1.png",
                 id: "story_generator_n10_c9_face1"
             }, {
-                src: "images/c9_face10.png",
+                src: "../../../../images/c9_face10.png",
                 id: "story_generator_n10_c9_face10"
             }, {
-                src: "images/c9_face11.png",
+                src: "../../../../images/c9_face11.png",
                 id: "story_generator_n10_c9_face11"
             }, {
-                src: "images/c9_face12.png",
+                src: "../../../../images/c9_face12.png",
                 id: "story_generator_n10_c9_face12"
             }, {
-                src: "images/c9_face2.png",
+                src: "../../../../images/c9_face2.png",
                 id: "story_generator_n10_c9_face2"
             }, {
-                src: "images/c9_face3.png",
+                src: "../../../../images/c9_face3.png",
                 id: "story_generator_n10_c9_face3"
             }, {
-                src: "images/c9_face4.png",
+                src: "../../../../images/c9_face4.png",
                 id: "story_generator_n10_c9_face4"
             }, {
-                src: "images/c9_face5.png",
+                src: "../../../../images/c9_face5.png",
                 id: "story_generator_n10_c9_face5"
             }, {
-                src: "images/c9_face6.png",
+                src: "../../../../images/c9_face6.png",
                 id: "story_generator_n10_c9_face6"
             }, {
-                src: "images/c9_face7.png",
+                src: "../../../../images/c9_face7.png",
                 id: "story_generator_n10_c9_face7"
             }, {
-                src: "images/c9_face8.png",
+                src: "../../../../images/c9_face8.png",
                 id: "story_generator_n10_c9_face8"
             }, {
-                src: "images/c9_face9.png",
+                src: "../../../../images/c9_face9.png",
                 id: "story_generator_n10_c9_face9"
             }, {
-                src: "images/event_logo.png",
+                src: "../../../../images/event_logo.png",
                 id: "story_generator_n10_event_logo"
             }, {
-                src: "images/event_push.png",
+                src: "../../../../images/event_push.png",
                 id: "story_generator_n10_event_push"
             }, {
-                src: "images/event_push_b.png",
+                src: "../../../../images/event_push_b.png",
                 id: "story_generator_n10_event_push_b"
             }, {
-                src: "images/event_push_w.png",
+                src: "../../../../images/event_push_w.png",
                 id: "story_generator_n10_event_push_w"
             }, {
-                src: "images/fp_kirakira.png",
+                src: "../../../../images/fp_kirakira.png",
                 id: "story_generator_n10_fp_kirakira"
             },
             {
-                src: "images/fp_kirakira_40x40.png",
+                src: "../../../../images/fp_kirakira_40x40.png",
                 id: "story_generator_n10_fp_kirakira_40x40"
             }, {
-                src: "images/tie_sp.png",
+                src: "../../../../images/tie_sp.png",
                 id: "story_generator_n10_tie_sp"
             }
         ],
