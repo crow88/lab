@@ -1907,8 +1907,8 @@
                         eyeCatch.offCount();
                     } else {
                         $.ajax({
-                                type: 'POST',
-                                url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_idol_status%3Fl_frm%3DPetit_cg_index_1%26rnd%3D491087822',
+                                type: 'GET',
+                                url: 'ajax_idol_status.json',
                                 dataType: 'json',
                                 data: {
                                     "deck_position": chara()
