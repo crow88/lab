@@ -1998,8 +1998,8 @@
                         $('#jsCoordinateSort').val(0);
                     }
                     $.ajax({
-                            type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_coordinate_list%3Fl_frm%3DPetit_cg_index_1%26rnd%3D866938169',
+                            type: 'GET',
+                            url: '../ajax_coordinate_list.json',
                             dataType: 'json',
                             data: {
                                 "type": type,
@@ -2083,8 +2083,8 @@
                         return false;
                     }
                     $.ajax({
-                            type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_coordinate%3Fl_frm%3DPetit_cg_index_1%26rnd%3D457034505',
+                            type: 'GET',
+                            url: '../ajax_coordinate.json',
                             dataType: 'json',
                             data: {
                                 "itemid_list": items,
@@ -2120,8 +2120,8 @@
 
                 function getHairstyleList() {
                     $.ajax({
-                            type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_hair_styling_list%3Fl_frm%3DPetit_cg_index_1%26rnd%3D879934409',
+                            type: 'GET',
+                            url: '../ajax_hair_styling_list.json',
                             dataType: 'json',
                             data: {
                                 "deck_position": chara()
@@ -2174,8 +2174,8 @@
                         return false;
                     }
                     $.ajax({
-                            type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_hair_styling%3Fl_frm%3DPetit_cg_index_1%26rnd%3D758878558',
+                            type: 'GET',
+                            url: '../ajax_hair_styling.json',
                             dataType: 'json',
                             data: {
                                 "hair_id": itemId,
@@ -2207,8 +2207,8 @@
 
                 function getEpisodeList(idol_id) {
                     $.ajax({
-                            type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_episode_list%3Fl_frm%3DPetit_cg_index_1%26rnd%3D542124512',
+                            type: 'GET',
+                            url: '../ajax_episode_list.json',
                             dataType: 'json',
                             data: {
                                 'idol_id': idol_id
@@ -2279,8 +2279,8 @@
 
                 function getCommentsList() {
                     $.ajax({
-                            type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_idol_comment_list%3Fl_frm%3DPetit_cg_index_1%26rnd%3D763903428',
+                            type: 'GET',
+                            url: '../ajax_idol_comment_list.json',
                             dataType: 'json',
                             data: {
                                 'deck_position': chara()
