@@ -1168,8 +1168,8 @@
                     var type = (typeof(sortId) !== 'undefined') ? sortId : '1';
                     var url = 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/exchange%3Fl_frm%3DPetit_cg_index_1%26rnd%3D776839214';
                     $.ajax({
-                            type: 'POST',
-                            url: url.replace('exchange', 'petit_cg/ajax_lesson_list?rnd=' + (Math.floor(Math.random() * 1000000))),
+                            type: 'GET',
+                            url: '../ajax_lesson_list.json',
                             dataType: 'json',
                             headers: {
                                 "Pragma": "no-cache"

@@ -393,7 +393,7 @@
                 </dl>
             </div>
             <div id="top_like" class="display1 display5 pexDom jsOnBtn">
-                <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/like_list%3Fl_frm%3DPetit_cg_index_1%26rnd%3D709412074' class="likeBtn">
+                <a href='../like_list%3Fl_frm%3DPetit_cg_index_1%26rnd%3D709412074' class="likeBtn">
                     <div class="total_like"><span class="val">0</span></div>
                 </a>
             </div>
@@ -842,7 +842,7 @@
                     <li><a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg%3Fview_page%3D3%26l_frm%3DPetit_cg_index_1%26rnd%3D590692107' class="index_menu_bt_03 jsLinkAct se_022" data-text="3">
                             <div></div>
                         </a></li>
-                    <li><a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/deck_edit_top%3Fl_frm%3DPetit_cg_index_1%26rnd%3D36702381' class="index_menu_bt_04 se_022">
+                    <li><a href='../deck_edit_top%3Fl_frm%3DPetit_cg_index_1%26rnd%3D36702381' class="index_menu_bt_04 se_022">
                             <div></div>
                         </a></li>
                     <li><a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg%3Fl_frm%3DPetit_cg_index_4%26rnd%3D958183532' class="index_menu_bt_05 jsEquipmentLink se_022">
@@ -878,8 +878,8 @@
                 </a>
                 <div class="in_block no-border">
                     <div class="index_visit_btn_area displayBox jsOnBtn">
-                        <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/petit_cheer/113705565%3Frnd_all%3D1%26l_frm%3DPetit_cg_index_1%26rnd%3D153385803' class="button_top_menu_visit_01"></a>
-                        <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/petit_cheer/142321782%3Frnd_prd%3D1%26l_frm%3DPetit_cg_index_1%26rnd%3D882707048' class="button_top_menu_visit_02"></a>
+                        <a href='../petit_cheer/113705565%3Frnd_all%3D1%26l_frm%3DPetit_cg_index_1%26rnd%3D153385803' class="button_top_menu_visit_01"></a>
+                        <a href='../petit_cheer/142321782%3Frnd_prd%3D1%26l_frm%3DPetit_cg_index_1%26rnd%3D882707048' class="button_top_menu_visit_02"></a>
                         <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/knights/knights_member%3Fl_frm%3DPetit_cg_index_1%26rnd%3D754078831' class="button_top_menu_visit_03"></a>
                     </div>
                 </div>
@@ -1154,7 +1154,7 @@
                     $.ajax({
                         type: 'post',
                         data: $.param(error),
-                        url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/report_ajax_error%3Fl_frm%3DPetit_cg_index_1%26rnd%3D82773207',
+                        url: '../report_ajax_error%3Fl_frm%3DPetit_cg_index_1%26rnd%3D82773207',
                         timeout: 1000,
                         success: function() {
                             /* 何もしない */ },
@@ -1168,8 +1168,8 @@
                     var type = (typeof(sortId) !== 'undefined') ? sortId : '1';
                     var url = 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/exchange%3Fl_frm%3DPetit_cg_index_1%26rnd%3D622404250';
                     $.ajax({
-                            type: 'POST',
-                            url: url.replace('exchange', 'petit_cg/ajax_lesson_list?rnd=' + (Math.floor(Math.random() * 1000000))),
+                            type: 'GET',
+                            url: '../ajax_lesson_list.json',
                             dataType: 'json',
                             headers: {
                                 "Pragma": "no-cache"
@@ -1373,7 +1373,7 @@
                     var temp_id = chara();
                     $.ajax({
                             type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_start_lesson%3Fl_frm%3DPetit_cg_index_1%26rnd%3D931251210',
+                            url: '../ajax_start_lesson%3Fl_frm%3DPetit_cg_index_1%26rnd%3D931251210',
                             dataType: 'json',
                             data: {
                                 "lesson_id": data.lesson_id,
@@ -1395,7 +1395,7 @@
                     var current_chara = chara();
                     $.ajax({
                             type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_cancel_lesson%3Fl_frm%3DPetit_cg_index_1%26rnd%3D353478837',
+                            url: '../ajax_cancel_lesson%3Fl_frm%3DPetit_cg_index_1%26rnd%3D353478837',
                             dataType: 'json',
                             data: {
                                 "idol_id": petitLocalStrageLoad('idol_id'),
@@ -1418,7 +1418,7 @@
                     var lesson_id = data.lesson_id;
                     $.ajax({
                             type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_finish_lesson%3Fl_frm%3DPetit_cg_index_1%26rnd%3D998333496',
+                            url: '../ajax_finish_lesson%3Fl_frm%3DPetit_cg_index_1%26rnd%3D998333496',
                             dataType: 'json',
                             data: {
                                 "idol_id": petitLocalStrageLoad('idol_id'),
@@ -1597,7 +1597,7 @@
                     }
                     $.ajax({
                             type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_exchange_base_data%3Fl_frm%3DPetit_cg_index_1%26rnd%3D485737742',
+                            url: '../ajax_exchange_base_data%3Fl_frm%3DPetit_cg_index_1%26rnd%3D485737742',
                             dataType: 'json',
                             data: {
                                 "type": type,
@@ -1842,7 +1842,7 @@
                 function uiAjaxFunc(itemId) {
                     $.ajax({
                             type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_exchange_check%3Fl_frm%3DPetit_cg_index_1%26rnd%3D277237258',
+                            url: '../ajax_exchange_check%3Fl_frm%3DPetit_cg_index_1%26rnd%3D277237258',
                             data: {
                                 'accessory_id': itemId
                             },
@@ -1907,8 +1907,8 @@
                         eyeCatch.offCount();
                     } else {
                         $.ajax({
-                                type: 'POST',
-                                url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_idol_status%3Fl_frm%3DPetit_cg_index_1%26rnd%3D711635625',
+                                type: 'GET',
+                                url: '../ajax_idol_status.json',
                                 dataType: 'json',
                                 data: {
                                     "deck_position": chara()
@@ -1998,8 +1998,8 @@
                         $('#jsCoordinateSort').val(0);
                     }
                     $.ajax({
-                            type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_coordinate_list%3Fl_frm%3DPetit_cg_index_1%26rnd%3D613977312',
+                            type: 'GET',
+                            url: '../ajax_coordinate_list.json',
                             dataType: 'json',
                             data: {
                                 "type": type,
@@ -2084,7 +2084,7 @@
                     }
                     $.ajax({
                             type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_coordinate%3Fl_frm%3DPetit_cg_index_1%26rnd%3D417670935',
+                            url: '../ajax_coordinate%3Fl_frm%3DPetit_cg_index_1%26rnd%3D417670935',
                             dataType: 'json',
                             data: {
                                 "itemid_list": items,
@@ -2121,7 +2121,7 @@
                 function getHairstyleList() {
                     $.ajax({
                             type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_hair_styling_list%3Fl_frm%3DPetit_cg_index_1%26rnd%3D708496605',
+                            url: '../ajax_hair_styling_list%3Fl_frm%3DPetit_cg_index_1%26rnd%3D708496605',
                             dataType: 'json',
                             data: {
                                 "deck_position": chara()
@@ -2175,7 +2175,7 @@
                     }
                     $.ajax({
                             type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_hair_styling%3Fl_frm%3DPetit_cg_index_1%26rnd%3D643890505',
+                            url: '../ajax_hair_styling%3Fl_frm%3DPetit_cg_index_1%26rnd%3D643890505',
                             dataType: 'json',
                             data: {
                                 "hair_id": itemId,
@@ -2207,8 +2207,8 @@
 
                 function getEpisodeList(idol_id) {
                     $.ajax({
-                            type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_episode_list%3Fl_frm%3DPetit_cg_index_1%26rnd%3D264137532',
+                            type: 'GET',
+                            url: '../ajax_episode_list.json',
                             dataType: 'json',
                             data: {
                                 'idol_id': idol_id
@@ -2227,7 +2227,7 @@
                     if ($.isEmptyObject(episodes)) {
                         var showHtml = "<div class='ep_list red' style='margin-left:6px;'>開放されているエピソードがありません。</div>";
                     } else {
-                        var baseUrl = ('https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/petit_show_episode/__idol_ld__/__episode__/coordinate_idol/__position__%3Fvoice_flag%3D0%26l_frm%3DPetit_cg_index_1%26rnd%3D228267812');
+                        var baseUrl = ('../petit_show_episode/__idol_ld__/__episode__/coordinate_idol/__position__%3Fvoice_flag%3D0%26l_frm%3DPetit_cg_index_1%26rnd%3D228267812');
                         baseUrl = baseUrl.replace('__idol_ld__', idol_id);
                         baseUrl = baseUrl.replace('__position__', chara());
                         var showHtml = "<ul class='ep_list'>";
@@ -2279,8 +2279,8 @@
 
                 function getCommentsList() {
                     $.ajax({
-                            type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_idol_comment_list%3Fl_frm%3DPetit_cg_index_1%26rnd%3D621742556',
+                            type: 'GET',
+                            url: '../ajax_idol_comment_list.json',
                             dataType: 'json',
                             data: {
                                 'deck_position': chara()
@@ -2634,7 +2634,7 @@
                     var idol_id = getIdolId();
                     $.ajax({
                             type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_use_item_select%3Fl_frm%3DPetit_cg_index_1%26rnd%3D550234202',
+                            url: '../ajax_use_item_select%3Fl_frm%3DPetit_cg_index_1%26rnd%3D550234202',
                             dataType: 'json',
                             data: {
                                 'idol_id': idol_id
@@ -2792,7 +2792,7 @@
                     }
                     $.ajax({
                             type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_use_item_confirm%3Fl_frm%3DPetit_cg_index_1%26rnd%3D651527108',
+                            url: '../ajax_use_item_confirm%3Fl_frm%3DPetit_cg_index_1%26rnd%3D651527108',
                             dataType: 'json',
                             data: {
                                 'idol_id': idol_id,
@@ -2878,7 +2878,7 @@
                     se_play('se_113');
                     $.ajax({
                             type: 'POST',
-                            url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_use_item_exec%3Fl_frm%3DPetit_cg_index_1%26rnd%3D880688957',
+                            url: '../ajax_use_item_exec%3Fl_frm%3DPetit_cg_index_1%26rnd%3D880688957',
                             dataType: 'json',
                             data: ajax_param
                         })
@@ -3045,7 +3045,7 @@
                 }
                 $.ajax({
                     type: 'post',
-                    url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_try_on%3Fl_frm%3DPetit_cg_index_1%26rnd%3D158830161',
+                    url: '../ajax_try_on%3Fl_frm%3DPetit_cg_index_1%26rnd%3D158830161',
                     data: self.data,
                     dataType: 'json',
                     cache: false,
@@ -3536,7 +3536,7 @@
                     }, 1000);
                 } else if ($(this).hasClass('cc__icon-none')) {
                     change_click = true;
-                    document.location = 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/deck_edit_top%3Fl_frm%3DPetit_cg_index_2%26rnd%3D590465033';
+                    document.location = '../deck_edit_top%3Fl_frm%3DPetit_cg_index_2%26rnd%3D590465033';
                 }
                 return false;
             });
@@ -3588,35 +3588,35 @@
                         </a>
                     </div>
                     <div class="right_area">
-                        <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/gacha_info%3Fl_frm%3DPetit_cg_index_1%26rnd%3D571995772' class="popup_gacha_btn se_022">
+                        <a href='../gacha_info%3Fl_frm%3DPetit_cg_index_1%26rnd%3D571995772' class="popup_gacha_btn se_022">
                             <div></div>
                         </a>
                     </div>
                 </div>
             </div>
             <ul class="static_menu_list">
-                <li><a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/deck_edit_top%3Fl_frm%3DPetit_cg_index_3%26rnd%3D684129999' class="popup_menu_07 se_022">
+                <li><a href='../deck_edit_top%3Fl_frm%3DPetit_cg_index_3%26rnd%3D684129999' class="popup_menu_07 se_022">
                         <div></div>
                     </a></li>
                 <li><a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg%3Fl_frm%3DPetit_cg_index_7%26rnd%3D331604648' class="popup_menu_08 jsEquipmentLink se_022">
                         <div></div>
                     </a></li>
-                <li><a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/petit_exchange_list/medal%3Fl_frm%3DPetit_cg_index_1%26rnd%3D838095094' class="popup_menu_01 se_022">
+                <li><a href='../petit_exchange_list/medal%3Fl_frm%3DPetit_cg_index_1%26rnd%3D838095094' class="popup_menu_01 se_022">
                         <div></div>
                     </a></li>
-                <li><a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/union%3Fl_frm%3DPetit_cg_index_1%26rnd%3D831217621' class="popup_menu_04 se_022">
+                <li><a href='../union%3Fl_frm%3DPetit_cg_index_1%26rnd%3D831217621' class="popup_menu_04 se_022">
                         <div></div>
                     </a></li>
-                <li><a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/info%3Fl_frm%3DPetit_cg_index_1%26rnd%3D143042653' class="popup_menu_05 se_022">
+                <li><a href='../info%3Fl_frm%3DPetit_cg_index_1%26rnd%3D143042653' class="popup_menu_05 se_022">
                         <div></div>
                     </a></li>
-                <li><a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/idol_list%3Fl_frm%3DPetit_cg_index_1%26rnd%3D305265475' class="popup_menu_06 se_022">
+                <li><a href='../idol_list%3Fl_frm%3DPetit_cg_index_1%26rnd%3D305265475' class="popup_menu_06 se_022">
                         <div></div>
                     </a></li>
-                <li><a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/storage_accessory_list/0/1%3Fl_frm%3DPetit_cg_index_1%26rnd%3D164805476' class="popup_menu_11 se_022">
+                <li><a href='../storage_accessory_list/0/1%3Fl_frm%3DPetit_cg_index_1%26rnd%3D164805476' class="popup_menu_11 se_022">
                         <div></div>
                     </a></li>
-                <li><a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/snapshot%3Fl_frm%3DPetit_cg_index_1%26rnd%3D347607132' class="popup_menu_12 se_022">
+                <li><a href='../snapshot%3Fl_frm%3DPetit_cg_index_1%26rnd%3D347607132' class="popup_menu_12 se_022">
                         <div></div>
                     </a></li>
                 <li class="line"></li>
@@ -3747,14 +3747,14 @@
             $("#editBackground").ou();
             $("#editBackgroundResult").ou();
             $('.jsEquipmentLink').on('click', function() {
-                var petitEquipmentUrl = 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/equipment_edit_top/jsUrlEquipment%3Fl_frm%3DPetit_cg_index_1%26rnd%3D163225222';
+                var petitEquipmentUrl = '../equipment_edit_top/jsUrlEquipment%3Fl_frm%3DPetit_cg_index_1%26rnd%3D163225222';
                 var petitIdolId = petitLocalStrageLoad('idol_id');
                 if (petitIdolId) window.location.href = petitEquipmentUrl.replace('jsUrlEquipment', petitIdolId);
                 else window.location.href = 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg%3Fl_frm%3DPetit_cg_index_10%26rnd%3D631286980';
                 return false;
             });
             $('.jsTech_boardLink').on('click', function() {
-                var petitTech_boardUrl = 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/tech_board/jsUrlTech%3Fl_frm%3DPetit_cg_index_1%26rnd%3D419451924';
+                var petitTech_boardUrl = '../tech_board/jsUrlTech%3Fl_frm%3DPetit_cg_index_1%26rnd%3D419451924';
                 var petitIdolId = petitLocalStrageLoad('idol_id');
                 if (petitIdolId) window.location.href = petitTech_boardUrl.replace('jsUrlTech', petitIdolId);
                 else window.location.href = 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg%3Fl_frm%3DPetit_cg_index_11%26rnd%3D549796910';
@@ -3771,7 +3771,7 @@
             $('#edit_unit_name_btn').on('click', function() {
                 $.ajax({
                         type: 'GET',
-                        url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_get_show_unit_data%3Fl_frm%3DPetit_cg_index_1%26rnd%3D171237753',
+                        url: '../ajax_get_show_unit_data%3Fl_frm%3DPetit_cg_index_1%26rnd%3D171237753',
                         dataType: 'json',
                         data: {}
                     })
@@ -3793,7 +3793,7 @@
                 data_hash[csrf_token_name] = csrf_token_value;
                 $.ajax({
                         type: 'POST',
-                        url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_edit_unit_name%3Fl_frm%3DPetit_cg_index_1%26rnd%3D366123923',
+                        url: '../ajax_edit_unit_name%3Fl_frm%3DPetit_cg_index_1%26rnd%3D366123923',
                         dataType: 'json',
                         data: data_hash
                     })
@@ -3828,7 +3828,7 @@
             $('#edit_background_btn').on('click', function() {
                 $.ajax({
                         type: 'GET',
-                        url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_get_show_unit_data%3Fl_frm%3DPetit_cg_index_2%26rnd%3D203220756',
+                        url: '../ajax_get_show_unit_data%3Fl_frm%3DPetit_cg_index_2%26rnd%3D203220756',
                         dataType: 'json',
                         data: {}
                     })
@@ -3881,7 +3881,7 @@
                 }
                 $.ajax({
                         type: 'POST',
-                        url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/petit_cg/ajax_edit_background%3Fl_frm%3DPetit_cg_index_1%26rnd%3D298736298',
+                        url: '../ajax_edit_background%3Fl_frm%3DPetit_cg_index_1%26rnd%3D298736298',
                         dataType: 'json',
                         data: data_hash
                     })
