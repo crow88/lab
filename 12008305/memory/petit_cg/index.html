@@ -397,6 +397,7 @@
                     <div class="total_like"><span class="val">0</span></div>
                 </a>
             </div>
+            <!--아이템사용&다음레벨까지남은경험치
             <a href="#" id='use_item_btn' class="index_item_btn pexDom display2">
                 <div></div>
             </a>
@@ -406,6 +407,7 @@
                     <dd id="jsNextLvUp"></dd>
                 </dl>
             </div>
+            -->
             <div id="lesson_menu" class="display2 pexDom" style="display:none">
                 <div class="in_block">
                     <div class="item_list" id="jsLessonList">
@@ -417,6 +419,7 @@
                     </div>
                 </div>
             </div>
+            <!--레슨패널
             <div id="lesson_panel" class="jsPopWindow pexDom jsPopUp">
                 <div class="window_title" id="jsLessonName">ぷちレッスン中</div>
                 <div class="in_block no-border">
@@ -441,6 +444,7 @@
                     </a>
                 </div>
             </div>
+        -->
             <div id="lesson_stop_comp_panel" class="jsPopUp">
                 <div class="jsPopWindow">
                     <div class="window_title">ぷちレッスンを中止しました</div>
@@ -1171,7 +1175,7 @@
                     var url = 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/exchange%3Fl_frm%3DPetit_cg_index_1%26rnd%3D379345187';
                     $.ajax({
                             type: 'GET',
-                            url: 'ajax_lesson_list.json',
+                            url: 'ajax_lesson_list-2.json',
                             dataType: 'json',
                             headers: {
                                 "Pragma": "no-cache"
@@ -2122,8 +2126,8 @@
 
                 function getHairstyleList() {
                     $.ajax({
-                            type: 'POST',
-                            url: 'ajax_hair_styling_list%3Fl_frm%3DPetit_cg_index_1%26rnd%3D972570272',
+                            type: 'GET',
+                            url: 'ajax_hair_styling_list.json',
                             dataType: 'json',
                             data: {
                                 "deck_position": chara()
@@ -2229,7 +2233,7 @@
                     if ($.isEmptyObject(episodes)) {
                         var showHtml = "<div class='ep_list red' style='margin-left:6px;'>開放されているエピソードがありません。</div>";
                     } else {
-                        var baseUrl = ('petit_show_episode/__idol_ld__/__episode__/coordinate_idol/__position__%3Fvoice_flag%3D0%26l_frm%3DPetit_cg_index_1%26rnd%3D864325325');
+                        var baseUrl = ('__idol_ld__/__episode__');
                         baseUrl = baseUrl.replace('__idol_ld__', idol_id);
                         baseUrl = baseUrl.replace('__position__', chara());
                         var showHtml = "<ul class='ep_list'>";

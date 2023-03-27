@@ -1,0 +1,95 @@
+{
+    "user_lesson": {
+        "viewer_id": "139087231",
+        "deck_position": "1",
+        "lesson_id": "4",
+        "state": "1",
+        "start_time": "2023-03-27 23:34:48",
+        "create_time": "2016-11-15 11:15:39",
+        "update_time": "2023-03-27 23:34:48",
+        "delete_time": null,
+        "attribute": 1,
+        "remaining_time": "9:59:29",
+        "lesson_type": "2",
+        "lesson_name": "\uff83\uff78\uff86\uff76\uff99\uff9a\uff6f\uff7d\uff9d 10\u6642\u9593",
+        "exp": 52,
+        "point": 168,
+        "total": "184",
+        "require_time": "36000",
+        "comment": "\u3077\u3061Exp\uff1a+22(\u21d244)<br>\uff83\uff78\uff86\uff76\uff99pt\uff1a+70(\u21d2140)",
+        "image": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fpetit_cg%2Fui%2Fetc%2Flesson_vi.png%3Fv%3D20210904134848",
+        "completed_time": 1679963688,
+        "next_exp": 0,
+        "is_limit_level": true
+    },
+    "lesson_list": {
+        "1": {
+            "lesson_id": "1",
+            "lesson_type": "1",
+            "lesson_name": "\uff8d\uff9e\uff70\uff7d\uff9a\uff6f\uff7d\uff9d 1\u6642\u9593",
+            "exp": 24,
+            "point": 7,
+            "total": "26",
+            "require_time": "3600",
+            "comment": "\u3077\u3061Exp\uff1a+10(\u21d220)<br>\uff83\uff78\uff86\uff76\uff99pt\uff1a+3(\u21d26)",
+            "image": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fpetit_cg%2Fui%2Fetc%2Flesson_vi.png%3Fv%3D20210904134848",
+            "remaining_time": "01:00:00"
+        },
+        "2": {
+            "lesson_id": "2",
+            "lesson_type": "2",
+            "lesson_name": "\uff83\uff78\uff86\uff76\uff99\uff9a\uff6f\uff7d\uff9d 2\u6642\u9593",
+            "exp": 14,
+            "point": 48,
+            "total": "52",
+            "require_time": "7200",
+            "comment": "\u3077\u3061Exp\uff1a+6(\u21d212)<br>\uff83\uff78\uff86\uff76\uff99pt\uff1a+20(\u21d240)",
+            "image": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fpetit_cg%2Fui%2Fetc%2Flesson_vi.png%3Fv%3D20210904134848",
+            "remaining_time": "02:00:00"
+        },
+        "3": {
+            "lesson_id": "3",
+            "lesson_type": "1",
+            "lesson_name": "\uff8d\uff9e\uff70\uff7d\uff9a\uff6f\uff7d\uff9d 3\u6642\u9593",
+            "exp": 60,
+            "point": 19,
+            "total": "66",
+            "require_time": "10800",
+            "comment": "\u3077\u3061Exp\uff1a+25(\u21d250)<br>\uff83\uff78\uff86\uff76\uff99pt\uff1a+8(\u21d216)",
+            "image": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fpetit_cg%2Fui%2Fetc%2Flesson_vi.png%3Fv%3D20210904134848",
+            "remaining_time": "03:00:00"
+        },
+        "4": {
+            "lesson_id": "4",
+            "lesson_type": "2",
+            "lesson_name": "\uff83\uff78\uff86\uff76\uff99\uff9a\uff6f\uff7d\uff9d 10\u6642\u9593",
+            "exp": 52,
+            "point": 168,
+            "total": "184",
+            "require_time": "36000",
+            "comment": "\u3077\u3061Exp\uff1a+22(\u21d244)<br>\uff83\uff78\uff86\uff76\uff99pt\uff1a+70(\u21d2140)",
+            "image": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fpetit_cg%2Fui%2Fetc%2Flesson_vi.png%3Fv%3D20210904134848",
+            "remaining_time": "10:00:00"
+        },
+        "5": {
+            "lesson_id": "5",
+            "lesson_type": "1",
+            "lesson_name": "\uff8d\uff9e\uff70\uff7d\uff9a\uff6f\uff7d\uff9d 7\u6642\u9593",
+            "exp": 120,
+            "point": 38,
+            "total": "132",
+            "require_time": "25200",
+            "comment": "\u3077\u3061Exp\uff1a+50(\u21d2100)<br>\uff83\uff78\uff86\uff76\uff99pt\uff1a+16(\u21d232)",
+            "image": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2Fmobamas.net%2Fidolmaster%2Fimage_sp%2Fpetit_cg%2Fui%2Fetc%2Flesson_vi.png%3Fv%3D20210904134848",
+            "remaining_time": "07:00:00"
+        }
+    },
+    "lesson_ini": {
+        "csv": "petit_lesson_data_100up.csv",
+        "efficiency": "100",
+        "from": "2022\/08\/08 12:00:00",
+        "to": "2035\/05\/25 23:59:59"
+    },
+    "idol_message": "\u7b11\u9854\u306f\u5f97\u610f\u304b\u306a\u30fc! \u7b11\u3063\u3066\u308b\u3068\u3068\u308a\u3042\u3048\u305a\u697d\u3057\u3044\u304b\u3089! \u306b\u3083\u306f\u306f\u3063\u266a",
+    "idol_attribute": "1"
+}
