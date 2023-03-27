@@ -1,0 +1,3 @@
+define([
+	'easeljs', 'tweenjs', 'preloadjs'
+]);
