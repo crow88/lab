@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>아이돌마스터 신데렐라 걸즈</title>
+    <link rel="stylesheet" type="text/css" href="../../../../12008305/css/rich/drum_master_play.css" media="all">
+    <link rel="apple-touch-icon-precomposed" href="../../../../12008305/image_sp/ui/icon_bookmark.png">
+    <script type="text/javascript">
+        if (window.localStorage) {
+            var displaySet = localStorage.getItem('DisplayPositionSet');
+            if (displaySet == 1) {
+                document.write('<meta name="viewport" content="width=320, user-scalable=no">');
+                if (navigator.userAgent.indexOf('Android') > 0) document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                window.addEventListener('resize', function() {
+                    if (navigator.userAgent.indexOf('Android') > 0) document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                })
+            } else {
+                document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+        }
+    </script>
+    <script src="../../../../12008305/js/drum_master/lib/jquery-2.0.3.min.js"></script>
+    <script type='text/javascript'>
+        var se_flg = 0,
+            bgm_flg = 0,
+            chrome_app_flg = 0,
+            chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+    </script>
+    <script type='text/javascript' src='../../../../12008305/js/app_sound.js'></script>
+    <link rel="stylesheet" type="text/css" href="../../../../css/base.css" />
+</head>
+
+<body id="game_center" class="drum_master_game">
+    <div id="top" class="page_container">
+        <input id="delay" type="hidden" value="0">
+        <script src="../../../../12008305/js/boombox.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                var Game = {};
+                Game.js_url_list = {
+                    "music_info_base": "../../../../12008305/js/drum_master/resource/music_info_base.js"
+                };
+                //minify系
+                Game.js_url_list['canvas_util'] = '../../../../12008305/js/drum_master/min/canvas_util.min.js';
+                Game.js_url_list['combo_count'] = '../../../../12008305/js/drum_master/min/combo_count.min.js';
+                Game.js_url_list['const'] = '../../../../12008305/js/drum_master/min/const.min.js';
+                Game.js_url_list['cutin'] = '../../../../12008305/js/drum_master/min/cutin.min.js';
+                Game.js_url_list['decision'] = '../../../../12008305/js/drum_master/min/decision.min.js';
+                Game.js_url_list['effect_circle'] = '../../../../12008305/js/drum_master/min/effect_circle.min.js';
+                Game.js_url_list['fever'] = '../../../../12008305/js/drum_master/min/fever.min.js';
+                Game.js_url_list['fader'] = '../../../../12008305/js/drum_master/min/fader.min.js';
+                Game.js_url_list['gauge'] = '../../../../12008305/js/drum_master/min/gauge.min.js';
+                Game.js_url_list['main'] = '../../../../12008305/js/drum_master/min/main.min.js';
+                Game.js_url_list['network'] = '../../../../12008305/js/drum_master/min/network.min.js';
+                Game.js_url_list['option'] = '../../../../12008305/js/drum_master/min/option.min.js';
+                Game.js_url_list['option_storage'] = '../../../../12008305/js/drum_master/min/option_storage.min.js';
+                Game.js_url_list['paper_ball'] = '../../../../12008305/js/drum_master/min/paper_ball.min.js';
+                Game.js_url_list['play_part'] = '../../../../12008305/js/drum_master/min/play_part.min.js';
+                Game.js_url_list['popup'] = '../../../../12008305/js/drum_master/min/popup.min.js';
+                Game.js_url_list['renda_sprite'] = '../../../../12008305/js/drum_master/min/renda_sprite.min.js';
+                Game.js_url_list['result'] = '../../../../12008305/js/drum_master/min/result.min.js';
+                Game.js_url_list['result_effect'] = '../../../../12008305/js/drum_master/min/result_effect.min.js';
+                Game.js_url_list['score'] = '../../../../12008305/js/drum_master/min/score.min.js';
+                Game.js_url_list['soul_effect'] = '../../../../12008305/js/drum_master/min/soul_effect.min.js';
+                Game.js_url_list['sound_loader'] = '../../../../12008305/js/drum_master/min/sound_loader.min.js';
+                Game.js_url_list['special_draw'] = '../../../../12008305/js/drum_master/min/special_draw.min.js';
+                Game.js_url_list['special_sprite'] = '../../../../12008305/js/drum_master/min/special_sprite.min.js';
+                Game.js_url_list['sprite_manager'] = '../../../../12008305/js/drum_master/min/sprite_manager.min.js';
+                Game.js_url_list['stage_select'] = '../../../../12008305/js/drum_master/min/stage_select.min.js';
+                Game.js_url_list['tone'] = '../../../../12008305/js/drum_master/min/tone.min.js';
+                Game.js_url_list['tone_iterator'] = '../../../../12008305/js/drum_master/min/tone_iterator.min.js';
+                Game.js_url_list['tone_sprite'] = '../../../../12008305/js/drum_master/min/tone_sprite.min.js';
+                Game.js_url_list['util'] = '../../../../12008305/js/drum_master/min/util.min.js';
+                Game.js_url_list['view_part'] = '../../../../12008305/js/drum_master/min/view_part.min.js';
+                Game.js_url_list['bar_line_sprite'] = '../../../../12008305/js/drum_master/min/bar_line_sprite.min.js';
+                Game.js_url_list['bg_effect'] = '../../../../12008305/js/drum_master/min/bg_effect.min.js';
+                //createjs系
+                Game.js_url_list['cjs002_soul_01'] = '../../../../12008305/js/drum_master/cjs002_soul_01.js';
+                Game.js_url_list['cjs003_gauge_01'] = '../../../../12008305/js/drum_master/cjs003_gauge_01.js';
+                Game.js_url_list['cjs004_notes_01'] = '../../../../12008305/js/drum_master/cjs004_notes_01.js';
+                Game.js_url_list['cjs005_movie_01'] = '../../../../12008305/js/drum_master/cjs005_movie_01.js';
+                Game.js_url_list['cjs006_result_01'] = '../../../../12008305/js/drum_master/cjs006_result_01.js';
+                Game.js_url_list['cjs007_decorative_paper_ball_01'] = '../../../../12008305/js/drum_master/cjs007_decorative_paper_ball_01.js';
+                Game.js_url_list['cjs008_gauge_result_01'] = '../../../../12008305/js/drum_master/cjs008_gauge_result_01.js';
+                Game.js_url_list['cjs001_hop_01'] = '../../../../12008305/js/drum_master/cjs001_hop_01.js';
+                Game.js_url_list['cjs009_cutin_result_01'] = '../../../../12008305/js/drum_master/cjs009_cutin_result_01.js';
+                Game.js_url_list['cjs010_additional_score'] = '../../../../12008305/js/drum_master/cjs010_additional_score.js';
+                Game.fire_img_url = '../../../../12008305/image_sp/game_center/04_drum_master/notes_effect/fire4.png';
+                Game.img_url_list = {};
+                Game.img_url_list['balloon'] = '../../../../12008305/image_sp/game_center/04_drum_master/notes/balloon.png';
+                Game.img_url_list['bar_line'] = '../../../../12008305/image_sp/game_center/04_drum_master/notes/bar_line.png';
+                Game.img_url_list['don'] = '../../../../12008305/image_sp/game_center/04_drum_master/notes/don.png';
+                Game.img_url_list['don_str'] = '../../../../12008305/image_sp/game_center/04_drum_master/notes/don_str.png';
+                Game.img_url_list['ka'] = '../../../../12008305/image_sp/game_center/04_drum_master/notes/ka.png';
+                Game.img_url_list['ka_str'] = '../../../../12008305/image_sp/game_center/04_drum_master/notes/ka_str.png';
+                Game.img_url_list['kusudama'] = '../../../../12008305/image_sp/game_center/04_drum_master/notes/kusudama.png';
+                Game.img_url_list['renda_begin'] = '../../../../12008305/image_sp/game_center/04_drum_master/notes/renda_begin.png';
+                Game.img_url_list['renda_middle'] = '../../../../12008305/image_sp/game_center/04_drum_master/notes/renda_middle.png';
+                Game.img_url_list['renda_end'] = '../../../../12008305/image_sp/game_center/04_drum_master/notes/renda_end.png';
+                Game.img_url_list['renda_str_begin'] = '../../../../12008305/image_sp/game_center/04_drum_master/notes/renda_str_begin.png';
+                Game.img_url_list['renda_str_end'] = '../../../../12008305/image_sp/game_center/04_drum_master/notes/renda_str_end.png';
+                Game.img_url_list['renda_str_middle'] = '../../../../12008305/image_sp/game_center/04_drum_master/notes/renda_str_middle.png';
+                Game.sprite_img_url_list = {};
+                Game.sprite_img_url_list['cjs001_hop_01'] = '../../../../12008305/image_sp/game_center/04_drum_master/cjs/cjs001_hop_01.png';
+                Game.sprite_img_url_list['cjs002_soul_01'] = '../../../../12008305/image_sp/game_center/04_drum_master/cjs/cjs002_soul_01.png';
+                Game.sprite_img_url_list['cjs003_gauge_01'] = '../../../../12008305/image_sp/game_center/04_drum_master/cjs/cjs003_gauge_01.png';
+                Game.sprite_img_url_list['cjs004_notes_01'] = '../../../../12008305/image_sp/game_center/04_drum_master/cjs/cjs004_notes_01.png';
+                Game.sprite_img_url_list['cjs005_movie_01'] = '../../../../12008305/image_sp/game_center/04_drum_master/cjs/cjs005_movie_01.png';
+                Game.sprite_img_url_list['cjs006_result_01'] = '../../../../12008305/image_sp/game_center/04_drum_master/cjs/cjs006_result_01.png';
+                Game.sprite_img_url_list['cjs007_decorative_paper_ball_01'] = '../../../../12008305/image_sp/game_center/04_drum_master/cjs/cjs007_decorative_paper_ball_01.png';
+                Game.sprite_img_url_list['cjs008_gauge_result_01'] = '../../../../12008305/image_sp/game_center/04_drum_master/cjs/cjs008_gauge_result_01.png';
+                Game.sprite_img_url_list['cjs009_cutin_result_01'] = '../../../../12008305/image_sp/game_center/04_drum_master/cjs/cjs009_cutin_result_01.png';
+                Game.sprite_img_url_list['cjs010_additional_score'] = '../../../../12008305/image_sp/game_center/04_drum_master/cjs/cjs010_additional_score.png';
+                Game.version = '1679923276';
+                Game.baseUri = 'http://mobamas.net/idolmaster/';
+                Game.imgUri = 'http://mobamas.net/idolmaster/image_sp/';
+                Game.soundUri = 'https://resource.mobamas.net/idolmaster/sound';
+                Game.site_url_format = 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/game_center/___API_METHOD___%3Fl_frm%3DGame_center_drum_master_game_1';
+                Game.cssUri = '../../../../12008305/css';
+                Game.jsUri = '../../../../12008305/js/drum_master';
+                Game.ajaxStatus = 200;
+                Game.ua = {
+                    isChromeApp: function() {
+                        return false;
+                    },
+                    isShallApp: function() {
+                        return false;
+                    }
+                };
+                Game.short_name = 'idolmaster';
+                Game.bgmUrl1 = 'https://resource.mobamas.net/idolmaster/sound/drum_master/bgm/m1.mp3';
+                Game.js_url_list["music_info_1"] = '../../../../12008305/js/drum_master/resource/music_info_1.js';
+                Game.bgmUrl2 = 'https://resource.mobamas.net/idolmaster/sound/drum_master/bgm/m2.mp3';
+                Game.js_url_list["music_info_2"] = '../../../../12008305/js/drum_master/resource/music_info_2.js';
+                Game.bgmUrl3 = 'https://resource.mobamas.net/idolmaster/sound/drum_master/bgm/m3.mp3';
+                Game.js_url_list["music_info_3"] = '../../../../12008305/js/drum_master/resource/music_info_3.js';
+                Game.se1 = 'https://resource.mobamas.net/idolmaster/sound/drum_master/se/btn_se/btn_se_00.mp3';
+                Game.se2 = 'https://resource.mobamas.net/idolmaster/sound/drum_master/se/btn_se/btn_se_01.mp3';
+                Game.se3 = 'https://resource.mobamas.net/idolmaster/sound/drum_master/se/btn_se/btn_se_02.mp3';
+                Game.se4 = 'https://resource.mobamas.net/idolmaster/sound/drum_master/se/btn_se/btn_se_03.mp3';
+                Game.se5 = 'https://resource.mobamas.net/idolmaster/sound/drum_master/se/btn_se/btn_se_04.mp3';
+                Game.se6 = 'https://resource.mobamas.net/idolmaster/sound/drum_master/se/btn_se/btn_se_05.mp3';
+                Game.music_record_info = {
+                    "1": {
+                        "id": "1",
+                        "title": "\u304a\u9858\u3044! \u30b7\u30f3\u30c7\u30ec\u30e9",
+                        "start_time": "2016\/03\/14 15:00:00",
+                        "end_time": "",
+                        "best_score": {
+                            "1": {
+                                "score": 0,
+                                "excellent": 0,
+                                "good": 0,
+                                "bad": 0,
+                                "renda": 0,
+                                "max_combo": 0,
+                                "crown": 0
+                            },
+                            "2": {
+                                "score": 0,
+                                "excellent": 0,
+                                "good": 0,
+                                "bad": 0,
+                                "renda": 0,
+                                "max_combo": 0,
+                                "crown": 0
+                            },
+                            "3": {
+                                "score": "501230",
+                                "excellent": "321",
+                                "good": "18",
+                                "bad": "8",
+                                "renda": "133",
+                                "max_combo": "218",
+                                "crown": "1"
+                            }
+                        }
+                    },
+                    "2": {
+                        "id": "2",
+                        "title": "Star!!",
+                        "start_time": "2016\/03\/14 15:00:00",
+                        "end_time": "",
+                        "best_score": {
+                            "1": {
+                                "score": 0,
+                                "excellent": 0,
+                                "good": 0,
+                                "bad": 0,
+                                "renda": 0,
+                                "max_combo": 0,
+                                "crown": 0
+                            },
+                            "2": {
+                                "score": 0,
+                                "excellent": 0,
+                                "good": 0,
+                                "bad": 0,
+                                "renda": 0,
+                                "max_combo": 0,
+                                "crown": 0
+                            },
+                            "3": {
+                                "score": "418460",
+                                "excellent": "170",
+                                "good": "35",
+                                "bad": "6",
+                                "renda": "131",
+                                "max_combo": "124",
+                                "crown": "1"
+                            }
+                        }
+                    },
+                    "3": {
+                        "id": "3",
+                        "title": "Take me\u2606Take you",
+                        "start_time": "2016\/03\/14 15:00:00",
+                        "end_time": "",
+                        "best_score": {
+                            "1": {
+                                "score": "316270",
+                                "excellent": "107",
+                                "good": "10",
+                                "bad": "0",
+                                "renda": "165",
+                                "max_combo": "117",
+                                "crown": "2"
+                            },
+                            "2": {
+                                "score": "240680",
+                                "excellent": "116",
+                                "good": "28",
+                                "bad": "7",
+                                "renda": "197",
+                                "max_combo": "60",
+                                "crown": "1"
+                            },
+                            "3": {
+                                "score": "671450",
+                                "excellent": "369",
+                                "good": "11",
+                                "bad": "5",
+                                "renda": "86",
+                                "max_combo": "366",
+                                "crown": "1"
+                            }
+                        }
+                    }
+                };
+                Game.use_video = false;
+                Game.useBoombox = true;
+                var weba = {
+                    webaudio: {
+                        use: false
+                    }
+                };
+                boombox.setup(weba);
+                if (!boombox.isWebAudio() && !boombox.isHTMLAudio() && boombox.isHTMLVideo()) Game.use_video = true;
+                Game.use_video = navigator.userAgent.indexOf('ISW13HT') > -1;
+                boombox.onFocus = function() {}
+                boombox.onBlur = function() {}
+                boombox.onPageShow = function() {}
+                boombox.onPageHide = function() {}
+                boombox.onVisibilityChange = function() {}
+                Game.useSetting = null;
+                window.Game = Game;
+            })();
+        </script>
+        <div id="ready"></div>
+        <div id="loading">
+            <div class="img-load"></div>
+        </div>
+        <div id="ibox_mask"></div>
+        <div id="drum_master"></div>
+        <script type="text/javascript" data-main='../../../../12008305/js/drum_master/min/main.min.js' src='../../../../12008305/js/require_drum.js'></script>
+        <div class='score_board' style='display:none;'></div>
+        <div class='kusudama_cache' style='display:none;'></div>
+        <div id="video" style='position:absolute; top:-1000px;'></div>
+        <script type="text/template" id="dm_play_template">
+            <div class='dm-play'>
+<div id="bg_drum"></div>
+<div id="touch-area" class="touch-area"></div>
+<div id="title_part">
+<div class="displayBox">
+<div id="difficulty" class="<%= level_name_list[info.level] %>"></div>
+<div id="text_title" class="m<%= info.id %>"></div>
+</div>
+</div>
+<div id="css_effect">
+<div id="touch_reaction">
+<div id="touch_ka_l"></div>
+<div id="touch_don_l"></div>
+<div id="touch_don_r"></div>
+<div id="touch_ka_r"></div>
+</div>
+<div id="judge" class='good none'></div>
+<div id="combo_area" style="display:none;">
+<div id='combo_num'>
+<div id="combo">
+<span></span><span></span><span></span>
+</div>
+</div>
+<div id="combo_word" class="combo"></div>
+</div>
+<div id="renda" class="board_renda">
+<span></span><span></span><span></span>
+</div>
+<div id="balloon" class="board_balloon">
+<span></span><span></span>
+</div>
+<div id="kusudama">
+<span></span><span></span><span></span>
+</div>
+<div id="touch_start"><span></span></div>
+</div>
+<div id='play_part'>
+<% if(perfomance >= stage_option.goal) { %>
+<div class="notes_effect">
+<canvas id="notes_effect"></canvas>
+</div>
+<% } %>
+<div class="gauge" style="overflow:hidden;">
+<canvas id="gauge"></canvas>
+</div>
+<div class="lane <% if(perfomance == 1){ %> light <% } %>" style="overflow:hidden;">
+<canvas id="lane"></canvas>
+</div>
+<% if(perfomance >= stage_option.cutin) { %>
+<div class="cutin" style="overflow:hidden;">
+<canvas id="cutin"></canvas>
+</div>
+<% } %>
+<% if(perfomance >= stage_option.soul) { %>
+<div class="soul">
+<canvas id="soul"></canvas>
+</div>
+<% } %>
+<% if(perfomance >= stage_option.stream) { %>
+<div class="stream_effect">
+<canvas id="stream_effect"></canvas>
+</div>
+<% } %>
+<% if(perfomance >= stage_option.score) { %>
+<div class="score_effect">
+<canvas id="score_effect"></canvas>
+</div>
+<% } %>
+<% if(perfomance >= stage_option.kusudama_animation) { %>
+<div class="paper_ball">
+<canvas id="paper_ball"></canvas>
+</div>
+<% } %>
+<div class="result_effect" style="display:none;">
+<canvas id="result_effect"></canvas>
+</div>
+</div>
+<div id='bg_effect'>
+<div id="char_don" class="cos_000_1p_001"></div>
+</div>
+<div class="add_score_board">
+<div id="bonus_score" class="score_table" style="visibility:hidden;">
+<span class="score_1"></span><span class="score_0"></span><span class="score_0"></span><span class="score_0"></span><span class="score_0"></span>
+</div>
+<div id="backup_score" class="score_table">
+</div>
+<div id="add_score" class="score_table">
+<span></span><span></span><span></span><span></span><span></span>
+</div>
+</div>
+<div class='score_board'>
+<div id="score_table">
+<span class='no_0'></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+</div>
+</div>
+<div id='drum_part'>
+</div>
+</div>
+</script>
+        <script type="text/template" id="stage_select_template">
+            <div class='select_display' style="padding-top:15px; padding-bottom: 14px;">
+<div class="don_area m-Btm12">
+<div class="chara cos_000_1p_001"></div>
+<div class="fukidashi"></div>
+</div>
+<% _.each(music_list, function(music, id){ %>
+<div class="js_music_select drum_frame_select_detail _animation <% if(id == selectInfo.id) { %>_selected<% } %> m-Btm8" data-id="<%- id %>">
+<div class="m<%- id %> m-Btm5">
+</div>
+<div class="crown_icon crown_<% if(music.best_score[selectInfo.level[id]].crown == 2){ %>gold<% }else if (music.best_score[selectInfo.level[id]].crown == 1) { %>silver<% } %>"></div>
+<div class="difficulty_list m-Btm12">
+<% _.each(music.best_score, function(best_score, difficult ){ %>
+<a class="difficulty_frame no_se js_select_difficulty <% if(selectInfo.level[id] == difficult) { %>_selected<% } %>" data-level="<%- difficult %>">
+<div class="difficulty_icon <%- music_name_list[difficult] %>"></div>
+<div class="difficulty_stars">
+<% for(var k = 0; k < 8; k++) { %>
+<% if(k < music_status[id][util.convertKeyName(difficult)].difficulty) { %>
+<div class="difficulty_star"></div>
+<% } else { %>
+<div class="difficulty_point"></div>
+<% } %>
+<% } %>
+</div>
+</a>
+<% }) %>
+</div>
+<% var score_data = music_list[id].best_score[selectInfo.level[id]]  %>
+<div class="music_status m-Btm4">
+<div class="status_best_score">
+<% var score_str = score_data.score.toString() %>
+<% for(var i = 0 ; i < score_str.length ; i++ ){ %>
+<div class="no_<%= score_str[i] %>"></div>
+<% } %>
+</div>
+<div class="status_excellent">
+<% var excellent_str = score_data.excellent.toString() %>
+<% for(var i = 0 ; i < excellent_str.length ; i++ ){ %>
+<div class="no_<%= excellent_str[i] %>"></div>
+<% } %>
+</div>
+<div class="status_good">
+<% var good_str = score_data.good.toString() %>
+<% for(var i = 0 ; i < good_str.length ; i++ ){ %>
+<div class="no_<%= good_str[i] %>"></div>
+<% } %>
+</div>
+<div class="status_bad">
+<% var bad_str = score_data.bad.toString() %>
+<% for(var i = 0 ; i < bad_str.length ; i++ ){ %>
+<div class="no_<%= bad_str[i] %>"></div>
+<% } %>
+</div>
+<div class="status_combo">
+<% var renda_str = score_data.renda.toString() %>
+<% for(var i = 0 ; i < renda_str.length ; i++ ){ %>
+<div class="no_<%= renda_str[i] %>"></div>
+<% } %>
+</div>
+<div class="status_max_combo">
+<% var max_combo_str = score_data.max_combo.toString() %>
+<% for(var i = 0 ; i < max_combo_str.length ; i++ ){ %>
+<div class="no_<%= max_combo_str[i] %>"></div>
+<% } %>
+</div>
+</div>
+</div>
+<% }) %>
+<a class="btn_play_music js_play_music no_se m-Top12">
+<form action='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/game_center/api_drum_master_start%3Fl_frm%3DGame_center_drum_master_game_1%26rnd%3D381672520' method='post' style="display:none;">
+<input type="hidden" name="music_id" value="<%- selectInfo.id %>">
+<input type="hidden" name="difficulty" value="<%- selectInfo.level[selectInfo.id] %>">
+<input type="hidden" name="play_id" value="72678611">
+</form>
+</a>
+<a class="btn_option js_option_menu no_se">
+<span class="option option_block"></span>
+</a>
+</div>
+<a href='https://crow88.github.io/lab/12008305/game_center/drum_master/' class="back_to_top">
+<div class="top" style="margin:4px auto 0;"></div>
+</a>
+</script>
+        <script type="text/template" id="result_template">
+            <div class='result_display'>
+<div class="title_area">
+<div class="displayBox">
+<div class="difficulty <%- result_data.difficulty %>"></div>
+<div class="title m<%- result_data.id %>"></div>
+</div>
+</div>
+<div class="detail_area">
+<% if(result_data.is_best_score) { %>
+<div class="best_score_icon best" style="display:none;"></div>
+<% } %>
+<div class="clear_result_image result_<%- result_data.clear_type %>" style="display:none;"></div>
+<div class="result_score" style="display:none;">
+<% for(var i = 0; i < result_data.score.length; i++) { %>
+<div class="no_<%- result_data.score[i] %>"></div>
+<% } %>
+</div>
+<div class="crown_icon crown_result crown_<%- result_data.crown %>" style="display:none;"></div>
+<div class="soul_gauge_result">
+<canvas id="soul_gauge_result"></canvas>
+</div>
+<div class="score_excellent" style="display:none;">
+<% for(var i = 0; i < result_data.excellent.length; i++) { %>
+<div class="no_<%- result_data.excellent[i] %>"></div>
+<% } %>
+</div>
+<div class="score_good" style="display:none;">
+<% for(var i = 0; i < result_data.good.length; i++) { %>
+<div class="no_<%- result_data.good[i] %>"></div>
+<% } %>
+</div>
+<div class="score_bad" style="display:none;">
+<% for(var i = 0; i < result_data.bad.length; i++) { %>
+<div class="no_<%- result_data.bad[i] %>"></div>
+<% } %>
+</div>
+<div class="score_renda" style="display:none;">
+<% for(var i = 0; i < result_data.renda.length; i++) { %>
+<div class="no_<%- result_data.renda[i] %>"></div>
+<% } %>
+</div>
+<div class="score_max_combo" style="display:none;">
+<% for(var i = 0; i < result_data.max_combo.length; i++) { %>
+<div class="no_<%- result_data.max_combo[i] %>"></div>
+<% } %>
+</div>
+</div>
+<div class="don_area">
+<div class="don_word result_word_<%- word[result_data.clear_type] %>"></div>
+</div>
+<div class="result_effect2">
+<canvas id="result_effect2"></canvas>
+</div>
+</div>
+<a href='https://crow88.github.io/lab/12008305/game_center/drum_master/' class="back_to_top result">
+<div class="top" style="margin:4px auto 0;"></div>
+</a>
+</script>
+        <script type="text/template" id="result_form_template">
+            <form id="result_network" action='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/game_center/api_drum_master_finish%3Fl_frm%3DGame_center_drum_master_game_1%26rnd%3D673869566' method="post" style="display:none;">
+<%
+var finish_data = window.btoa(JSON.stringify({ 
+play_id : 72678611 ,
+music_id : result_data.id ,
+difficulty : result_data.difficulty_numeric,
+score : result_data.score,
+excellent : result_data.excellent,
+good : result_data.good,
+bad : result_data.bad,
+renda : result_data.renda,
+max_combo : result_data.max_combo,
+crown : (result_data.crown == 'gold' ? 2 : (result_data.crown == 'silver' ? 1 :0) )
+ }))
+%>
+<input name="finish_data" value="<%= finish_data %>">
+</form>
+</script>
+        <script type="text/template" id="option_menu_template">
+            <div class='select_display' style="padding-top:15px; padding-bottom: 14px;">
+<div class="don_area m-Btm12">
+<div class="chara cos_000_1p_001"></div>
+<div class="fukidashi option_title"></div>
+</div>
+<div class="option_menu setting_menu m-Btm8" style="height:auto;">
+<div class="subtitle">
+<span class="clause_graphic"></span>
+</div>
+<div class="option_list">
+<% _.each(perfomance_label, function(val, key){ %>
+<a href="#" data-id="<%= key %>" style="height:auto;" class="perfomance_radio no_se option_frame<% if (perfomance == key){ %> _selected <% } %>"><span class="<%= val %>"></span></a>
+<% }) %>
+</div>
+</div>
+<div class="option_menu setting_menu" style="height:auto;">
+<div class="subtitle">
+<span class="clause_se"></span>
+</div>
+<div class="option_list">
+<% _.each(se_label, function(val, key){ %>
+<a href="#" data-id="<%= key %>" style="height:auto; width:125px;" class="se_radio no_se option_frame<% if (seSave == key){ %> _selected <% } %>"><span class="<%= val %>"></span></a>
+<% }) %>
+</div>
+</div>
+<a class="btn_apply js_apply no_se m-Top12">
+<span class="apply"></span>
+</a>
+<a class="btn_return js_return no_se">
+<span class="back"></span>
+</a>
+</div>
+</script>
+        <script type="text/template" id="popup_template">
+            <div class="result_popup m-Btm8" style="height:auto;">
+<div class="result_popup_frame">
+<div class="displayBox m-Top12" style="width: 280px;-webkit-box-pack: justify;">
+<a href="#" class="result_popup_btn_retry no_se js_option_submit js_retry">
+<div class="replay" style="margin:12px auto 0;"></div>
+<form action='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/game_center/rd_play/drum_master/0%3Fl_frm%3DGame_center_drum_master_game_1%26rnd%3D818460687' method="post" style="display:none;" class="form_replay">
+<input type="hidden" name="music_id" value="<%= music_id %>">
+<input type="hidden" name="difficulty" value="<%= difficulty %>">
+<label from="replay" class="perfomance_radio no_se option_frame">
+再プレイ
+<input id="replay" type="submit" style="display:none;" class="no_se">
+</label>
+</form>
+</a>
+<a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/game_center/rd_play/drum_master/0%3Fl_frm%3DGame_center_drum_master_game_2%26rnd%3D805217847' class="reuslt_popup_btn_music_select no_se option_frame js_option_submit">
+<div class="music_select" style="margin:12px auto 0;"></div>
+</a>
+</div>
+<div class="result_popup_btn_close m-Top12 js_option_close no_se">
+<div class="close" style="margin:4px auto 0;"></div>
+</div>
+</div>
+</div>
+</script>
+    </div>
+    <div id="mbga-pf-footer">
+        <script type="text/javascript" charset="UTF-8">
+            (function() {
+                document.addEventListener('DOMContentLoaded', function() {
+                    var list = document.getElementsByClassName('mbga-pf-footer-li');
+                    var i = 0,
+                        l = list.length;
+                    for (; i < l; i++) {
+                        var elem = list[i];
+                        elem.addEventListener('touchstart', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/$/, ' mbga-pf-tapped');
+                        });
+                        elem.addEventListener('touchend', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/ mbga-pf-tapped/, '');
+                        });
+                        elem.addEventListener('touchmove', function(e) {});
+                    }
+                });
+            })();
+        </script>
+    </div>
+</body>
+
+</html>
