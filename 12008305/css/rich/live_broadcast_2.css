@@ -1135,7 +1135,7 @@ body {
 
 .radio_frame .radio_corner_area {
     position: relative;
-    background-image: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/top%2Fbg_corner.jpg%3F1563515201);
+    background-image: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/top/bg_corner.jpg%3F1563515201);
     background-size: 25px;
     background-position: -6px -6px;
     padding: 10px 6px 6px;
@@ -1264,17 +1264,17 @@ body {
 }
 
 #live_broadcast._bg_opening {
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2%2Fbg%2F0_open.jpg%3F1564036082) no-repeat;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/bg/0_open.jpg) no-repeat;
     background-size: 320px 300px
 }
 
 #live_broadcast._bg_live {
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2%2Fbg%2F0_basebg.jpg%3F1564036082) no-repeat;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/bg/0_basebg.jpg) no-repeat;
     background-size: 320px 300px
 }
 
 #live_broadcast._bg_ending {
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2%2Fbg%2F0_close.jpg%3F1564036082) no-repeat;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/bg/0_close.jpg) no-repeat;
     background-size: 320px 300px
 }
 
@@ -1895,7 +1895,7 @@ body {
 
 .draw_lots-area._christmas_present {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present-s2361a00d64.png%3F1577155687) no-repeat 0 -4958px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present-s2361a00d64.png) no-repeat 0 -4958px;
     -webkit-background-size: 375px 5100px;
     background-size: 375px 5100px;
     width: 320px;
@@ -1904,7 +1904,7 @@ body {
 
 .draw_lots-area._christmas_present .btn_draw_lots {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present-s2361a00d64.png%3F1577155687) no-repeat 0 -5023px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present-s2361a00d64.png) no-repeat 0 -5023px;
     -webkit-background-size: 375px 5100px;
     background-size: 375px 5100px;
     width: 184px;
@@ -1913,7 +1913,7 @@ body {
 
 .draw_lots-area._christmas_present .btn_draw_lots._disabled {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present-s2361a00d64.png%3F1577155687) no-repeat 0 -5062px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present-s2361a00d64.png) no-repeat 0 -5062px;
     -webkit-background-size: 375px 5100px;
     background-size: 375px 5100px;
     width: 184px;
@@ -1922,7 +1922,7 @@ body {
 
 .radio_box_light_04 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 0;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 0;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 375px;
@@ -1931,7 +1931,7 @@ body {
 
 .radio_box_top {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -376px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -376px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -1940,7 +1940,7 @@ body {
 
 .radio_box_under {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -762px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -762px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 118px;
@@ -1949,7 +1949,7 @@ body {
 
 .radio_dummy_white_mask {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -4897px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -4897px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 60px;
@@ -1958,7 +1958,7 @@ body {
 
 .radio_eff_star_a {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -4824px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -4824px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 44px;
@@ -1967,7 +1967,7 @@ body {
 
 .radio_light_star {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -4088px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -4088px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 60px;
@@ -1976,7 +1976,7 @@ body {
 
 .radio_line_light {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -449px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -449px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 162px;
@@ -1985,7 +1985,7 @@ body {
 
 .radio_present_1 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -1388px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -1388px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -1994,7 +1994,7 @@ body {
 
 .radio_present_10 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -3143px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -3143px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2003,7 +2003,7 @@ body {
 
 .radio_present_11 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -848px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -848px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2012,7 +2012,7 @@ body {
 
 .radio_present_12 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -3278px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -3278px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2021,7 +2021,7 @@ body {
 
 .radio_present_13 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -3683px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -3683px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2030,7 +2030,7 @@ body {
 
 .radio_present_14 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -2603px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -2603px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2039,7 +2039,7 @@ body {
 
 .radio_present_15 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -2873px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -2873px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2048,7 +2048,7 @@ body {
 
 .radio_present_16 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -4149px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -4149px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2057,7 +2057,7 @@ body {
 
 .radio_present_17 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -2468px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -2468px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2066,7 +2066,7 @@ body {
 
 .radio_present_18 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -2333px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -2333px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2075,7 +2075,7 @@ body {
 
 .radio_present_19 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -4554px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -4554px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2084,7 +2084,7 @@ body {
 
 .radio_present_2 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -1118px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -1118px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2093,7 +2093,7 @@ body {
 
 .radio_present_20 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -3008px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -3008px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2102,7 +2102,7 @@ body {
 
 .radio_present_21 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -2198px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -2198px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2111,7 +2111,7 @@ body {
 
 .radio_present_22 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -4689px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -4689px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2120,7 +2120,7 @@ body {
 
 .radio_present_23 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -1793px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -1793px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2129,7 +2129,7 @@ body {
 
 .radio_present_24 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -983px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -983px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2138,7 +2138,7 @@ body {
 
 .radio_present_25 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -2738px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -2738px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2147,7 +2147,7 @@ body {
 
 .radio_present_26 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -1928px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -1928px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2156,7 +2156,7 @@ body {
 
 .radio_present_27 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -3953px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -3953px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2165,7 +2165,7 @@ body {
 
 .radio_present_28 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -3413px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -3413px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2174,7 +2174,7 @@ body {
 
 .radio_present_29 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -4419px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -4419px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2183,7 +2183,7 @@ body {
 
 .radio_present_3 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -3818px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -3818px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2192,7 +2192,7 @@ body {
 
 .radio_present_4 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -1253px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -1253px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2201,7 +2201,7 @@ body {
 
 .radio_present_5 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -1523px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -1523px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2210,7 +2210,7 @@ body {
 
 .radio_present_6 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -1658px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -1658px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2219,7 +2219,7 @@ body {
 
 .radio_present_7 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -2063px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -2063px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2228,7 +2228,7 @@ body {
 
 .radio_present_8 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -3548px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -3548px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2237,7 +2237,7 @@ body {
 
 .radio_present_9 {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -4284px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -4284px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 134px;
@@ -2246,7 +2246,7 @@ body {
 
 .radio_shadow {
     display: block;
-    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio%2Fchristmas_present%2Fmanifest-s111bb2d7a4.png%3F1577155687) no-repeat 0 -4869px;
+    background: url(../../../12008305/image_sp/campaign/radio/livebroadcast_2/sprite/studio/christmas_present/manifest-s111bb2d7a4.png) no-repeat 0 -4869px;
     -webkit-background-size: 375px 4957px;
     background-size: 375px 4957px;
     width: 63px;
