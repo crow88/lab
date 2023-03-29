@@ -1,19 +1,16 @@
 {
     "current_list": {
-        "attribute": "2",
+        "attribute": "1",
         "body_type": "1",
         "breast_size": "2",
-        "short_name": "\u983c\u5b50",
+        "short_name": "志希",
         "image_url_list": {
-            "expression_1101": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http://mobamas.net/idolmaster/js/petit_cg/expression/1101.js?v=20210904134927",
-            "hair_10101": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http://mobamas.net/idolmaster/js/petit_cg/hair/10101.js?v=20210904134927",
-            "costume_1_20101": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http://mobamas.net/idolmaster/js/petit_cg/costume/1/20101.js?v=20210904134922",
-            "head_1_30101": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http://mobamas.net/idolmaster/js/petit_cg/head/1/30101.js?default_sub_type_id=1&v=20210904134934"
+            "expression_1043": "../../../12008305/js/petit_cg/expression/1043.js",
+            "hair_10043": "../../../12008305/js/petit_cg/hair/10043.js",
+            "costume_1_20043": "../../../12008305/js/petit_cg/costume/1/20043.js"
         },
         "sub_type_list": {
-            "head": {
-                "head_1_30101": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http://mobamas.net/idolmaster/js/petit_cg/head/1/30101.js?default_sub_type_id=1&v=20210904134934"
-            },
+            "head": null,
             "hand": null,
             "leg": null
         },
@@ -23,44 +20,31 @@
             "leg": 0
         },
         "petit_csv_info_list": {
-            "costume_1_20101": {
-                "image_path": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http://mobamas.net/idolmaster/image_sp/item/l/petit_cg/20101",
-                "accessory_name": "\uff76\uff70\uff83\uff9e\uff7a\uff70\uff83\uff9e\uff65\u983c\u5b50",
-                "explanation": "\uff8b\uff9f\uff9d\uff78\u8272\u306e\uff76\uff70\uff83\uff9e\uff68\uff76\uff9e\uff9d\u304c\u5370\u8c61\u7684\u306a\u983c\u5b50\u306e\u79c1\u670d\u3067\u3059\uff61<br>\u983c\u5b50\u3089\u3057\u3044\uff7c\uff9d\uff8c\uff9f\uff99\u306a\uff7a\uff70\uff83\uff9e\uff61",
+            "costume_1_20043": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/20043",
+                "accessory_name": "制服A･志希",
+                "explanation": "志希の学校の制服です｡<br>着崩しちゃうのが志希流…?",
                 "type_id": "2"
-            },
-            "head_1_30101": {
-                "image_path": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http://mobamas.net/idolmaster/image_sp/item/l/petit_cg/30101",
-                "accessory_name": "\u8d64\u7e01\u773c\u93e1\uff65\u983c\u5b50",
-                "explanation": "\u983c\u5b50\u306e\u8d64\u3044\u7e01\u306e\u773c\u93e1\u3067\u3059\uff61<br>\uff9a\uff9d\uff7d\uff9e\u8d8a\u3057\u306e\u98a8\u666f\u3092\u2026\uff61",
-                "type_id": "3"
             }
         },
-        "petit_csv_sub_type_info_list": {
-            "head_1_30101": {
-                "image_path": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http://mobamas.net/idolmaster/image_sp/item/l/petit_cg/30101",
-                "accessory_name": "\u8d64\u7e01\u773c\u93e1\uff65\u983c\u5b50",
-                "explanation": "\u983c\u5b50\u306e\u8d64\u3044\u7e01\u306e\u773c\u93e1\u3067\u3059\uff61<br>\uff9a\uff9d\uff7d\uff9e\u8d8a\u3057\u306e\u98a8\u666f\u3092\u2026\uff61",
-                "type_id": "3"
-            }
-        }
+        "petit_csv_sub_type_info_list": []
     },
     "fitting_list": {
-        "attribute": "2",
+        "attribute": "1",
         "body_type": "1",
         "breast_size": "2",
-        "short_name": "\u983c\u5b50",
+        "short_name": "志希",
         "image_url_list": {
-            "expression_1101": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http://mobamas.net/idolmaster/js/petit_cg/expression/1101.js?v=20210904134927",
-            "hair_10101": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http://mobamas.net/idolmaster/js/petit_cg/hair/10101.js?v=20210904134927",
-            "head_1_31001": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http://mobamas.net/idolmaster/js/petit_cg/head/1/31001.js?v=20210904134934",
-            "costume_1_20101": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http://mobamas.net/idolmaster/js/petit_cg/costume/1/20101.js?v=20210904134922",
-            "head_1_30101": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http://mobamas.net/idolmaster/js/petit_cg/head/1/30101.js?default_sub_type_id=1&v=20210904134934"
+            "expression_1043": "../../../12008305/js/petit_cg/expression/1043.js",
+            "hair_13089": "../../../12008305/js/petit_cg/hair/13089.js",
+            "head_1_33083": "../../../12008305/js/petit_cg/head/1/33083.js",
+            "head_2_30070": "../../../12008305/js/petit_cg/head/2/30070.js",
+            "costume_1_23509": "../../../12008305/js/petit_cg/costume/1/23509.js",
+            "hand_1_41102": "../../../12008305/js/petit_cg/hand/1/41102.js",
+            "leg_1_51114": "../../../12008305/js/petit_cg/leg/1/51114.js"
         },
         "sub_type_list": {
-            "head": {
-                "head_1_30101": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http://mobamas.net/idolmaster/js/petit_cg/head/1/30101.js?default_sub_type_id=1&v=20210904134934"
-            },
+            "head": null,
             "hand": null,
             "leg": null
         },
@@ -70,32 +54,145 @@
             "leg": 0
         },
         "petit_csv_info_list": {
-            "head_1_31001": {
-                "image_path": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http://mobamas.net/idolmaster/image_sp/item/l/petit_cg/31001",
-                "accessory_name": "\u304a\u59eb\u69d8\uff83\uff68\uff71\uff97",
-                "explanation": "\uff77\uff97\uff77\uff97\u3067\u7d20\u6575\u306a\uff83\uff68\uff71\uff97\u3067\u3059\uff61<br>\u6700\u521d\u306e\uff8c\uff67\uff9d\u306e\u3042\u306e\u3072\u3068\u304b\u3089\u306e\uff8c\uff9f\uff9a\uff7e\uff9e\uff9d\uff84\uff61",
-                "type_id": "3"
-            },
-            "costume_1_20101": {
-                "image_path": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http://mobamas.net/idolmaster/image_sp/item/l/petit_cg/20101",
-                "accessory_name": "\uff76\uff70\uff83\uff9e\uff7a\uff70\uff83\uff9e\uff65\u983c\u5b50",
-                "explanation": "\uff8b\uff9f\uff9d\uff78\u8272\u306e\uff76\uff70\uff83\uff9e\uff68\uff76\uff9e\uff9d\u304c\u5370\u8c61\u7684\u306a\u983c\u5b50\u306e\u79c1\u670d\u3067\u3059\uff61<br>\u983c\u5b50\u3089\u3057\u3044\uff7c\uff9d\uff8c\uff9f\uff99\u306a\uff7a\uff70\uff83\uff9e\uff61",
+            "costume_1_20043": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/20043",
+                "accessory_name": "制服A･志希",
+                "explanation": "志希の学校の制服です｡<br>着崩しちゃうのが志希流…?",
                 "type_id": "2"
             },
-            "head_1_30101": {
-                "image_path": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http://mobamas.net/idolmaster/image_sp/item/l/petit_cg/30101",
-                "accessory_name": "\u8d64\u7e01\u773c\u93e1\uff65\u983c\u5b50",
-                "explanation": "\u983c\u5b50\u306e\u8d64\u3044\u7e01\u306e\u773c\u93e1\u3067\u3059\uff61<br>\uff9a\uff9d\uff7d\uff9e\u8d8a\u3057\u306e\u98a8\u666f\u3092\u2026\uff61",
+            "costume_1_23089": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/23089",
+                "accessory_name": "ｹﾐｶﾙﾌﾚｰﾊﾞｰ",
+                "explanation": "未知の化学反応がおきそうな志希の衣装です｡<br>刺激的なｽﾃｰｼﾞにしよー?",
+                "type_id": "2"
+            },
+            "costume_1_23010": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/23010",
+                "accessory_name": "ｻｲｴﾝｽｺｰﾄ",
+                "explanation": "化学の実験では欠かせないｼﾝﾌﾟﾙな白衣です｡<br>謎の液体をこぼしてもﾀﾞｲｼﾞｮｰﾌﾞ!",
+                "type_id": "2"
+            },
+            "costume_1_23311": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/23311",
+                "accessory_name": "実験的♪王子ｺｰﾃﾞ",
+                "explanation": "王子風のｶｯｺ可愛いﾛﾘｰﾀ衣装です。<br>不思議な魅力で老若男女をときめかせよう♪",
+                "type_id": "2"
+            },
+            "costume_1_23346": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/23346",
+                "accessory_name": "幸せのﾌﾟﾘﾝｾｽﾗｲﾝﾄﾞﾚｽ",
+                "explanation": "みんなが憧れる､王道のｳｪﾃﾞｨﾝｸﾞﾄﾞﾚｽです｡<br>二人で永遠の未来を解き明かしちゃお♪",
+                "type_id": "2"
+            },
+            "costume_1_23414": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/23414",
+                "accessory_name": "ゆる～り春ｺｰﾃﾞ",
+                "explanation": "ｵﾌｼｮﾙﾀﾞｰのざっくりﾆｯﾄが､春にﾋﾟｯﾀﾘなｺｰﾃﾞです｡<br>ﾎﾟｶﾎﾟｶ日和に､春の息吹を探しにいこう｡",
+                "type_id": "2"
+            },
+            "costume_1_23515": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/23515",
+                "accessory_name": "真紅のﾄﾞﾚｯｼｰﾜﾝﾋﾟ",
+                "explanation": "大人ｶﾞｰﾘｰな真紅のﾜﾝﾋﾟｰｽです｡<br>ﾃﾞｺﾙﾃ部分の透け感がｾｸｼｰでしょ♪",
+                "type_id": "2"
+            },
+            "costume_1_24027": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/24027",
+                "accessory_name": "ｼﾝﾃﾞﾚﾗ･ｺﾚｸｼｮﾝ(志希)",
+                "explanation": "輝くｼﾝﾃﾞﾚﾗたちへ贈られた､それぞれの夢へと続く魔法のﾄﾞﾚｽです｡<br>ｱｲﾄﾞﾙにあたしなりの色香を数滴｡希望を志せたかはともかく､ｷｮｰﾐ深い結果にはなったでしょ?",
+                "type_id": "2"
+            },
+            "costume_1_24196": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/24196",
+                "accessory_name": "青ﾊﾞﾗのﾐﾆﾄﾞﾚｽ",
+                "explanation": "青ﾊﾞﾗとﾚｰｽをふんだんにあしらった､華やかなﾐﾆﾄﾞﾚｽです｡<br>胸に隠したのは､一輪の赤いﾊﾞﾗ｡その意味はｷﾐが検証してみて♪",
+                "type_id": "2"
+            },
+            "costume_1_24249": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/24249",
+                "accessory_name": "天才化学者の白衣",
+                "explanation": "ｽｰﾂの上から､白衣を纏った化学者風ｺｰﾃﾞです｡<br>行うのは実験､観察､分析｡彼女の思考は､ｷﾐの存在を隅々まで暴き出す｡",
+                "type_id": "2"
+            },
+            "head_1_33090": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/33090",
+                "accessory_name": "祈りの冠",
+                "explanation": "とても美しい､祈りのための冠です｡<br>ｼｬﾗｼｬﾗと鳴る音を聴いて…｡",
                 "type_id": "3"
+            },
+            "head_1_33135": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/33135",
+                "accessory_name": "実験的♪ｹﾐｶﾙﾐﾆﾊｯﾄ",
+                "explanation": "ｱﾔしい羽根のついた､王子風のﾐﾆﾊｯﾄです｡<br>斜めに被れば､貴方もたちまち王子様に☆",
+                "type_id": "3"
+            },
+            "head_1_33167": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/33167",
+                "accessory_name": "ふわふわﾀｵﾙﾍｱﾊﾞﾝﾄﾞ",
+                "explanation": "ﾘﾎﾞﾝが可愛らしいﾀｵﾙ地のﾍｱﾊﾞﾝﾄﾞです｡<br>ｱｯﾌﾟｽﾀｲﾙで気兼ねなく温泉を楽しもう!",
+                "type_id": "3"
+            },
+            "head_1_33239": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/33239",
+                "accessory_name": "ﾌﾛｰﾗﾙﾛｾﾞｯﾀ",
+                "explanation": "花のようにﾁｬｰﾐﾝｸﾞなﾛｾﾞｯﾀの髪飾りです｡<br>可憐で優美なﾍｱｱｲﾃﾑで､心にも満開の花を飾ろう♪",
+                "type_id": "3"
+            },
+            "head_1_33290": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/33290",
+                "accessory_name": "天才化学者のﾍｱﾋﾟﾝ",
+                "explanation": "ﾒｲﾝｶﾗｰの黒に､青のﾗｲﾝが映える､X型のﾍｱﾋﾟﾝです｡<br>Xは､未知を表す記号｡求め続ければ､いつか答えは出るかもしれない｡",
+                "type_id": "3"
+            },
+            "hand_1_42103": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/42103",
+                "accessory_name": "実験的♪ｹﾐｶﾙなﾊﾞﾗ",
+                "explanation": "紳士的な王子の必需品､情熱のﾊﾞﾗです｡<br>一輪だけで誠意を示すのがﾎﾟｲﾝﾄ☆",
+                "type_id": "4"
+            },
+            "hand_1_42220": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/42220",
+                "accessory_name": "浮かぶ化学式",
+                "explanation": "宙に浮かぶ､不思議な化学式です｡<br>文字と記号のみで構成された式｡そこに､無駄の介在する余地はない｡",
+                "type_id": "4"
+            },
+            "hand_1_43024": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/43024",
+                "accessory_name": "お花見団子",
+                "explanation": "とってもおいしそうな3色のお団子です｡<br>やっぱり花より団子?",
+                "type_id": "4"
+            },
+            "hand_1_43198": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/43198",
+                "accessory_name": "魅惑の実験ｸﾞｯｽﾞ",
+                "explanation": "不思議な液体の入ったﾌﾗｽｺと試験管｡<br>2つを混ぜると何かが起きる予感♪",
+                "type_id": "4"
+            },
+            "hand_1_43330": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/43330",
+                "accessory_name": "ﾃﾞﾘﾊﾞﾘｰﾋﾟｻﾞ",
+                "explanation": "とろ～りﾁｰｽﾞが食欲をそそる､Lｻｲｽﾞのﾃﾞﾘﾊﾞﾘｰﾋﾟｻﾞです｡<br>分け合えばﾊｯﾋﾟｰ♪熱いうちに､召し上がれ!",
+                "type_id": "4"
+            },
+            "hand_1_43464": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/43464",
+                "accessory_name": "ﾌﾟﾛﾃﾞｭｰｻｰさんの名刺",
+                "explanation": "ｱｲﾄﾞﾙたちが最初に手にした､夢への招待状｡<br>運命の出会いと共に渡されたそれは､貴方の名前が入った名刺でした｡",
+                "type_id": "4"
+            },
+            "leg_1_51057": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/51057",
+                "accessory_name": "実験的♪ｹﾐｶﾙｱﾝｸﾚｯﾄ",
+                "explanation": "美しい装飾が施された王子風ｱﾝｸﾚｯﾄ｡<br>足元から気品を漂わせちゃおう♪",
+                "type_id": "5"
+            },
+            "leg_1_51117": {
+                "image_path": "../../../12008305/image_sp/item/l/petit_cg/51117",
+                "accessory_name": "天才化学者のﾌﾞｰﾂ",
+                "explanation": "黒と青のﾗｲﾝが特徴的な､白いﾌﾞｰﾂです｡<br>天才の歩みは､興味の赴くままに｡先にあるのは退屈? それとも希望かな?",
+                "type_id": "5"
             }
         },
-        "petit_csv_sub_type_info_list": {
-            "head_1_30101": {
-                "image_path": "https:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http://mobamas.net/idolmaster/image_sp/item/l/petit_cg/30101",
-                "accessory_name": "\u8d64\u7e01\u773c\u93e1\uff65\u983c\u5b50",
-                "explanation": "\u983c\u5b50\u306e\u8d64\u3044\u7e01\u306e\u773c\u93e1\u3067\u3059\uff61<br>\uff9a\uff9d\uff7d\uff9e\u8d8a\u3057\u306e\u98a8\u666f\u3092\u2026\uff61",
-                "type_id": "3"
-            }
-        }
+        "petit_csv_sub_type_info_list": []
     }
 }
