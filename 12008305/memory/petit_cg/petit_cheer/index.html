@@ -80,7 +80,7 @@
     <script>
         $(document).ready(function() {
             if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
-                newrelic.setPageViewName('/idolmaster/index.php/petit_cg/petit_cheer/109092079');
+                newrelic.setPageViewName('/idolmaster/index.php/petit_cg/petit_cheer/139087231');
             }
         });
     </script>
@@ -135,7 +135,7 @@
                 }
             </style><!--
             <div class="tab_common-large m-Top4 m-Btm8">
-                <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%://mobamas.net/idolmaster/profile/show/109092079%3Fl_frm%3DPetit_cg_petit_cheer_1%26rnd%3D361763699' class="tab_line_2 tab_text">プロフィール</a>
+                <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%://mobamas.net/idolmaster/profile/show/139087231%3Fl_frm%3DPetit_cg_petit_cheer_1%26rnd%3D361763699' class="tab_line_2 tab_text">プロフィール</a>
                 <div class="tab_line_2 tab_text selected">ぷちデレラ</div>
             </div>-->
             <div id="main_screen" style='position:relative; height:390px; -webkit-border-radius: 8px;'>
@@ -431,11 +431,11 @@
                     if (clicked) return false;
                     clicked = true;
                     this.blur();
-                    var view_id_replace = "109092079".replace("%7D", "");
+                    var view_id_replace = "139087231".replace("%7D", "");
                     $('#user-petit-money').hide();
                     $.ajax({
-                        type: 'post',
-                        url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%://mobamas.net/idolmaster/petit_cg/ajax_petit_to_cheer%3Fl_frm%3DPetit_cg_petit_cheer_1%26rnd%3D135927507',
+                        type: 'get',
+                        url: 'ajax_petit_to_cheer.json',
                         data: {
                             'to_viewer_id': view_id_replace
                         },
@@ -465,7 +465,7 @@
                     if (clicked || $(this).attr('id') != 'like') return false;
                     clicked = true;
                     this.blur();
-                    var view_id_replace = "109092079".replace("%7D", "");
+                    var view_id_replace = "139087231".replace("%7D", "");
                     var like_motion = ['like_reaction', 'like_reaction_jump'];
                     $('#user-technical-point').hide();
                     $.ajax({
