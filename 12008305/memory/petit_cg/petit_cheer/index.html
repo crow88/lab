@@ -469,8 +469,8 @@
                     var like_motion = ['like_reaction', 'like_reaction_jump'];
                     $('#user-technical-point').hide();
                     $.ajax({
-                        type: 'post',
-                        url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%://mobamas.net/idolmaster/petit_cg/ajax_exec_like%3Fl_frm%3DPetit_cg_petit_cheer_1%26rnd%3D387645827',
+                        type: 'get',
+                        url: 'ajax_exec_like.json',
                         data: {
                             'to_viewer_id': view_id_replace,
                             'csrf_test_name': '9661d3d47ff90a6764fb3f678a30be0d'
