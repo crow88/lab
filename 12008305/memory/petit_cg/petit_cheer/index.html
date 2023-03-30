@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta name="format-detection" content="telephone=no">
+    <title>아이돌마스터 신데렐라 걸즈</title>
+    <link rel="stylesheet" type="text/css" href="../../../../12008305/css/rich/new_mypage_common_kr.css" media="all">
+    <link rel="apple-touch-icon-precomposed" href="../../../../12008305/image_sp/ui/icon_bookmark.png">
+    <script type="text/javascript">
+        if (window.localStorage) {
+            var displaySet = localStorage.getItem('DisplayPositionSet');
+            if (displaySet == 1) {
+                if (navigator.userAgent.indexOf('Android') > 0) {
+                    document.write('<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">');
+                    document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                } else {
+                    document.write('<meta name="viewport" content="width=320, user-scalable=no">');
+                }
+                window.addEventListener('resize', function() {
+                    if (navigator.userAgent.indexOf('Android') > 0) document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
+                });
+            } else {
+                document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
+        }
+    </script>
+    <script src="../../../../12008305/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="../../../../12008305/js/underscore-min.js"></script>
+    <script>
+        (function() {
+            window.viewer_id = 139087231;
+            var _url = "https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%://mobamas.net/idolmaster/game_error/report_js_error%3Fl_frm%3DPetit_cg_petit_cheer_1%26rnd%3D129139517";
+            var _path = location.href;
+            var _spec_obj;
+            var _spec = 'none';
+            var version = 1;
+            // access方法検出
+            _spec_obj = {
+                'isNative': false,
+                'isAndApp': false,
+                'isShellApp': false,
+                'isIosApp': false,
+                'isChromeApp': false
+            };
+            window._spec = _spec_obj;
+            if (_spec.isAndApp) {
+                _spec = 'andapp'
+            } else if (_spec.isIosApp) {
+                _spec = 'iosApp';
+            } else if (_spec.isShellApp) {
+                _spec = 'shellapp';
+            } else {
+                _spec = 'browser?';
+            }
+        })();
+    </script>
+    <script src="../../../../12008305/js/require.js"></script>
+    <script src="../../../../12008305/js/require.js"></script>
+    <script>
+        requirejs.config({
+            paths: {
+                easeljs: "../../../../12008305/js/easeljs-0.8.2.min.js",
+                easeljs_0_7_1: "../../../../12008305/js/easeljs-0.7.1.min.js", //スプライトを読むためのバージョン
+                tweenjs: "../../../../12008305/js/tweenjs-0.6.2.min.js",
+                movieclipjs: "../../../../12008305/js/movieclip-0.7.1.min.js",
+                createjs: "../../../../12008305/js/createjs-2015.11.26.min.js",
+            }
+        })
+    </script>
+    <script src="../../../../12008305/js/jquery.flexslider.js" type="text/javascript"></script>
+    <script src="../../../../12008305/js/common.js" type="text/javascript"></script>
+    <script src="../../../../12008305/js/common_new.js" type="text/javascript"></script>
+    <script src="../../../../12008305/js/banner.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function() {
+            if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
+                newrelic.setPageViewName('/idolmaster/index.php/petit_cg/petit_cheer/109092079');
+            }
+        });
+    </script>
+    <script type='text/javascript'>
+        var se_flg = 0,
+            bgm_flg = 0,
+            chrome_app_flg = 0,
+            chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+    </script>
+    <script type='text/javascript' src='../../../../12008305/js/app_sound.js'></script>
+    <link rel="stylesheet" type="text/css" href="../../../../css/base.css" />
+</head>
+
+<body id="petit_cg">
+    <div id="pageArea" onUnload="unloadBye()">
+        <div id="top" class="page_container jsOnBtn">
+            <nav class="area_menu_header">
+                <div class="area_menu_header_6btn">
+                    <h1 id="JtextLimit">ティードのぷちデレラ</h1>
+                    <ul>
+                        <li><a class="head_menu_01" href="">
+                                <div></div>
+                            </a></li>
+                        <li><a class="head_menu_02" href="">
+                                <div></div>
+                            </a></li>
+                        <li><a class="head_menu_03" href="">
+                                <div></div>
+                            </a></li>
+                        <li><a class="head_menu_04" href="">
+                                <div></div>
+                            </a></li>
+                        <li><a class="head_menu_05" href="">
+                                <div></div>
+                            </a></li>
+                        <li><a class="head_menu_06 se_000" href="#" id="headerAcd">
+                                <div></div>
+                            </a></li>
+                    </ul>
+                </div>
+            </nav>
+            <link rel="stylesheet" type="text/css" href="../../../../12008305/css/rich/petit.css" media="all">
+            <style>
+                @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+                    .animation>canvas {
+                        zoom: 50%;
+                    }
+                }
+
+                .animation {
+                    position: absolute;
+                }
+            </style><!--
+            <div class="tab_common-large m-Top4 m-Btm8">
+                <a href='https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%://mobamas.net/idolmaster/profile/show/109092079%3Fl_frm%3DPetit_cg_petit_cheer_1%26rnd%3D361763699' class="tab_line_2 tab_text">プロフィール</a>
+                <div class="tab_line_2 tab_text selected">ぷちデレラ</div>
+            </div>-->
+            <div id="main_screen" style='position:relative; height:390px; -webkit-border-radius: 8px;'>
+                <div id="jsEyeCatch">
+                    <div style="margin-top:60px"><img src='../../../../12008305/image_sp/petit_cg/ui/sprite/loading/working_1.gif' width="195" height="139"></div>
+                    <div style="margin-top:-80px"><img src='../../../../12008305/image_sp/petit_cg/ui/sprite/loading/loading.gif' width="102" height="102"></div>
+                </div>
+                <div style="background:url('../../../../12008305/image_sp/petit_cg/ui/bg/1/long/1.jpg') no-repeat left -74px; background-size: 320px 570px; position: absolute; top: 0; width: 320px; height: 390px; -webkit-border-radius: 8px;"></div>
+                <div class="bg_unit jsAfterUnitName" style="z-index:2;">
+                    ティードのぷちデレラ
+                </div>
+                <div id="top_like" class="icon_top_nice cheer_position" style="top: 5px;">
+                    <div class="total_like"><span class="val">999</span></div>
+                </div>
+                <div id="animation_ch3" class='animation' style="overflow:hidden;"></div>
+                <div id="animation_ch2" class='animation' style="overflow:hidden;"></div>
+                <div id="animation_ch1" class='animation' style="overflow:hidden;"></div>
+                <div class="cheer_info" id="user-technical-point" style="display:none;">
+                    <div id='cheer-error-message' class="t-Lft"></div>
+                    <div id='cheer-message'>
+                        あいさつでテクニカルptをGET!<br>
+                        <span class="blue">所持テクニカルpt:</span> <span id='point-before-after'></span>
+                    </div>
+                </div>
+                <div class="like_info" id="user-petit-money" style="display:none;">
+                    <span style='color:#00ccff;'>所持ぷちマニー:</span>
+                    <span id='petit-money-before-after'></span>
+                </div>
+                <div style="position: absolute; bottom: 6px; left: 6px;">
+                    <div class="displayBox jsOnBtn" style="margin-bottom:2px;">
+                        <a href="#" id="cheer" class="button_profile_greeting" style="margin-right:2px;"></a>
+                        <a href="#" id='like' class="button_profile_nice"></a>
+                    </div>
+                    <div class="bg_menu_visit">
+                        <div class="visit_btns displayBox jsOnBtn">
+                            <a href='../' class="button_back_petit_top"></a>
+                            <a href='' class="button_menu_visit_01"></a>
+                            <a href='' class="button_menu_visit_02"></a>
+                            <a href='' class="button_menu_visit_03"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='t-Cnt line-retina-sprite m-Top10' id='cc'>
+                <div class="line_type01"></div>
+                <div class="t-Lft gray" style="padding:7px">
+                    ・あいさつをすることで4テクニカルptを獲得できます。<br>
+                    ・いいね! をすることで10ぷちマニーを獲得できます。<br>
+                    ・あいさつやいいね! をして報酬が獲得できるのはそれぞれ1日3回までです。<br>
+                    ・同じ相手にあいさつしてテクニカルptが増えるのは1日1回までです。<br>
+                    ・同じ相手にいいね! できるのは1日1回までです。<br>
+                    ・あいさつやいいね! をした回数は午前5時にリセットされます。<br>
+                </div>
+            </div>
+            <a href="https://crow88.github.io/lab/">
+                <div class="backLink">돌아가기</div>
+            </a>
+            <div id='prefetch' style='display:none;'></div>
+            <a href='#' id='end_load' style='display:none;'></a>
+            <script src="../../../../12008305/js/pex_common.js" type="text/javascript"></script>
+            <script src="../../../../12008305/js/pex-petit-1.2.0.js" type="text/javascript"></script>
+            <script type="text/javascript">
+                var ua = navigator.userAgent;
+                if ((ua.indexOf('iPhone') > -1 || ua.indexOf('iPod') > -1 || ua.indexOf('iPad') > -1 || ua.indexOf('Android') > -1) && 'ontouchstart' in window) {
+                    var start = "touchstart";
+                    var end = "touchend";
+                } else {
+                    var start = "mousedown";
+                    var end = "mouseup";
+                }
+                window.start = start;
+                window.end = end;
+                var loading = {
+                    'cheer': false,
+                    'petit': false
+                };
+                var cheer_json = document.createElement('script');
+                var clicked = false;
+                var mc;
+                window.addEventListener('load', function() {
+                    mc = new MakeCharacter($.parseJSON('{"1":{"attribute":"1","body_type":"1","breast_size":"2","short_name":"\u5fd7\u5e0c","image_url_list":{"expression_1043":"../../../../12008305/js/petit_cg/expression/1043.js","hair_10043":"../../../../12008305/js/petit_cg/hair/10043.js","costume_1_23464":"../../../../12008305/js/petit_cg/costume/1/23464.js","hand_1_43256":"../../../../12008305/js/petit_cg/hand/1/43256.js"},"sub_type_list":{"head":null,"hand":null,"leg":null},"take_sub_type":{"head":0,"hand":0,"leg":0},"petit_csv_info_list":{"costume_1_23464":{"image_path":"../../../../12008305/image_sp/item/l/petit_cg/23464","accessory_name":"\u8fce\u51a5\u2605\u8f1d\u5deb\u5973","explanation":"\u30d8\u30f4\u30a3\u306a\u30e1\u30bf\u30eb\u30a2\u30ec\u30f3\u30b8\u3092\u52a0\u3048\u305f\u5deb\u5973\u98a8\u8863\u88c5\u3067\u3059\u3002<br>\u795d\u3048! \u65b0\u305f\u306a\u308b\u5730\u7344\u306e\u8a95\u751f\u3092! \u7948\u308c! \u307c\u3063\u3061\u306e\u8f1d\u304d!","type_id":"2"},"hand_1_43256":{"image_path":"../../../../12008305/image_sp/item/l/petit_cg/43256","accessory_name":"\u4f1d\u7d71\u306e\u5f13\u77e2","explanation":"\u6d41\u93d1\u99ac\u306b\u6b20\u304b\u305b\u306a\u3044\u93d1\u77e2\u3068\u5f13\u3067\u3059\u3002<br>\u6b21\u306a\u308b\u540d\u4eba\u306e\u5ea7\u306b\u3001\u72d9\u3044\u3092\u5b9a\u3081\u3066\u2026!","type_id":"4"}},"petit_csv_sub_type_info_list":[],"idol_id":"1043"},"2":{"attribute":"1","body_type":"1","breast_size":"2","short_name":"\u30d5\u30ec\u30c7\u30ea\u30ab","image_url_list":{"expression_1015":"../../../../12008305/js/petit_cg/expression/1015.js%3Fv%3D20210904134926","hair_10015":"../../../../12008305/js/petit_cg/hair/10015.js","costume_1_23467":"../../../../12008305/js/petit_cg/costume/1/23467.js","hand_1_41055":"../../../../12008305/js/petit_cg/hand/1/41055.js%3Fv%3D20210904134928"},"sub_type_list":{"head":null,"hand":null,"leg":null},"take_sub_type":{"head":0,"hand":0,"leg":0},"petit_csv_info_list":{"costume_1_23467":{"image_path":"../../../../12008305/image_sp/item/l/petit_cg/23467","accessory_name":"\u7518\u7f8e\u306a\u308b\u9b45\u60d1\u306e\u88c5\u675f","explanation":"\u30d5\u30ea\u30eb\u3092\u3075\u3093\u3060\u3093\u306b\u3042\u3057\u3089\u3063\u305f\u3001\u7518\u304f\u3068\u308d\u3051\u308b\u30b4\u30b9\u30ed\u30ea\u30b3\u30fc\u30c7\u3067\u3059\u3002<br>\u3055\u3041\u3001\u9078\u3070\u308c\u3057\u8005\u3068\u5171\u306b\u2026\u7d04\u675f\u306e\u523b\u3092\u3001\u3044\u3056\u8fce\u3048\u3093!","type_id":"2"},"hand_1_41055":{"image_path":"../../../../12008305/image_sp/item/l/petit_cg/41055","accessory_name":"\u30bb\u30ec\u30d6\u30af\u30eb\u30fc\u30b8\u30f3\u30b0\u2606\u30ad\u30e3\u30ea\u30fc\u30d0\u30c3\u30b0","explanation":"\u9ad8\u4fa1\u306a\u9769\u3067\u4ed5\u7acb\u3066\u3089\u308c\u305f\u30ad\u30e3\u30ea\u30fc\u30d0\u30c3\u30b0\u3067\u3059\u3002<br>\u9ad8\u7d1a\u30d6\u30e9\u30f3\u30c9\u306e\u30a4\u30c1\u30aa\u30b7\u54c1\u3002\u5927\u4e8b\u306b\u65c5\u3078\u9023\u308c\u3066\u3044\u3053\u3046!","type_id":"4"}},"petit_csv_sub_type_info_list":[],"idol_id":"1015"},"3":{"attribute":"1","body_type":"2","breast_size":"3","short_name":"\u6843\u83ef","image_url_list":{"expression_1034":"../../../../12008305/js/petit_cg/expression/1034.js","hair_10034":"../../../../12008305/js/petit_cg/hair/10034.js","costume_2_23467":"../../../../12008305/js/petit_cg/costume/2/23467.js%3Fv%3D20210904134925","hand_2_42103":"../../../../12008305/js/petit_cg/hand/2/42103.js%3Fv%3D20210904134930"},"sub_type_list":{"head":null,"hand":null,"leg":null},"take_sub_type":{"head":0,"hand":0,"leg":0},"petit_csv_info_list":{"costume_2_23467":{"image_path":"../../../../12008305/image_sp/item/l/petit_cg/23467","accessory_name":"\u7518\u7f8e\u306a\u308b\u9b45\u60d1\u306e\u88c5\u675f","explanation":"\u30d5\u30ea\u30eb\u3092\u3075\u3093\u3060\u3093\u306b\u3042\u3057\u3089\u3063\u305f\u3001\u7518\u304f\u3068\u308d\u3051\u308b\u30b4\u30b9\u30ed\u30ea\u30b3\u30fc\u30c7\u3067\u3059\u3002<br>\u3055\u3041\u3001\u9078\u3070\u308c\u3057\u8005\u3068\u5171\u306b\u2026\u7d04\u675f\u306e\u523b\u3092\u3001\u3044\u3056\u8fce\u3048\u3093!","type_id":"2"},"hand_2_42103":{"image_path":"../../../../12008305/image_sp/item/l/petit_cg/42103","accessory_name":"\u5b9f\u9a13\u7684\u266a\u30b1\u30df\u30ab\u30eb\u306a\u30d0\u30e9","explanation":"\u7d33\u58eb\u7684\u306a\u738b\u5b50\u306e\u5fc5\u9700\u54c1\u3001\u60c5\u71b1\u306e\u30d0\u30e9\u3067\u3059\u3002<br>\u4e00\u8f2a\u3060\u3051\u3067\u8aa0\u610f\u3092\u793a\u3059\u306e\u304c\u30dd\u30a4\u30f3\u30c8\u2606","type_id":"4"}},"petit_csv_sub_type_info_list":[],"idol_id":"1034"}}'));
+                }, false);
+                cheer_json.onload = function() {
+                    loading.cheer = true;
+                    firstLoaded();
+                };
+                cheer_json.src = "../../../../12008305/js/pex_json/04_cheer_petit.js";
+                document.getElementsByTagName('head')[0].appendChild(cheer_json);
+
+                function firstLoaded() {
+                    if (!loading['cheer'] || !loading['petit']) return;
+                    for (var i in mc.character) {
+                        mc.character[i].init();
+                    }
+                }
+
+                function MakeCharacter(data) {
+                    if (data === void 0) return;
+                    this.count = 0;
+                    this.cloth_data = new Object();
+                    this.character = new Object();
+                    for (var i in data) {
+                        if (Object.keys(data[i]).length) {
+                            this.character[i] = new PetitCharacter(i);
+                            $.extend(this.character[i], data[i]);
+                        }
+                    }
+                    this.clothMerge();
+                };
+                MakeCharacter.prototype.clothMerge = function() {
+                    var image_url_list = new Object();
+                    for (var i in this.character) {
+                        $.extend(image_url_list, this.character[i].image_url_list);
+                    }
+                    this.setClothData(image_url_list);
+                };
+                MakeCharacter.prototype.setClothData = function(clothData) {
+                    var tempLength = {
+                        'list': Object.keys(clothData),
+                        'loaded': 0
+                    };
+                    for (var key in clothData) {
+                        if (this.cloth_data[key] === void 0) {
+                            if (window[key] !== void 0) {
+                                this.imageAlready(key, window[key], tempLength);
+                            } else {
+                                this.loadImageJs(clothData[key], key, tempLength);
+                            }
+                        } else {
+                            this.replaceReady(tempLength);
+                        }
+                    }
+                };
+                MakeCharacter.prototype.loadImageJs = function(url, script_name, tempLength) {
+                    var self = this;
+                    var image_script = document.createElement('script');
+                    image_script.onload = function() {
+                        self.imageAlready(script_name, window[script_name], tempLength);
+                    }
+                    image_script.src = url;
+                    document.getElementsByTagName('head')[0].appendChild(image_script);
+                };
+                MakeCharacter.prototype.imageAlready = function(script_name, alreay_image_data, tempLength) {
+                    var tempCloth = new Array();
+                    var length = Object.keys(alreay_image_data).length;
+                    for (var i in alreay_image_data) {
+                        this.imageToReplace(script_name, alreay_image_data[i], i, length, tempLength, tempCloth);
+                    }
+                };
+                MakeCharacter.prototype.imageToReplace = function(script_name, merge_data, index, length, tempLength, tempCloth) {
+                    var img = new Image();
+                    var self = this;
+                    img.onload = function() {
+                        tempCloth.push({
+                            'name': index,
+                            'img': img
+                        });
+                        if (length == tempCloth.length) {
+                            self.cloth_data[script_name] = new Array();
+                            self.cloth_data[script_name] = self.cloth_data[script_name].concat(tempCloth);
+                            self.replaceReady(tempLength);
+                        }
+                    }
+                    img.src = merge_data;
+                    document.getElementById('prefetch').appendChild(img);
+                };
+                MakeCharacter.prototype.replaceReady = function(tempLength) {
+                    if (++tempLength.loaded == tempLength.list.length) {
+                        $('#prefetch').empty();
+                        this.ready();
+                    }
+                };
+                MakeCharacter.prototype.ready = function() {
+                    if (!loading.petit) {
+                        loading.petit = true;
+                        firstLoaded();
+                    }
+                };
+                MakeCharacter.prototype.finished = function() {
+                    if (++this.count == Object.keys(this.character).length) {
+                        $('#jsEyeCatch').hide();
+                        this.count = 0;
+                    }
+                };
+
+                function PetitCharacter(position) {
+                    this.pex = false;
+                    this.api = false;
+                    this.position = position;
+                    this.shortpants = false;
+                };
+                PetitCharacter.prototype.isShortpants = function(url) {
+                    if (url.indexOf('costume') > -1) {
+                        if (url.indexOf('shortpants') > -1) this.shortpants = true;
+                        else this.shortpants = false;
+                    }
+                };
+                PetitCharacter.prototype.init = function() {
+                    var replace = new Array();
+                    for (var name in this.image_url_list) {
+                        this.isShortpants(this.image_url_list[name]);
+                        for (var i in mc.cloth_data[name]) {
+                            if (name.indexOf('costume') > -1) {
+                                if (this.breast_size == 2 || this.breast_size == 3) {
+                                    if (mc.cloth_data[name][i].name == 'replace_breast_L') continue;
+                                }
+                                if (this.breast_size == 1 || this.breast_size == 3) {
+                                    if (mc.cloth_data[name][i].name == 'replace_breast_S') continue;
+                                }
+                            }
+                            if (name.indexOf('leg') > -1) {
+                                if (this.shortpants) {
+                                    if (mc.cloth_data[name][i].name == 'replace_item_foot_L_back') continue;
+                                } else {
+                                    if (mc.cloth_data[name][i].name == 'replace_item_foot_L_front') continue;
+                                }
+                            }
+                            replace.push(mc.cloth_data[name][i]);
+                        }
+                    }
+                    this.setOption(replace);
+                };
+                PetitCharacter.prototype.setOption = function(replace_data) {
+                    var chrome_app_flg = "";
+                    var andapp_flg = "";
+                    var ratio = window.devicePixelRatio >= 1.5 || chrome_app_flg === "1" || andapp_flg === "1" ? 2 : 1;
+                    var option = {
+                        enableButton: false,
+                        partialDraw: getPexPartialDraw(),
+                        delayEval: false,
+                        transparent: true,
+                        touchEvent: false,
+                        replace: replace_data,
+                        operation: {
+                            lighter_tgt: "lighter"
+                        },
+                        width: 320 * ratio
+                    };
+                    this.pexRun(option);
+                };
+                PetitCharacter.prototype.pexRun = function(option) {
+                    var self = this;
+                    if (this.api) {
+                        this.api.destroy();
+                        $('#animation_ch' + this.position).empty();
+                    }
+                    this.pex = new Pex(cheer_petit, 'animation_ch' + this.position, option);
+                    this.api = this.pex.getAPI();
+                    this.api.ready(function() {
+                        var setVariable = {
+                            small_character_flg: (self.body_type == 2 ? 1 : 0),
+                            big_character_flg: (self.body_type == 4 ? 1 : 0),
+                            cheek_type: self.body_type == 3 ? 2 : 1,
+                            swf_type: self.position
+                        };
+                        self.api.setVariables('/', setVariable);
+                        mc.finished();
+                    });
+                };
+
+                function afterCheerReaction(position) {
+                    mc.character[position].api.callActions('/', 'init');
+                    if (position == 1) {
+                        $('#user-technical-point').show();
+                        clicked = false;
+                    }
+                }
+
+                function afterLikeReaction(position) {
+                    mc.character[position].api.callActions('/', 'init');
+                    if (position == 1) {
+                        $('#user-petit-money').show();
+                        clicked = false;
+                    }
+                }
+
+                function showError(isCheer, isAddPoint) {
+                    if (typeof(isAddPoint) !== 'undefined' && isAddPoint == 0) {
+                        $('#cheer-error-message').text('あいさつしてテクニカルptが増えるのは1日3回までです。');
+                        $('#cheer-error-message').show();
+                        $('#cheer-message').hide();
+                    } else if (typeof(isCheer) !== 'undefined' && isCheer == 0) { // not cheer for any error
+                        $('#cheer-error-message').text('同じ相手にあいさつしてテクニカルptが増えるのは1日1回までです。');
+                        $('#cheer-error-message').show();
+                        $('#cheer-message').hide();
+                    }
+                }
+
+                function showErrorLike() {
+                    $('#user-petit-money').html('いいね! してぷちマニーが増えるのは1日3回までです。');
+                }
+                $('#cheer').click(function() {
+                    if (clicked) return false;
+                    clicked = true;
+                    this.blur();
+                    var view_id_replace = "109092079".replace("%7D", "");
+                    $('#user-petit-money').hide();
+                    $.ajax({
+                        type: 'post',
+                        url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%://mobamas.net/idolmaster/petit_cg/ajax_petit_to_cheer%3Fl_frm%3DPetit_cg_petit_cheer_1%26rnd%3D135927507',
+                        data: {
+                            'to_viewer_id': view_id_replace
+                        },
+                        dataType: 'json',
+                        success: function(data) {
+                            if (data.cheer_reaction !== void 0 && data.cheer_reaction) {
+                                for (var i in mc.character) {
+                                    mc.character[i].api.callActions('/', 'cheer_reaction');
+                                }
+                            }
+                            if (typeof(data.before_point) !== 'undefined' && typeof(data.after_point) !== 'undefined') {
+                                var pointBeforeAfter = data.before_point + "→" + data.after_point;
+                                $('#point-before-after').text(pointBeforeAfter);
+                                $('#cheer-error-message').hide();
+                                $('#cheer-message').show();
+                            } else {
+                                showError(data.is_cheer, data.is_add_point);
+                            }
+                        },
+                        error: function(data) {
+                            //location.reload();
+                        }
+                    });
+                    return false;
+                });
+                $('#like').click(function() {
+                    if (clicked || $(this).attr('id') != 'like') return false;
+                    clicked = true;
+                    this.blur();
+                    var view_id_replace = "109092079".replace("%7D", "");
+                    var like_motion = ['like_reaction', 'like_reaction_jump'];
+                    $('#user-technical-point').hide();
+                    $.ajax({
+                        type: 'post',
+                        url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%://mobamas.net/idolmaster/petit_cg/ajax_exec_like%3Fl_frm%3DPetit_cg_petit_cheer_1%26rnd%3D387645827',
+                        data: {
+                            'to_viewer_id': view_id_replace,
+                            'csrf_test_name': '9661d3d47ff90a6764fb3f678a30be0d'
+                        },
+                        dataType: 'json',
+                        success: function(data) {
+                            if (data.like_reaction !== void 0 && data.like_reaction) {
+                                if (Object.keys(mc.character).length == 3) {
+                                    var random = Math.floor(Math.random() * 10);
+                                } else {
+                                    var random = 0;
+                                }
+                                for (var i in mc.character) {
+                                    mc.character[i].api.callActions('/', like_motion[(random > 6) + 0]);
+                                }
+                            }
+                            $('.total_like > .val').text(parseInt(data.after_like_count));
+                            if (data.before_petit_money != data.after_petit_money) {
+                                var moneyBeforeAfter = data.before_petit_money + "→" + data.after_petit_money;
+                                $('#petit-money-before-after').text(moneyBeforeAfter);
+                            } else {
+                                showErrorLike();
+                            }
+                            $('#like').removeClass('button_profile_nice').addClass('button_profile_nice_none').attr('id', '');
+                        },
+                        error: function(data) {
+                            //location.reload();
+                        }
+                    });
+                    return false;
+                });
+                $('body').on(end, function() {
+                    $('#user-technical-point').hide();
+                    $('#user-petit-money').hide();
+                });
+            </script>
+            <script src="../../../../12008305/js/i_base.js" type="text/javascript"></script>
+            <script>
+                new IBase.TouchBlinker();
+            </script>
+            <footer>
+                <div class="line_idolmaster"></div><a href="#top" id="toPageTop" class="mypage_under">
+                    <div></div>
+                </a>
+                <div class="t-Cnt">&copy;T.K. THE IDOLM@STER&trade; &amp; &copy;BNEI</div>
+            </footer>
+        </div>
+    </div>
+    <div id="mbga-pf-footer">
+        <script type="text/javascript" charset="UTF-8">
+            (function() {
+                document.addEventListener('DOMContentLoaded', function() {
+                    var list = document.getElementsByClassName('mbga-pf-footer-li');
+                    var i = 0,
+                        l = list.length;
+                    for (; i < l; i++) {
+                        var elem = list[i];
+                        elem.addEventListener('touchstart', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/$/, ' mbga-pf-tapped');
+                        });
+                        elem.addEventListener('touchend', function(e) {
+                            e.currentTarget.className = e.currentTarget.className.replace(/ mbga-pf-tapped/, '');
+                        });
+                        elem.addEventListener('touchmove', function(e) {});
+                    }
+                });
+            })();
+        </script>
+    </div>
+</body>
+
+</html>
