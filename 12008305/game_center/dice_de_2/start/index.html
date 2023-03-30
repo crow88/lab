@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobage: footer-color" content="none">
+    <link rel="stylesheet" href='../../../../12008305/css/game/pex.css' media="all">
+    <script src='../../../../12008305/js/jquery-1.9.1.min.js'></script>
+    <script src='../../../../12008305/js/pex-1.2.0.js'></script>
+    <script src='../../../../12008305/js/pex_common.js'></script>
+    <title>ｱｲﾄﾞﾙﾏｽﾀｰ ｼﾝﾃﾞﾚﾗｶﾞｰﾙｽﾞ </title>
+    <script type="text/javascript">
+        var flag = false;
+        addEventListener("DOMContentLoaded", function() {
+            setTimeout(hideURLbar, 100);
+        }, false);
+
+        function hideURLbar() {
+            if (window.pageYOffset === 0) {
+                window.scrollTo(0, 1);
+                // スクロールバー対応後、再度marginTopを設定
+                var isTouch = ('ontouchstart' in window);
+                var isSp = false;
+                if (isTouch === false) isSp = false;
+                else if (window.orientation === undefined) isSp = false;
+                else isSp = true;
+                displayScaleValue = scaleSizeCheck();
+                var width = 240 * displayScaleValue * 2;
+                marginLeft = widthMarginCheck(displayScaleValue);
+                marginTop = topMarginCheck(displayScaleValue);
+                var container = document.getElementById("container");
+                container.setAttribute("style", "margin-left:" + (marginLeft) + "px");
+                container.style.marginTop = (marginTop) + "px";
+                container.style.zoom = "50%";
+                container.style.minHeight = "481px";
+            }
+        }
+        var isTouch = ('ontouchstart' in window);
+        var isSp = false;
+        if (isTouch === false) isSp = false;
+        else if (window.orientation === undefined) isSp = false;
+        else isSp = true;
+        displayScaleValue = scaleSizeCheck();
+        var width = 240 * displayScaleValue * 2;
+        marginLeft = widthMarginCheck(displayScaleValue);
+        marginTop = topMarginCheck(displayScaleValue);
+        window.onunload = function() {};
+        window.onload = function() {
+            window.dice = new DiceAjax();
+            window.scrollTo(0, 1);
+            timerId = setTimeout("isFlash()", 60000);
+        };
+
+        function touchHandler(event) {
+            event.preventDefault();
+        };
+
+        function redirect() {
+            location.href = "https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/game_error%3Fl_frm%3DSmart_phone_flash_convert_1%26rnd%3D249321078";
+        };
+
+        function isFlash() {
+            var container = document.getElementById("container");
+            var children = container.childNodes;
+            if (children.length < 1) {
+                redirect();
+            } else {
+                clearTimeout(timerId);
+            }
+        };
+
+        function scaleSizeCheck() {
+            window.scrollTo(0, 1);
+            myW = window.innerWidth;
+            myH = window.innerHeight;
+            scaleWidth = myW / 240;
+            scaleHeight = myH / 320;
+            if (myH > myW) {
+                myS = scaleWidth;
+            } else {
+                myS = scaleHeight;
+            }
+            return myS;
+        };
+
+        function widthMarginCheck(scale) {
+            if (scale < 0) {
+                return 0;
+            }
+            baseW = 240;
+            myW = window.innerWidth;
+            size = baseW * scale;
+            if ((myW - size) < 5) {
+                marginL = 0;
+            } else {
+                marginL = Math.round((myW - size) / 2);
+            }
+            return marginL * 2;
+        };
+
+        function topMarginCheck(scale) {
+            if (scale < 0) {
+                return 0;
+            }
+            baseH = 320;
+            myH = window.innerHeight;
+            size = baseH * scale;
+            if ((myH - size) < 5) {
+                marginT = 0;
+            } else {
+                marginT = Math.round((myH - size) / 2);
+            }
+            return marginT * 2;
+        };
+
+        function DiceAjax() {
+            this.methods = {
+                battle_after: {
+                    url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/game_center/api_dice_de_2_battle_after%3Fl_frm%3DSmart_phone_flash_convert_1%26rnd%3D886817809',
+                    data: {
+                        enemy_defeat_list: false
+                    }
+                },
+                clear_after: {
+                    url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/game_center/api_dice_de_2_stage_clear_after%3Fl_frm%3DSmart_phone_flash_convert_1%26rnd%3D425251695',
+                    data: {
+                        enemy_defeat_list: false,
+                        clear_trophy_list: false
+                    }
+                }
+            };
+            this.pex = false;
+            this.pexApi = false;
+            this.ajax_fail_num = 0;
+            this.init();
+        };
+        DiceAjax.prototype.init = function() {
+            var container = document.getElementById("container")
+            container.setAttribute("style", "margin-left:" + (marginLeft) + "px");
+            container.style.marginTop = (marginTop) + "px";
+            container.style.zoom = "50%";
+            container.style.minHeight = "481px";
+            var option = {
+                enableButton: true,
+                enableTouch: true,
+                partialDraw: getPexPartialDraw(),
+                delayEval: false,
+                stopOnStart: true,
+                operation: {
+                    lighter_tgt: "lighter"
+                },
+                width: width
+            };
+            option['frameCallback'] = {
+                '/sound_mc': {
+                    'furidasi_se': function() {
+                        se_play('se_084');
+                    },
+                    'battle_se': function() {
+                        se_play('se_135');
+                    },
+                    'ba_ex_se': function() {
+                        se_play('se_023');
+                    },
+                    'sachiko_se': function() {
+                        se_play('se_079');
+                    },
+                    'sachiko_light_se': function() {
+                        se_play('se_145');
+                    },
+                    'window1_se': function() {
+                        se_play('se_110');
+                    },
+                    'window2_se': function() {
+                        se_play('se_042');
+                    },
+                    'win_light_se': function() {
+                        se_play('se_022');
+                    },
+                    'level_up_se': function() {
+                        se_play('se_077');
+                    },
+                    'treasure_get_se': function() {
+                        se_play('se_064');
+                    },
+                    'treasure_failure_se': function() {
+                        se_play('se_003');
+                    },
+                    'live_start_se': function() {
+                        se_play('se_122');
+                    },
+                    'dice_throw_se': function() {
+                        se_play('se_007');
+                    },
+                    'dice_drop_se': function() {
+                        se_play('se_102');
+                    },
+                    'select_se': function() {
+                        se_play('se_005');
+                    },
+                    'chara_flash_se': function() {
+                        se_play('se_107');
+                    },
+                    'chara_se': function() {
+                        se_play('se_117');
+                    },
+                    'walk_se': function() {
+                        se_play('se_102');
+                    },
+                    'light_up_se': function() {
+                        se_play('se_130');
+                    },
+                    'attack_se': function() {
+                        se_play('se_044');
+                    },
+                    'heal_se': function() {
+                        se_play('se_108');
+                    },
+                    'nexstage_se': function() {
+                        se_play('se_044');
+                    },
+                    'tres_gover_se': function() {
+                        se_play('se_048');
+                    },
+                    'boss_behave_se': function() {
+                        se_play('se_045');
+                    },
+                    'strength_up_se': function() {
+                        se_play('se_104');
+                    },
+                    'defense_up_se': function() {
+                        se_play('se_116');
+                    },
+                },
+            };
+            this.runPex(option);
+        };
+        DiceAjax.prototype.runPex = function(option) {
+            this.pex = new Pex('https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/game_center/dice_de_2_game_swf/pextplext_dice%3Fl_frm%3DGame_center_dice_de_2_game_1%26rnd%3D714848009%26opensocial_app_id%3D12008305%26opensocial_viewer_id%3D139087231%26opensocial_owner_id%3D139087231%26flashParam%3D228592071%26l_frm%3DSmart_phone_flash_convert_1%26rnd%3D272019192', "container", option);
+            this.api = this.pex.getAPI();
+            this.api.ready(function() {
+                dice.pexEngineStart();
+            });
+        };
+        DiceAjax.prototype.pexEngineStart = function() {
+            this.api.engineStart();
+        };
+        DiceAjax.prototype.submitAjax = function(type) {
+            var self = this;
+            console.log(self.methods[type].url, self.methods[type].data);
+            if (type == 'clear_after' && self.ajax_fail_num >= 1) {
+                var viewer_id = 139087231;
+                var trophy_list_str = self.methods[type].data['clear_trophy_list'].join('_');
+                var redirect_url = 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/game_center/dice_de_2_update_medal_num%3Fclear_trophy_list%3D__TROPHY_LIST__%26vid%3D__VIEWER_ID__%26l_frm%3DSmart_phone_flash_convert_1%26rnd%3D973347168';
+                redirect_url = redirect_url.replace('__TROPHY_LIST__', trophy_list_str);
+                redirect_url = redirect_url.replace('__VIEWER_ID__', viewer_id);
+                location.href = redirect_url;
+                return;
+            }
+            $.ajax({
+                type: 'post',
+                dataType: 'json',
+                url: self.methods[type].url,
+                data: self.methods[type].data,
+                timeout: 3000,
+                success: function(data) {
+                    console.log('complete', data);
+                    self.api.callActions("/", "connectSuccess");
+                    flag = false;
+                },
+                error: function(data) {
+                    self.api.callActions("/", "connectError");
+                    flag = false;
+                    console.log('ajax error. url:' + self.methods[type].url);
+                    self.ajax_fail_num++;
+                }
+            });
+        };
+
+        function connectData(accessKey, jsonStr) {
+            if (flag) return;
+            flag = true;
+            console.log(accessKey, jsonStr);
+            dice.methods[accessKey].data = $.parseJSON(jsonStr);
+            dice.submitAjax(accessKey);
+        }
+    </script>
+    <script type='text/javascript'>
+        var se_flg = 0,
+            bgm_flg = 0,
+            chrome_app_flg = 0,
+            chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+    </script>
+    <script type='text/javascript' src='../../../../12008305/js/app_sound.js'></script>
+    <link rel="stylesheet" type="text/css" href="../../../../css/base.css" />
+</head>
+
+<body style="height:100%">
+    <div id="container"></div>
+</body>
+
+</html>
+<script type="text/javascript">
+    console.log = function() {};
+</script>

@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobage: footer-color" content="none">
+    <link rel="stylesheet" href='../../../../12008305/css/game/pex.css' media="all">
+    <script src='../../../../12008305/js/jquery-1.9.1.min.js'></script>
+    <script src='../../../../12008305/js/pex-1.2.0.js'></script>
+    <script src='../../../../12008305/js/pex_common.js'></script>
+    <title>ｱｲﾄﾞﾙﾏｽﾀｰ ｼﾝﾃﾞﾚﾗｶﾞｰﾙｽﾞ </title>
+    <script type="text/javascript">
+        var flag = false;
+        var play_id = 72699414;
+        addEventListener("DOMContentLoaded", function() {
+            setTimeout(hideURLbar, 100);
+        }, false);
+
+        function hideURLbar() {
+            if (window.pageYOffset === 0) {
+                window.scrollTo(0, 1);
+                // スクロールバー対応後、再度marginTopを設定
+                var isTouch = ('ontouchstart' in window);
+                var isSp = false;
+                if (isTouch === false) isSp = false;
+                else if (window.orientation === undefined) isSp = false;
+                else isSp = true;
+                displayScaleValue = scaleSizeCheck();
+                var width = 240 * displayScaleValue * 2;
+                marginLeft = widthMarginCheck(displayScaleValue);
+                marginTop = topMarginCheck(displayScaleValue);
+                var container = document.getElementById("container");
+                container.setAttribute("style", "margin-left:" + (marginLeft) + "px");
+                container.style.marginTop = (marginTop) + "px";
+                container.style.zoom = "50%";
+                container.style.minHeight = "481px";
+            }
+        }
+        var isTouch = ('ontouchstart' in window);
+        var isSp = false;
+        if (isTouch === false) isSp = false;
+        else if (window.orientation === undefined) isSp = false;
+        else isSp = true;
+        displayScaleValue = scaleSizeCheck();
+        var width = 240 * displayScaleValue * 2;
+        marginLeft = widthMarginCheck(displayScaleValue);
+        marginTop = topMarginCheck(displayScaleValue);
+        window.onunload = function() {};
+        window.onload = function() {
+            window.game_center_obj = new GameCenter();
+            window.scrollTo(0, 1);
+            timerId = setTimeout("isFlash()", 60000);
+        };
+
+        function touchHandler(event) {
+            event.preventDefault();
+        };
+
+        function redirect() {
+            location.href = "https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/error%3Fl_frm%3DSmart_phone_flash_convert_game_center_1%26rnd%3D630745221";
+        };
+
+        function isFlash() {
+            var container = document.getElementById("container");
+            var children = container.childNodes;
+            if (children.length < 1) {
+                redirect();
+            } else {
+                clearTimeout(timerId);
+            }
+        };
+
+        function scaleSizeCheck() {
+            window.scrollTo(0, 1);
+            myW = window.innerWidth;
+            myH = window.innerHeight;
+            scaleWidth = myW / 240;
+            scaleHeight = myH / 320;
+            if (myH > myW) {
+                myS = scaleWidth;
+            } else {
+                myS = scaleHeight;
+            }
+            return myS;
+        };
+
+        function widthMarginCheck(scale) {
+            if (scale < 0) {
+                return 0;
+            }
+            baseW = 240;
+            myW = window.innerWidth;
+            size = baseW * scale;
+            if ((myW - size) < 5) {
+                marginL = 0;
+            } else {
+                marginL = Math.round((myW - size) / 2);
+            }
+            return marginL * 2;
+        };
+
+        function topMarginCheck(scale) {
+            if (scale < 0) {
+                return 0;
+            }
+            baseH = 320;
+            myH = window.innerHeight;
+            size = baseH * scale;
+            if ((myH - size) < 5) {
+                marginT = 0;
+            } else {
+                marginT = Math.round((myH - size) / 2);
+            }
+            return marginT * 2;
+        };
+
+        function GameCenter() {
+            this.pex = false;
+            this.pexApi = false;
+            this.init();
+        };
+        GameCenter.prototype.init = function() {
+            var container = document.getElementById("container")
+            container.setAttribute("style", "margin-left:" + (marginLeft) + "px");
+            container.style.marginTop = (marginTop) + "px";
+            container.style.zoom = "50%";
+            container.style.minHeight = "481px";
+            var option = {
+                enableButton: true,
+                enableTouch: true,
+                partialDraw: getPexPartialDraw(),
+                delayEval: false,
+                stopOnStart: true,
+                operation: {
+                    lighter_tgt: "lighter"
+                },
+                width: width
+            };
+            option['frameCallback'] = {
+                '/sound_mc': {
+                    'start_button': function() {
+                        se_play('se_004');
+                    },
+                    'option_button': function() {
+                        se_play('se_005');
+                    },
+                    'next_prev_button': function() {
+                        se_play('se_005');
+                    },
+                    'close_button': function() {
+                        se_play('se_005');
+                    },
+                    'card_deal': function() {
+                        se_play('se_012');
+                    },
+                    'battle_start': function() {
+                        se_play('se_129');
+                    },
+                    'card_tap': function() {
+                        se_play('se_018');
+                    },
+                    'card_push': function() {
+                        se_play('se_114');
+                    },
+                    'card_cancel': function() {
+                        se_play('se_009');
+                    },
+                    'card_put_effect': function() {
+                        se_play('se_080');
+                    },
+                    'stock_window': function() {
+                        se_play('se_007');
+                    },
+                    'role_cutin1': function() {
+                        se_play('se_073');
+                    },
+                    'role_cutin2': function() {
+                        se_play('se_084');
+                    },
+                    'koikoi_button': function() {
+                        se_play('se_004');
+                    },
+                    'agari_button': function() {
+                        se_play('se_105');
+                    },
+                    'koikoi_cutin': function() {
+                        se_play('se_139');
+                    },
+                    'battle_end': function() {
+                        se_play('se_109');
+                    },
+                    'battle_win': function() {
+                        se_play('se_119');
+                    },
+                    'battle_lose': function() {
+                        se_play('se_083');
+                    },
+                    'battle_draw': function() {
+                        se_play('se_043');
+                    },
+                    'next_battle': function() {
+                        se_play('se_004');
+                    },
+                    'chara_cutin': function() {
+                        se_play('se_095');
+                    },
+                    'result_win': function() {
+                        se_play('se_119');
+                    },
+                    'result_lose': function() {
+                        se_play('se_045');
+                    },
+                    'result_draw': function() {
+                        se_play('se_043');
+                    },
+                    'go_title': function() {
+                        se_play('se_004');
+                    },
+                },
+            };
+            this.runPex(option);
+        };
+        GameCenter.prototype.runPex = function(option) {
+            this.pex = new Pex('https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/game_center/hanafuda_play/72699414%3FflashParam%3D272331903%26l_frm%3DSmart_phone_flash_convert_game_center_1%26rnd%3D995760725', "container", option);
+            this.api = this.pex.getAPI();
+            this.api.ready(function() {
+                game_center_obj.pexEngineStart();
+            });
+        };
+        GameCenter.prototype.pexEngineStart = function() {
+            this.api.engineStart();
+        };
+        GameCenter.prototype.submitAjax = function(jsonStr) {
+            var self = this;
+
+            $.ajax({
+                type: 'post',
+                url: 'https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/game_center/hanafuda_ajax_api%3Fl_frm%3DSmart_phone_flash_convert_game_center_1%26rnd%3D108200542',
+                dataType: 'json',
+                headers: {
+                    "Pragma": "no-cache"
+                },
+                data: {
+                    'game_code': 'hanafuda',
+                    'play_id': play_id,
+                    'parent_play_id': 30422908,
+                    'json': jsonStr
+                },
+                timeout: 3000,
+                success: function(data) {
+
+                    play_id = data['play_id'];
+                    var _object = {};
+                    if (data['is_all_finish']) {
+                        _object["result_medal"] = data["result_medal"];
+                    } else {
+                        for (var i = 0; i < 48; i++) {
+                            _object["data_deck" + (i + 1)] = data['card_deck'][i];
+                        }
+                        _object["medal_num"] = 100;
+                    }
+
+                    self.api.setVariables("/", _object);
+                    self.api.callActions("/", "connectSuccess");
+                    flag = false;
+                },
+                error: function(data) {
+
+                    self.api.callActions("/", "connectError");
+                    flag = false;
+                }
+            });
+        };
+
+        function connectData(accessKey, jsonStr) {
+            if (flag) return;
+            flag = true;
+
+            game_center_obj.submitAjax(jsonStr);
+        }
+    </script>
+    <script type='text/javascript'>
+        var se_flg = 0,
+            bgm_flg = 0,
+            chrome_app_flg = 0,
+            chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+    </script>
+    <script type='text/javascript' src='../../../../12008305/js/app_sound.js'></script>
+    <link rel="stylesheet" type="text/css" href="../../../../css/base.css?20171116" />
+</head>
+
+<body style="height:100%">
+    <div id="container"></div>
+</body>
+
+</html>
+<script type="text/javascript">
+    console.log = function() {};
+</script>
