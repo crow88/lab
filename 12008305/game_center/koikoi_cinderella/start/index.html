@@ -226,7 +226,7 @@
             this.runPex(option);
         };
         GameCenter.prototype.runPex = function(option) {
-            this.pex = new Pex('https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://mobamas.net/idolmaster/game_center/hanafuda_play/72699414%3FflashParam%3D272331903%26l_frm%3DSmart_phone_flash_convert_game_center_1%26rnd%3D995760725', "container", option);
+            this.pex = new Pex('start.swf', "container", option);
             this.api = this.pex.getAPI();
             this.api.ready(function() {
                 game_center_obj.pexEngineStart();

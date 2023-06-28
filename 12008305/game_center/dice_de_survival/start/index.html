@@ -225,7 +225,7 @@
             this.runPex(option);
         };
         GameCenter.prototype.runPex = function(option) {
-            this.pex = new Pex('https://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http:/mobamas.net/idolmaster/game_center/dice_de_survival_play/72699359%3FflashParam%3D454833207%26l_frm%3DSmart_phone_flash_convert_game_center_1%26rnd%3D572508932', "container", option);
+            this.pex = new Pex('start.swf', "container", option);
             this.api = this.pex.getAPI();
             this.api.ready(function() {
                 game_center_obj.pexEngineStart();
