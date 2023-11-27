@@ -1,0 +1,692 @@
+.large {
+    font-size: 22px
+}
+
+.small {
+    font-size: 10px
+}
+
+.red {
+    color: #ff0000
+}
+
+.red_mild {
+    color: #ff3333
+}
+
+.green {
+    color: #33ff33
+}
+
+.yellow {
+    color: #ff9900
+}
+
+.lemon_yellow {
+    color: #fff800
+}
+
+.blue {
+    color: #00ccff
+}
+
+.blue_st {
+    color: #0066ff
+}
+
+.gray {
+    color: #aaaaaa
+}
+
+.pink {
+    color: #f08080
+}
+
+.dark_gray {
+    color: #666666
+}
+
+.white {
+    color: #ffffff;
+    text-decoration: none
+}
+
+.defMargin {
+    width: 296px;
+    padding: 0 12px
+}
+
+.m-Btm0 {
+    margin-bottom: 0px
+}
+
+.m-Btm4 {
+    margin-bottom: 4px
+}
+
+.m-Btm5 {
+    margin-bottom: 5px
+}
+
+.m-Btm8 {
+    margin-bottom: 8px
+}
+
+.m-Btm10 {
+    margin-bottom: 10px
+}
+
+.m-Btm12 {
+    margin-bottom: 12px
+}
+
+.m-Btm15 {
+    margin-bottom: 15px
+}
+
+.m-Btm20 {
+    margin-bottom: 20px
+}
+
+.m-Top4 {
+    margin-top: 4px
+}
+
+.m-Top5 {
+    margin-top: 5px
+}
+
+.m-Top8 {
+    margin-top: 8px
+}
+
+.m-Top10 {
+    margin-top: 10px
+}
+
+.m-Top12 {
+    margin-top: 12px
+}
+
+.m-Head_img {
+    margin-top: -14px
+}
+
+.m-Cnt {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.t-Lft {
+    text-align: left !important
+}
+
+.t-Rgt {
+    text-align: right !important
+}
+
+.t-Cnt {
+    text-align: center !important
+}
+
+.left_float {
+    float: left
+}
+
+.right_float {
+    float: right
+}
+
+.displayBox {
+    display: -webkit-box;
+    display: -moz-box;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.v-Top {
+    vertical-align: top
+}
+
+.v-Mdl {
+    vertical-align: middle
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block
+}
+
+.l-Hgt120 {
+    line-height: 120%
+}
+
+.l-Hgt140 {
+    line-height: 140%
+}
+
+body#campaign_wallpaper {
+    background-image: url(../../../12008305/image_sp/ui/mypage_new/bg/bg_status_mypage_01.png);
+    background-size: 7px 7px
+}
+
+.campaign_wallpaper {
+    position: relative;
+    margin-bottom: 16px;
+    padding-bottom: 30px;
+    background-image: url(../../../12008305/image_sp/campaign/wallpaper/common/bg_01.png);
+    background-size: 17px 17px
+}
+
+.campaign_wallpaper:after {
+    position: absolute;
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -253px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 320px;
+    height: 40px;
+    content: ""
+}
+
+.tab_year {
+    display: table;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.tab_year .tab_2018 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -1124px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 101px;
+    height: 36px;
+    display: table-cell
+}
+
+.tab_year .tab_2018._selected,
+.tab_year .tab_2018._hover {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -594px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 101px;
+    height: 36px;
+    display: table-cell
+}
+
+.tab_year .tab_2017 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -1298px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 102px;
+    height: 36px;
+    display: table-cell
+}
+
+.tab_year .tab_2017._selected,
+.tab_year .tab_2017._hover {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -631px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 102px;
+    height: 36px;
+    display: table-cell
+}
+
+.tab_year .tab_2016 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -1198px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 101px;
+    height: 36px;
+    display: table-cell
+}
+
+.tab_year .tab_2016._selected,
+.tab_year .tab_2016._hover {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -557px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 101px;
+    height: 36px;
+    display: table-cell
+}
+
+.tab_year._2019 .tab_2019 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -1161px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 76px;
+    height: 36px;
+    display: table-cell
+}
+
+.tab_year._2019 .tab_2019._selected,
+.tab_year._2019 .tab_2019._hover {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -705px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 76px;
+    height: 36px;
+    display: table-cell
+}
+
+.tab_year._2019 .tab_2018 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -1335px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 76px;
+    height: 36px;
+    display: table-cell
+}
+
+.tab_year._2019 .tab_2018._selected,
+.tab_year._2019 .tab_2018._hover {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -985px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 76px;
+    height: 36px;
+    display: table-cell
+}
+
+.tab_year._2019 .tab_2017 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -1372px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 76px;
+    height: 36px;
+    display: table-cell
+}
+
+.tab_year._2019 .tab_2017._selected,
+.tab_year._2019 .tab_2017._hover {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -948px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 76px;
+    height: 36px;
+    display: table-cell
+}
+
+.tab_year._2019 .tab_2016 {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -1235px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 76px;
+    height: 36px;
+    display: table-cell
+}
+
+.tab_year._2019 .tab_2016._selected,
+.tab_year._2019 .tab_2016._hover {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -779px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 76px;
+    height: 36px;
+    display: table-cell
+}
+
+.frame_wallpaper {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    width: 304px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 8px solid;
+    border-image: url(../../../12008305/image_sp/campaign/wallpaper/common/frame.png) round;
+    border-image-slice: 16 16;
+    border-image-width: 8px 8px;
+    -webkit-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    background: #ffffff
+}
+
+.frame_wallpaper.view_wallpaper {
+    margin-top: 24px
+}
+
+.frame_wallpaper.view_wallpaper .title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -24px;
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -294px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 232px;
+    height: 40px
+}
+
+.frame_wallpaper.view_wallpaper .title .text {
+    display: block;
+    height: 34px;
+    font-size: 14px;
+    line-height: 34px;
+    text-align: center;
+    text-shadow: 0px 0px 3px #991577, 0px 0px 3px #991577, 0px 0px 3px #991577, 0px 0px 3px #991577, 0px 0px 3px #991577, 0px 0px 3px #991577, 0px 0px 3px #991577, 0px 0px 3px #991577
+}
+
+.frame_wallpaper.view_archive {
+    margin-top: 12px
+}
+
+.frame_wallpaper.view_archive .title {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -927px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 208px;
+    height: 20px
+}
+
+.wallpaper_area {
+    display: table;
+    margin-top: 8px;
+    margin-bottom: 4px
+}
+
+.wallpaper_area .wallpaper_img_area {
+    display: table-cell;
+    position: relative;
+    vertical-align: top;
+    width: 192px
+}
+
+.wallpaper_area .wallpaper_img_area .wallpaper_img {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -53px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 184px;
+    height: 199px
+}
+
+.wallpaper_area .wallpaper_img_area .wallpaper_img._zoomin {
+    -webkit-box-shadow: 1px 1px 1px 2px rgba(255, 144, 194, 0.7);
+    box-shadow: 1px 1px 1px 2px rgba(255, 144, 194, 0.7)
+}
+
+.wallpaper_area .wallpaper_img_area .wallpaper_img .img_calendar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #ffffff;
+    -webkit-box-shadow: 1px 1px 1px 2px rgba(255, 144, 194, 0.7);
+    box-shadow: 1px 1px 1px 2px rgba(255, 144, 194, 0.7)
+}
+
+.wallpaper_area .wallpaper_img_area .wallpaper_img .img_calendar img {
+    max-height: 100%
+}
+
+.wallpaper_area .wallpaper_img_area .wallpaper_msg {
+    position: absolute;
+    width: 184px;
+    bottom: 0;
+    text-align: center
+}
+
+.wallpaper_area .wallpaper_img_area .wallpaper_msg .msg_andapp {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -1286px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 178px;
+    height: 11px
+}
+
+.wallpaper_area .wallpaper_img_area .wallpaper_msg .msg {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -1409px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 152px;
+    height: 11px
+}
+
+.wallpaper_area .wallpaper_agent_btns {
+    display: table-cell;
+    vertical-align: top;
+    width: 88px
+}
+
+.wallpaper_area .wallpaper_agent_btns .btn_agent_iphone5 {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -816px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 88px;
+    height: 36px
+}
+
+.wallpaper_area .wallpaper_agent_btns .btn_agent_iphone5._selected,
+.wallpaper_area .wallpaper_agent_btns .btn_agent_iphone5._hover {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -520px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 88px;
+    height: 36px
+}
+
+.wallpaper_area .wallpaper_agent_btns .btn_agent_iphone5:not(:last-of-type) {
+    margin-bottom: 8px
+}
+
+.wallpaper_area .wallpaper_agent_btns .btn_agent_iphone6 {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -668px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 88px;
+    height: 36px
+}
+
+.wallpaper_area .wallpaper_agent_btns .btn_agent_iphone6._selected,
+.wallpaper_area .wallpaper_agent_btns .btn_agent_iphone6._hover {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -372px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 88px;
+    height: 36px
+}
+
+.wallpaper_area .wallpaper_agent_btns .btn_agent_iphone6:not(:last-of-type) {
+    margin-bottom: 8px
+}
+
+.wallpaper_area .wallpaper_agent_btns .btn_agent_iphone6plus {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -409px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 88px;
+    height: 36px
+}
+
+.wallpaper_area .wallpaper_agent_btns .btn_agent_iphone6plus._selected,
+.wallpaper_area .wallpaper_agent_btns .btn_agent_iphone6plus._hover {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -335px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 88px;
+    height: 36px
+}
+
+.wallpaper_area .wallpaper_agent_btns .btn_agent_iphone6plus:not(:last-of-type) {
+    margin-bottom: 8px
+}
+
+.wallpaper_area .wallpaper_agent_btns .btn_agent_iphone_x {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -853px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 88px;
+    height: 36px
+}
+
+.wallpaper_area .wallpaper_agent_btns .btn_agent_iphone_x._selected,
+.wallpaper_area .wallpaper_agent_btns .btn_agent_iphone_x._hover {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -483px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 88px;
+    height: 36px
+}
+
+.wallpaper_area .wallpaper_agent_btns .btn_agent_iphone_x:not(:last-of-type) {
+    margin-bottom: 8px
+}
+
+.wallpaper_area .wallpaper_agent_btns .btn_agent_android {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -742px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 88px;
+    height: 36px
+}
+
+.wallpaper_area .wallpaper_agent_btns .btn_agent_android._selected,
+.wallpaper_area .wallpaper_agent_btns .btn_agent_android._hover {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -446px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 88px;
+    height: 36px
+}
+
+.wallpaper_area .wallpaper_agent_btns .btn_agent_android:not(:last-of-type) {
+    margin-bottom: 8px
+}
+
+.wallpaper_area .wallpaper_agent_btns .btn_agent_iphone_x._gray {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -1022px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 88px;
+    height: 36px
+}
+
+.native_shell_app_msg_area {
+    margin-top: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-image: url(../../../12008305/image_sp/campaign/wallpaper/common/bg_02.png%3F1558677330);
+    background-size: 12px 12px
+}
+
+.native_shell_app_msg_area .msg_native_shell_app {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -1272px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 214px;
+    height: 13px
+}
+
+.native_shell_app_msg_area .btn_open_browser {
+    margin-top: 8px;
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -890px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 136px;
+    height: 36px
+}
+
+.native_shell_app_msg_area .btn_open_browser a {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.list_archive li {
+    display: inline-block;
+    width: 64px;
+    margin-top: 8px
+}
+
+.list_archive li:not(:nth-of-type(4n)) {
+    margin-right: 4px
+}
+
+.list_archive li .btn_archive {
+    padding-top: 7px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -1421px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 64px;
+    height: 64px;
+    text-align: center
+}
+
+.list_archive li .btn_archive._selected,
+.list_archive li .btn_archive._hover {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 -1059px;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 64px;
+    height: 64px
+}
+
+.list_archive li .btn_archive .archive_month {
+    display: block;
+    margin-top: 5px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #991577, -1px 1px 1px #991577, 1px -1px 1px #991577, -1px -1px 1px #991577, 1px 0px 1px #991577, 0px 1px 1px #991577, -1px 0px 1px #991577, 0px -1px 1px #991577;
+    font-size: 12px
+}
+
+.msg_caution {
+    display: block;
+    background: url(../../../12008305/image_sp/campaign/wallpaper/common/sprite-sf640f26b98.png) no-repeat 0 0;
+    -webkit-background-size: 320px 1485px;
+    background-size: 320px 1485px;
+    width: 241px;
+    height: 52px
+}
