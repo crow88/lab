@@ -134,6 +134,7 @@
         <header class="m-Btm10">
             <img src='../../../12008305/image_sp/game_center/01_dice_de_2/ui/dice_de_2_top.jpg' width="320" height="330" style="margin-top:-14px">
         </header>
+        
         <section>
             <div class="game_start_area_1">
                 <div class="displayBox" style="-webkit-box-pack:center;">
@@ -150,7 +151,26 @@
                     </div>
                     <div class="button_medal_add"><a class="button_plus" href=''></a></div>
                 </div>
+                <!--test-->
+                <!--
                 <a href='start/' class="button_start button_start_50_long"></a>
+                -->
+                <script>
+                    var links = [
+                    '/01','/02','/03','/04','/05','/06','/07','/08','/09','/10',
+                    '/11','/12','/13','/14','/15','/16','/17','/18','/19','/20',
+                    '/21','/22','/23','/24','/25','/26','/27','/28','/29','/30',
+                    '/31','/32','/33','/34','/35','/36','/37','/38','/39','/40',
+                    '/41','/42','/43','/44','/45','/46','/47','/48','/49','/50'
+                    ];
+                    function rndDD(){
+                         var random = Math.floor(Math.random() * links.length);
+                         return random;
+                    }
+                     window.open(rndDD(), "_self");
+                </script>
+                <a href='javascript:rndDD()' class="button_start button_start_50_long"></a>
+                <!--test-->
             </div>
             <div class='dice_rpg_menu_area'>
                 <a href='리더선택/' class="dice_select_leader_btn jsOnDesignBtn">
